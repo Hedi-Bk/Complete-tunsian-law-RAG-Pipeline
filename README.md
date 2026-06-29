@@ -33,9 +33,7 @@ _All services are hosted on a single virtual machine (VM)._
 - **Final Model**: Gemma 4 E4B (4B effective parameters)
 - **Method**: QLoRA (4-bit quantization) with Unsloth
 - **Dataset**: 1,660 examples from JORT
-- **Final Loss**: 0.807
-
-![Loss Curve](images/loss_curve.png)
+- **Final Loss**: 0.1075
 
 ### 2. Hybrid RAG Pipeline
 
