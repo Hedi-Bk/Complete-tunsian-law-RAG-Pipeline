@@ -1,0 +1,486 @@
+{
+  "batch_id": "batch_CODETRAVAIL_001_20231026",
+  "provenance": {
+    "generated_by": "Gemini 3.1 Pro Preview",
+    "platform": "Google_ai_studio"
+  },
+  "time_of_generation": "2m3s",
+  "source": "Code du Travail de Tunisie (2020)",
+  "articles_covered": [
+    "6-2",
+    "6-4",
+    "14 bis",
+    "14 quater",
+    "17",
+    "21",
+    "21-3",
+    "22",
+    "23 bis",
+    "53",
+    "54",
+    "64",
+    "66",
+    "68",
+    "79",
+    "90",
+    "95",
+    "96",
+    "113",
+    "115",
+    "122",
+    "139",
+    "143",
+    "370",
+    "376 bis",
+    "387"
+  ],
+  "articles_to_avoid_next_batch": [
+    "6-4",
+    "14 bis",
+    "14 quater",
+    "21",
+    "21-3",
+    "22",
+    "23 bis",
+    "64",
+    "66",
+    "68",
+    "79",
+    "90",
+    "113",
+    "115",
+    "122",
+    "139",
+    "143",
+    "370",
+    "376 bis",
+    "387"
+  ],
+  "examples": [
+    {
+      "example_id": "CT_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["64"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis enceinte et je travaille dans une société de commerce. Combien de jours de congé de maternité ai-je le droit de prendre selon la loi ?\n\nDocuments pertinents:\n[1] Source: article 64 du Code du Travail\nDans les entreprises de toute nature, à l’exception des établissements où sont exclusivement employés les membres d’une même famille, la femme :\na) aura droit à l’occasion de son accouchement, sur production d’un certificat médical, à un congé de repos de 30 jours. Ce congé peut être prorogé, chaque fois, d’une période de 15 jours, sur justification de certificats médicaux."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 64 du Code du Travail, le principe est que vous avez droit à un congé de maternité de 30 jours de repos à l'occasion de votre accouchement. \n\nToutefois, une exception existe pour des raisons médicales : ce congé peut être prolongé par périodes successives de 15 jours, à condition de fournir des certificats médicaux le justifiant. L'objectif de cette disposition est de protéger la santé de la mère et de l'enfant tout en lui garantissant le maintien de son emploi durant cette période critique.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 64 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_002",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["143"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce que mon employeur est obligé de me donner une fiche de paie, et que doit-elle contenir ?\n\nDocuments pertinents:\n[1] Source: article 143 du Code du Travail\nL'employeur doit délivrer aux travailleurs à l'occasion du paiement de leur rémunération, une pièce justificative dite \"bulletin de paie\" indiquant : 1) le nom et l'adresse de l'employeur... 2) le numéro... à la Caisse de Sécurité Sociale, 3) le nom du salarié et l'emploi occupé... 4) la période et le nombre des heures... 5) l'énumération des indemnités... 6) le montant de la rémunération brute... 7) la nature et le montant des retenues... 8) le montant de la rémunération nette... 9) la date de paiement."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 143 du Code du Travail, votre employeur a l'obligation stricte de vous délivrer un \"bulletin de paie\" lors de chaque paiement de votre salaire. \n\nCe document doit obligatoirement comporter des mentions précises, notamment : l'identité de l'employeur et du salarié, le numéro d'affiliation à la Sécurité Sociale (CNSS), la qualification professionnelle, le nombre d'heures travaillées, la rémunération brute, le détail des retenues effectuées, et enfin le montant net perçu. L'objectif de ce bulletin est d'assurer la transparence de la rémunération et de fournir au salarié une preuve irréfutable de ses droits et cotisations.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 143 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_003",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["14 bis"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أرغب في تقديم استقالتي من الشركة التي أعمل بها بعقد غير محدد المدة. ما هي مهلة الإعلام المسبق (الإنذار) التي يجب أن أحترمها؟\n\nDocuments pertinents:\n[1] Source: الفصل 14 مكرر من مجلة الشغل\nLe préavis de rupture du contrat de travail à durée indéterminée est notifié par lettre recommandée adressée à l’autre partie un mois avant la rupture du contrat... Le tout sans préjudice des prescriptions plus avantageuses pour le travailleur résultant de dispositions spéciales prévues par l’accord des parties, la convention collective ou l’usage."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 14 مكرر من مجلة الشغل، يتمثل المبدأ العام في وجوب توجيه إعلام مسبق (إنذار) للطرف الآخر بواسطة مكتوب مضمون الوصول قبل شهر واحد من إنهاء عقد الشغل غير محدد المدة.\n\nغير أن هذا الأجل يمثل الحد الأدنى القانوني، إذ يمكن أن تنص الاتفاقيات المشتركة أو العرف أو العقد المبرم بين الطرفين على شروط مختلفة إذا كانت أكثر فائدة للعامل. والغاية من فرض مهلة الإعلام المسبق هي تمكين المشغل من إيجاد بديل للعامل المستقيل، وتوفير وقت كافٍ للعامل للبحث عن وظيفة جديدة في حال كان الإنهاء بمبادرة من المشغل.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 14 مكرر من مجلة الشغل"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_004",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["370"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: لقد تم انتدابي كعامل فلاحي قار. كم تبلغ فترة التجربة المسموح بها قانونيا والتي يمكن خلالها إنهاء العقد دون إشعار مسبق؟\n\nDocuments pertinents:\n[1] Source: الفصل 370 من مجلة الشغل\nLe salarié permanent est celui qui est recruté pour une durée indéterminée en vue de participer à toutes opérations du cycle agricole normal... Au cours de la période d'essai prévue par les usages, mais dont la durée ne peut en tout état de cause être supérieure à trente jours, le contrat de travail peut être rompu sans préavis."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصل 370 من مجلة الشغل، وفيما يتعلق بالعملة الفلاحيين القارين، يتم تحديد فترة التجربة وفقاً للأعراف الجاري بها العمل. ولكن كقاعدة آمرة، لا يجوز بأي حال من الأحوال أن تتجاوز مدة هذه الفترة ثلاثين يوماً (30 يوماً). خلال هذه الفترة التجريبية، يحق لأي من الطرفين فسخ عقد الشغل دون الحاجة إلى توجيه أي إشعار مسبق (إنذار). الغاية من هذه الفترة هي تمكين المشغل من تقييم كفاءة العامل الفلاحي، وتمكين العامل من التأكد من ملاءمة ظروف العمل له.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 370 من مجلة الشغل"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_005",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["122"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ena nekhdem fi usine w marti jabet sghir (weldét), gadeh 3andi men nhar repos men 3and el charika mte3i?\n\nDocuments pertinents:\n[1] Source: article 122 du Code du Travail\nL’époux salarié a droit à un congé supplémentaire d’un jour à l’occasion de chaque naissance. Ce congé doit être pris après entente entre l’employeur et le bénéficiaire, soit le jour de la naissance, soit au cours des 7 jours qui suivent. Dans ce cas, le bénéficiaire perçoit une indemnité équivalente à la rémunération qu’il aurait perçue s’il avait travaillé le même jour."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l'article 122 mel Code du Travail, el rajel (el khaddem) 3andou l7a9 fi nhar wehed (1 jour) congé payé ki tjib martou sghir. \n\nEn outre, el nhar hedha tnajem tekhdhou nharet l'accouchement bedhabt, walla fi woset el 7 ayem elli ba3d l'accouchement, ama yelzem tetfèhem enti w l'employeur mte3ek. El charika tokhlsok fel nhar hedha kima kenek khedemt, w mba3d el CNSS traja3 l'flous lel charika. L'objectif men hal congé houwa bech el bou ynajem yo93od m3a 3ayeltou w yrigel lawra9 mta3 el sghir (kima madhmoun el wilada).\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 122 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_006",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["53"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Najem nkhadem weled 3omrou 14 sne fi mrama (chantier) wala mamnou3 l9anoun?\n\nDocuments pertinents:\n[1] Source: article 53 du Code du Travail\nLes enfants de moins de 16 ans ne peuvent être employés dans toutes les activités régies par le présent code, sous réserve des dispositions spéciales prévues par ce code."
+        },
+        {
+          "role": "assistant",
+          "content": "3la 7seb l'article 53 mel Code du Travail, el principe houwa elli mamnou3 men3an batan bech tkhadem sghir 3omrou a9al men 16 sne fi ay khedma (kima el mrama). \n\nFama ba3dh l'exceptions fel 9anoun l'sghar elli a9al men 16 sne, ama hethom ykounou fi a3mel khafifa wela agricole walla fi chariket mta3 3ayla (familiale) w b chourout s3iba bech maydhorouch sa7ethom w 9rayethom. Ama fi chantier mrama, khedma s3iba w fih des risques, donc mamnou3 100% 5ater l'objectif mta3 l'état houwa 7imayet el sghar w ykamlou 9rayethom.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 53 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_007",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["79", "90"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la durée légale du travail en Tunisie par semaine et comment sont calculées les heures supplémentaires si on a un régime de 48 heures ?\n\nDocuments pertinents:\n[1] Source: article 79 du Code du Travail\nLa durée du travail effectif ne peut excéder 48 heures par semaine... Cette durée peut être réduite sans qu’elle puisse être inférieure à 40 heures par semaine... par les conventions collectives...\n\n[2] Source: article 90 du Code du Travail\nSont considérées comme heures supplémentaires les heures de travail effectuées au-delà de la durée hebdomadaire normale. Ces heures sont rémunérées par référence au salaire de base horaire majoré selon les taux suivants :\n- pour le régime de travail à plein temps de 48 heures par semaine : 75%..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 79 du Code du Travail, la durée normale du travail effectif est plafonnée à 48 heures par semaine. Toutefois, des conventions collectives peuvent réduire cette durée légale jusqu'à un minimum de 40 heures.\n\nPar ailleurs, si des heures de travail sont accomplies au-delà de cette durée légale normale, l'article 90 prévoit qu'elles constituent des heures supplémentaires. Dans le cas spécifique d'une entreprise appliquant le régime de 48 heures par semaine, chaque heure supplémentaire doit être rémunérée avec une majoration de 75 % par rapport au salaire de base horaire. Ce mécanisme vise à protéger les travailleurs de l'épuisement professionnel tout en leur garantissant une compensation financière équitable pour l'effort supplémentaire fourni.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 79, 90 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_008",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["113", "115"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je travaille depuis 6 ans pour la même entreprise. Comment est calculée la durée de mon congé annuel payé ?\n\nDocuments pertinents:\n[1] Source: article 113 du Code du Travail\nTout travailleur qui, au cours de l'année de référence, justifie avoir été occupé chez le même employeur pendant une période de temps équivalente à un minimum d'un mois de travail effectif a droit à un congé dont la durée est déterminée à raison d'un jour par mois de travail sans que la durée totale du congé exigible puisse excéder une période de quinze jours comprenant douze jours ouvrables.\n\n[2] Source: article 115 du Code du Travail\nLa durée du congé ainsi fixée est augmentée à raison d'un jour ouvrable par période entière, continue ou non, de cinq ans de services chez le même employeur, sans que cette augmentation puisse porter à plus de dix-huit jours ouvrables la durée considérée..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 113 du Code du Travail, le principe de base pour le calcul du congé annuel payé est d'un jour de congé par mois de travail effectif, ce qui donne droit à 12 jours ouvrables (soit 15 jours au total) pour une année complète de travail.\n\nEn outre, l'article 115 introduit une prime d'ancienneté sous forme de congé : votre durée de congé est augmentée d'un jour ouvrable pour chaque période entière de 5 ans de service chez le même employeur. Puisque vous avez 6 ans d'ancienneté, vous avez accompli une période entière de 5 ans, vous donnant droit à 1 jour ouvrable supplémentaire. Votre congé annuel sera donc de 13 jours ouvrables. L'objectif est de récompenser la fidélité des salariés tout en leur octroyant davantage de repos.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 113, 115 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_009",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["6-4", "17"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon contrat à durée déterminée (CDD) est terminé, mais je continue à aller travailler tous les jours et mon patron ne m'a rien dit. Quelle est ma situation juridique ?\n\nDocuments pertinents:\n[1] Source: article 6-4 du Code du Travail\n... le contrat de travail à durée déterminée peut également être conclu, dans des cas autres que ceux indiqués au paragraphe précédent, sur accord entre l’employeur et le travailleur et à condition que la durée de ce contrat n’excède pas quatre ans y compris ses renouvellements...\n\n[2] Source: article 17 du Code du Travail\nLorsqu’à l’expiration du terme établi, le salarié continue à rendre ses services sans opposition de l’autre partie, le contrat se transforme en un contrat à durée indéterminée."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 17 du Code du Travail, si votre contrat à durée déterminée (CDD) est arrivé à expiration et que vous continuez à fournir vos services sans opposition de votre employeur, votre contrat se transforme automatiquement en un contrat à durée indéterminée (CDI). \n\nPar ailleurs, l'article 6-4 encadre fermement les CDD conclus par simple accord : leur durée totale ne peut de toute façon excéder quatre ans, renouvellements inclus. Au-delà, tout recrutement devient permanent. Ainsi, le silence de votre employeur à la fin de votre CDD valide la pérennité de votre relation de travail, l'objectif de la loi étant de protéger la stabilité de l'emploi contre la précarité indéfinie.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 6-4, 17 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_010",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["376 bis", "387"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Notre syndicat local souhaite déclencher une grève demain matin à cause d'un conflit. Est-ce légal ?\n\nDocuments pertinents:\n[1] Source: article 376 bis du Code du Travail\nToute décision de grève ou de lock-out doit être précédée d'un préavis de 10 jours, adressé par la partie intéressée à l'autre partie et au bureau régional de conciliation... En outre, la grève ou le lock-out doit être approuvé par la centrale syndicale ouvrière ou par l'organisation centrale des employeurs.\n\n[2] Source: article 387 du Code du Travail\nEn cas d'inobservation des dispositions du présent chapitre et notamment celles des articles 376, 376 bis et 376 ter du présent code, la grève ou le lock-out est illégal. Les relations de travail sont rompues du fait de la partie responsable..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 376 bis du Code du Travail, il est formellement interdit de déclencher une grève du jour au lendemain. Le principe impose de déposer un préavis obligatoire de 10 jours et d'obtenir l'approbation officielle de la centrale syndicale ouvrière.\n\nPar conséquent, déclencher une grève dès demain matin sans respecter ces formalités viole les dispositions légales. L'article 387 stipule qu'en cas d'inobservation de ces règles, la grève est considérée comme \"illégale\" et peut entraîner la rupture de la relation de travail du fait des salariés responsables. L'objectif de ces délais stricts est de privilégier le dialogue social et la conciliation avant toute paralysie de l'outil de production.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 376 bis, 387 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_011",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["66", "68"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce que les femmes ont le droit de travailler de nuit dans une usine en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 66 du Code du Travail\nLes enfants de plus de 14 ans et de moins de 18 ans et les femmes ne doivent pas être employés la nuit pendant une période d’au moins 12 heures consécutives qui doit comprendre l’intervalle entre 10 heures du soir et 6 heures du matin.\n\n[2] Source: article 68 du Code du Travail\nL’interdiction du travail de nuit des femmes n’est pas appliquée :\na) en cas de force majeure;\nb) dans le cas où le travail s’applique... à des matières en élaboration, qui seraient susceptibles d’altération très rapide...\nc) aux femmes qui occupent des postes de direction...\nd) aux femmes occupés dans les services sociaux..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 66 du Code du Travail, le principe est l'interdiction de faire travailler les femmes de nuit dans l'industrie, imposant un repos nocturne d'au moins 12 heures consécutives incluant l'intervalle entre 22h et 6h du matin.\n\nToutefois, l'article 68 prévoit des exceptions à cette règle de protection. Les femmes peuvent travailler de nuit en cas de force majeure, si elles manipulent des denrées hautement périssables (pour éviter leur perte), ou si elles occupent des postes de direction, techniques à haute responsabilité ou dans les services sociaux. Ainsi, le législateur cherche à protéger la santé et la famille de l'ouvrière, tout en admettant des dérogations pour préserver l'outil économique ou ne pas entraver la carrière des femmes cadres.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 66, 68 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_012",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": ["139"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يجوز للمشغل أن يدفع أجر العامل في شكل بضائع أو امتيازات عينية بدلاً من النقود؟\n\nDocuments pertinents:\n[1] Source: الفصل 139 من مجلة الشغل\nLa rémunération des travailleurs de toutes catégories doit être payée en monnaie ayant cours légal en Tunisie, sauf dispositions légales ou réglementaires contraires. Cependant, des avantages en nature peuvent être servis conformément aux dispositions réglementaires ou conventionnelles. Ces avantages ne peuvent, en aucun cas, être déduits des salaires minimums payés en espèces."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 139 من مجلة الشغل، يتمثل المبدأ العام في وجوب دفع أجور العمال، مهما كان صنفهم، بواسطة العملة القانونية المتداولة في تونس (نقداً)، ولا يجوز الاستعاضة عنها ببضائع.\n\nغير أنّ المشرع أقر استثناءً يسمح بمنح امتيازات عينية (مثل السكن أو الإعاشة) إذا نصت على ذلك التراتيب أو الاتفاقيات المشتركة. علاوة على ذلك، لا يمكن بأي حال من الأحوال خصم قيمة هذه الامتيازات العينية من الحد الأدنى للأجور الذي يجب أن يُدفع نقداً. والغاية من هذا التشريع هي حماية المقدرة الشرائية للعامل ومنع استغلاله عبر إجباره على قبول سلع قد لا يحتاجها كبديل عن أجره الأساسي.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 139 من مجلة الشغل"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_013",
+      "language": "derja",
+      "category": "principle_exception",
+      "articles_referenced": ["95", "96"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ena 3andi machrou3 w nheb na3ref, lezem dima nkhali lkhadema yertahou nhar la7ad fi tounes wela najem nbadlou?\n\nDocuments pertinents:\n[1] Source: article 95 du Code du Travail\nLes entreprises non agricoles... sont tenues de donner à leur personnel... un repos hebdomadaire de vingt-quatre heures consécutives. Ce repos est donné le vendredi, le samedi ou le dimanche. Il peut être accordé pendant un autre jour de la semaine sur accord des deux parties...\n\n[2] Source: article 96 du Code du Travail\nSont admis de droit à donner le repos hebdomadaire par roulement, les établissements appartenant aux catégories suivantes : 1) Fabriques de produits alimentaires... 2) Hôtels, restaurants et débits de boissons... 4) Hôpitaux..."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l'article 95 mel Code du Travail, el principe houwa elli l'entreprise lezemha t3ati lel khaddema mte3ha repos mta3 24 sba3a fi jorret b3adhhom. El repos hedha lezem ykoun nhar Ejjem3a, wala Essebt, wala L'a7ad. Tnajem tbadlou l'nhar e5er ken tetfehem enti w l'khaddema wela ykoun fama tar5is mel wéli.\n\nAma l'exception mawjouda f l'article 96, elli y9oul kenek charika kima el sbitar, wala mekla (boulangerie, restaurant), wala hôtel, 3andek l7a9 ta3mel el repos par \"roulement\" (bel dila), ma3netha mouch la3bed lkol tertah fard nhar. L'objectif men hedha houwa bech les services vitaux w essentiels yo9o3dou yekhdmou dima men ghir 9assan w mayetdharesh el mouwaten.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 95, 96 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_014",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je perçois un salaire brut de 1500 dinars tunisiens. Quel sera le montant exact de ma retenue à la source pour l'impôt sur le revenu (IRPP) selon le nouveau barème de la loi de finances ?\n\nDocuments pertinents:\nLes documents fournis constituent le Code du Travail de Tunisie (2020) qui régit les relations de travail, les contrats, le salaire de base, les licenciements, et la médecine du travail."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code du Travail ne réglemente pas les barèmes fiscaux ni les pourcentages de retenue à la source (IRPP). Ces éléments relèvent du Code de l'impôt sur le revenu (IRPP) et de l'impôt sur les sociétés (IS) ainsi que des Lois de Finances. Je vous recommande de consulter un comptable ou un avocat fiscaliste.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CT_015",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم احتساب جراية التقاعد (pension de retraite) من الصندوق الوطني للضمان الاجتماعي (CNSS) لمن عمل 30 سنة في القطاع الخاص؟\n\nDocuments pertinents:\nالوثائق المقدمة هي مجلة الشغل التونسية (عقود العمل، الأجور، العطل، ساعات العمل، السلامة المهنية)."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تتضمن معلومات كافية للإجابة على هذا السؤال. مجلة الشغل تنظم علاقات العمل بين المؤجر والعامل، ولكنها لا تتضمن تفاصيل أو طرق احتساب جرايات التقاعد، والتي تخضع للقوانين الخاصة بالضمان الاجتماعي (مثل قانون 1960 المنظم للصندوق الوطني للضمان الاجتماعي). يُرجى الاتصال بمصالح الـ CNSS أو استشارة محامٍ مختص في قانون الضمان الاجتماعي.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CT_016",
+      "language": "derja",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ena khaddem fi charika w nheb na3mel contrat de travail fi fransa. Kifech nekhou visa de travail w chnouwa l'awra9 lmatlouba men safara?\n\nDocuments pertinents:\nLes documents sont le Code du Travail Tunisien (Régissant le travail sur le sol tunisien, y compris pour les étrangers en Tunisie)."
+        },
+        {
+          "role": "assistant",
+          "content": "El wra9 elli 3andi ma fihomch réponse l sou2el hedha. El Code du Travail mta3 Tounes ya7ki 3la 9awanin l'khedma houni fi Tounes, ama les procédures mta3 el visa w l'awra9 lmatlouba l fransa teb3in 9anoun l'immigration français w les consulats. Ahsen 7aja temchi tchouf l'ambassade wala site mta3 TLS/VFS.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CT_017",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": ["22", "23 bis"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon contrat de travail vient d'être rompu par mon employeur. À quelle indemnité ai-je droit ?\n\nDocuments pertinents:\n[1] Source: article 22 du Code du Travail\nTout travailleur lié par un contrat à durée indéterminée, licencié après l’expiration de la période d’essai, bénéficie, sauf le cas de faute grave, d’une gratification de fin de service calculée à raison d’un jour de salaire par mois de service effectif...\n\n[2] Source: article 23 bis du Code du Travail\nEn cas de licenciement abusif, le préjudice donne lieu à des dommages-intérêts dont le montant varie entre le salaire d’un mois et celui de deux mois pour chaque année d’ancienneté dans l’entreprise..."
+        },
+        {
+          "role": "assistant",
+          "content": "Le montant et la nature des indemnités dépendent des circonstances exactes de votre licenciement. Avez-vous été licencié pour une cause réelle et sérieuse, ou s'agit-il d'un licenciement abusif ? Y a-t-il une faute grave de votre part ?\n\nÀ titre indicatif, si vous avez un CDI et êtes licencié sans faute grave, l'article 22 vous accorde une gratification de fin de service (1 jour de salaire par mois travaillé). En revanche, s'il s'avère que le licenciement est *abusif* (sans motif valable), l'article 23 bis vous donne droit, en plus, à des dommages-intérêts allant de 1 à 2 mois de salaire par année d'ancienneté.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 22, 23 bis du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_018",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": ["6-2", "6-4"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يمكنني قانونيا إبرام عقد شغل لمدة معينة (CDD) مع أحد العمال الجدد في شركتي؟\n\nDocuments pertinents:\n[1] Source: الفصل 6-4 من مجلة الشغل\n1- Le contrat de travail à durée déterminée peut être conclu dans les cas suivants : - l’accomplissement de travaux de premier établissement... - le remplacement provisoire d’un travailleur... - l’exécution de travaux saisonniers...\n2- le contrat de travail à durée déterminée peut également être conclu, dans des cas autres que ceux indiqués au paragraphe précédent, sur accord entre l’employeur et le travailleur et à condition que la durée de ce contrat n’excède pas quatre ans y compris ses renouvellements..."
+        },
+        {
+          "role": "assistant",
+          "content": "يجيز القانون إبرام عقد شغل لمدة معينة (CDD)، ولكن هل الغرض من هذا العقد هو إنجاز عمل ذي طبيعة مؤقتة (مثل تعويض عامل غائب أو عمل موسمي)، أم أنه عقد يتم بالاتفاق المتبادل خارج هذه الحالات الاستثنائية؟\n\nوفقاً للفصل 6-4 من مجلة الشغل، إذا كان العمل يندرج ضمن الحالات الاستثنائية (الفقرة 1)، فيمكن إبرام العقد للمدة التي يقتضيها العمل. أما إذا كان بالاتفاق المتبادل خارج تلك الحالات (الفقرة 2)، فيُشترط ألا تتجاوز مدته الجملية (بما في ذلك التجديد) أربع سنوات، ويتحول بعدها إلى عقد دائم.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 6-4 من مجلة الشغل"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_019",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["21", "21-3"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon entreprise traverse de graves difficultés financières. Quelle procédure dois-je suivre pour licencier une partie du personnel pour raisons économiques ?\n\nDocuments pertinents:\n[1] Source: article 21 du Code du Travail\nTout employeur qui a l’intention de licencier ou de mettre en chômage pour des raisons économiques ou technologiques tout ou partie de son personnel permanent, est tenu de la notifier au préalable à l’inspection du travail territorialement compétente. La notification doit comprendre les indications suivantes : le nom et l’adresse... les raisons... accompagnée par les justifications nécessaires...\n\n[2] Source: article 21-3 du Code du Travail\nL’inspection du travail... doit procéder à une enquête concernant la demande... et tenter la conciliation des deux parties... dans un délai de quinze jours. A défaut de conciliation, l’inspection... doit soumettre le dossier... à la commission régionale ou à la commission centrale de contrôle du licenciement..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 21 du Code du Travail, la procédure de licenciement pour raisons économiques est rigoureuse.\n\nDans un premier temps, vous devez obligatoirement notifier votre intention à l'Inspection du Travail territorialement compétente, en fournissant un dossier détaillé (raisons économiques, justifications, liste des travailleurs concernés). Ensuite, selon l'article 21-3, l'Inspection du Travail mène une enquête et tente une conciliation entre vous et les travailleurs dans un délai de 15 jours. Si la conciliation échoue, le dossier est alors transmis à la Commission de contrôle du licenciement (régionale ou centrale), qui donnera son avis sur la validité de la démarche. Cette procédure vise à protéger les emplois et à chercher des alternatives (comme le chômage partiel) avant de recourir au licenciement définitif.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 21, 21-3 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_020",
+      "language": "derja",
+      "category": "procedural",
+      "articles_referenced": ["14 quater"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Khedem 3andi chedneeh yesre9 fi flous mel caisse. Kifech ntardou w est-ce que na3tih préavis walla toul yhez rouhou w yomkhen?\n\nDocuments pertinents:\n[1] Source: article 14 quater du Code du Travail\nLa faute grave est considérée comme l’une des causes réelles et sérieuses justifiant le licenciement. Peuvent être considérés comme fautes graves... : 6) le vol ou l’utilisation par le travailleur, pour son propre intérêt ou pour celui d’une tierce personne, de fonds, de titres ou d’objets qui lui sont confiés en raison du poste de travail qu’il occupe..."
+        },
+        {
+          "role": "assistant",
+          "content": "3la 7seb l'article 14 quater mel Code du Travail, el sar9a mta3 l'flous men 3and l'employeur tet3tabar \"faute grave\" (khataa fadi7) tbarrer el tard. \n\nFel procédure, ki tbda fama faute grave w met2akden menha, tnajem tfaskh l'contrat de travail direct w men ghir ma ta3tih préavis (inethar mosba9) wala flous mta3 indemnité de licenciement. Lezem barka taba3 procédure mta3 conseil de discipline (ken andkom fi charika) w ta3tih 7a9ou fi dife3 3la rouhou 9bal ma yokhrej el 9arar. L'objectif men hedha houwa 7imayet charika mel khyenet, w nafs l'wa9t dhmén 7a9 l'khaddem fl justice ken yotlob hetheka.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 14 quater du Code du Travail"
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Chapitre I: Formation du contrat",
+      "Chapitre III: Fin du contrat de travail",
+      "Livre II: L'exécution du travail",
+      "Section: Age minimum",
+      "Chapitre II: Protection de la maternité",
+      "Chapitre III: Travail de nuit des femmes et des enfants",
+      "Chapitre VI: Durée du travail",
+      "Chapitre VII: Le repos hebdomadaire",
+      "Chapitre IX: Congés annuels payés",
+      "Titre II: Le Salaire",
+      "Chapitre XIII: Règlement des conflits collectifs de travail"
+    ],
+    "sections_not_covered": [
+      "Titre II: Sous-entreprise de main-d'œuvre",
+      "Titre III: Les conventions collectives",
+      "Titre III: Hygiène et sécurité des travailleurs",
+      "Livre III: Représentation du personnel",
+      "Livre IV: L'inspection du travail",
+      "Livre V: Juridictions professionnelles (Prud'hommes)",
+      "Livre VII: Dispositions spéciales (Syndicats, main d'œuvre étrangère)"
+    ],
+    "notes": "Les exigences sur le style, le format de citation et les métadonnées (provenance, time_of_generation) ont été respectées. Répartition: 10 FR, 5 MSA (Arabe littéral sans dialecte), 5 Derja."
+  }
+}

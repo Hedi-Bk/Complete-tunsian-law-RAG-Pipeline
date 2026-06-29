@@ -1,0 +1,504 @@
+{
+  "batch_id": "batch_REG_SECURITE_INCENDIE_01_20240520",
+  "provenance": {
+    "generated_by": "Gemini 3.1 Pro Preview",
+    "platform": "Google_ai_studio"
+  },
+  "time_of_generation": "3m21s",
+  "source": "Règlement de sécurité contre les risques d’incendie, d’explosion et de panique (2018)",
+  "articles_covered": [
+    "15",
+    "16",
+    "22",
+    "24",
+    "26",
+    "28",
+    "29",
+    "45",
+    "47",
+    "50",
+    "53",
+    "109",
+    "119",
+    "139",
+    "140",
+    "141",
+    "144",
+    "155",
+    "161",
+    "166",
+    "167",
+    "170",
+    "171",
+    "182",
+    "205",
+    "251",
+    "276",
+    "279"
+  ],
+  "articles_to_avoid_next_batch": [
+    "15",
+    "16",
+    "22",
+    "24",
+    "26",
+    "28",
+    "29",
+    "45",
+    "47",
+    "50",
+    "53",
+    "109",
+    "119",
+    "139",
+    "140",
+    "141",
+    "144",
+    "155",
+    "161",
+    "166",
+    "167",
+    "170",
+    "171",
+    "182",
+    "205",
+    "251",
+    "276",
+    "279"
+  ],
+  "examples": [
+    {
+      "example_id": "ex_rsi_01",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["170", "171", "182"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je dirige un grand complexe industriel classé en 1ère catégorie. Nous avons récemment aménagé une nouvelle zone de stockage pour nos matières premières. Dans cette même zone, nous devons stocker environ 150 m³ d'oxyde d'éthyle (qui est très volatil) et 300 m³ de fuel lourd dans une seule et même cuvette de rétention pour économiser de l'espace. Par ailleurs, nous avons un autre projet impliquant la construction d'un dépôt de liquides inflammables de catégorie B et d'un réservoir d'hydrocarbures liquéfiés, dont la capacité globale dépassera largement les 5000 m³. Comment la loi calcule-t-elle la capacité totale équivalente quand des produits si différents sont mélangés ? Et pour notre futur grand projet, quelle distance minimale légale doit séparer les parois de ces deux énormes réservoirs ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 170 du Règlement de sécurité, l'oxyde d'éthyle appartient à la sous-catégorie A1 (extrêmement inflammable), tandis que le fuel lourd appartient à la catégorie D (peu inflammable). Concernant votre premier point, l'article 171 stipule que si des liquides inflammables sont stockés dans la même cuvette de rétention, ils doivent être assimilés au liquide de la catégorie présente la plus inflammable. Ainsi, la capacité totale équivalente de votre cuvette sera calculée comme s'il s'agissait entièrement de produits de catégorie A1.\n\nEn outre, concernant votre futur projet dépassant les 4000 m³, l'article 182 pose une exigence d'isolement stricte. La distance minimale entre les parois d'un réservoir contenant un liquide inflammable de catégorie B et un réservoir d'hydrocarbure liquéfié doit être d'au moins 40 mètres. \n\nAinsi, la conception de votre site doit impérativement prévoir un espacement considérable pour limiter la propagation en cas d'incendie majeur.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 170, 171, 182 du Règlement de sécurité contre les risques d'incendie."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_02",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["50"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis l'architecte en charge de la conception d'un nouvel atelier de fabrication de chaussures classé. Pour des raisons d'esthétique et de gain de place, le propriétaire souhaite installer uniquement des portes coulissantes et des portes à effacement vertical (qui s'ouvrent vers le haut) sur toutes les façades, et veut que ces portes servent d'issues de secours principales pour les 80 ouvriers. Le règlement l'autorise-t-il à utiliser ces types de portes comme dégagements réglementaires en cas d'incendie ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 50 du Règlement de sécurité, le principe est que les portails, les portes coulissantes et les portes s'ouvrant vers le haut par effacement vertical ne peuvent pas constituer des portes de secours. Ils ne sont considérés ni comme des dégagements réglementaires ni comme des dégagements supplémentaires.\n\nToutefois, la législation prévoit une exception spécifique pour les portes coulissantes motorisées. Celles-ci peuvent constituer des dégagements réglementaires à la condition expresse qu'en cas de défaillance du dispositif de commande ou d'alimentation, elles libèrent la largeur totale de la baie par effacement latéral ou par débattement sur l'extérieur par une simple poussée.\n\nAinsi, les portes à effacement vertical sont totalement exclues, mais vous pouvez utiliser des portes coulissantes motorisées si elles respectent strictement le mécanisme de sécurité par simple poussée afin de garantir l'évacuation rapide des 80 ouvriers.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 50 du Règlement de sécurité contre les risques d'incendie."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_03",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["161"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je viens de prendre le poste de responsable RH dans une usine de transformation de plastique classée en 2ème catégorie. Je dois restructurer notre équipe de première intervention pour être en conformité avec la loi. Combien de membres doivent obligatoirement être présents pendant les heures de travail pour constituer notre équipe de sécurité ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 161 du Règlement de sécurité, pour les établissements classés de la 1ère et de la 2ème catégorie, l'équipe de sécurité (de première intervention) doit impérativement comprendre au moins 4 membres présents pendant les heures de travail.\n\nParmi ces 4 membres, il doit y avoir un chef d'équipe, et ce nombre s'entend en plus du responsable de la sécurité de l'établissement.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 161 du Règlement de sécurité contre les risques d'incendie."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_04",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["139", "140", "141"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Nous allons faire intervenir une entreprise de maintenance extérieure la semaine prochaine pour des travaux de soudure lourds (source chaude) à proximité immédiate de notre zone de stockage de solvants inflammables. Le risque d'explosion est important. Pouvez-vous m'expliquer précisément quelles sont les étapes réglementaires et documentaires pour autoriser ces travaux, et qui doit assumer la vérification à la fin de l'intervention avant de reprendre notre production ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 139 et 140 du Règlement de sécurité, il est formellement interdit d'apporter une source chaude dans une zone à risque sans avoir préalablement établi un « permis feu » et un « permis d'intervention ». Ces documents doivent définir les phases dangereuses, les instructions, et l'organisation des premiers secours.\n\nSur le plan procédural, l'article 141 exige que ces permis, ainsi que la consigne particulière de sécurité, soient conjointement signés par l'exploitant (vous) et l'entreprise extérieure.\n\nEnfin, avant la reprise de votre activité en configuration standard, une vérification stricte de la bonne réalisation des travaux doit être effectuée par le responsable de la sécurité de votre établissement en présence du représentant de l'entreprise extérieure. Cette étape finale doit faire l'objet d'un enregistrement écrit conservé à la disposition de la protection civile.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 139, 140, 141 du Règlement de sécurité contre les risques d'incendie."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_05",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Nous sommes en train d'importer une grande quantité d'extincteurs à poudre polyvalente et de détecteurs de fumée pour équiper notre nouvelle chaîne de production. L'agent en douane nous a parlé d'une taxe écologique applicable sur les équipements anti-incendie. Quel est le taux exact de la taxe douanière ou de la prime d'assurance obligatoire pour l'importation de ce matériel de sécurité selon le règlement ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le règlement traite des normes d'installation et de répartition des extincteurs, mais ne précise aucunement les taux de taxes douanières ou écologiques sur leur importation. Je vous recommande de consulter les services de la douane ou un avocat spécialisé.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_06",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": ["22", "24"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, notre cabinet d'ingénierie finalise les plans d'un nouveau bâtiment de stockage. Nous avons prévu une voie de circulation autour du bâtiment d'une largeur utile de 3,5 mètres pour permettre l'accès des camions de pompiers. La pente est de 8%. Cette conception respecte-t-elle les exigences du règlement pour l'accès des services de secours ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Pourriez-vous préciser la hauteur du plancher bas du niveau le plus haut de votre bâtiment ? \n\nEn effet, l'article 22 du Règlement de sécurité stipule qu'une largeur de 3 mètres est suffisante pour une \"voie engins\" standard. Toutefois, l'article 24 précise que si le plancher bas du dernier niveau est situé à une hauteur supérieure à 8 mètres, le bâtiment doit obligatoirement être desservi par une \"voie échelles\". Dans ce cas, la largeur utile minimale requise passe à 4 mètres. Votre réponse permettra de déterminer si votre voie de 3,5 mètres est conforme.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 22, 24 du Règlement de sécurité contre les risques d'incendie."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_07",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["45", "47"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je gère un grand atelier de textile qui emploie quotidiennement 350 ouvriers sur un seul grand plateau. Avec cette densité de personnel, la panique en cas d'incendie serait dramatique. Nous devons rénover nos sorties d'urgence. Le bureau de contrôle me demande d'ajouter des portes. Selon les normes de sécurité en vigueur, quel est le nombre exact de dégagements dont je dois disposer pour cet effectif de 350 personnes, et quelle doit être la largeur totale cumulée de ces issues, exprimée en unités de passage et en mètres ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 47 du Règlement de sécurité, pour un effectif compris entre 301 et 400 personnes (votre atelier de 350 ouvriers), vous êtes dans l'obligation de mettre en place au moins 2 dégagements distincts. La largeur totale exigée pour ces dégagements est de 5 unités de passage.\n\nPar ailleurs, l'article 45 définit l'unité de passage standard comme mesurant 0,60 mètre. \n\nAinsi, la largeur totale cumulée de vos issues de secours devra être de 5 unités de passage, soit 3 mètres (5 x 0,60 m). Étant donné que votre effectif dépasse 200 personnes, l'article 47 exige également que chacun de ces dégagements ait une largeur minimale individuelle de 1,4 mètre pour assurer une évacuation rapide et sans encombrement.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 45, 47 du Règlement de sécurité contre les risques d'incendie."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_08",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["251"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je prévois de construire une zone de stockage pour des produits chimiques classés comme matières dangereuses toxiques. Cette zone sera à l'air libre, sous un simple auvent pour protéger de la pluie. Afin d'optimiser l'espace de mon terrain, je voudrais construire cet auvent le plus près possible du mur de mon voisin. Quelle est la distance minimale à respecter entre ce stockage à l'air libre et la limite de ma propriété ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 251 du Règlement de sécurité, l'implantation d'un stockage de matières dangereuses à l'air libre ou sous auvent fait l'objet d'une réglementation stricte pour éviter la propagation des risques aux tiers.\n\nLa loi impose que tout stockage de ce type soit implanté à une distance d'au moins 10 mètres des limites de propriété. Vous ne pouvez donc pas accoler votre auvent au mur de votre voisin ; un recul minimal de 10 mètres est une obligation légale.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 251 du Règlement de sécurité contre les risques d'incendie."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_09",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["28", "53"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Dans le cadre de la construction d'une usine classée, nous envisageons d'aménager un sous-sol très profond, à environ 7 mètres sous le niveau du sol. L'ingénieur en chef propose d'y installer les réserves de solvants et de liquides extrêmement inflammables pour qu'ils soient protégés de la chaleur extérieure. Y a-t-il une interdiction de principe pour ce type d'aménagement en profondeur, et la loi permet-elle l'enfouissement de locaux si la technologie l'exige ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 53 du Règlement de sécurité, le principe est que les locaux ne doivent pas être situés à plus de six mètres en dessous du niveau d'accès des engins de secours. Une exception est faite uniquement si la nature technique des activités le justifie.\n\nToutefois, l'article 28 pose une interdiction formelle et absolue : il est strictement interdit d'implanter les locaux où sont stockés des liquides inflammables ou des matières dangereuses en sous-sol, au-dessous de locaux où la présence des travailleurs est importante (plus de 20 personnes) ou au-dessous de locaux habités.\n\nAinsi, malgré l'exception technique autorisant l'enfouissement de plus de 6 mètres, l'installation de votre réserve de solvants inflammables en sous-sol est prohibée pour des raisons évidentes de prévention des risques d'explosion.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 28, 53 du Règlement de sécurité contre les risques d'incendie."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_10",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["155"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Pendant la haute saison, notre établissement industriel recrute une vingtaine de travailleurs saisonniers et des intérimaires pour quelques mois seulement. Comme ils ne restent pas longtemps, notre directeur financier ne souhaite pas investir dans des sessions de formation incendie pour eux. Sommes-nous légalement tenus de former ou de sensibiliser ce personnel temporaire aux risques d'incendie et d'explosion ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 155 du Règlement de sécurité, vous êtes effectivement tenu d'assurer la sécurité de l'ensemble du personnel, y compris des travailleurs temporaires.\n\nLa loi précise explicitement que le personnel intérimaire, le personnel saisonnier, ainsi que les sous-traitants manœuvrant temporairement sur le site, doivent obligatoirement recevoir une sensibilisation adaptée aux risques spécifiques de l'établissement (dont les risques d'incendie et d'explosion).\n\nL'absence de formation ou de sensibilisation pour des raisons financières est donc une violation directe des conditions d'exploitation imposées par le règlement.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 155 du Règlement de sécurité contre les risques d'incendie."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_11",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": ["26", "29"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: بصفتي باعثا عقاريا، أرغب في بناء مصنع لتكرير الزيوت وهو يصنف كمؤسسة خطرة. لقد اقتنيت قطعة أرض وأريد استغلال كل مساحتها. هل أستطيع بناء جدران المصنع وتجهيزاته ملتصقة تماما بحدود الملكية مع جاري؟ وما هو الارتفاع القانوني الأدنى الذي يفرضه القانون لتسييج هذا النوع من المؤسسات لحماية المنشأة من دخول الأشخاص غير المرخص لهم؟"
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 26 من لائحة السلامة، يُمنع تماماً بناء التجهيزات أو المنشآت ملتصقة بحدود الملكية. ينص القانون بوضوح على أنه يجب تركيز جميع المباني والمحلات والمنشآت داخل المؤسسة المصنفة على مسافة لا تقل عن 4 أمتار من حدود الملكية، وذلك لتفادي انتشار الحرائق وتسهيل تدخل الحماية المدنية.\n\nعلاوة على ذلك، ولحماية المؤسسة من التسلل، يُلزمك الفصل 29 بتسييج المؤسسة المصنفة بشكل مناسب وبطريقة فعالة ضد أي دخول غير مصرح به. ويحدد هذا الفصل الارتفاع الأدنى للسياج (الأسوار) بحيث لا يقل في أي حال من الأحوال عن مترين (2 متر).\n\nوبالتالي، يجب التراجع مسافة 4 أمتار عن حدود جارك، وإقامة سياج بارتفاع مترين على الأقل.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 26، 29 من لائحة السلامة ضد مخاطر الحريق."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_12",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": ["166", "167"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أدير شركة لصناعة المواد الكيميائية ولدينا العديد من معدات الإطفاء والإنذار وصمامات الأمان الخاصة بالخزانات. تتطلب هذه المعدات فحصا دوريا. ما هي الإجراءات القانونية المحددة للقيام بعمليات التفقد والصيانة الدورية؟ ومن هي الجهة المخولة قانونا للقيام بهذه العمليات، وأين يجب تدوين نتائج هذه الفحوصات لإثبات التزامنا القانوني أمام الحماية المدنية؟"
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 166 من لائحة السلامة، يقع على عاتق المستغل ضمان إجراء عمليات المراقبة والفحوصات الدورية والتنظيمية لجميع معدات الإنذار ومعدات مكافحة الحريق، بالإضافة إلى صمامات الأمان والخزانات ذات الضغط.\n\nإجرائياً، ينص الفصل 167 على أن هذه العمليات لا يمكن أن تتم داخلياً بشكل اعتباطي، بل يجب أن تُعهد وجوباً إلى \"هيئة مراقبة مختصة ومعتمدة\" من قبل السلطات المختصة (organisme de contrôle agréé). وتقوم هذه الهيئة بإجراء الفحوصات وفقاً للمعايير الجاري بها العمل.\n\nوأخيراً، كإثبات قانوني، يُلزمك نفس الفصل بتدوين وتسجيل كافة عمليات التفقد والنتائج الحاصلة في \"سجل السلامة\" (registre de sécurité) الخاص بالمؤسسة ليكون تحت تصرف أعوان الحماية المدنية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 166، 167 من لائحة السلامة ضد مخاطر الحريق."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_13",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": ["144", "251", "276"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez মাতৃ статью. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: في مصنعنا، نستخدم مواد كيميائية مختلفة، بعضها يتفاعل كيميائياً بقوة مع البعض الآخر (مواد غير متوافقة). لترشيد مساحة التخزين، اقترح مدير المخزن وضع هذه المواد في نفس الغرفة، أو على الأقل داخل نفس حوض الاحتجاز (cuvette de rétention) لجمع أي تسرب. هل يُسمح قانونا بتخزين هذه المواد المتنافرة معا؟ وما هي الاستثناءات التي يطرحها القانون التونسي بخصوص أحواض الاحتجاز؟"
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 276 من لائحة السلامة، المبدأ العام هو المنع البالغ: لا يجوز أبداً تخزين المواد غير المتوافقة كيميائياً، أو التي يمكن أن تتفاعل مع بعضها بطريقة خطيرة، في نفس الغرفة أو في نفس الخلية.\n\nعلاوة على ذلك، يؤكد الفصل 144 هذا المنع بتأكيده على أنه لا يجوز وضع الخزانات التي تحتوي على مواد غير متوافقة في نفس حوض الاحتجاز (cuvette de rétention) لتفادي أي تفاعل عند حدوث تسرب.\n\nغير أن القانون (الفصل 144) يطرح استثناءً وحيداً لهذا المنع المطلق، وهو أنه لا ينطبق على أحواض معالجة المياه المستعملة (bassins de traitement des eaux usées). وبالتالي، بالنسبة لتخزينك الاعتيادي للمواد الخام، يجب الفصل بينها تماماً وفي أحواض احتجاز وغرف منفصلة بمسافة أمان لا تقل عن 10 أمتار (الفصل 251).\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 144، 251، 276 من لائحة السلامة ضد مخاطر الحريق."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_14",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: قمت بفتح مستودع لتخزين المواد البلاستيكية، وتغافلت عن توفير العدد الكافي من مطافئ الحريق اليدوية ومنافذ الإغاثة. زارتني لجنة من الحماية المدنية وسجلت هذه المخالفات. أريد أن أعرف، بالدينار التونسي، ما هي قيمة الخطايا المالية التي ستحكم بها المحكمة ضدي بسبب النقص في معدات الإطفاء، وكم تبلغ عقوبة السجن إذا تكررت هذه المخالفة؟"
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال. اللائحة المقدمة تحدد القواعد والمقاييس الفنية للسلامة وتوزيع معدات الإطفاء، ولكنها لا تذكر على الإطلاق قيمة الخطايا المالية بالدينار التونسي أو عقوبات السجن المتعلقة بهذه المخالفات. أوصي باستشارة محامٍ مختص للرجوع إلى المجلة الجزائية أو قانون الشغل.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_15",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["109"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: نحن بصدد تركيب شبكة من حنفيات إطفاء الحريق المسلحة (RIA) في مصنعنا الذي يبعد مسافة طويلة جدا عن أقرب مركز للحماية المدنية. نعلم أنه يجب توفير خزان مائي (Bâche à eau) لتغذية هذه الحنفيات. كم يجب أن تكفي كمية المياه المخزنة بالدقائق للتشغيل المتزامن للحنفيات في حالتنا الاستثنائية هذه لضمان التدخل في انتظار وصول فرق الإنقاذ؟"
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 109 من لائحة السلامة، يجب أن يتوافق حجم خزان المياه (Bâche à eau) في الحالات العادية مع التشغيل المتزامن لجميع حنفيات الإطفاء (بحد أقصى 4 حنفيات RIA) لمدة لا تقل عن 20 دقيقة.\n\nغير أن القانون يأخذ بعين الاعتبار العوامل الاستثنائية. وبما أن مصنعك يقع بعيداً عن أقرب مركز للحماية المدنية، وطبقاً لطبيعة وخطورة النشاط، يُنص صراحة على إمكانية زيادة الحد الأدنى لمدة الاستقلالية الذاتية للخزان المائي لتصل إلى 40 دقيقة أو حتى إلى ساعة كاملة (60 دقيقة) لضمان توفر المياه الكافية في انتظار وصول النجدة.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 109 من لائحة السلامة ضد مخاطر الحريق."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_16",
+      "language": "derja",
+      "category": "multi_article",
+      "articles_referenced": ["22", "24"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ena entrepreneur w قاعد nebni fi usine kbira. L plan fih bâtiment fih 3 étages, w plancher bas mta3 l étage la5er (l fou9ani jemla) ja 3la hauteur 10 metres. L mohendes 9ali lezem na3mlou thneya (voie) 3ordh'ha 3 metres bech todkhol menha kamyounet l protection civile. Ena choft'ha theneya sghira. 7asb l 9anoun, hal 3 metres ykfiw l bâtiment kima hedha, w chnowa l type mta3 l voie elli yelzem yet3mal bedhabt?"
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l'article 24 men règlement de sécurité, bima ennou l plancher bas mta3 l niveau le plus haut fel bâtiment mte3ek feyet 8 metres (10 metres f 7altek), rak majbour ta3mel thneya tetssama \"voie échelles\" mouch juste \"voie engins\" 3adeya. \n\nL'article 22 yfasar elli l \"voie échelles\" hedhi maj3oula bech tnajem kamyounet l protection civile t7al el sullom (échelle mécanique) mte3ha. W 3la hedha, 3 metres mouch kafin jemla ! L 9anoun yaferdh 3lik largeur utile (3ordh) minimum mta3 4 metres, w lezem tkhalli zone mta3 stationnement toulha au moins 10 metres. \n\nDonc lezemek tbadal l plan w twasa3 l thneya l 4 metres.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 22, 24 du Règlement de sécurité."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_17",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["43", "279"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: سلام، أنا نخدم شاف ديبو في معمل مواد كيميائية (dépôt). الخدامة عاملين بلاصة صغيرة البرة في الهواء الطلق، بعيدة تقريب 5 ميترو على الديبو باش يتكيفوا فيها و يطيبوا فيها التاي على كانون صغير. حسب قانون السلامة، مسموح يعملو هكا ولا فما خطر؟ وشنوة لازم يكون مكتوب في بلايك السلامة (consignes de sécurité) على حكاية الدخان والنار؟"
+        },
+        {
+          "role": "assistant",
+          "content": "سلام، على حساب الفصل 279 من لائحة السلامة، الشيء اللي يعملو فيه الخدامة ممنوع منعا باتا وفيه خطر كبير.\n\nالقانون يفرض عليكم باش تعلقو بلايك واضحة (consignes de sécurité) يكون مكتوب فيها بوضوح: ممنوع التدخين (L'interdiction de fumer)، وممنوع أي حرق في الهواء الطلق (L'interdiction de tout brûlage à l'air libre)، وزادة يمنع منعا باتا جيبان أي نوع متاع نار مهما كانت قريبة من الديبو (à proximité du stockage).\n\nمعناها تطييب التاي على الكانون والتكييف بحذا الديبو ممنوعين ولازمك تمنعهم ديركت باش تحمي المعمل والخدامة من خطر الحريق.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 279 du Règlement de sécurité."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_18",
+      "language": "derja",
+      "category": "clarification",
+      "articles_referenced": ["119"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Aman n7eb nechri extincteurs lel usine mte3i 5ater el 7imeya l madaneya talbou hom 3liya. Ena n7eb na3ref, 7asb el règlement de sécurité, chnowa l type mta3 extincteur elli nekhouh bedhabt w 9adech l charge mte3ou (b l kilo wala l litres)?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aman tnajem twadha7li chnowa l risque elli mawjoud fel blassa elli bech t7ot fiha l'extincteur ?\n\n5ater l'article 119 y9oul elli l type mta3 extincteur yetbadel 7asb l risque : ken 3andek risque électrique (transfo, groupe électrogène), lezem extincteur dioxyde de carbone (CO2) de 5 kg. Ken l blassa fiha zyout w liquides inflammables, lezem poudre polyvalente de 6 kg. W ken local 3adi, ykfi extincteur bel mé (eau pulvérisée) de 6 litres l kol 200 m². A3tini nature mta3 l risque bech njawebha exact.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 119 du Règlement de sécurité."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_19",
+      "language": "derja",
+      "category": "principle_exception",
+      "articles_referenced": ["15", "16"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: عندي باتيمة قديمة تابعة للمعمل (bâtiment désaffecté) كنا نخدمو فيها قبل وتوا مسكرة. نحب نستغلها باش نخبي فيها شوية سلع وماكينات قديمة ماعاش نستحقها. شنية القاعدة في القانون التونسي على الباتيمات المسكرين، وهل عندي أي حل ولا رخصة استثنائية نجم ناخذها باش نستعمل الباتيمة هذي كديبو (dépôt) لسلعتي؟"
+        },
+        {
+          "role": "assistant",
+          "content": "على حساب الفصل 15 من لائحة السلامة، المبدأ هو إنو الباتيمات القديمة والمحلات المهجورة (désaffectés) داخل مؤسسة مصنفة، ممنوع تخبي فيهم السلعة. القانون يفرض عليك باش تفرغهم تماما من أي تخزين أو معدات، ولازم يتهدمو أو يتفككو (démolis ou démontés).\n\nأما، الفصل 16 يعطي استثناء (dérogation). تنجم الإدارة متاع الحماية المدنية ترخصلك باش تستعمل الباتيمة، بشرط إنك تقدم مطلب مبرر فيه \"notice de sécurité\" (مذكرة سلامة). المذكرة هذي لازم تبين فيها الإجراءات اللي باش تعملهم باش تمنع استعمال الباتيمة بطريقة غالطة وتحطها في وضعية أمنة.\n\nمعناها، مبدئيا لازم تفرغها، أما تنجم تاخو استثناء كان تثبت للحماية المدنية إنك باش تلتزم بشروط السلامة.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 15, 16 du Règlement de sécurité."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_rsi_20",
+      "language": "derja",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ken 5addem yet7ra9 fi wost l usine fi 7adtha mta3 explosion, chkoun ykhallaslou l msarif mta3 sbitar w chnowa naçib l assurance maladie (CNAM) fil ta3widh 7asb l 9anoun mta3 sécurité incendie hedha?"
+        },
+        {
+          "role": "assistant",
+          "content": "El wra9 elli 3andi ma fihomch réponse l sou2el hedha. Règlement de sécurité hedha ye7ki ken 3al prévention w kifeh t7ami l usine mel 7ri9 w l explosion (les extincteurs, les portes de secours, etc.), ama ma fihouch a7kem 3la l ta3widh mta3 l 5addema wala l CNAM (assurance maladie). Ahsen 7aja tchouf code de travail wala a7ki m3a avocat.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Titre 1: Généralités",
+      "Titre 2: Dispositions générales (voies, portes, désenfumage, permis feu, extincteurs)",
+      "Titre 3: Dispositions particulières (liquides inflammables)"
+    ],
+    "sections_not_covered": [
+      "Gaz inflammables",
+      "Matières explosibles",
+      "Matières dangereuses"
+    ],
+    "notes": "The batch generates a good mix of realistic queries focusing on daily constraints of building and operating a dangerous establishment in Tunisia, incorporating spatial restrictions, specific firefighting measures, and strict administrative procedures. Derja and Arabic representations strictly preserve user tone and writing scripts while employing valid multi-hop reasoning over the relevant texts."
+  }
+}

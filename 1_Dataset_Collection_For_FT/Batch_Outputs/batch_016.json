@@ -1,0 +1,495 @@
+{
+  "batch_id": "batch_CODE_MINIER_001_20231025",
+  "source": "Code Minier de Tunisie (Loi n° 2003-30)",
+  "articles_covered": [
+    "7",
+    "8",
+    "9",
+    "11",
+    "14",
+    "19",
+    "30",
+    "31",
+    "38",
+    "41",
+    "44",
+    "52",
+    "57",
+    "70",
+    "71",
+    "76",
+    "79",
+    "80",
+    "82",
+    "83",
+    "94",
+    "96",
+    "104",
+    "107",
+    "108"
+  ],
+  "articles_to_avoid_next_batch": [
+    "7",
+    "8",
+    "9",
+    "11",
+    "14",
+    "19",
+    "30",
+    "31",
+    "38",
+    "41",
+    "44",
+    "52",
+    "57",
+    "70",
+    "71",
+    "76",
+    "79",
+    "80",
+    "82",
+    "83",
+    "94",
+    "96",
+    "104",
+    "107",
+    "108"
+  ],
+  "examples": [
+    {
+      "example_id": "CM_001_FR_DIRECT",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["7", "9"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je suis un agriculteur dans la région du Kef. Récemment, en creusant un puits profond sur mon terrain agricole privé, j'ai découvert ce qui semble être un gisement de minerai de fer très important. Puisque ce gisement se trouve directement sous ma propriété foncière acquise légalement, je voudrais savoir si j'en suis de fait le propriétaire. Est-ce que je peux commencer à l'exploiter moi-même et le vendre, ou est-ce que l'État tunisien a des droits sur les richesses situées dans mon propre sous-sol ?\n\nDocuments pertinents:\n[1] Source: article 7 du Code Minier\nLes Substances Minérales classées “Mines” situées dans le sol et le sous-sol de l’ensemble du territoire national et dans les Espaces Maritimes tunisiens fout partie de plein droit .en tant que richesse nationale, du domaine public de l’Etat tunisien.\n\n[2] Source: article 9 du Code Minier\nLe droit de Prospection. de Recherche ou d’Exploitation lune Mine ne peut être acquis qu’en vertu d’un titre Minier délivré par le Ministre chargé des Mines."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de la loi tunisienne, la découverte d'un gisement ne vous en donne pas la propriété, même s'il est situé sous votre terrain privé. Le principe fondamental est que les substances minérales classées « Mines » situées dans le sol et le sous-sol national font partie de plein droit du domaine public de l'Etat tunisien [1].\n\nToutefois, vous avez la possibilité de formuler une demande auprès des autorités, car le droit d'exploitation ne peut être acquis qu'en vertu d'un titre minier délivré expressément par le Ministre chargé des Mines [2]. Ainsi, l'objectif de ces dispositions est de préserver les richesses naturelles nationales et d'en encadrer rigoureusement l'exploitation par l'État.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 7, 9 du Code Minier."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_002_FR_DIRECT",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["8"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je dirige une société d'investissement qui vient d'obtenir une concession d'exploitation pour une grande mine de phosphate dans le sud de la Tunisie. Nous avons un besoin urgent de lever des fonds importants auprès de banques internationales pour financer l'achat d'équipements lourds. Notre banque nous demande de mettre la mine elle-même en garantie sous forme d'hypothèque. Est-ce que le Code minier tunisien nous autorise légalement à hypothéquer notre concession minière ou les gîtes naturels pour garantir ces emprunts bancaires ?\n\nDocuments pertinents:\n[1] Source: article 8 du Code Minier\nLes Substances Minérales classées Mines” sont réputées immeubles. Elles ne sont pas soumises aux dispositions de la loi : foncière relative aux immeubles immatriculés et ne sont pas susceptibles d’hypothèque.\nSont réputés meubles les minerais extraits ainsi que les actions ou intérêts dans toute société exerçant les Activités I Exploitation."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu du Code Minier tunisien, il n'est pas permis d'hypothéquer la mine elle-même. Le principe est que les substances minérales en place (gîtes naturels) sont réputées immeubles, mais elles sont explicitement exclues des dispositions relatives aux immeubles immatriculés et ne sont donc pas susceptibles d'hypothèque [1].\n\nToutefois, la loi précise une nuance importante pour le financement : les minerais une fois extraits, ainsi que les actions ou intérêts dans votre société d'exploitation, sont réputés être des biens meubles [1]. Ainsi, la législation cherche à empêcher la saisie des gisements qui relèvent de la souveraineté de l'État, tout en permettant aux entreprises de valoriser leurs minerais extraits ou le capital social pour obtenir des financements.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 8 du Code Minier."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_003_FR_DIRECT",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["11"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Notre consortium européen souhaite investir massivement dans le secteur minier en Tunisie, spécifiquement dans la recherche de métaux. Nous n'avons pas encore de filiale locale et nous opérons principalement depuis l'étranger. Quelles sont les conditions juridiques requises par la législation tunisienne pour qu'une personne morale étrangère puisse obtenir un titre minier et entreprendre légalement des activités de prospection, de recherche ou d'exploitation sur le territoire national ? Faut-il obligatoirement s'associer avec l'Etat ?\n\nDocuments pertinents:\n[1] Source: article 11 du Code Minier\nLes Activités de Prospection, de Recherche et d’Exploitation des Mines ne peuvent être entreprises que par\na - L’Etat tunisien, suivant des modalités qui seront fixées par décret pour chaque cas particulier,\nb- Les personnes physiques oit morales tunisiennes oit étrangères qui disposent de ressources financières et lune capacité technique suffisantes pour entreprendre les dites activités dans les meilleures conditions."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 11 du Code Minier, il n'est pas obligatoire de s'associer avec l'État tunisien pour obtenir un titre minier. Le principe est que l'exploitation peut être entreprise de manière autonome par des personnes morales étrangères.\n\nToutefois, la condition stricte imposée par la loi est de prouver que votre consortium dispose « de ressources financières et d'une capacité technique suffisantes » pour mener à bien ces activités dans les meilleures conditions [1]. Ainsi, l'intention du législateur est d'ouvrir le secteur extractif aux capitaux étrangers et privés, tout en s'assurant du sérieux et de la solidité technique des opérateurs pour garantir une exploitation saine des richesses.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 11 du Code Minier."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_004_FR_MULTI",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["94", "96"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Nous avons récemment obtenu une concession d'exploitation minière pour un gisement de zinc en Tunisie. C'est un projet de très grande envergure et nous avons engagé de nombreux ouvriers tunisiens pour la phase de production. Nous établissons notre prévisionnel financier pour les prochaines années. Pouvez-vous m'expliquer précisément quels sont les avantages fiscaux et sociaux auxquels nous avons droit lors du démarrage de l'activité, notamment concernant l'impôt sur les bénéfices et la sécurité sociale patronale ?\n\nDocuments pertinents:\n[1] Source: article 94 du Code Minier\nL’Etat Tunisien prend en charge la contribution patronale au régime légal de sécurité sociale au titre des salaires versés aux employés tunisiens durant une période de cinq ans à partir de la date &entrée en activité.\n\n[2] Source: article 96 du Code Minier\n- un impôt sur les bénéfices au taux de vingt cinq pour cent du bénéfice annuel.\nLe paiement de [impôt sur les bénéfices s’effectue dans les délais prévus pour le paiement de l’impôt sur les sociétés... Toutefois, le Titulaire est exonéré du paiement de l’impôt sur les bénéfices pendant les cinq premières années à partir du début de l’exploitation effective."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu du Code Minier, le démarrage effectif de votre exploitation vous octroie deux avantages financiers majeurs nécessitant la combinaison des règles fiscales et sociales.\n\nEn premier lieu, concernant l'impôt sur les bénéfices, le principe est une taxation à 25%. Toutefois, votre société est totalement exonérée de cet impôt pendant les cinq premières années suivant le début de l'exploitation effective [2]. \nEn outre, sur le volet social, l'État tunisien prend à sa charge la contribution patronale au régime de sécurité sociale pour les salaires versés à vos employés tunisiens, et ce pour une période de cinq ans à partir de l'entrée en activité [1].\n\nAinsi, la finalité de cette double exonération (fiscale et sociale) est de soutenir activement l'investisseur durant la phase critique de lancement, tout en encourageant le recrutement de la main-d'œuvre locale.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 94, 96 du Code Minier."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_005_FR_MULTI",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["70", "71"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, lors de nos travaux d'exploitation souterraine, nous avons mis au jour d'importantes quantités d'eau (eaux d'exhaure). Nous souhaitons utiliser ces eaux exclusivement pour les besoins de fonctionnement de notre mine et pour le personnel sur place. Sommes-nous obligés de payer une redevance pour cette eau extraite ? Quelles sont nos obligations vis-à-vis des ministères concernés concernant la déclaration de ces ressources hydriques et la protection de l'environnement environnant ?\n\nDocuments pertinents:\n[1] Source: article 70 du Code Minier\n1- L’extraction des eaux d’exhaure n’est pas soumise au régime de l’autorisation simple... En aucun cas, l’extraction des eaux d’exhaure ne peut donner lieu au versement d’une redevance, sauf si elles sont exploitées pour des tins autres que celles nécessaires pour les besoins de la Mine et de ses Dépendances. 2- L’utilisation des eaux d’exhaure pour le service de la Mine... doit faire l’objet d’une notification au Ministère chargé des Eaux.\n\n[2] Source: article 71 du Code Minier\nLe Titulaire... est tenu d’entreprendre ses Activités... en se conformant aux textes législatifs et réglementaires en vigueur relatifs... à la protection de l’environnement et des terres agricoles, des forêts et des eaux du domaine public hydraulique."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu du Code Minier, vous êtes tout à fait autorisé à extraire et utiliser ces eaux d'exhaure, et le principe est que cette extraction ne donne lieu au versement d'aucune redevance, à la stricte condition que ces eaux soient exploitées exclusivement pour les besoins de la mine et de ses dépendances [1].\n\nPar ailleurs, cette gratuité s'accompagne d'obligations procédurales et écologiques. Vous êtes dans l'obligation formelle de notifier cette utilisation au Ministère chargé des Eaux [1]. De surcroît, vous devez mener vos activités en respectant scrupuleusement la réglementation en vigueur relative à la protection de l'environnement et des eaux du domaine public hydraulique [2].\n\nAinsi, la loi cherche à faciliter les opérations minières sur le plan économique tout en maintenant une vigilance stricte des autorités de tutelle sur la préservation des ressources hydriques nationales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 70, 71 du Code Minier."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_006_FR_PRINC_EXC",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["104"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ma société a signé un contrat de concession pour l'exploitation d'une mine de plomb au nord-ouest du pays. Nous devons importer d'urgence de l'étranger des appareils de forage très spécifiques et des engins lourds, ainsi que des véhicules pour le transport de notre personnel. Pouvons-nous bénéficier d'une franchise douanière pour importer tout ce matériel sans payer de taxes ? Y a-t-il des exceptions si ce type d'équipement est déjà vendu par des fournisseurs en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 104 du Code Minier\nLe Titulaire... sont autorisés à importer en franchise des droits de douanes et de tous impôts et taxes prélevés à l’occasion de l’importation, y compris la taxe sur la valeur ajoutée... tous appareils, outillages, équipements, engins et matériaux destinés à être utilisés effectivement pour les Activités de Recherche et d’Exploitation Minière... \nLes dispositions prévues au paragraphe premier du présent article ne sont pas applicables aux biens et marchandises qu’il sera possible de se procurer en Tunisie lorsqu’ils sont de type adéquat, de qualité comparable et d’un prix de revient comparable au prix de revient à l’importation..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu du Code Minier tunisien, le principe est favorable à l'investisseur : vous êtes autorisé à importer en franchise de droits de douane et de TVA tous les appareils, engins, équipements et véhicules de transport nécessaires à vos activités d'exploitation minière [1].\n\nToutefois, la loi prévoit une exception claire : cette franchise douanière vous sera refusée s'il est possible de se procurer ces mêmes biens et marchandises sur le marché tunisien, à condition qu'ils soient de qualité adéquate et d'un prix de revient comparable à celui de l'importation [1]. \n\nAinsi, la finalité de cette exception est d'équilibrer le soutien au secteur minier et le développement de l'industrie locale, en incitant les sociétés minières à s'approvisionner prioritairement auprès des fournisseurs tunisiens lorsque ces derniers sont compétitifs.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 104 du Code Minier."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_007_FR_PRINC_EXC",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["41"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Notre permis de recherche a expiré il y a deux mois car nous n'avons malheureusement pas pu soumettre notre demande de renouvellement à temps suite à des problèmes administratifs internes graves. Nous souhaitons déposer une nouvelle demande immédiatement pour reprendre nos droits exactement sur le même périmètre minier. Est-il légalement possible de réacquérir ces droits tout de suite, ou y a-t-il un délai de carence strict à respecter selon la réglementation minière ?\n\nDocuments pertinents:\n[1] Source: article 41 du Code Minier\nLe Titulaire d’un Permis de Recherche expiré ou annulé, ne peut acquérir de nouveau, directement ou indirectement, des droits même partiels, sur le périmètre que couvrait le permis qu’ après un délai d’un an à compter de la date d’expiration ou d’annulation.\ntoutefois. Ces dispositions ne s’appliquent pas si la demande de renouvellement a été rejetée pour n’avoir pas été présentée dans le délai prévu... et si le Permis est renouvelable...\nLe Ministre chargé des Mines peut... réduire le délai visé au paragraphe premier... sans pour autant qu’il soit inférieur à six mois."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu du Code Minier, le principe veut qu'un titulaire dont le permis de recherche a expiré ne puisse pas réacquérir de nouveaux droits sur le même périmètre avant l'écoulement d'un délai de carence d'un an à compter de la date d'expiration [1].\n\nToutefois, la législation prévoit des exceptions importantes pour éviter de pénaliser excessivement les opérateurs de bonne foi. Premièrement, ce délai d'un an ne s'applique pas si le rejet est uniquement dû à un retard dans le dépôt de la demande, à condition que le permis fût intrinsèquement renouvelable. De plus, le Ministre des Mines a le pouvoir discrétionnaire, sur demande et avis du Comité, de réduire ce délai d'interdiction, bien qu'il ne puisse jamais être inférieur à six mois [1].\n\nAinsi, cette disposition a pour but de sanctionner l'abandon inactif d'un périmètre, tout en conservant une flexibilité pour les retards administratifs justifiés.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 41 du Code Minier."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_008_FR_REFUSAL",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": ["14"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je suis un promoteur immobilier et je viens d'acheter un grand terrain nu sur la côte de Bizerte. Je prévois d'y construire un complexe hôtelier de luxe. Je voudrais connaître les règles relatives à l'expropriation pour cause d'utilité publique dans le cadre de projets touristiques, et savoir si je dois obligatoirement payer une taxe d'aménagement urbain à la municipalité pour ce type de construction côtière. Quels articles traitent de cette fiscalité immobilière ?\n\nDocuments pertinents:\n[1] Source: article 14 du Code Minier\nL’autorisation de Prospection est accordée pour permettre aux demandeurs de procéder aux investigations nécessaires en vue de préparer les dossiers de demandes de Permis de Recherche.\nL’Autorisation de Prospection porte sur des travaux et des études géologiques à portée stratégique..."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Je vous recommande de consulter un avocat spécialisé."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_009_FR_CLARIFICATION",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": ["32", "52"],
+      "confidence_flag": "medium",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, mon entreprise opère actuellement dans le secteur de l'extraction minière en Tunisie. Nous arrivons très bientôt à la fin de notre période d'activité autorisée. Je suis le responsable juridique chargé de préparer le dossier de renouvellement. Pouvez-vous me dire précisément combien de temps à l'avance je dois déposer ma demande au ministère et pour combien d'années supplémentaires l'autorisation sera prolongée ?\n\nDocuments pertinents:\n[1] Source: article 32 du Code Minier\nLe Titulaire d’un Permis de Recherche a droit au renouvellement de son Permis pour deux périodes successives d’une durée maximale de trois ans chacune... b - présenté une demande de renouvellement du Permis de Recherche deux mois au moins avant la date d’expiration de sa période de validité...\n\n[2] Source: article 52 du Code Minier\nLa Concession d’Exploitation est accordée pour une durée qui est appréciée en fonction des réserves exploitables... La demande de prolongation de la Concession d’Exploitation doit être adressée au Ministère chargé des mines deux ans ait moins avant l’expiration de ladite Concession."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour pouvoir vous répondre avec exactitude, pourriez-vous clarifier de quel type de titre minier vous disposez actuellement ? \n\nEn effet, la procédure diffère drastiquement selon la nature de votre titre : s'il s'agit d'un « Permis de Recherche », la demande doit être déposée au moins 2 mois avant l'expiration pour un renouvellement de 3 ans maximum [1]. En revanche, s'il s'agit d'une « Concession d'Exploitation », la demande de prolongation doit être adressée au moins 2 ans avant son expiration [2].\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 32, 52 du Code Minier."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_010_FR_PROCEDURAL",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["14", "31", "44"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis étudiant en droit des affaires et je prépare un mémoire universitaire sur l'industrie extractive en Tunisie. J'aimerais comprendre la procédure légale et la chronologie d'octroi des titres miniers. Concrètement, quelles sont les grandes étapes juridiques successives fixées par le code, depuis la toute première exploration géologique d'une zone jusqu'à l'obtention du droit d'exploiter commercialement un gisement reconnu, et quels sont les titres associés à chaque phase ?\n\nDocuments pertinents:\n[1] Source: article 14 du Code Minier\nL’autorisation de Prospection est accordée pour permettre aux demandeurs de procéder aux investigations nécessaires en vue de préparer les dossiers de demandes de Permis de Recherche... à portée stratégique...\n\n[2] Source: article 31 du Code Minier\nle titulaire du Permis de Recherche a le droit exclusif d’entreprendre, dans le périmètre... toutes les Activités de Recherche, les fouilles, les sondages et les reconnaissances en vue de découvrir des gîtes miniers.\n\n[3] Source: article 44 du Code Minier\nToute Concession d’Exploitation... n’est accordée que si les conditions suivantes sont remplies a - si les travaux du demandeur... ont démontré l’existence, dans les limites du périmètre sollicité, d’un gîte reconnu économiquement exploitable..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu du Code Minier tunisien, le cycle de vie d'un projet extractif se structure en trois phases procédurales successives :\n\n1. L'Autorisation de Prospection : Il s'agit de la phase préliminaire. Elle donne droit d'effectuer des investigations et des études géologiques à portée stratégique sur une zone, afin de préparer un dossier de recherche [1].\n\n2. Le Permis de Recherche : Si la prospection est concluante, cette deuxième étape confère le droit exclusif d'entreprendre des travaux approfondis (fouilles, sondages, reconnaissances) pour prouver l'existence physique de gîtes miniers [2].\n\n3. La Concession d'Exploitation : C'est la phase finale et commerciale. Elle ne peut être obtenue qu'en aval, si et seulement si les travaux de recherche précédents ont formellement démontré l'existence d'un gisement « économiquement exploitable » [3]. \n\nAinsi, cette chronologie vise à graduer le risque d'investissement et l'engagement de l'État, en s'assurant de la viabilité économique avant d'accorder le droit d'extraction définitive.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 14, 31, 44 du Code Minier."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_011_AR_DIRECT",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["57"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: نحن شركة استثمارية مساهمة، حصلنا مؤخرًا على امتياز استغلال منجم للزنك في ولاية القصرين. لقد قمنا بتجهيز كل شيء ونحن مستعدون للعمل، لكن واجهنا بعض التعطيلات الفنية الخفيفة التي قد تؤخرنا قليلاً. ما هو الحد الأقصى للزمن المسموح به قانونًا للبدء الفعلي في أشغال التطوير والاستغلال بعد الحصول على قرار الامتياز؟ وما هي العواقب القانونية المترتبة إذا لم نلتزم بهذا الأجل الزمني؟\n\nDocuments pertinents:\n[1] Source: الفصل 57 من مجلة المناجم\nLe Titulaire est tenu de commencer les travaux de développement de la Concession d’Exploitation au plus tard deux ans après la date de son octroi.\nA défaut, l’Autorité Concédante petit, après avoir entendu le titulaire, annuler la Concession d’Exploitation et en disposer librement sans aucune indemnisation."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى التشريع التونسي، يلتزم صاحب امتياز الاستغلال بالانطلاق الفعلي في أشغال تطوير الامتياز في أجل أقصاه سنتان (2) من تاريخ منحه [1].\n\nغير أنّه، في حالة التخلف وعدم الالتزام بهذا الأجل القانوني، يجوز للسلطة المانحة (أي الوزارة المكلفة بالمناجم)، بعد الاستماع إلى صاحب الامتياز وإعطائه حق الرد، أن تلغي امتياز الاستغلال تماماً وتتصرف فيه بكل حرية دون دفع أي تعويض مالي للشركة [1]. وبالتالي، فإن الغاية من هذا الفصل هي منع تجميد الرخص المنجمية دون استغلال فعلي يساهم في الدورة الاقتصادية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 57 من مجلة المناجم."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_012_AR_MULTI",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": ["107", "108"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: شركتنا كندية وحصلنا مؤخراً على رخصة بحث عن الذهب في الجنوب التونسي. نظراً لطبيعة التكنولوجيا المعقدة التي نستخدمها في سبر الأغوار، نحن بحاجة ماسة لجلب مهندسين وخبراء أجانب للإشراف على المعدات. هل يسمح لنا القانون التونسي بانتداب موظفي تأطير أجانب؟ وما هي الإعفاءات أو الامتيازات القانونية المتعلقة بالضمان الاجتماعي والضرائب على الدخل التي سيتمتع بها هؤلاء الموظفون الأجانب غير المقيمين؟\n\nDocuments pertinents:\n[1] Source: الفصل 107 من مجلة المناجم\nNonobstant les dispositions de [article 75 du présent Code, le Titulaire peut... recruter un personnel d’encadrement de nationalité étrangère à condition d’en informer au préalable les services compétents (lu Ministère chargé de l’Emploi, et ce, conformément aux procédures en vigueur.\n\n[2] Source: الفصل 108 من مجلة المناجم\nLe personnel de nationalité étrangère non résident avant son recrutement... peut : 1- opter pour un régime de sécurité sociale autre que le ré9inie tunisien. Dans ce cas, l’employé et l’employeur ne sont pas tenus au paiement des cotisations de sécurité sociale en Tunisie, 2- bénéficier de l’exonération de l’impôt sur le revenu des personnes physiques au titre des traitements et salaires... Il est soumis, en contrepartie, à une contribution fiscale forfaitaire fixée à vingt pour cent du montant brut de sa rémunération..."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى مجلة المناجم، يُسمح لشركتكم صراحةً بانتداب موظفي تأطير من جنسية أجنبية، شريطة إعلام المصالح المختصة بوزارة التشغيل مسبقاً وفقاً للإجراءات الجاري بها العمل [1].\n\nعلاوة على ذلك، يتمتع الموظف الأجنبي غير المقيم عند انتدابه بامتيازات اجتماعية وجبائية هامة استناداً إلى تشريعات قطاع المناجم. من الناحية الاجتماعية، يجوز له اختيار نظام ضمان اجتماعي غير النظام التونسي، وفي هذه الحالة يُعفى هو ومؤجره من دفع أي اشتراكات للضمان الاجتماعي في تونس [2]. أما من الناحية الجبائية، فيستفيد من الإعفاء من الضريبة على دخل الأشخاص الطبيعيين بعنوان المرتبات التي يتقاضاها، غير أنّه يخضع في المقابل لمساهمة ضريبية جزافية محددة بـ 20% من إجمالي أجره الخام [2].\n\nوبالتالي، تهدف هذه الإجراءات إلى استقطاب الكفاءات والخبرات الأجنبية الدقيقة لتطوير القطاع المنجمي بأقل أعباء إدارية ممكنة.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 107، 108 من مجلة المناجم."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_013_AR_REFUSAL",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": ["2", "3"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أعمل في مجال تصدير المنتجات الفلاحية التونسية، وخاصة زيت الزيتون البكر الممتاز والتمور ذات الجودة العالية. أريد أن أستفسر عن الرسوم الجمركية المطبقة على تصدير هذه المنتجات إلى دول الاتحاد الأوروبي، وما هي التراخيص الصحية والفلاحية المطلوبة من وزارة الفلاحة قبل إتمام عملية التصدير عبر ميناء رادس أو ميناء صفاقس؟ وهل هناك إعفاءات ضريبية خاصة بالفلاحين؟\n\nDocuments pertinents:\n[1] Source: الفصل 2 من مجلة المناجم\nLes dispositions du Code Minier s’appliquent aux titres miniers octroyés après son entrée en vigueur. Sont exclus du champ d’application... les permis de recherche et les concessions d’exploitation institués avant la date d’entrée en vigueur...\n\n[2] Source: الفصل 3 من مجلة المناجم\nLes permis d’exploitation en cours de validité demeurent jusqu’ à l’expiration régis par les dispositions législatives en vertu desquelles ils ont été octroyés."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال. أوصي باستشارة محامٍ متخصص، حيث أن النصوص المتوفرة تنظم حصراً أنشطة قطاع المناجم (البحث والاستغلال المنجمي) ولا تنطبق على التصدير الفلاحي أو التراخيص الصحية لزيت الزيتون والتمور.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_014_AR_CLARIFICATION",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": ["79", "80", "82"],
+      "confidence_flag": "medium",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: السلام عليكم، أنا فلاح في منطقة قفصة وأمتلك أراضي فلاحية واسعة. هناك شركة منجمية كبيرة تقوم بأشغال قريبة جداً من أرضي بموجب رخصة بحث. لقد تسببت هذه الأشغال في أضرار كبيرة لمزرعتي ولم يعد بإمكاني استغلالها كما في السابق. أريد أن أعرف حقوقي القانونية بالتفصيل وكيف يمكنني طلب التعويض المالي من هذه الشركة المنجمية لإصلاح الضرر.\n\nDocuments pertinents:\n[1] Source: الفصل 80 من مجلة المناجم\nEn cas d’occupation de terrains telle que prévue à l’article 79 du présent Code, le propriétaire du sol a droit à une indemnité payable d’avance, qui, à défaut d’entente amiable, est fixée pour la période d’occupation par référence à une somme annuelle égale au double de la valeur locative que les terrains occupés ont au moment de l’occupation.\n\n[2] Source: الفصل 82 من مجلة المناجم\nLorsque, à la un des travaux, il apport que les terrains occupés été trop endommagés ou dégradés et ne sont plus propres à leur usage (l’origine, le titulaire est tenu soit de réparer le dommage, soit de payer une indemnité au propriétaire du sol pour la réparation du préjudice... Cette indemnité ne peut dépasser le double de la valeur vénale des terrains..."
+        },
+        {
+          "role": "assistant",
+          "content": "لكي أتمكن من إجابتك بدقة مستنداً إلى مجلة المناجم، هل يمكنك توضيح طبيعة الضرر وما إذا كانت الشركة قد \"احتلت\" جزءاً من أرضك لإقامة منشآتها عليها؟\n\nإذا كان الأمر يتعلق باحتلال فعلي للأرض، فإن القانون يضمن لك تعويضاً سنوياً يُدفع مسبقاً ويعادل ضعف القيمة الإيجارية للأرض [1]. أما إذا كانت الأرض قد تضررت أو تدهورت بنيتها بحيث لم تعد صالحة للاستعمال الفلاحي الأصلي بسبب الأشغال، فإن الشركة مُلزمة إما بإصلاح الضرر أو دفع تعويض لك لا يتجاوز ضعف القيمة البيعية (التجارية) للأرض [2].\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 80، 82 من مجلة المناجم."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_015_AR_PROCEDURAL",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": ["76"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: نحن فريق عمل ميداني يقوم بأشغال حفر تابعة لرخصة بحث عن الفوسفات في عمق الصحراء. أثناء عمليات الحفر التقنية في عمق الأرض، تفاجأ العمال باكتشاف جدران قديمة وبعض القطع الأثرية التي تبدو أنها تعود للعهد الروماني أو البيزنطي. ما هي الإجراءات القانونية المتسلسلة والمحددة في مجلة المناجم التي يجب علينا كشركة اتباعها فوراً للتعامل مع هذا الاكتشاف الأثري الهام؟\n\nDocuments pertinents:\n[1] Source: الفصل 76 من مجلة المناجم\nLe Titulaire est tenu d’informer l’Administration compétente des lieux des monuments archéologiques et historiques rencontrés lors de l’exécution de ses travaux de recherche ou d’exploitation et de veiller à leur conservation conformément à la législation en vigueur."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى مجلة المناجم، في حال العثور على معالم أثرية أو تاريخية أثناء تنفيذ أشغال البحث أو الاستغلال الميدانية، يقع على عاتق صاحب الرخصة التزام إجرائي متسلسل وصارم.\n\nأولاً، يجب عليه فوراً إعلام الإدارة المختصة (أي المصالح المعنية بحماية التراث) بأماكن تواجد هذه المعالم الأثرية المكتشفة [1]. غير أنّه لا يكفي الإعلام فقط، بل يلتزم في مرحلة ثانية بالسهر المباشر على المحافظة على هذه الآثار وحمايتها من أي تلف أو تخريب، وذلك وفقاً للتشريع الجاري به العمل في هذا المجال [1].\n\nوبالتالي، فإن الإجراءات تفرض إيقاف الأضرار فوراً وإحالة الأمر للسلطات مع تأمين الموقع لضمان حماية الإرث التاريخي الوطني.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 76 من مجلة المناجم."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_016_DERJA_LAT_DIRECT",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["19"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: 3aslema, 3andi charika sghira w khdhit autorisation de prospection 3al rkham fi wilayet guelma (siliana). Bdet l khedma mrigla ama l9it chkoun yheb yechri men 3andi hal autorisation b flous behiya khater houwa 3andou matériel akber w ynajem ykamel khir menni. Najjem nbi3lou el autorisation mte3i wala le? chnowa y9oul l code des mines f hal hkeya bedhabt?\n\nDocuments pertinents:\n[1] Source: article 19 du Code Minier\nL’Autorisation de Prospection est incessible."
+        },
+        {
+          "role": "assistant",
+          "content": "Aslema. Bekhtisar, 3la 7seb l Code Minier, ma tnejjemch tbi3 l'autorisation de prospection mte3k jémla wahed akher. L'article 19 y9oul dima w b'sifa wadh7a elli \"L'Autorisation de Prospection est incessible\" [1]. \n\nM3a hetha, ma3neha l'autorisation hethi ma tetba3ch w ma tetna9alech l chakhs akher (cession). Tnajjem tkamel l'exploration mte3k wa7dek, ama bech tbi3ha l charika okhra b'flous, l 9anoun srim w ma yasma7ch biha, bech l'Etat dima ta3ref chkoun l'opérateur elli 9a3ed yekhdem f l'ardh.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 19 du Code Minier."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_017_DERJA_ARB_DIRECT",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["83"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: السلام، بربي أنا نسكن في قرية صغيرة في الشمال الغربي وعندنا مقبرة قديمة برشا قريبة من ديارنا. فما شركة متع مناجم جات تحب تبدا تحفر وتعمل استخراج متع معادن قريبة برشا من المقبرة والديار السكنية. نحب نعرف، قداش لازم يخليو مسافة قانونية بين الحفر والمقبرة باش ما يضروش حرمة الموتى والديار المجاورة حسب مجلة المناجم التونسية؟\n\nDocuments pertinents:\n[1] Source: الفصل 83 من مجلة المناجم\nAucun travail de sondage, de forage ou d’extraction ne peut être ouvert à la surface ou en souterrain, dans une zone dont la distance est inférieure à cinquante mètres des propriétés closes de murs ou d’un dispositif équivalent, villages, groupes d’habitations, sites touristique et archéologiques, édifices religieux cimetières, voies de communication, espaces naturelles protégés..."
+        },
+        {
+          "role": "assistant",
+          "content": "وعليكم السلام. باختصار، حسب مجلة المناجم، القانون ياقف معاكم ويحمي الأماكن هذي. الفصل 83 يمنع أي أشغال متع سبر (sondage) أو حفر (forage) أو استخراج، سواء كانت الفوق على الأرض أو تحتها في مسافة تقل على 50 متر من المقابر، القرى، التجمعات السكنية، والمباني الدينية [1]. \n\nغير أنّه، ما ينجّموا يقربوا ويحفروا في منطقة أقل من 50 متر كان في حالة وحدة، وهي إنهم ياخذوا موافقة صريحة من المالك أو من الوزارة المكلفة. وبالتالي، المسافة القانونية الدنيا هي 50 متر باش يحميو دياركم وحرمة المقبرة.\n\nهذا موش نصيحة قانونية. حسب حالتك، احكي مع محامي.\nSources: الفصل 83 من مجلة المناجم."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_018_DERJA_LAT_MULTI",
+      "language": "derja",
+      "category": "multi_article",
+      "articles_referenced": ["38"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Baba ken 3andou permis de recherche 3ala m3aden fi gafsa w bda yekhdem fih jawou behi. Allah yarhmou twafa ch'har li fet. Ena w khouya nhebou nkamlou l khedma elli bdeha baba w manaarefch ken l permis hetha yetna9al lina a7na l wrotha b sifa 9anouniya wala yji l'etat yfokkou. chnowa l chourout bech nkamlou el machrou3 b'esemna?\n\nDocuments pertinents:\n[1] Source: article 38 du Code Minier\nLes Permis de Recherche sont réputés meubles. Ils sont indivisibles et transmissibles après décès. Cette transmission doit être notifiée au Ministère chargé des Mines.\nDans le cas de transmission après décès, le transfert du Permis de Recherche au nom des héritiers ne peut être accordé que si les travaux de recherche ont été poursuivis régulièrement et si les ayants-droit s’engagent par écrit à les continuer et à désigner la personne qui les représentera auprès du Ministère chargé des Mines.\nEn cas de déshérence, le Permis de Recherche revient de droit à l’Etat."
+        },
+        {
+          "role": "assistant",
+          "content": "Allah yar7mou. Bekhtisar, l'Code Minier yadhman 7a9kom k wrotha. L permis de recherche yet3tabar \"meuble\" w yetna9al l wrotha ba3d l mawt (transmissible après décès) [1]. \n\nAma m3a hetha, famma chourout lazm tlabbiwha bech l'Etat twafe9: \n1. Lazm t'3almou l Ministère chargé des Mines bel wafa.\n2. L'etat ma ta3tikom l permis kan ma tkoun l khedma w l travaux mchet mrigla 9bal.\n3. Lazm tsobbou matleb maktoub tet3ahdou fih bech tkamlou l khedma (s'engager par écrit) w t3aynou chkoun ymathelkom (représentant) 9odem l wazara [1].\n\nZid 3aliha, ken ma famma 7ata weareth yheb ykamel, wa9tha kahaw l permis yarja3 l'Etat (déshérence).\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 38 du Code Minier."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_019_DERJA_ARB_PRINC_EXC",
+      "language": "derja",
+      "category": "principle_exception",
+      "articles_referenced": ["79"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: سلام، عندي أرض فلاحية شاريها بفلوسي وتعبة عليها. فما شركة خذات رخصة استكشاف وجاتني قاتلي نحبو ندخلو لأرضك ونحطو الماتريال متعنا غادي باش نلوجو على المعادن. هل عندهم الحق قانونيا يدخلو بالسيف عليا؟ وشنوا الحالات لي ينجّمو يدخلو فيها بدون موافقتي، وهل السور أو الحيط لي بنيتو ينفع باش نحمي أرضي ونمنعهم؟\n\nDocuments pertinents:\n[1] Source: الفصل 79 من مجلة المناجم\nNul Titre Minier ne donne le droit d’occuper des terrains pour la prospection, la recherche ou l’Exploitation des Mines que moyennant l’obtention d’un accord écrit du propriétaire du sol.\nToutefois, à défaut d’accord amiable, le titulaire peut être autorisé par arrêté du Ministre chargé des Mines, le propriétaire du sol ayant été auparavant entendu, à occuper le terrain nécessaire à la recherche ou à l’Exploitation minière.\nToutefois, [occupation de toute parcelle de terrain comprise dans des enclos murés on édifice équivalent requiert obligatoirement l’autorisation écrite de son propriétaire."
+        },
+        {
+          "role": "assistant",
+          "content": "وعليكم السلام. على حساب مجلة المناجم، القاعدة العامة تقول إنو حتى رخصة منجمية ما تعطي الحق باش الشركة تحتل أو تدخل لأرضك للاستكشاف إلا ما تاخو \"موافقة كتابية\" منك شخصيا (accord écrit) [1]. \n\nغير أنّه، فما استثناء يعطيهم الحق: كان ما تفاهمتوش بالتراضي، الشركة تنجم تاخو ترخيص من وزير المناجم باش تدخل (بعد ما الوزير يستدعيك ويسمع رأيك). أما، الاستثناء الأقوى لي يحميك هو الحيط لي بنيتو! القانون يفرّض إنو أي أرض مسيّجة بحيط (enclos murés) أو فيها مباني، الوزير ما ينجمش يعطيهم ترخيص عليها، ولازم بالسيف ياخذو موافقتك الكتابية باش يدخلو [1].\n\nوبالتالي، الحيط لي بنيتو يحمي أرضك ميا بالميا حسب القانون.\n\nهذا موش نصيحة قانونية. حسب حالتك، احكي مع محامي.\nSources: الفصل 79 من مجلة المناجم."
+        }
+      ]
+    },
+    {
+      "example_id": "CM_020_DERJA_LAT_REFUSAL",
+      "language": "derja",
+      "category": "refusal",
+      "articles_referenced": ["14"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: 3aslema, ena nekhdem technicien supérieur fi charika mta3 rkham w m3aden fi tataouine aandi 3 snin. Nhebb naaref chnowa l salaire minimum garanti li lazm yaatihouli l 3arf, w chniya l prime de risque mta3 l khedma fel lil 7asb l 9anoun? Khater nhes f rouhi mathloum fel chahriya par rapport l s7abi.\n\nDocuments pertinents:\n[1] Source: article 14 du Code Minier\nL’autorisation de Prospection est accordée pour permettre aux demandeurs de procéder aux investigations nécessaires en vue de préparer les dossiers de demandes de Permis de Recherche.\nL’Autorisation de Prospection porte sur des travaux et des études géologiques à portée stratégique..."
+        },
+        {
+          "role": "assistant",
+          "content": "El wra9 elli 3andi ma fihomch réponse l sou2el hedha. L'Code Minier yahki 3al rkhas w l'exploitation mta3 l m3aden (kima l prospection fel article 14), ama ma fihouch tefassil 3al salaire minimum wala prime de risque mta3 l khaddema. Ahsen 7aja tchouf l Code du Travail (Majalet Echoghl) wala Convention collective mta3 l manajem, wala as2el inspection du travail.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Titre premier : Dispositions générales",
+      "Titre II : De l'autorisation de prospection",
+      "Titre III : Des permis de recherche",
+      "Titre IV : Des concessions d'exploitation",
+      "Titre V : Des obligations communes",
+      "Titre VI : Du régime fiscal et douanier"
+    ],
+    "sections_not_covered": [
+      "Titre VII : Du contrôle de l'administration",
+      "Titre VIII : De la constatation des infractions et des sanctions"
+    ],
+    "notes": "Batch covers diverse practical aspects such as land occupation, environmental rules, fiscal advantages, and customs franchises. Focus is evenly distributed across prospection, research, and exploitation lifecycle. Derja examples cover natural queries regarding inheritance and property rights."
+  }
+}

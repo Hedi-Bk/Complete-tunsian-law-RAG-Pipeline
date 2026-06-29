@@ -1,0 +1,491 @@
+{
+  "batch_id": "batch_CODE_HYDROCARBURES_01_20240520",
+  "source": "Code des hydrocarbures (Loi n° 99-93 du 17 août 1999 et textes subséquents)",
+  "articles_covered": [
+    "16.2",
+    "23",
+    "34",
+    "38",
+    "44",
+    "45",
+    "49",
+    "55",
+    "59",
+    "61",
+    "67",
+    "68",
+    "71",
+    "78",
+    "80",
+    "86",
+    "101",
+    "105",
+    "116",
+    "130-1",
+    "130-4",
+    "138",
+    "139"
+  ],
+  "articles_to_avoid_next_batch": [
+    "16.2",
+    "23",
+    "34",
+    "38",
+    "44",
+    "45",
+    "49",
+    "55",
+    "59",
+    "61",
+    "67",
+    "68",
+    "71",
+    "78",
+    "80",
+    "86",
+    "101",
+    "105",
+    "116",
+    "130-1",
+    "130-4",
+    "138",
+    "139"
+  ],
+  "examples": [
+    {
+      "example_id": "ex_ch_01",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["44", "45", "49"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je représente une compagnie pétrolière titulaire d'un Permis de Recherche en Tunisie. Nous venons de faire une découverte de pétrole brut que nous jugeons économiquement exploitable. Nous préparons notre demande de Concession d'Exploitation. Pourriez-vous m'indiquer dans quel délai maximum nous devons déposer cette demande après la fin de nos travaux d'appréciation ? De plus, est-ce que le périmètre de cette concession peut s'étendre en dehors des limites de notre Permis de Recherche actuel, et aurons-nous le droit d'exporter librement notre production ?\n\nDocuments pertinents:\n[1] Source: Article 44 du Code des hydrocarbures\nLe Titulaire est tenu de déposer une demande de Concession au moins deux (2) mois avant la date d'expiration du Permis dans le cadre duquel la découverte a été réalisée et au plus tard douze (12) mois après la fin des travaux d'appréciation...\n\n[2] Source: Article 45 du Code des hydrocarbures\nLa demande de Concession d'Exploitation ne peut être reçue que pour un périmètre [...] situé entièrement dans le périmètre du Permis dont la Concession est issue.\n\n[3] Source: Article 49 du Code des hydrocarbures\nLe Titulaire d'une Concession d'Exploitation a le droit de disposer des Hydrocarbures extraits de cette Concession, notamment aux fins de l'exportation, sous réserve de remplir ses obligations, et notamment celle d'acquitter la redevance proportionnelle..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 44 du Code des hydrocarbures, vous devez déposer votre demande de Concession d'Exploitation au plus tard douze (12) mois après la fin des travaux d'appréciation, et en tout état de cause au moins deux mois avant l'expiration de votre Permis de Recherche [1].\n\nConcernant le périmètre, l'article 45 stipule de manière stricte que la demande de Concession ne peut être reçue que pour un périmètre situé entièrement à l'intérieur des limites de votre Permis de Recherche actuel [2]. Vous ne pouvez donc pas l'étendre au-delà.\n\nEnfin, pour l'exportation, l'article 49 vous confère effectivement le droit de disposer librement de vos hydrocarbures extraits aux fins d'exportation, sous réserve toutefois de remplir vos obligations légales, notamment le paiement de la redevance proportionnelle [3].\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 44, 45, 49 du Code des hydrocarbures."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_02",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["55"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Notre entreprise détient une Concession d'Exploitation. Pour des raisons stratégiques, nous souhaitons céder 30% de nos droits sur cette concession à une autre société. Devons-nous obtenir une autorisation préalable de l'État pour cette opération, et existe-t-il des situations où nous serions dispensés de demander cette autorisation ?\n\nDocuments pertinents:\n[1] Source: Article 55 du Code des hydrocarbures\nEst interdite, sauf autorisation préalable donnée par l'Autorité Concédante, l'aliénation totale ou partielle sous quelque forme que ce soit, des droits détenus par chaque co-titulaire d'une Concession d'Exploitation. La Concession d'Exploitation ne peut être cédée [...] qu'en vertu d'une autorisation accordée par le Ministre chargé des Hydrocarbures [...]. Toutefois, sont dispensées de cette autorisation, les cessions entre Sociétés Affiliées. Ces cessions font l'objet d'une notification préalable à l'Autorité Concédante."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 55 du Code des hydrocarbures, le principe est l'interdiction de toute aliénation partielle ou totale des droits d'une Concession d'Exploitation sans autorisation préalable de l'Autorité Concédante. La cession nécessite l'accord du Ministre chargé des Hydrocarbures sur avis du Comité Consultatif.\n\nToutefois, la loi prévoit une exception claire : les cessions intervenant entre Sociétés Affiliées sont dispensées de cette autorisation préalable. \n\nPar conséquent, si la société à laquelle vous souhaitez céder 30% de vos droits est une de vos Sociétés Affiliées, vous n'avez pas besoin d'autorisation, mais vous restez tenu de procéder à une simple notification préalable à l'Autorité Concédante. Dans le cas contraire, l'autorisation ministérielle demeure obligatoire.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 55 du Code des hydrocarbures."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_03",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["59", "138"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je dirige les opérations sur une plateforme pétrolière offshore. Hier, un incendie mineur s'est déclaré sur un de nos chantiers. Nous n'avions pas de matériel de lutte contre l'incendie sur place, contrairement à ce qu'exige la loi. Le feu a été maîtrisé par chance, mais les autorités m'informent que je risque une lourde amende pour défaut d'équipements de sécurité. Que dit le code sur l'obligation de disposer de moyens de lutte contre l'incendie et quelles sont les sanctions financières précises ?\n\nDocuments pertinents:\n[1] Source: Article 59 du Code des hydrocarbures\nLe Titulaire est en outre tenu : [...] de disposer sur place et en quantités suffisantes des produits et équipements de lutte contre la pollution et l'incendie ainsi que des médicaments et moyens de secours...\n\n[2] Source: Article 138 du Code des hydrocarbures\nEst puni d'une amende de trois cents (300) à trois mille (3000) dinars, le Titulaire d'un Permis de Prospection, de Recherche ou d'une Concession d'Exploitation qui omet de déclarer un accident grave sur ses chantiers ou ne dispose pas sur ces derniers de moyens de lutte contre la pollution et l'incendie..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 59 du Code des hydrocarbures, en tant que Titulaire, vous avez l'obligation légale et stricte de disposer sur place, et en quantités suffisantes, des équipements de lutte contre l'incendie et la pollution, ainsi que de moyens de secours.\n\nEn cas de manquement à cette obligation, l'article 138 précise les sanctions pénales applicables. Le fait de ne pas disposer sur vos chantiers de ces moyens de lutte contre l'incendie vous expose à une amende allant de 300 à 3 000 dinars tunisiens.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 59, 138 du Code des hydrocarbures."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_04",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["61"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Notre société a terminé l'exploitation d'un gisement pétrolier terrestre. Le puits est désormais sec et nous souhaitons arrêter définitivement nos activités. Pouvons-nous simplement abandonner le site tel quel, ou y a-t-il un plan spécifique à soumettre à l'État pour le démantèlement des installations ?\n\nDocuments pertinents:\n[1] Source: Article 61 du Code des hydrocarbures\nA l'expiration d'un Permis de Recherche [...] ou lorsque le Titulaire d'une Concession d'Exploitation envisage de mettre fin à ses activités [...], le titulaire [...] est tenu de remettre en l'état initial les surfaces rendues et/ou les sites d'exploitation abandonnés de telle manière qu'aucun préjudice ne soit porté à court ni à long terme à la sécurité des tiers, à l'environnement et aux ressources [...]. Le Titulaire est tenu de présenter un plan d'abandon fixant les conditions d'abandon et de remise en état du site. Le plan doit être approuvé conjointement par les Autorités Compétentes chargées des Hydrocarbures et de l'Environnement."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 61 du Code des hydrocarbures, il vous est formellement interdit d'abandonner le site de manière brute.\n\nLa procédure légale exige que vous remettiez le site d'exploitation dans son état initial, afin de garantir la sécurité des tiers et la protection de l'environnement. Pour ce faire, vous êtes dans l'obligation de préparer et de présenter un « plan d'abandon ». Ce document détaillera vos méthodes pour le démantèlement et la remise en état. Ce plan ne pourra être exécuté qu'après avoir été approuvé conjointement par les autorités chargées des Hydrocarbures et celles de l'Environnement.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 61 du Code des hydrocarbures."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_05",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour. Je représente une société de services pétroliers non-résidente. Nous fournissons des équipements de forage à une entreprise titulaire d'une concession en Tunisie. Nos employés étrangers souhaitent obtenir des permis de résidence longue durée et acheter des biens immobiliers (appartements) sur place. Quels sont les avantages accordés par le code des hydrocarbures concernant l'acquisition d'immobilier privé pour les employés expatriés des sociétés de services ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des hydrocarbures traite des avantages douaniers et fiscaux pour l'importation de matériels et d'effets personnels, ainsi que du régime des changes (Articles 130-1 à 130-8), mais il ne régit pas l'acquisition de biens immobiliers privés par des employés expatriés. Je vous recommande de consulter un avocat spécialisé en droit immobilier ou le code des investissements.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_06",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": ["16.2", "45"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Nous allons faire une demande pour obtenir un nouveau permis de recherche pétrolier. L'ingénieur a tracé un périmètre qui nous intéresse, mais on s'est aperçu qu'un petit bout de ce périmètre déborde sur une concession d'exploitation appartenant à une autre entreprise. Que va décider le ministère par rapport à notre demande ? Va-t-il la rejeter en bloc ou y a-t-il une autre solution ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Pourriez-vous préciser si l'empiétement sur la concession d'exploitation existante a été identifié avant ou après le dépôt officiel et l'octroi de votre Permis de Recherche ?\n\nEn effet, selon l'article 16.2 du Code des hydrocarbures, si la demande porte sur un périmètre qui empiète sur une Concession d'Exploitation antérieure, le Permis de Recherche ne sera pas rejeté en bloc, mais il sera accordé uniquement pour la partie du périmètre située à l'extérieur de cette Concession. L'empiétement sera donc retranché de votre surface. Si l'empiétement est découvert après l'octroi, l'article 16.3 prévoit une rectification par arrêté. \n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 16.2 du Code des hydrocarbures."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_07",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["86"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Notre entreprise, titulaire d'un permis de recherche, a besoin d'occuper temporairement un terrain agricole privé pour y installer notre base de vie et nos équipements de forage. Le propriétaire du terrain exige une indemnité astronomique que nous refusons. En cas de désaccord amiable, comment la loi tunisienne détermine-t-elle le montant de l'indemnité que nous devons payer pour occuper son terrain ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 86.1 du Code des hydrocarbures, en cas d'occupation de terrains privés et à défaut d'entente amiable, le propriétaire a droit à une indemnité payable d'avance. Le montant de cette indemnité est fixé, pour la période d'occupation, par référence à une somme annuelle égale au double de la valeur locative que les terrains occupés ont au moment de l'occupation.\n\nEn cas de contestation sur ce montant, le litige sera déféré aux tribunaux, et l'occupation ne pourra avoir lieu qu'après le paiement de cette indemnité ou sa consignation à la Trésorerie Générale.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 86 du Code des hydrocarbures."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_08",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": ["78", "80"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أعمل كمستشار قانوني لشركة تمتلك امتياز استغلال حقل غاز (Concession d'Exploitation). قمنا ببناء أنبوب لنقل الغاز من الحقل إلى محطة المعالجة. هناك شركتان أخريان اكتشفتا حقول غاز في نفس المنطقة الجغرافية وترغبان في نقل إنتاجهما عبر الأنبوب الخاص بنا، لكننا نرفض ذلك ونريد احتكار الأنبوب لإنتاجنا فقط. هل تملك الدولة (السلطة المانحة) الحق في إجبارنا على نقل غاز الشركات الأخرى عبر أنبوبنا؟ وهل يمكننا فرض تعريفات مجحفة عليهم لتعجيزهم؟\n\nDocuments pertinents:\n[1] Source: الفصل 78 من مجلة المحروقات\nيمكن لأصحاب امتيازات الاستغلال أن يشتركوا فيما بينهم لضمان النقل المشترك للمحروقات المستخرجة من امتيازاتهم، وفقا للشروط المحددة بالفقرة 79.1...\n\n[2] Source: الفصل 80 من مجلة المحروقات\nيمكن أن يُلزم صاحب الرخصة، الذي يضمن استغلال أنابيب النقل المرخص فيها...، عند عدم الاتفاق الودي، من قبل السلطة المانحة بقبول نقل المحروقات، في حدود ولطيلة مدة توفر السعة الفائضة، والتي تكون جودتها متوافقة مع إنتاجه وتتأتى من امتيازات أخرى... هذا النقل لحساب أصحاب رخص آخرين لا يمكن أن يكون موضوع أي تمييز، لا سيما في مجال التعريفات. يجب على صاحب الرخصة ضمان هذا النقل بنفس شروط الجودة والانتظام والتدفق كما هو الحال بالنسبة لإنتاجه الخاص."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى مجلة المحروقات، لا يحق لشركتك احتكار أنبوب النقل إذا كانت هناك سعة فائضة.\n\nأولاً، ينص الفصل 80.1 صراحة على أنه في غياب اتفاق ودي، يحق للسلطة المانحة (الدولة) أن تُجبر صاحب الرخصة على قبول نقل محروقات متأتية من امتيازات أخرى عبر أنبوبه، وذلك في حدود السعة الفائضة المتاحة، شريطة أن تكون جودة الغاز متوافقة مع إنتاجه.\n\nثانياً، بخصوص فرض تعريفات مجحفة، يمنع الفصل 80.2 أي شكل من أشكال التمييز. إذ يفرض القانون على شركتك نقل غاز الشركات الأخرى دون تمييز في التعريفات، مع وجوب ضمان نفس شروط الجودة والانتظام والتدفق التي تضمنها لإنتاج شركتك الخاص.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 78، 80 من مجلة المحروقات."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_09",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": ["67"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: شركتنا اكتشفت حقلا كبيرا للغاز الطبيعي في الجنوب التونسي. تلقينا عروضا ممتازة لتصدير كامل إنتاجنا نحو أوروبا بالعملة الصعبة. هل يحق لنا قانونا تصدير كل الغاز المستخرج مباشرة إلى الخارج، أم أن هناك أولوية يفرضها القانون للسوق التونسية؟\n\nDocuments pertinents:\n[1] Source: الفصل 67 من مجلة المحروقات\nيتمتع الغاز الطبيعي ذو الأصل الوطني بأولوية الوصول إلى السوق المحلية بقدر ما يسمح به الطلب الداخلي. يتم ضمان تصريف أي إنتاج من الغاز الطبيعي المتأتي من حقل وطني في السوق المحلية بقدر ما يسمح به الطلب الداخلي.\nكل زيادة في الطلب الداخلي، والتي يمكن تلبيتها اقتصاديا انطلاقا من الغاز الطبيعي، تُحجز حسب الأولوية للإنتاج..."
+        },
+        {
+          "role": "assistant",
+          "content": "المبدأ الأساسي في مجلة المحروقات هو منح الأولوية المطلقة لتلبية احتياجات السوق المحلية.\n\nوفقاً للفصل 67.1، يتمتع الغاز الطبيعي المستخرج من الحقول الوطنية بأولوية الوصول إلى السوق المحلية بقدر ما يسمح به الطلب الداخلي التونسي. ولا يمكن تخصيص الإنتاج للتصدير إلا بعد تلبية هذا الطلب الداخلي.\n\nغير أن الاستثناء أو المساحة المتاحة لك للتصدير تكمن فيما يفيض عن حاجة السوق التونسية؛ ففي حال كان إنتاج حقلكم يتجاوز حجم الطلب الداخلي (أو الزيادة في الطلب التي يمكن تلبيتها اقتصادياً حسب الفصل 67.2)، يحق لكم توجيه الفائض نحو التصدير. \n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 67 من مجلة المحروقات."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_10",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أعمل مديرا لشركة خدمات نفطية تستغل آبارا في الجنوب. أريد أن أستفسر عن نسبة مساهمة شركتنا في صندوق الضمان الاجتماعي (CNSS) الخاص بالعمال التونسيين العاملين في منصات الحفر، وهل هناك تخفيض في نسبة الأداء الاجتماعي حسب مجلة المحروقات؟"
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال. مجلة المحروقات تنظم الجوانب المتعلقة برخص الاستكشاف والاستغلال والجباية الخاصة بقطاع المحروقات، لكنها لا تحدد نسب المساهمة في صندوق الضمان الاجتماعي (CNSS) للعمال. يُرجى استشارة محامٍ مختص في قانون الشغل أو مراجعة قوانين الضمان الاجتماعي.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_11",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": ["130-1", "130-4"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أنا باعث تونسي وأرغب في تأسيس \"شركة خدمات في قطاع المحروقات\" (Société de services) للقيام بصيانة الآبار وخدمات الحفر. لقد علمت أن هناك امتيازات جبائية هامة عند توريد المعدات. ما هي الأنشطة التي يجب أن أمارسها لتُصنف شركتي كشركة خدمات، وما هي الإعفاءات الضريبية والديوانية التي يمنحها القانون عند توريدي للمعدات والآليات اللازمة لعملي؟\n\nDocuments pertinents:\n[1] Source: الفصل 130-1 من مجلة المحروقات\nتُعتبر شركات خدمات في قطاع المحروقات، الشركات التي تمارس في هذا القطاع الأنشطة التالية: أ- إسداء خدمات جيولوجية وجيوفيزيائية، الحفر، صيانة الآبار، الهندسة، بناء وتهيئة منشآت الاستغلال... ج- تزويد حظائر الاستكشاف والبحث واستغلال المحروقات بالمواد والمعدات...\n\n[2] Source: الفصل 130-4 من مجلة المحروقات\nشركات الخدمات في قطاع المحروقات مرخص لها بتوريد كافة الأجهزة، المعدات، المواد والسيارات المخصصة للاستعمال الفعلي في نشاطها دون القيام بإجراءات التجارة الخارجية... وتنتفع هذه الشركات بعنوان الأجهزة والمعدات والمواد والسيارات الضرورية لنشاطها بـ: أ) توقيف العمل بالمعاليم الديوانية، بالأداء على القيمة المضافة وبالمعاليم لفائدة صندوق تنمية القدرة التنافسية الصناعية المستوجبة على الأجهزة والمعدات... المستوردة التي ليس لها مثيل مصنوع محليا."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً لمجلة المحروقات، يُمكن تصنيف شركتك كـ \"شركة خدمات في قطاع المحروقات\" إذا كانت أنشطتها مطابقة لما ورد في الفصل 130-1، والذي يشمل خدمات الحفر وصيانة الآبار والهندسة، بالإضافة إلى توفير الخدمات الجيولوجية والجيوفيزيائية، وتزويد حظائر الاستكشاف بالمعدات.\n\nبمجرد تأسيس شركتك قانونياً ضمن هذا التصنيف، يمنحك الفصل 130-4 امتيازات جبائية وديوانية هامة عند توريد المعدات المخصصة حصرياً لنشاطك، وتتمثل في:\n1. الإعفاء من إجراءات التجارة الخارجية.\n2. توقيف العمل بالمعاليم الديوانية.\n3. توقيف العمل بالأداء على القيمة المضافة (TVA).\n4. توقيف المعاليم لصالح صندوق تنمية القدرة التنافسية الصناعية.\nيُشترط للتمتع بهذه الإعفاءات ألا يكون للمعدات والسيارات المستوردة مثيل مصنوع محلياً.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 130-1، 130-4 من مجلة المحروقات."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_12",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["34"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: نحن شركة بترولية أجنبية، نملك رخصة بحث (Permis de Recherche) في تونس. نمر بصعوبات مالية ونريد بيع (إحالة) كامل حقوقنا في هذه الرخصة إلى شركة أخرى مقرها في دولة لا تربطها أي علاقات ديبلوماسية مع الجمهورية التونسية. هل يسمح لنا القانون التونسي بإجراء هذه الإحالة؟\n\nDocuments pertinents:\n[1] Source: الفصل 34 من مجلة المحروقات\nيُمنع، ما لم يتم الحصول على ترخيص مسبق من السلطة المانحة، الإحالة الكلية أو الجزئية بأي شكل من الأشكال، للحقوق والالتزامات التي يمتلكها كل شريك في رخصة استكشاف أو رخصة بحث... \n34.5 يُمنع أي إحالة، إذا كان المحال إليه، حتى وإن كان تابعاً للمحيل، شركة مؤسسة وفقاً لتشريع أي بلد لا تربطه علاقات ديبلوماسية مع الجمهورية التونسية أو شركة مقرها في أحد هذه البلدان."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 34.5 من مجلة المحروقات، الإجابة هي الرفض القاطع.\n\nينص القانون بشكل صريح على أنه يُمنع منعاً باتاً إحالة رخصة البحث (سواء كلياً أو جزئياً) إلى أي شركة تم تأسيسها وفقاً لتشريع بلد لا تربطه علاقات ديبلوماسية مع الجمهورية التونسية، أو شركة يقع مقرها في أحد هذه البلدان. وهذا المنع ساري المفعول حتى وإن كانت الشركة المحال إليها تابعة لشركتكم الأم (Société affiliée).\n\nوبالتالي، العملية التي ترغبون في القيام بها باطلة وممنوعة قانوناً.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 34 من مجلة المحروقات."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_13",
+      "language": "derja",
+      "category": "multi_article",
+      "articles_referenced": ["23", "38"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ena gérant mta3 charika 3andha permis de recherche mta3 pétrole, w l permis hédha wafet l période mte3ou (expiration). 7na 9ararna bech nsallmou fih w ma nrenouvellouhech (renonciation). N7eb na3ref, ba3d ma nsallmou fil permis, 9adech lezemna nestanew men 3am bech najmou ntalbou b nafs l blassa hedhika mara o5ra? W fama possibilité l wazir yna9eselna fil wa9t hetha?\n\nDocuments pertinents:\n[1] Source: Article 23 du Code des hydrocarbures\nLe Titulaire d'un Permis de Recherche a le droit de renouveler son permis pour deux (2) périodes successives...\n\n[2] Source: Article 38 du Code des hydrocarbures\nLe Titulaire d'un Permis de Recherche normalement expiré, annulé ou auquel il a été renoncé, ne peut reprendre directement ou indirectement des droits sur les périmètres concernés par le Permis qu'après un délai de trois ans à compter de la date d'expiration, d'annulation ou de renonciation. Toutefois, le Ministre chargé des Hydrocarbures peut, à la demande du Titulaire et sur avis conforme et motivé du Comité Consultatif des Hydrocarbures, réduire ce délai sans qu'il soit inférieur à six (6) mois."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l'article 38 mel Code des hydrocarbures, wa9telli t'annuli wala tsallem fi permis de recherche (renonciation), famma délai mta3 intidhar bech tarja3 takhou droits 3la nafs l blassa.\n\nL principe y9oul elli lezemek testanna 3 snin kemlin (trois ans) men tarikh l'expiration wala l renonciation bech tnajem t9adem 3liha mara o5ra.\n\nAma l 9anoun fih exception. Tnajem t9adem mathlab l Wazir l moukalef bel mo7rou9at (Ministre chargé des Hydrocarbures). L wazir, ba3d ma ya5ou ray l Comité Consultatif, 3andou l 7a9 ynakeslek fel période mta3 l 3 snin, ama l délai hetha ma ynajemch ytih ta7t 6 ch-hour (six mois).\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 38 du Code des hydrocarbures."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_14",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["116", "130-1"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Slt, ena 3andi charika mta3 services pétroliers w ne5dem fi forage (7afr) mta3 byar. N7eb nimporti krahb sghar w matériel mta3 bureau men barra, w sma3t elli l 9anoun yna7ili l diwena 3lihom lkol. Est-ce que s7i7 7asb l code des hydrocarbures tna7ali l diwena 3al krahb l 3adeya w l matériel mta3 l bureau?\n\nDocuments pertinents:\n[1] Source: Article 116 du Code des hydrocarbures\nLe titulaire et tout contractant ou sous-contractant [...] sont autorisés à importer en franchise de droits de douane et de tous impôts [...] : tous appareils, outillages, équipements, matériaux et véhicules destinés à être utilisés effectivement pour les activités de prospection, de recherche, d'exploitation... les véhicules automobiles de service nécessaires aux opérations de transport. Les dispositions prévues au paragraphe précédent [...] ne sont pas applicables aux biens et marchandises qu'il sera possible de se procurer en Tunisie et qui sont de type adéquat et de qualité comparable..."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l'article 116 w l'article 130-4 mel Code des hydrocarbures, klemek fih chwaya ghalat.\n\nS7i7 elli l 9anoun ya3tik l 7a9 fi franchise (twa9ef l ma3elim l diwaniya w l TVA) ama hedha yemchi ken 3la l matériel, l'équipement w l kraheb elli bech testa3melhom directement w effectivement fi 5edmet l forage w l prospection (les véhicules de service). \n\nZid 3aliha, l'article 116.2 y9oul watha7 elli l franchise hedhi ma temchich 3al sal3a w l kraheb elli tnajem techrihom men Tounes w ykounou men nafs l qualité w soumhom ma39oul (pas de similaires fabriqués localement). Donc matériel l bureau w l krahb l 3adeya li tnajem tel9ahom fi Tounes ma tatmta3ch b l i3fe2 l diweni.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 116, 130-4 du Code des hydrocarbures."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_15",
+      "language": "derja",
+      "category": "clarification",
+      "articles_referenced": ["138"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ya jme3a, 3maltha b yedi. 3tithom fekra ghalta fel demande mta3 l permis de recherche mta3i w fi beli ma yfi9ouch. L idara fa9et beha w b3athouli ma7dher. 7asb l code des hydrocarbures, chnowa l 3o9ouba elli bech nakhodha? Bch nedfa3 5tiya barka wala fiha 7abs zeda?\n\nDocuments pertinents:\n[1] Source: Article 138 du Code des hydrocarbures\n138.3. Est puni d'une amende de cinq cents (500) à cinq mille (5000) dinars et d'un emprisonnement de 16 jours à trois mois ou de l'une des deux peines seulement, quiconque : a) donne sciemment des renseignements inexacts en vue de bénéficier de l'attribution d'un Permis de Prospection ou de Recherche.\n\n[2] Source: Article 139 du Code des hydrocarbures\nQuiconque, ayant été condamné pour une infraction prévue à l'article 138 [...], et commis à nouveau la même infraction dans un délai de douze (12) mois [...], est condamné au maximum des peines prévues audit article."
+        },
+        {
+          "role": "assistant",
+          "content": "Aman tnajem twadha7li ken hedhi awel marra ta3mel fiha l ghalta hedhi, wala sba9 w t7kam 3lik fi ghalta kima hedhi fil 12 ch-har li fetou?\n\nKenha awel marra, l'article 138.3 y9oul elli ta3ti ma3loumet ghalta bel 3ani bech takhou permis feha 5tiya men 500 l 5000 dinar w 7abs men 16 youm l 3 ch-hour (l 9adhi ynajem yo7kom b wa7da menhom barka). Ama kenek 3awedtha fil 3am li fet (récidive), l'article 139 y9oul elli bech tekhou l maximum mta3 l 3o9ouba (5000 dinar w 3 ch-hour 7abs).\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 138, 139 du Code des hydrocarbures."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_16",
+      "language": "derja",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Slt, n7eb nechri terrain fih 100 hectare fel janoub bech nbni fih station service (kiosque) w nbi3 l mazout w l essence l kraheb. 7asb l code des hydrocarbures, chniya l awra9 elli lezemni n9ademhom l wizarat l tijaara bech na5ou rmo5sa mta3 kiosque?"
+        },
+        {
+          "role": "assistant",
+          "content": "El wra9 elli 3andi ma fihomch réponse l sou2el hedha. L Code des hydrocarbures ye7ki 3la l prospection (tant9ib), l ba7th (recherche), w l istighlel mta3 l byar mta3 l pétrole w l gaz (extraction). Ma fihouch 9awanin 3la 7allen les stations-services (kiosques) wala bi3 l carburant lel public. Ahsen 7aja tchouf l kras chourout mta3 wizarat l ta9a w l tijara.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_17",
+      "language": "derja",
+      "category": "principle_exception",
+      "articles_referenced": ["101", "105"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ena 3andi charika w 5thit permis de recherche pétrolier. Sma3t elli mademni fel phase mta3 l recherche, l dawla tna7ili l impôts lkol (exonération totale), 7ata l impôt sur les sociétés w l taxe 3al kraheb. Est-ce que hedha s7i7 100% wala famma impôts no5leshom mademni nlawej 3al gaz?\n\nDocuments pertinents:\n[1] Source: Article 105 du Code des hydrocarbures\nLe Titulaire d'un Permis de Prospection, d'un Permis de Recherche et/ou d'une Concession d'Exploitation est exonéré, pour ses Activités d'Exploration, de Recherche et d'Exploitation des Hydrocarbures, de tous impôts, droits et taxes directs ou indirects déjà institués ou qui seront institués par l'Etat tunisien et/ou par tous organismes ou collectivités locales, autres que ceux prévus aux articles 100 et 101 du présent Code.\n\n[2] Source: Article 101 du Code des hydrocarbures\nLe Titulaire [...] est assujetti [...] au paiement des impôts, droits et taxes suivants : Un droit fixe... Une taxe fixe par hectare de terrain... Une redevance proportionnelle aux quantités des Hydrocarbures produites..."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, klemek fih wa fih. L principe fil Code des hydrocarbures (Article 105) y9oul elli mademek titulaire mta3 permis de recherche, rak mo3fé (exonéré) men barcha impôts, droits w taxes directs w indirects mta3 l dawla w l baladiyet [1].\n\nAma famma exceptions watha7in ! L 9anoun y9oul elli l exonération hedhi ma temchich 3la l'impôts elli mathkourin fel articles 100 w 101. Ma3neha rak dima majbour to5les:\n- L droits d'enregistrement mta3 l contrats.\n- L taxes 3al kraheb mta3 l transport (Article 100).\n- L droit fixe w l taxe fixe 3la kol hectare (Article 101).\n\nDonc, mouch s7i7 elli enti mo3fé 100%, famma minimum mta3 taxes lezem tkhaleshom.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 101, 105 du Code des hydrocarbures."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_18",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["70.2"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis gérant d'une entreprise étrangère qui a fait une découverte de gaz commercialement exploitable en Tunisie. Nous n'avons pas notifié notre décision de développement dans les délais légaux (4 ans). L'Autorité concédante a donc décidé de transférer cette découverte à l'Entreprise Nationale (ETAP). Le code des hydrocarbures prévoit-il une compensation financière pour nous dans ce cas, et à quelle hauteur par rapport aux bénéfices nets ?\n\nDocuments pertinents:\n[1] Source: Article 70.2 du Code des hydrocarbures\nEn contrepartie, l'Entreprise Nationale verse chaque année au Titulaire vingt pour cent (20 %) des bénéfices nets d'exploitation calculés, pour les produits, sur la base du prix de cession défini à l'article 73 du présent Code et pour les charges, sur la base des dépenses de développement et d'exploitation réalisées par l'Entreprise Nationale sur le gisement."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 70.2 du Code des hydrocarbures, l'État prévoit effectivement une compensation financière en votre faveur en cas de transfert de la découverte.\n\nEn contrepartie de ce transfert, l'Entreprise Nationale est tenue de vous verser chaque année vingt pour cent (20 %) des bénéfices nets d'exploitation [1]. Ces bénéfices sont calculés sur la base du prix de cession pour les produits, après déduction des charges relatives aux dépenses de développement et d'exploitation engagées par l'Entreprise Nationale sur ce gisement [1].\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 70.2 du Code des hydrocarbures."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_19",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["118"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant que directeur financier d'une société pétrolière exploitant un gisement offshore (en mer) depuis 8 ans, je dois préparer le budget à long terme pour la fermeture future du site. La loi nous autorise à constituer une provision pour faire face aux dépenses d'abandon et de remise en état. Sur combien d'exercices financiers cette provision doit-elle être calculée pour un site localisé en mer ?\n\nDocuments pertinents:\n[1] Source: Article 118 du Code des hydrocarbures\nLe Titulaire d'une Concession d'Exploitation a le droit de constituer une provision destinée à faire face aux dépenses d'abandon et de remise en état du site d'exploitation.\nLa provision sera constituée au cours des cinq (5) derniers exercices pour un site localisé en mer et au cours des trois (3) derniers exercices pour un site localisé à terre. L'Autorité Concédante pourra, sur demande dûment justifiée [...] autoriser ce dernier à constituer ladite provision sur une période plus longue..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 118 du Code des hydrocarbures, le titulaire d'une concession d'exploitation est en droit de constituer une provision fiscale pour couvrir les futures dépenses d'abandon et de remise en état du site [1].\n\nPour un site localisé en mer (offshore), cette provision doit être constituée au cours des cinq (5) derniers exercices financiers de l'exploitation. À titre de comparaison, ce délai n'est que de trois (3) exercices pour un site à terre [1]. Si nécessaire, vous pouvez également formuler une demande justifiée auprès de l'Autorité Concédante pour étaler cette provision sur une période plus longue.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 118 du Code des hydrocarbures."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_20",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["23", "26.1"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je suis le directeur technique d'une société pétrolière qui détient un Permis de Recherche couvrant une superficie de 1000 kilomètres carrés. Nous arrivons bientôt à la fin de notre première période de validité et nous souhaitons déposer une demande pour notre premier renouvellement afin de continuer nos explorations. Nous voulons conserver la plus grande surface possible. Pouvons-nous garder les 1000 km² intacts pour la prochaine période ? Quelle est la règle exacte de réduction de la surface imposée par le code lors du premier et du second renouvellement ?\n\nDocuments pertinents:\n[1] Source: Article 23 du Code des hydrocarbures\nLe Titulaire d'un Permis de Recherche a le droit de renouveler son permis pour deux (2) périodes successives, chacune d'elles ayant une durée de validité n'excédant pas les quatre (4) ans, sous réserve qu'il ait : a) rempli les obligations auxquelles il est tenu...\n\n[2] Source: Article 26.1 du Code des hydrocarbures\nLa surface du Permis de Recherche, objet de renouvellement, ne peut excéder quatre vingt centièmes (80/100ème) de la totalité de la surface initiale augmentée de toutes extensions du Permis de Recherche lors du premier renouvellement, ni soixante quatre centièmes (64/100ème) de la totalité de cette surface initiale augmentée de toutes extensions lors du second renouvellement."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 23 du Code des hydrocarbures, vous avez le droit de renouveler votre Permis de Recherche pour deux périodes successives (de 4 ans maximum chacune), à condition d'avoir rempli vos obligations de travaux et de dépenses [1].\n\nToutefois, l'article 26.1 impose une restitution partielle obligatoire du périmètre. Vous ne pouvez pas conserver l'intégralité de vos 1000 km². Lors de votre premier renouvellement, la surface conservée ne pourra pas excéder 80 % (80/100ème) de la surface initiale (incluant les éventuelles extensions). Ainsi, vous ne pourrez conserver qu'un maximum de 800 km² [2].\n\nSi vous sollicitez par la suite un second renouvellement, la surface maximale que vous pourrez conserver sera encore réduite et ne pourra excéder 64 % (64/100ème) de cette même surface initiale, soit un maximum de 640 km² [2]. L'étape 1 de votre démarche consistera donc à identifier les 200 km² que vous allez rendre à l'État.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 23, 26.1 du Code des hydrocarbures."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Titre 1: Généralités",
+      "Titre 2: Prospection",
+      "Titre 3: Recherche",
+      "Titre 4: Exploitation",
+      "Titre 5: Droits annexes (occupation, abandon)",
+      "Titre 6: Participation de l'Entreprise Nationale",
+      "Titre 7: Fiscalité et Douanes",
+      "Titre 9: Contrôle",
+      "Titre 10: Infractions et pénalités"
+    ],
+    "sections_not_covered": [],
+    "notes": "Les scénarios simulent les requêtes d'ingénieurs, de dirigeants de compagnies pétrolières et d'investisseurs, couvrant tout le cycle de vie pétrolier (de la recherche à l'abandon du site) ainsi que la fiscalité et les sanctions. Le multi-hop exige l'application de principes, de conditions d'octroi et de sanctions financières."
+  }
+}

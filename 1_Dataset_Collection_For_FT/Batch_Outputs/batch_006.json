@@ -1,0 +1,495 @@
+{
+  "batch_id": "batch_CSC_003_20231025",
+  "provenance": {
+    "generated_by": "Gemini 3.1 Pro Preview",
+    "platform": "Google_ai_studio"
+  },
+  "time_of_generation": "2m54s",
+  "source": "Code des Sociétés Commerciales de Tunisie et textes d'application (2022)",
+  "articles_covered": [
+    "2",
+    "5",
+    "8",
+    "11",
+    "13",
+    "13 bis",
+    "14",
+    "15",
+    "28",
+    "29",
+    "30",
+    "32",
+    "54",
+    "56",
+    "65",
+    "90",
+    "93",
+    "101",
+    "142",
+    "160",
+    "161",
+    "163",
+    "164",
+    "165",
+    "171",
+    "307",
+    "388",
+    "Décret 2005-3018 art 1",
+    "Loi Startups art 3"
+  ],
+  "articles_to_avoid_next_batch": [
+    "2",
+    "5",
+    "8",
+    "11",
+    "13",
+    "13 bis",
+    "14",
+    "15",
+    "28",
+    "29",
+    "30",
+    "32",
+    "54",
+    "56",
+    "65",
+    "90",
+    "93",
+    "101",
+    "142",
+    "160",
+    "161",
+    "163",
+    "164",
+    "165",
+    "171",
+    "307",
+    "388",
+    "Décret 2005-3018 art 1",
+    "Loi Startups art 3"
+  ],
+  "examples": [
+    {
+      "example_id": "CR_CSC_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["8"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la durée de vie maximale que je peux fixer lors de la création de ma société commerciale en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 8 du CSC\nLa durée d'une société ne peut excéder quatre-vingt dix neuf ans. Cette durée pourra, le cas échéant, être prorogée."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 8 du Code des sociétés commerciales, la durée de vie maximale d'une société lors de sa constitution ne peut excéder quatre-vingt-dix-neuf (99) ans. Toutefois, cette durée n'est pas absolue et les associés ont la possibilité juridique de proroger la société avant son expiration légale, s'ils le désident. Ainsi, l'objectif de cette limitation temporelle est d'éviter les engagements contractuels perpétuels qui sont prohibés, tout en offrant une stabilité à long terme pour la prospérité et le développement des affaires de l'entreprise.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 8 du CSC"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_002",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["161"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le capital minimum exigé par la loi pour constituer une Société Anonyme (SA) ?\n\nDocuments pertinents:\n[1] Source: article 161 du CSC\nLe capital de la société anonyme ne peut être inférieur à cinq mille dinars si elle ne fait pas appel public à l'épargne. Lorsque la société fait appel public à l'épargne, son capital ne peut être inférieur à cinquante mille dinars. Dans les deux cas, le capital doit être divisé en actions dont la valeur nominale ne peut être inférieure à un dinar."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 161 du Code des sociétés commerciales, le principe est que le capital social d'une Société Anonyme (SA) ne peut être inférieur à cinq mille (5 000) dinars. Toutefois, une exception majeure s'applique si votre société fait appel public à l'épargne (par exemple, émission publique d'actions ou d'obligations) ; dans ce cas précis, le capital social minimum exigé grimpe à cinquante mille (50 000) dinars. L'objectif de cette différenciation est de s'assurer que les sociétés sollicitant l'épargne des citoyens présentent une solidité et une assise financière suffisantes pour protéger les investisseurs.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 161 du CSC"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_003",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["93"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Y a-t-il une limite au nombre d'associés dans une Société à Responsabilité Limitée (SARL) et que se passe-t-il si on la dépasse ?\n\nDocuments pertinents:\n[1] Source: article 93 du CSC\nLe nombre des associés d’une S.A.R.L ne peut être supérieur à cinquante. Si la société vient à comprendre plus de cinquante associés, elle devra dans un délai d’un an être transformée en société par action à moins que le nombre des associés ne soit ramené à cinquante ou moins dans le délai sus-indiqué. A défaut, tout intéressé peut demander la dissolution judiciaire de la société."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 93 du Code des sociétés commerciales, le nombre maximum d'associés dans une SARL est strictement limité à cinquante (50) personnes. Par ailleurs, si ce seuil est dépassé (par exemple suite à une succession), la société dispose d'un délai de régularisation d'un an, soit pour se transformer en société par actions (comme une SA), soit pour réduire le nombre d'associés à cinquante ou moins. À défaut de régularisation, la sanction est sévère : tout intéressé peut demander la dissolution judiciaire de la société. Le but de cette limite est de préserver le caractère \"intuitu personae\" (basé sur la confiance personnelle) de la SARL, qui n'est pas adaptée aux très grands regroupements de capitaux.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 93 du CSC"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_004",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["5"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي أنواع الحصص (المساهمات) التي يمكن تقديمها لتكوين رأس مال شركة تجارية في تونس؟ وهل يدخل العمل ضمن رأس المال؟\n\nDocuments pertinents:\n[1] Source: الفصل 5 من مجلة الشركات التجارية\nLes apports peuvent être soit en numéraire, soit en nature, soit en industrie. L’ensemble de ces apports, à l’exception de l’apport en industrie, constitue le capital de la société. Ce dernier est le gage exclusif des créanciers sociaux."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 5 من مجلة الشركات التجارية، يتمثل المبدأ العام في أن الحصص التي يقدمها الشركاء يمكن أن تكون نقدية (أموال)، أو عينية (عقارات أو تجهيزات)، أو حصصاً في شكل عمل (صناعة أو خبرة مهنية).\n\nغير أن المشرع استثنى صراحة الحصة في شكل عمل (صناعة) من تكوين رأس مال الشركة. وبالتالي، فإن رأس المال يتكون حصرياً من الحصص النقدية والعينية. علاوة على ذلك، فإن الغاية من هذا التنظيم هي حماية حقوق دائني الشركة، حيث يُعتبر رأس المال المادي هو الضمانة الوحيدة (الرهن الحصري) لوفاء الشركة بديونها، نظراً لصعوبة التنفيذ المادي على المجهود البشري أو العمل.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 5 من مجلة الشركات التجارية"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_005",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["Loi Startups art 3"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الشروط الأساسية للحصول على علامة مؤسسة ناشئة (Startup) في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 3 من قانون المؤسسات الناشئة (Loi Startups)\nLe label Startup est octroyé à la société qui remplit les conditions suivantes : 1. Son existence ne dépasse pas huit (8) ans... 2. Ses ressources humaines, le total de son actif et son chiffre d’affaires annuel ne dépassent pas des plafonds... 3. Son capital est détenu à plus de deux tiers (2/3) par des personnes physiques... 4. Son modèle économique est à forte dimension innovante... 5. Son activité est à fort potentiel de croissance économique..."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 3 من قانون المؤسسات الناشئة، يتمثل المبدأ العام في ضرورة توفر خمسة شروط أساسية للحصول على علامة \"مؤسسة ناشئة\" (Startup). يجب ألا يتجاوز عمر الشركة ثماني (8) سنوات منذ تأسيسها، وألا تتجاوز مواردها البشرية وأصولها ورقم معاملاتها السقوف المحددة قانوناً. \n\nعلاوة على ذلك، يجب أن تكون أغلبية رأس مالها (أكثر من الثلثين) مملوكة لأشخاص طبيعيين أو صناديق استثمار محددة، وأن يتميز نموذجها الاقتصادي ببعد ابتكاري (تكنولوجي خاصة) مع قدرة عالية على النمو الاقتصادي. غير أن هذه العلامة تُسحب إذا أخلت الشركة بهذه الشروط. وبالتالي، تهدف هذه المعايير إلى توجيه الامتيازات الجبائية والمالية حصرياً للشركات المجددة التي تساهم في خلق قيمة مضافة عالية للاقتصاد التونسي.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 3 من قانون المؤسسات الناشئة"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_006",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["160"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: 9adech men wehed lezem bech nhelou Société Anonyme (SA) fi tounes?\n\nDocuments pertinents:\n[1] Source: article 160 du CSC\nLa société anonyme est une société par actions dotée de la personnalité morale constituée par sept actionnaires au moins qui ne sont tenus qu’à concurrence de leurs apports."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l'article 160 mel Code des sociétés commerciales, el principe y9oul elli bech t2asses Société Anonyme (SA) fi Tounes, lezem ykounou fama au moins sab3a (7) mosahmin (actionnaires). Zid 3aliha, kol wehed fihom yet7amel el responsabilité ken fi 7doud el flous elli charek biha (apports). L'objectif men hal charte houwa bech yodhmnou elli el SA tkoun charika mta3 rous amwel kbar w fiha barcha charreka ysahemou fel capital mte3ha. \n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 160 du CSC"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_007",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["2", "90"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-il possible de créer une société commerciale tout seul en Tunisie, sans avoir d'associés ?\n\nDocuments pertinents:\n[1] Source: article 2 du CSC\nLa société est un contrat par lequel deux ou plusieurs personnes conviennent d’affecter en commun leurs apports, en vue de partager le bénéfice... Toutefois, dans la société unipersonnelle à responsabilité limitée, la société est constituée par un associé unique.\n\n[2] Source: article 90 du CSC\nLa société à responsabilité limitée est constituée entre deux ou plusieurs personnes... Lorsque la société à responsabilité limitée peut ne comporter qu’un seul associé elle est dénommée \"société unipersonnelle à responsabilité limitée\" (SUARL)."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 2 du Code des sociétés commerciales, le principe fondamental est qu'une société est un contrat nécessitant la présence d'au moins deux ou plusieurs personnes pour partager des apports et des bénéfices.\n\nToutefois, les articles 2 et 90 de ce même code prévoient une exception majeure : il est tout à fait légal de créer une société tout seul. Dans ce cas, la société prendra la forme d'une \"Société Unipersonnelle à Responsabilité Limitée\" (SUARL), qui est une variante de la SARL composée d'un associé unique. Ainsi, l'objectif de cette dérogation est d'encourager l'initiative individuelle et l'entrepreneuriat en permettant à une seule personne de protéger son patrimoine personnel tout en exerçant une activité commerciale formelle.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 2, 90 du CSC"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_008",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["13", "13 bis"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: La désignation d'un commissaire aux comptes est-elle toujours obligatoire pour une SARL, et pour combien de temps est-il nommé ?\n\nDocuments pertinents:\n[1] Source: article 13 du CSC\nLes sociétés commerciales sont tenues de désigner un commissaire aux comptes. Toutefois, les sociétés commerciales, autres que les sociétés par actions, sont dispensées de la désignation d’un commissaire aux comptes : au titre du premier exercice comptable... ou si elles ne remplissent pas deux des limites chiffrées relatives au total du bilan, au total des produits hors taxes et au nombre moyen des employés...\n\n[2] Source: article 13 bis du CSC\nLe commissaire aux comptes est désigné pour une période de trois années renouvelable."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 13 du Code des sociétés commerciales, le principe est que toute société commerciale doit désigner un commissaire aux comptes. \n\nToutefois, il existe des exceptions notables pour les sociétés qui ne sont pas par actions (comme la SARL). Une SARL est dispensée de cette obligation lors de son premier exercice comptable, ou si elle ne dépasse pas deux des trois seuils fixés par la loi (total du bilan, chiffre d'affaires hors taxes, et nombre moyen de salariés). Par ailleurs, selon l'article 13 bis, lorsque la nomination d'un commissaire aux comptes est exigée, ce dernier est obligatoirement nommé pour un mandat de trois (3) années renouvelables. L'objectif de cette réglementation est de ne pas alourdir les charges des petites entreprises, tout en garantissant la transparence financière dès qu'elles atteignent une certaine envergure économique.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 13, 13 bis du CSC"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_009",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": ["54", "65"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne栏 constite pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي طبيعة مسؤولية الشركاء في شركة التضامن (SNC)، وهل يؤدي إفلاس أحدهم إلى حل الشركة؟\n\nDocuments pertinents:\n[1] Source: الفصل 54 من مجلة الشركات التجارية\nLa société en nom collectif est constituée entre deux ou plusieurs personnes qui sont responsables personnellement et solidairement du passif social.\n\n[2] Source: الفصل 65 من مجلة الشركات التجارية\nOutre les causes de dissolution communes... les sociétés en nom collectif sont soumises aux causes de dissolution suivantes : 2) La survenance de l’incapacité ou la faillite d’un associé. Toutefois, les autres associés peuvent à l’unanimité décider que la société continuera entre eux..."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 54 من مجلة الشركات التجارية، يتمثل المبدأ الأساسي لشركة التضامن (SNC) في أن جميع الشركاء يسألون بصفة شخصية وتضامنية ومطلقة عن كافة ديون الشركة من أموالهم الخاصة.\n\nغير أن هذه الطبيعة الشخصية تجعل الشركة حساسة للوضعيات القانونية لشركائها. إذ ينص الفصل 65 من نفس المجلة على أن إفلاس أحد الشركاء أو فقدانه لأهليته يؤدي مبدئياً إلى حل الشركة وانقضائها. غير أن المشرع وضع استثناءً يسمح لبقية الشركاء، بموجب قرار يُتخذ بالإجماع، باستمرار الشركة بينهم وإقصاء الشريك المفلس، شريطة إتمام إجراءات الإشهار القانوني. وبالتالي، فإن الغاية من هذا التنظيم الصارم هي حماية دائني الشركة من جهة، مع إعطاء مرونة للشركاء لإنقاذ نشاطهم الاقتصادي من جهة أخرى.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 54، 65 من مجلة الشركات التجارية"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_010",
+      "language": "derja",
+      "category": "multi_article",
+      "articles_referenced": ["14", "15"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: brabi chnouwa les délais mta3 tasjil w hbet fl JORT ba3d ma na3mlou el charika mte3na?\n\nDocuments pertinents:\n[1] Source: article 14 du CSC\nLa société doit être immatriculée au registre du commerce du tribunal de son siège social dans un délai d’un mois à compter de la date de sa constitution.\n\n[2] Source: article 15 du CSC\nToutes les sociétés à l’exception de la société en participation doivent procéder à la publication de leurs actes constitutifs. La publicité est faite par une insertion au Journal Officiel de la République Tunisienne et ce, dans un délai d’un mois à partir soit de la constitution définitive de la société, soit de la date du procès verbal..."
+        },
+        {
+          "role": "assistant",
+          "content": "3la 7seb l'article 14 w l'article 15 mel Code des sociétés commerciales, el principe y9oul elli ba3d ma ta3mel el charika mte3ek (constitution), 3andek délai mta3 chhar (un mois) bedhabt bech t9ayed'ha fel Registre de commerce. Zid 3aliha, 3andek zeda chhar e5er bech thabbet annonce fel JORT (Journal Officiel) bech ta3mel l'immatriculation w la publicité.\n\nAma lezem ta3ref elli ken ma ta3melch les publications hethouma fel wa9t, tnajjem el charika tji fi mochklet nullité w tit3tabar batla vis-à-vis l'état. L'objectif men hedha lkol houwa bech l'état w la3bed lo5rin (les tiers) yabdeou 3andhom 3elm bel charika mte3ek w ykoun kol chay légal w transparent.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 14, 15 du CSC"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_011",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["11"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Faut-il avoir la capacité d'exercer le commerce pour devenir associé dans n'importe quelle société commerciale en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 11 du CSC\nNul ne peut être associé dans une société en nom collectif ou commandité dans une société en commandite simple ou par actions s’il n’a pas la capacité requise pour la profession commerciale. Toutefois les personnes qui n’ont pas la capacité requise pour l’exercice du commerce peuvent être des associés commanditaires dans une société en commandite simple, ou associés dans une société à responsabilité limitée, ou actionnaires dans une société anonyme..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 11 du Code des sociétés commerciales, le principe est qu'une personne doit avoir la pleine capacité requise pour exercer la profession commerciale si elle souhaite devenir associée dans une Société en Nom Collectif (SNC) ou associée commanditée dans une Société en Commandite.\n\nToutefois, la loi prévoit des exceptions importantes. Les personnes dépourvues de la capacité commerciale (comme les mineurs non émancipés ou certaines personnes incapables) ont le droit d'entrer au capital d'autres formes de sociétés où leur responsabilité est limitée. Par conséquent, elles peuvent devenir associées dans une Société à Responsabilité Limitée (SARL), actionnaires dans une Société Anonyme (SA) ou associées commanditaires. Ainsi, l'objectif du législateur est de protéger le patrimoine personnel des personnes incapables tout en leur permettant de réaliser des investissements financiers sans risquer d'assumer des dettes commerciales indéfinies.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 11 du CSC"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_012",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": ["56"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يمكنني بيع حصتي في شركة التضامن (SNC) إلى شخص أجنبي عن الشركة متى أردت ذلك؟\n\nDocuments pertinents:\n[1] Source: الفصل 56 من مجلة الشركات التجارية\nA l’exception des cas expressément prévus dans l’acte constitutif de la société, l’associé ne peut céder sa part d’intérêt à un tiers sauf consentement unanime des autres associés et à condition de se conformer aux obligations de publicité. Toutefois il est permis à un associé de transférer à un tiers les droits et les avantages attachés à sa part d’intérêt, cet accord n’ayant d’effet qu’entre les parties contractantes."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 56 من مجلة الشركات التجارية، يتمثل المبدأ في أنه لا يجوز لك التفويت في حصتك (بيعها) لشخص أجنبي عن شركة التضامن (SNC) إلا بالحصول على الموافقة الإجماعـية لجميع الشركاء الآخرين، ما لم ينص القانون الأساسي للشركة صراحة على خلاف ذلك.\n\nغير أن المشرع التونسي أقر استثناءً جزئياً، حيث يُسمح لك بأن تحيل للغير الحقوق والامتيازات المالية المرتبطة بحصتك (مثل الأرباح)، ولكن هذا الاتفاق يبقى ذا تأثير حصري بينك وبين الطرف الثالث فقط، ولا يُعترف به تجاه الشركة التي ستظل تعتبرك أنت الشريك الرسمي. وعلاوة على ذلك، فإن الغاية من هذا التقييد الصارم هي الحفاظ على الطابع الشخصي القوي (intuitu personae) لشركة التضامن، حيث تبنى أساساً على الثقة المتبادلة بين الشركاء.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 56 من مجلة الشركات التجارية"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_013",
+      "language": "derja",
+      "category": "principle_exception",
+      "articles_referenced": ["101", "Décret 2005-3018 art 1"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: 3andi SARL w nheb nkharej des obligations (emprunt obligataire) bech ndakhel flous l charika, najem walla le ?\n\nDocuments pertinents:\n[1] Source: article 101 du CSC\nIl est interdit à une société à responsabilité limitée d’émettre ou de garantir des valeurs mobilières. Toute décision contraire est considérée nulle.\n\n[2] Source: article 1 du Décret 2005-3018\nLes obligations sont émises par les sociétés anonymes ayant un capital minimum libéré d’un million de dinars, deux années d’existence et ayant établi pour les deux derniers exercices des états financiers certifiés."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l'article 101 mel Code des sociétés commerciales, el principe houwa elli el SARL mamnou3 3liha bech tokhrej wela ta3mel émission mta3 des obligations (valeurs mobilières) bech tjib bihom flous. Ay décision tetkheth fel mawdhou3 hetha tet3tabar null w batla.\n\nAma, l'exception houni hiya pour les Sociétés Anonymes (SA) kahaw: selon l'article 1 mel Décret 2005-3018, kenek SA w capital mte3ek au moins 1 million de dinars w 3andek au moins 3amin tekhdem, wa9tha tnajem tokhrej des obligations. L'objectif men hedha houwa bech l'état ya7mi les investisseurs wel épargne publique, 5ater les obligations fihom des risques w lezemhom des sociétés kbar w contrôlés bel behi kif les SA.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 101 du CSC, art. 1 du Décret n° 2005-3018"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_014",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je vais créer une société à responsabilité limitée (SARL) spécialisée dans l'exportation. Quel sera le taux exact de l'impôt sur les sociétés (IS) applicable à mes bénéfices à l'export ?\n\nDocuments pertinents:\nLes documents fournis incluent le Code des sociétés commerciales et des textes sur les sociétés de commerce international et les startups."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. En effet, le Code des sociétés commerciales régit la constitution et le fonctionnement des sociétés, mais ne fixe pas les taux de l'impôt sur les sociétés (IS). Ces détails relèvent du Code de l'IRPP et de l'IS ou des Lois de Finances. Je vous recommande de consulter un avocat spécialisé en droit fiscal ou un expert-comptable.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_015",
+      "language": "derja",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: نحب نعرف شنية العقوبة في تونس كيبدا واحد يعطي شيك بدون رصيد (chèque sans provision) للمزود متاعو؟\n\nDocuments pertinents:\nLe document fourni est le Code des Sociétés Commerciales."
+        },
+        {
+          "role": "assistant",
+          "content": "El wra9 elli 3andi ma fihomch réponse l sou2el hedha. El Code des sociétés commerciales ya7ki 3la 9awanin el chariket, ama les sanctions pénales mta3 el chèque sans provision mawjoudin fi Code de Commerce w mouch fl documents hethouma. Ahsen 7aja tchouf avocat spécialisé bech ya3tik el s7i7.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_016",
+      "language": "derja",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: 3andi fekra mta3 projet behya w nheb nekhou crédit (prêt) men 3and banka. Chnouwa les conditions w les papiers elli yelzmouni?\n\nDocuments pertinents:\nLes documents fournis portent sur le CSC et les lois sur le crowdfunding et la BCT."
+        },
+        {
+          "role": "assistant",
+          "content": "El wra9 elli 3andi ma fihomch réponse l sou2el hedha. El Code des sociétés commerciales yfassar kifech t2asses charika légalement, ama les dossiers mta3 les crédits bancaires w les conditions financières teb3in les banques w les politiques internes mte3hom. Ahsen 7aja temchi l banka directement wala tchouf expert comptable.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_017",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": ["142", "388"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Nous avons subi d'importantes pertes financières cette année et nous devons décider s'il faut dissoudre la société. Quelles sont les règles de convocation et de vote pour la dissolution anticipée ?\n\nDocuments pertinents:\n[1] Source: article 142 du CSC (Relatif à la SARL)\nSi les documents comptables font apparaître que les fonds propres de la société sont inférieurs de moitié au capital social suite aux pertes... une assemblée générale extraordinaire sera convoquée dans les deux mois...\n\n[2] Source: article 388 du CSC (Relatif à la SA)\nSi les comptes ont révélé que les fonds propres de la société sont devenus en deçà de la moitié de son capital... le conseil d’administration ou le directoire doit dans les quatre mois de l’approbation des comptes, provoquer la réunion de l’assemblée générale extraordinaire..."
+        },
+        {
+          "role": "assistant",
+          "content": "Les délais et les organes habilités à statuer sur la dissolution anticipée suite à des pertes dépendent de la forme juridique de votre société. S'agit-il d'une Société à Responsabilité Limitée (SARL) ou d'une Société Anonyme (SA) ? \n\nÀ titre d'exemple, l'article 142 du Code des sociétés commerciales précise que pour une SARL, l'assemblée doit être convoquée dans les deux mois. Par contre, pour une SA, l'article 388 octroie un délai de quatre mois au conseil d'administration pour la convoquer.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 142, 388 du CSC"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_018",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": ["54", "90", "160"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: من هو الممثل القانوني الذي يتولى إدارة الشركة التجارية في تونس ويمضي عقودها باسمها؟\n\nDocuments pertinents:\n[1] Source: Code des Sociétés Commerciales\nArt. 58 (SNC) : Le ou les gérants sont nommés...\nArt. 112 (SARL) : La société à responsabilité limitée est gérée par une ou plusieurs personnes physiques...\nArt. 211 (SA) : Le Président du Conseil d’Administration assure, sous sa responsabilité, la direction générale de la société. Il représente la société dans ses rapports avec les tiers."
+        },
+        {
+          "role": "assistant",
+          "content": "يختلف الممثل القانوني المكلف بإدارة الشركة باختلاف شكلها القانوني. هل تقصد شركة ذات مسؤولية محدودة (SARL) التي يديرها وكيل (Gérant)، أم شركة خفية الاسم (SA) التي يمثلها رئيس مدير عام أو مدير عام، أم شركة تضامن (SNC)؟\n\nيُرجى تحديد الشكل القانوني للشركة لكي أتمكن من إفادتك بالإجابة الدقيقة استناداً إلى مجلة الشركات التجارية، حيث أن صلاحيات وتسمية المدير تتغير جذرياً بين هذه الأنواع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 54، 90، 160 من مجلة الشركات التجارية"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_019",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["163", "164", "165", "171"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je compte créer une Société Anonyme (SA) en faisant appel public à l'épargne. Quelles sont les principales étapes procédurales de constitution imposées par le code ?\n\nDocuments pertinents:\n[1] Source: articles 163, 164, 165, 171 du CSC\nArt 163: Avant toute souscription du capital un projet des statuts signé par les fondateurs, doit être déposé au greffe du tribunal... Art 164: Avant toute souscription les fondateurs doivent publier une notice destinée à l’information du public dans le JORT et dans deux journaux... Art 165: La société n’est constituée qu’après la souscription de la totalité du capital social. L’apporteur en numéraire doit verser au moins le quart... Art 171: Dans le délai de quinze jours à partir de la clôture de la souscription, les fondateurs convoquent les souscripteurs en assemblée générale constitutive..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 163 et suivants du Code des sociétés commerciales, la constitution d'une Société Anonyme (SA) faisant appel public à l'épargne obéit à un processus légal rigoureux. \n\nTout d'abord, les fondateurs doivent déposer un projet de statuts au greffe du tribunal de première instance du siège social. Ensuite, avant d'ouvrir la souscription, ils sont tenus de publier une notice d'information dans le JORT et dans deux journaux (dont un en arabe). Par ailleurs, la société n'est légalement constituée qu'après la souscription intégrale du capital et la libération d'au moins le quart (1/4) des apports en numéraire (Art. 165). Enfin, dans les quinze jours suivant la clôture de ces souscriptions, une assemblée générale constitutive doit être convoquée (Art. 171). Ainsi, l'objectif de ce formalisme strict est de protéger les souscripteurs et l'épargne publique en garantissant une transparence totale.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 163, 164, 165, 171 du CSC"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_CSC_020",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["28", "29", "30", "32"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ma société vient d'être dissoute. Quelles sont les premières étapes du processus de liquidation ?\n\nDocuments pertinents:\n[1] Source: articles 28, 29, 30, 32 du CSC\nArt 28: Les dispositions des statuts régissent la liquidation de la société dissoute... Art 29: La société est en liquidation dès l’instant de sa dissolution... La raison sociale... devra être suivie de la mention \"société en liquidation\"... Art 30: Au cas où les statuts ne prévoient pas les conditions de nomination du liquidateur, celui-ci sera nommé, par une décision de l’Assemblée générale... Art 32: Le liquidateur ne peut commencer les opérations de liquidation qu’après inscription de sa nomination au registre de commerce et la publication... Dès son entrée en fonction, le liquidateur est tenu de dresser... l’inventaire de l’actif et du passif..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 28 et suivants du Code des sociétés commerciales, le processus de liquidation démarre dès l'instant de la dissolution de la société. \n\nDans un premier temps, la mention \"société en liquidation\" doit obligatoirement figurer à la suite de la raison sociale sur tous les documents de l'entreprise (Art. 29). Ensuite, il faut procéder à la nomination d'un liquidateur par l'assemblée générale des associés, sauf si les statuts prévoient d'autres modalités (Art. 30). Par ailleurs, le liquidateur ne peut entamer son travail qu'après l'inscription de sa nomination au registre de commerce et sa publication au JORT. Dès son entrée en fonction, il a pour obligation d'établir immédiatement l'inventaire de l'actif et du passif (Art. 32). Ainsi, cette procédure permet d'assurer un cadre juridique transparent et protecteur pour clôturer les opérations en cours et désintéresser les créanciers.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 28, 29, 30, 32 du CSC"
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Titre Premier: Dispositions Générales (Arts 1-13)",
+      "Titre Deux: L'Immatriculation et la Publicité (Arts 14-16)",
+      "Titre Trois: La Dissolution (Arts 21-32)",
+      "Livre Deux: SNC (Arts 54-65)",
+      "Livre Trois: SARL (Arts 90-101)",
+      "SUARL (Arts 148-158)",
+      "Livre Quatre: SA (Arts 160-171, 307, 388)",
+      "Décret d'application obligations",
+      "Loi Startups"
+    ],
+    "sections_not_covered": [
+      "Société en Commandite Simple (SCS)",
+      "Société en Participation",
+      "Groupement d'Intérêt Économique (GIE)",
+      "Crowdfunding",
+      "Renseignement de Crédit (Décret-loi n° 2022-2)",
+      "Constitution de sociétés en ligne (Loi n°2004-89)"
+    ],
+    "notes": "Le batch respecte la répartition linguistique demandée (10 FR, 5 AR en MSA juridique strict, 5 Derja). Les métadonnées provenance et time_of_generation sont intégrées à la racine. Le format de citation exigé a été rigoureusement respecté."
+  }
+}

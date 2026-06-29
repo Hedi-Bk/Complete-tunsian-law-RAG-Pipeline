@@ -1,0 +1,509 @@
+{
+  "batch_id": "batch_CODE_FORESTIER_01_20240520",
+  "provenance": {
+    "generated_by": "Gemini 3.1 Pro Preview",
+    "platform": "Google_ai_studio"
+  },
+  "time_of_generation": "2m25s",
+  "source": "Code Forestier de la Tunisie (Loi n°88-20 et ses textes d'application)",
+  "articles_covered": [
+    "15",
+    "20",
+    "21",
+    "35",
+    "36",
+    "37",
+    "45",
+    "46",
+    "51",
+    "52",
+    "53",
+    "63",
+    "85",
+    "93",
+    "94",
+    "108",
+    "109",
+    "119",
+    "126",
+    "134",
+    "134 bis",
+    "175",
+    "181",
+    "185",
+    "188",
+    "189",
+    "190",
+    "208",
+    "209",
+    "224",
+    "226"
+  ],
+  "articles_to_avoid_next_batch": [
+    "15",
+    "20",
+    "21",
+    "35",
+    "36",
+    "37",
+    "45",
+    "46",
+    "51",
+    "52",
+    "53",
+    "63",
+    "85",
+    "93",
+    "94",
+    "108",
+    "109",
+    "119",
+    "126",
+    "134",
+    "134 bis",
+    "175",
+    "181",
+    "185",
+    "188",
+    "189",
+    "190",
+    "208",
+    "209",
+    "224",
+    "226"
+  ],
+  "examples": [
+    {
+      "example_id": "ex_cf_01",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["15", "208"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je suis un promoteur immobilier et je prévois de construire un grand complexe touristique écologique dans le nord-ouest du pays. Le terrain idéal que j'ai repéré se trouve en plein milieu d'une forêt faisant partie du domaine forestier de l'État. Mon architecte me dit que c'est impossible car la forêt est intouchable, mais je suis prêt à investir massivement. Est-ce que l'État a le droit de déclasser une partie de cette forêt pour mon projet touristique ? Et si oui, étant donné la taille du complexe, y a-t-il des obligations environnementales préalables, comme une étude spécifique à réaliser avant de commencer les travaux ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 15 du Code forestier, le domaine forestier de l'État peut exceptionnellement faire l'objet d'un déclassement pour l'installation de projets de développement touristique. Toutefois, ce déclassement ne touchera que l'assiette des installations fixes du projet.\n\nPar ailleurs, concernant les obligations environnementales, l'article 208 stipule que lorsque des projets d'aménagement sont envisagés et que, par l'importance de leurs dimensions ou leurs incidences, ils peuvent porter atteinte au milieu naturel, ils doivent obligatoirement comporter une étude préalable d'impact. \n\nAinsi, votre projet est légalement envisageable sous réserve d'obtenir le déclassement par décret (sur avis du ministre de l'agriculture) et de réaliser l'étude d'impact préalable approuvée par les institutions spécialisées.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 15, 208 du Code forestier."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_02",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["35", "36", "37"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis un citoyen tunisien et j'habite avec ma famille dans une petite maison située à l'intérieur d'une forêt domaniale. Avec l'arrivée de l'hiver, j'ai commencé à ramasser du bois mort tombé par terre ainsi que quelques broussailles pour nous chauffer. Cependant, vu que j'ai récolté une quantité assez importante, j'ai pensé à en vendre une partie au marché du village voisin pour avoir un petit revenu supplémentaire. Le garde forestier m'a menacé de saisir ma marchandise. Quels sont exactement mes droits en tant que riverain, et le garde a-t-il le droit de m'interdire de vendre ce bois mort ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 35 et 36 du Code forestier, vous bénéficiez, en tant qu'usager domicilié à l'intérieur de la forêt, du droit d'utiliser gratuitement certains produits forestiers. Le principe est que vous avez parfaitement le droit de ramasser du bois mort gisant sur le sol et de prélever des broussailles sans dessouchement.\n\nToutefois, l'article 37 pose une exception stricte : ces droits d'usage sont rigoureusement limités à vos besoins personnels et à ceux des membres de votre famille demeurant avec vous. L'exercice de ce droit ne peut en aucun cas revêtir un caractère commercial ou industriel.\n\nAinsi, le garde forestier est dans son droit : si vous pouvez légalement ramasser ce bois pour vous chauffer, sa mise en vente sur le marché est formellement interdite car elle dépasse le cadre de l'usage domestique gratuit.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 35, 36, 37 du Code forestier."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_03",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["181"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je suis passionné par les traditions ancestrales et je souhaite me lancer dans la fauconnerie, c'est-à-dire la chasse à l'aide d'oiseaux de vol. J'ai un ami qui possède plusieurs faucons et qui est prêt à m'en céder deux pour commencer. Je voudrais savoir quelles sont les conditions légales imposées par le code pour pratiquer ce type de chasse en Tunisie ? Dois-je m'inscrire quelque part, y a-t-il des taxes à payer, et ai-je le droit de chasser avec mes deux faucons en même temps ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 181 du Code forestier, la chasse à l'aide d'un oiseau de vol obéit à des règles strictes. \n\nPremièrement, vous devez obligatoirement obtenir une licence de chasse au vol, valable pour une année et délivrée par le ministre chargé des forêts. Deuxièmement, cette licence n'est accordée que si vous êtes membre d'une association de chasseurs agréée à cet effet. Troisièmement, la délivrance de cette licence nécessite le paiement d'une redevance fixée par l'arrêté annuel.\n\nEnfin, concernant le nombre d'oiseaux, la loi est claire : la licence de chasse au vol donne droit à son bénéficiaire de capturer et de détenir un seul oiseau au vol. Vous ne pouvez donc pas chasser avec deux faucons simultanément.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 181 du Code forestier."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_04",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["52", "53"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour. Je suis propriétaire d'une parcelle boisée de 5 hectares qui m'appartient en privé et qui n'est pas soumise au régime forestier de l'État. Je souhaite défricher la totalité de cette zone pour y planter des oliviers et des arbres fruitiers. J'ai préparé mon dossier mais je ne connais pas la procédure exacte. Auprès de qui dois-je déposer ma demande, combien de temps à l'avance, et que se passera-t-il si l'administration tarde à me répondre ou ignore ma requête pendant plusieurs mois ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu du Code forestier, la procédure de défrichement d'une forêt privée non soumise au régime forestier comporte des étapes précises.\n\nSelon l'article 52, vous devez d'abord formuler une demande écrite au siège de l'arrondissement forestier au moins 3 mois avant le début des travaux de défrichement. Lors du dépôt, il vous sera obligatoirement délivré un récépissé.\n\nEnsuite, l'article 53 stipule que l'autorisation est accordée ou refusée par décision du ministre chargé des forêts, et cette décision doit vous être notifiée. Si l'administration ne vous donne aucune réponse (défaut de notification) dans un délai de 3 mois à compter du dépôt de votre demande, ce silence vaut autorisation légale de défricher.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 52, 53 du Code forestier."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_05",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, j'ai récemment acheté un terrain constructible situé en plein centre-ville de l'Ariana, dans une zone totalement urbaine et aménagée. Je souhaite y construire un immeuble résidentiel de quatre étages. Cependant, la municipalité me demande de payer une taxe d'aménagement urbain très élevée avant de me délivrer le permis de bâtir. Je voudrais savoir quels sont les articles du code forestier qui plafonnent cette taxe municipale et quels sont les délais légaux pour l'obtention de mon permis de construire ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Je vous recommande de consulter un avocat spécialisé.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_06",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": ["63"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je suis éleveur dans la région de Kasserine. L'État a récemment aménagé une zone de parcours forestier de première catégorie juste à côté de mon village. Il y a des arbres naturels, quelques plantations récentes et des zones mises en défens. Mes bêtes manquent de nourriture et je voudrais les emmener paitre dans ces forêts naturelles et ces nouvelles plantations. Est-ce que le code forestier m'autorise à faire du pacage librement dans cette zone de première catégorie sans risquer de payer une amende ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Pourriez-vous préciser la hauteur des arbres dans la forêt naturelle où vous souhaitez faire paître vos animaux, ainsi que la nature exacte de vos bêtes (ex: dromadaires, caprins) ?\n\nEn effet, l'article 63 du Code forestier interdit tout pacage dans les forêts naturelles ou artificielles si les arbres ont moins de 2 mètres de hauteur. De plus, il est formellement interdit de faire paître des animaux dans les parcelles en régénération ou mises en défens pour la reconstitution du tapis végétal. Votre réponse me permettra de vérifier si votre troupeau peut y accéder légalement.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 63 du Code forestier."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_07",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["119", "126"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Hier après-midi, un agent forestier a trouvé mon troupeau de vaches en train de brouter illégalement à l'intérieur d'une parcelle interdite au pâturage. Les agents ont saisi mes bestiaux et les ont emmenés à la fourrière. Je suis désespéré car c'est mon seul moyen de subsistance. Je veux savoir si les agents avaient le droit de confisquer mes bêtes sans ordre d'un juge, et surtout, quelle est la procédure d'urgence pour les récupérer et que se passera-t-il si je ne paie pas immédiatement ou si je tarde à réagir ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 119 du Code forestier, les agents forestiers sont tout à fait autorisés à saisir les bestiaux trouvés en délit et à les mettre sous séquestre par eux-mêmes, sans avoir besoin de l'ordre préalable d'un juge.\n\nCependant, pour récupérer vos animaux, l'article 126 stipule que vous pouvez adresser une requête au juge cantonal. Ce dernier a le pouvoir de vous accorder la mainlevée de la saisie, moyennant le paiement d'un cautionnement dont il fixera le montant.\n\nAttention aux délais : l'article 126 précise que si aucune réclamation n'est formulée dans un délai franc de 10 jours après la saisie, ou si vous ne pouvez pas fournir la caution dans ce délai, la direction générale des forêts demandera au juge d'ordonner la vente aux enchères de vos bêtes.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 119, 126 du Code forestier."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_08",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["94"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis entrepreneur en travaux publics et je suis en charge du débroussaillage d'un terrain situé à environ 300 mètres d'une grande forêt domaniale. Nous sommes au mois de juillet et la quantité de broussailles accumulées est énorme. Pour aller plus vite, mon chef de chantier me propose d'incinérer tous ces végétaux sur place en allumant un feu contrôlé. Sachant qu'on est en plein été et à moins d'un kilomètre de la forêt, le code forestier autorise-t-il cette mise à feu si nous prenons toutes les précautions ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 94 du Code forestier, la proposition de votre chef de chantier est strictement interdite.\n\nLa loi stipule que pendant la période allant du 1er mai au 31 octobre (qui inclut le mois de juillet), les mises à feu et l'incinération des chaumes, broussailles et végétaux quelconques sont formellement interdites à moins de 500 mètres de toutes forêts ou terrains broussailleux.\n\nPuisque votre chantier se situe à 300 mètres de la forêt, vous n'avez pas le droit d'allumer ce feu pour détruire les végétaux, même si vous prenez des précautions.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 94 du Code forestier."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_09",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["185", "209"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je représente une chaîne de télévision européenne qui réalise des documentaires sur la faune sauvage. Nous souhaitons envoyer une équipe dans un parc national tunisien pour filmer des espèces animales rares. L'équipe a également l'intention de capturer brièvement quelques spécimens pour les peser et les mesurer avant de les relâcher, afin d'enrichir le contenu scientifique de notre reportage. Est-ce que la loi tunisienne permet la chasse photographique professionnelle, et avons-nous le droit de capturer ces animaux rares pour les besoins de notre film ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 185 du Code forestier, le principe est que la chasse photographique et cinématographique professionnelle de la faune sauvage est autorisée, mais elle est strictement soumise à l'approbation préalable d'un cahier des charges par le ministre chargé des forêts.\n\nToutefois, concernant votre projet de capturer les animaux, l'article 209 pose une interdiction formelle. Afin de préserver le patrimoine national biologique, il est strictement interdit de chasser, détruire, ou capturer des animaux sauvages rares et en voie de disparition.\n\nAinsi, si la prise de vue est possible sous couvert d'un cahier des charges approuvé, toute capture physique de ces spécimens rares, même temporaire pour votre documentaire, est une infraction à la loi, sauf dérogation scientifique très spécifique (comme mentionné à l'article 167).\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 185, 209 du Code forestier."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_10",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["45", "46"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis le gérant d'une entreprise de matériaux de construction. J'ai remarqué qu'une grande forêt domaniale près de Jendouba possède un sous-sol riche en roches et sables parfaits pour mes chantiers. Je souhaite savoir s'il est légalement possible d'exploiter une carrière ou un gisement de matériaux à l'intérieur d'une forêt appartenant à l'État pour un usage dans le secteur de la construction. Si l'exploitation minière ou l'extraction est autorisée, quels sont les éléments obligatoires qui doivent figurer dans le contrat nous liant à l'État ?"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 45 du Code forestier, l'extraction de matériaux dans les forêts de l'État, destinés à être utilisés dans le secteur de la construction et des travaux publics, est effectivement possible. Elle doit s'effectuer conformément aux conditions d'aliénation (souvent par adjudication publique ou cession de gré à gré, selon l'article 18).\n\nSi vous obtenez cette autorisation, l'article 46 précise que les contrats d'extraction (ou d'exploitation minière) doivent obligatoirement fixer trois éléments : le volume de matériaux à retirer, la durée des travaux prévus, ainsi que l'obligation de remettre en état le site après l'extraction.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 45, 46 du Code forestier."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_11",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": ["224", "226"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أنا مستثمر أملك أرضا محاذية لسبخة كبيرة (مستنقع مائي). أخطط لردم وتجفيف جزء من هذه السبخة من أجل بناء مركب صناعي ضخم سيوفر آلاف مواطن الشغل ويعتبر مشروعا ذا مصلحة وطنية كبرى. بعض الجمعيات البيئية اعترضت بحجة أن السبخة تعتبر منطقة رطبة محمية يمنع المساس بها أو تجفيفها. هل يعتبر القانون التونسي السبخة منطقة رطبة؟ وهل هناك أي استثناء قانوني يسمح لي بتجفيفها نظرا للأهمية الوطنية الكبرى لمشروعي؟"
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 224 من مجلة الغابات، تُعتبر السباسب (السباخ) والمستنقعات قانوناً من \"المناطق الرطبة\" المشمولة بالحماية.\n\nبناءً على ذلك، ينص الفصل 226 صراحة على منع ردم أو تجفيف أي منطقة رطبة. غير أنّ القانون أقر استثناءً لهذا المنع؛ حيث يجوز القيام بعملية الردم أو التجفيف إذا كان ذلك لأسباب قاهرة ذات مصلحة وطنية. \n\nعلاوة على ذلك، لتطبيق هذا الاستثناء والمضي قدماً في مشروعك، يُشترط الحصول وجوباً على الرأي المطابق للوزير المكلف بالغابات. بدون هذه الموافقة الرسمية، يُعدّ تجفيف السبخة مخالفة صريحة للقانون.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 224، 226 من مجلة الغابات."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_12",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": ["134", "134 bis"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique গঠন في القانون التونسي. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: لقد تم تحرير محضر ضدي من قبل أعوان الغابات بتهمة خطيرة جدا وهي قلع وإتلاف مساحات من نبات الحلفاء (nappes alfatières) بغرض استغلال الأرض في الفلاحة. أعلم أن العقوبات قد تصل إلى السجن، لذا نصحني محامي بمحاولة إبرام صلح (transaction) مع الوزارة المكلفة بالغابات لدفع غرامة مالية وإسقاط الدعوى العمومية قبل أن يصدر القاضي حكما نهائيا ضدي. هل يجوز لي قانونا إبرام هذا الصلح في حالتي هذه لتجنب المحاكمة؟"
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 134 من مجلة الغابات، المبدأ العام هو أنه يجوز للوزير المكلف بالغابات إبرام صلح (إجراء مصالحة) في الجرائم المنصوص عليها في هذه المجلة، وذلك قبل صدور حكم نهائي، مما يؤدي إلى انقراض الدعوى العمومية.\n\nغير أنّ الفصل 134 مكرر يضع استثناءً صارماً لهذا المبدأ؛ حيث ينص على منع الصلح في الجرائم الخطيرة. وقد صنف هذا الفصل صراحة \"جرائم تعرية الغابات والمساحات المغطاة بنبات الحلفاء\" ضمن الجرائم الخطيرة التي لا تقبل الصلح إطلاقاً.\n\nوبالتالي، في حالتك المتعلقة بقلع وإتلاف نبات الحلفاء، لا يجوز لك قانوناً إبرام صلح مع الإدارة، وستأخذ الدعوى العمومية مجراها الطبيعي أمام المحكمة.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 134، 134 مكرر من مجلة الغابات."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_13",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أنا فلاح أملك أراضي زراعية شاسعة بعيدة عن مناطق الغابات. أرغب في توريد جرارين زراعيين من الخارج لتحسين جودة العمل في أرضي. لقد سمعت أن هناك إعفاءات ضريبية وجمركية تخص المعدات الفلاحية إذا كانت مخصصة لتنمية القطاع الزراعي. ما هي الفصول القانونية التي تحدد نسبة الأداءات الديوانية (TVA و droits de douane) المفروضة على توريد الجرارات الفلاحية، وما هي شروط التمتع بالإعفاء الكامل؟"
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال بخصوص الأداءات الديوانية والإعفاءات الضريبية لتوريد الجرارات الفلاحية. مجلة الغابات لا تعالج هذه المسألة. أوصي باستشارة محامٍ مختص أو الرجوع إلى مجلة الديوانة أو مجلة تشجيع الاستثمارات.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_14",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": ["188", "189", "190"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أنا سائح أجنبي غير مقيم في تونس، وأرغب في القدوم لقضاء أسبوع كامل بغرض الصيد الترفيهي (السياحة الصيدية). أريد أن أمارس الصيد بمفردي دون تدخل أي وكالة لتوفير المصاريف. ما هي الإجراءات القانونية التي تنظم صيد السياح الأجانب في تونس؟ هل يمكنني الصيد مباشرة، وما هي الوثائق أو الرسوم (المالية) التي يجب أن أقدمها للديوانة أو الشرطة عند الحدود للسماح لي بإدخال أسلحة الصيد الخاصة بي؟"
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً لمجلة الغابات، تُعتبر قانوناً \"سائحاً صياداً\" لأنك أجنبي، غير مقيم، وستقيم في تونس لأكثر من ثلاثة أيام (الفصل 188).\n\nإلا أن الإجراءات تمنعك من الصيد بمفردك. حيث ينص الفصل 189 على أنه لا يمكن للسياح الصيادين تعاطي الصيد في تونس إلا عن طريق وكالة أسفار تونسية أو مؤسسة فندقية بالبلاد التونسية، وذلك وفق كراس شروط مصادق عليه. \n\nأما بالنسبة للإجراءات الحدودية، فيلزمك الفصل 190 بدفع معلوم مالي (إتاوة) لفائدة خزينة الدولة مقابل ممارسة سياحة الصيد. ويجب عليك الاستظهار بوصل الدفع (الوصل المالي) لمصالح الشرطة والديوانة بالحدود كشرط أساسي قبل أن يتم تسليمك الرخصة الوقتية لإدخال ومسك أسلحة الصيد الخاصة بك.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 188، 189، 190 من مجلة الغابات."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_15",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["85"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: قام أحد جيراني بالدخول خلسة إلى أرض تابعة للدولة ومشمولة بنظام الغابات، وقام بقطع واقتلاع 50 شجرة صغيرة كان قد تم غراستها من قبل عمال الغابات منذ حوالي 6 سنوات لتشجير المنطقة. السلطات ضبطته وهو يقوم بهذا العمل التخريبي. أريد أن أعرف بالضبط، بناءً على مجلة الغابات، ما هي قيمة الخطية المالية التي سيتم تسليطها عليه مقابل كل شجرة قام باقتلاعها بالنظر إلى أن عمر الأشجار أقل من عشر سنوات؟"
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 85 من مجلة الغابات، فإن قطع أو قلع أو إتلاف الأشجار التي تم غراستها أو بذرها بفعل الإنسان منذ مدة تقل عن 10 سنوات، يُشكل مخالفة يعاقب عليها القانون.\n\nوبالنسبة لقيمة الخطية المالية، ينص نفس الفصل على أن المخالف يُعاقب بخطية تتراوح بين 2 و 10 دنانير عن كل شجرة (أو نبتة)، وذلك بغض النظر عن حجمها أو سمكها. وبالتالي، سيتم ضرب هذه القيمة في عدد الأشجار المقتلعة (50 شجرة) لتحديد إجمالي الغرامة، مع إمكانية تسليط عقوبات إضافية إن اقتضى الأمر.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 85 من مجلة الغابات."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_16",
+      "language": "derja",
+      "category": "multi_article",
+      "articles_referenced": ["105", "108", "109"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: السلام، بربي عندي مشكلة ونحب نعرف القانون شنوا يقول. البارح في الليل، كنت نسوق في كرهبتي وناقل كمية كبيرة متاع حلفا وحطب من الغابة، وما عنديش رخصة نقل (permis de colportage) خاطرني زوالي ونخدم على روحي. الحرس وقفوني وفكولي السلعة والكرهبة زادة. نحب نعرف، هل انو نقل الحلفا في الليل ممنوع قانونا؟ وهل عندهم الحق يفكولي كرهبتي اللي ناكل منها في الخبز والا كان السلعة برك تتصادر؟ فسرلي شنوا ينجم يصيرلي بالضبط حسب مجلة الغابات."
+        },
+        {
+          "role": "assistant",
+          "content": "باهي، حسب مجلة الغابات، وضعيتك صعيبة شوية وفيها زوز مخالفات كبار.\n\nأول حاجة، الفصل 109 يمنع منعا باتا نقل (colportage) المنتوجات الغابية في الليل، إلا إذا كان عندك رخصة سبيسيال مبررة من عند السلطات. زيد على هذا، الفصل 105 يفرض عليك تكون ديما هازز رخصة نقل (permis de colportage) فيها اسمك والكمية ووجهتك.\n\nوبالنسبة للسلعة والكرهبة، الفصل 108 واضح: أي منتوجات غابية تتنقل ولا تتباع مخالفة للقانون باش تتصادر (confisqués). والأخطر من هكا، الحرس عندهم الحق يحجزو (saisis) الكرهبة، البهايم، ولا أي وسيلة نقل استعملتها باش تهز بيها السلعة، وتتحط تحت الحجز (séquestre). معناها فكان الكرهبة إجراء قانوني معمول بيه.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: الفصل 105, 108, 109 من مجلة الغابات."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_17",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["175"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Slt, ena maghroum b syeda (chasse) w 3andi zouz klab mdayrin w msayabhom nhar kemel ydourou wa7adhom fil ghabet w ba7dha l oued elli 9rib l darna. L bare7, l garde forestier jeni l dar w hadedni yfokli l klab w ya3melli 5tiya 5ater msayabhom f blassa fiha 7ayawanet w tyoura mta3 syeda. Ena mafhemtech, chnowa l mochkel ken klabi ydourou wa7adhom fil tabbi3a? Est ce que l code forestier fih 9anoun yamna3ni bech nsab klabi fil ghaba w 3al wden?"
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, klem l garde forestier s7i7. L Code forestier fih 9anoun watha7 3al 7keya hedhi bech ya7mi l 7ayawanet.\n\n7asb l'article 175, bech el dawla t7afeth 3la l 7ayawanet w l gibier (espèces de gibier), mamnou3 jemla tsayeb klabek ydourou wa7adhom (divaguer) fil ghabet, fil sba5 (marais), wala 3la 7wechi l wden w l bo7ayrat (bords des cours d'eaux, étangs et lacs).\n\nZid 3aliha, l 9anoun mta3 l klab saayba (chiens errants) yetaba9 3lik f 7ala hedhi. Donc yelzmek tched klabek w ma t5alihomch ydourou wa7adhom bech ma tekelch 5tiya w ma yfokouhomlekch.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 175 du Code forestier."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_18",
+      "language": "derja",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Aman habit nes2el, l bare7 kount nsou9 f karhabti f thneya mechia l jbel w mta3 ghaba, ama ki fet't l plaque mta3 vitesse 50 km/h, radar chadni nsou9 b 90 km/h. L 7aras mta3 l morour wa9founi w 3amlouli ma7dher smin barcha. N7eb na3ref, 7asb l code forestier, 9adech l 5tiya mta3 l excès de vitesse f thneyet l ghabet, w est-ce que ynajmou yfokouli l permis mte3i 3la l 7keya hedhi ?"
+        },
+        {
+          "role": "assistant",
+          "content": "El wra9 elli 3andi ma fihomch réponse l sou2el hedha. L Code forestier ma ye7kich 3la l khtaya mta3 l excès de vitesse f thneyet l ghabet wella faken l permis; l 7weyej hedhi mawjouda f Majalet l Morour (Code de la route). Ahsen 7aja tchouf avocat.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_19",
+      "language": "derja",
+      "category": "clarification",
+      "articles_referenced": ["21"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: سلام خويا، نحب نشارك في بتة (adjudication) باش نشري حطب وخشب من غابة تابعة للدولة. المشكلة انو خويا يخدم مهندس غابات في المندوبية، وواحد من صحابي قالي راهو القانون يمنعك باش تشارك في البتة مادام خوك يخدم غادي، والبيعة تنجم تطلع باطلة (nulle) وتاكل خطية وتتحبس زادة. نحب نعرف هل انو بالرسمي ممنوع عليا نشري الحطب من البتة هذي، وشنوة العقوبات كان نشارك؟"
+        },
+        {
+          "role": "assistant",
+          "content": "أمان تنجم توضحلي هل خوياك المهندس يخدم في نفس الولاية (gouvernorat) اللي صايرة فيها البتة متاع الحطب، ولا يخدم في ولاية أخرى؟\n\nخاطر حسب الفصل 21 من مجلة الغابات، المبدأ إنو ممنوع على الإخوة والأقارب (parents, frères) متاع مهندسي وأعوان الغابات باش يشاركو في البتة، أما المنع هذا يخص كان الغابات الموجودة في نفس الولاية اللي يمارس فيها عون الغابات خدمتو. كان يخدم في ولاية أخرى، تنجم تشارك. كان يخدم غادي، البيعة تولي باطلة وفيها خطية وحبس.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: الفصل 21 من مجلة الغابات."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cf_20",
+      "language": "derja",
+      "category": "principle_exception",
+      "articles_referenced": ["51"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ena n7eb nasna3 f7am (charbon de bois) fi chwaya aradhi mta3 l dawla w chwaya aradhi mta3 l 5awass bech nbi3ou l rweyes l 3am lel machawi w ndaber chwaya flous 5ater l denya s3ebet. 7abit na3ref, 7asb l code forestier, l 9anoun yasma7li nasna3 l f7am hetha librement, wala lezemni rmo5sa? W ken n7eb nasna3 chwaya f7am li ena barka fi dari bech nchawwi, est ce que lezem rmo5sa zeda ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l'article 51 mel Code forestier, l principe hewa enou sney3et l f7am (fabrication du charbon de bois) mouch masmou7a hekeka.\n\nFil aradhi mta3 l dawla (domaine forestier de l'Etat), sney3et l f7am marbouta b chourout ytalla3ha wazir l fila7a. W fil aradhi l 5assa (en dehors de ces zones), lezemek ta5dem 7asb cahier des charges (korras chourout) msada9 3liha l wazir.\n\nAma l 9anoun fih exception sghira: kenek bech tasna3 l f7am fi ardh mouch mta3 l dawla (en dehors de ces zones) w kenet l quantité machya just lel moselek l 5assa mte3ek (pour les besoins personnels) kima chawiyen l 3id w mouch lel bi3, f l 7ala hedhi tnajem tasna3ha men ghir cahier des charges.\n\nKen tsana3 bech tbi3 l barra men ghir ma taba3 l chourout, l f7am yetfakk (confisqué) w tokhles 5tiya mta3 10 l 100 dinars.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 51 du Code forestier."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Titre 1 (Régime forestier, usagers, défrichements, délits, aménagement, charbon)",
+      "Titre 2 (Chasse, tourisme, armes)",
+      "Titre 3 (Protection nature, zones humides)"
+    ],
+    "sections_not_covered": [
+      "Titre 1 - dunes de sable",
+      "Titre 1 - nappes alfatières (partially covered in Arabic transaction example)"
+    ],
+    "notes": "Les scénarios sont complexes et couvrent les problématiques du bois, de la chasse, des délits forestiers, de l'élevage, des zones humides et du tourisme. Les exemples requièrent souvent de combiner le principe (droit d'usage, chasse, interdiction) avec les sanctions ou les exceptions associées, stimulant ainsi le multi-hop."
+  }
+}

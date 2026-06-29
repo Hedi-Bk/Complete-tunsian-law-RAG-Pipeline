@@ -1,0 +1,33 @@
+# pip install -r requirements.txt
+
+# Phase 1 — Scraping
+playwright>1.30.0
+#playwright install chromium
+
+# API
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# Phase 3 — Text extraction
+PyMuPDF>=1.24.0
+google-genai>=1.0.0
+python-dotenv>=1.0.0
+
+# Phase 4 — Article extraction
+openai>=1.0.0
+
+# Phase 6 — Embedding
+sentence-transformers>=3.0.0
+FlagEmbedding>=1.2.10
+transformers>=4.38.0,<5.0.0
+# tokenizers==0.15.2
+# huggingface-hub==0.23.0
+
+# Phase 7 — Vector database
+qdrant-client>=1.9.0
+
+# Phase 8 — RAG Query (client pour Ollama)
+ollama>=0.3.0
+
+# Interface Streamlit
+streamlit>=1.35.0

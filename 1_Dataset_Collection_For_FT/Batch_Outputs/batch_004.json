@@ -1,0 +1,500 @@
+{
+  "batch_id": "batch_CODEROUTE_001_20231024",
+  "provenance": {
+    "generated_by": "Gemini 3.1 Pro Preview",
+    "platform": "Google_ai_studio"
+  },
+  "time_of_generation": "3m3s",
+  "source": "Code de la Route de Tunisie et ses textes d'application",
+  "articles_covered": [
+    "14",
+    "21",
+    "33",
+    "35",
+    "36",
+    "51",
+    "60",
+    "73",
+    "74",
+    "81",
+    "81 bis",
+    "82",
+    "86",
+    "Décret 2000-151 art 5",
+    "Décret 2000-151 art 12",
+    "Décret 2000-151 art 56",
+    "Décret 2000-146 art 6",
+    "Décret 2000-142 art 3",
+    "Décret 2000-142 art 5",
+    "Décret 2000-142 art 10",
+    "Décret 2000-144 art 3",
+    "Décret 2000-144 art 12",
+    "Décret 2000-144 art 18",
+    "Décret 2000-147 art 82",
+    "Décret 2000-147 art 83",
+    "Décret 2000-148 art 1",
+    "Décret 2000-148 art 2",
+    "Décret 2000-148 art 3"
+  ],
+  "articles_to_avoid_next_batch": [
+    "14",
+    "21",
+    "33",
+    "35",
+    "36",
+    "51",
+    "60",
+    "73",
+    "74",
+    "81",
+    "81 bis",
+    "82",
+    "86"
+  ],
+  "examples": [
+    {
+      "example_id": "CR_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["Décret 2000-151 art 5"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je viens de louer une voiture pour circuler à Tunis. Quelle est la vitesse maximale que je ne dois pas dépasser en ville ?\n\nDocuments pertinents:\n[1] Source: article 5 du Décret n° 2000-151\nTout conducteur ne doit pas dépasser la vitesse de cinquante (50) kilomètres à l'heure (km/h) à l’intérieur des agglomérations. Dans des zones ou les conditions de circulation l’exigent, cette limite peut être réduite à trente (30) km /h par décision du Président de la commune et ce, sur les routes qui relèvent de son autorité. Cette vitesse peut être portée à 70 km/h à l'heure, par décision du Ministre de l’Equipement et de l’Habitat, sur certaines routes ou tronçons de routes et ce, en fonction des exigences de la circulation et des caractéristiques de ces routes."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 5 du décret n° 2000-151, la vitesse maximale autorisée à l'intérieur des agglomérations est fixée à 50 km/h. Toutefois, des exceptions existent : le Président de la commune peut réduire cette limite à 30 km/h dans certaines zones, et le Ministre de l'Équipement peut l'augmenter à 70 km/h sur des tronçons spécifiques selon les besoins de la circulation. L'objectif de cette limitation est de garantir la sécurité des piétons et des conducteurs dans les zones urbaines denses.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 5 du Décret n° 2000-151"
+        }
+      ]
+    },
+    {
+      "role": "system",
+      "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+    },
+    {
+      "example_id": "CR_002",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["Décret 2000-151 art 56"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce que je peux installer mon enfant de 8 ans sur le siège passager avant de ma voiture ?\n\nDocuments pertinents:\n[1] Source: article 56 du Décret n° 2000-151\nIl est interdit de transporter les enfants qui n'ont pas atteint l’âge de dix ans sur les sièges avant des véhicules."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 56 du décret n° 2000-151, il est strictement interdit de transporter un enfant de moins de dix ans sur les sièges avant d'un véhicule. Ainsi, votre enfant de 8 ans doit obligatoirement être installé sur les sièges arrière. L'objectif de cette interdiction est de protéger les jeunes enfants contre les risques de blessures graves en cas de déclenchement de l'airbag ou de collision frontale.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 56 du Décret n° 2000-151"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_003",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["73"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce que le passager d'une moto est aussi obligé de porter un casque, ou bien est-ce seulement pour le conducteur ?\n\nDocuments pertinents:\n[1] Source: article 73 du Code de la Route\nTout conducteur d'un motocycle à deux roues autorisé à circuler doit utiliser un casque répondant aux conditions fixées par arrêté du ministre chargé des transports. Cette condition s’applique aussi au passager."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 73 du Code de la route, l'obligation de porter un casque s'applique non seulement au conducteur d'un motocycle à deux roues, mais également à son passager. Le casque utilisé doit répondre aux conditions fixées par le ministère des transports. Par conséquent, il n'y a aucune exception pour le passager, la finalité étant de garantir la protection crânienne de tous les occupants en cas d'accident ou de chute.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 73 du Code de la Route"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_004",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["81", "81 bis"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je souhaite ouvrir une auto-école à Sousse. Quelles sont les principales conditions juridiques et ai-je le droit d'utiliser mon diplôme étranger d'instructeur ?\n\nDocuments pertinents:\n[1] Source: article 81 du Code de la Route\nL'exploitation d'établissements d'enseignement de la conduite des véhicules [...] est soumise à un cahier des charges approuvé par arrêté du ministre chargé du transport. [...] La personne physique [...] ne doit pas avoir fait l'objet d'une condamnation de plus de trois mois de prison ferme ou de plus de six mois d'emprisonnement avec sursis et ne pas avoir été déclarée en faillite et non réhabilitée.\n\n[2] Source: article 81 bis du Code de la Route\nPeuvent être transformés en certificats tunisiens, les certificats étrangers d'enseignement des règles de circulation [...]. Ces certificats sont transformés après avis d'une commission professionnelle consultative nationale..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 81 du Code de la route, l'ouverture d'une auto-école est soumise à un cahier des charges spécifique approuvé par le ministre des Transports. De plus, vous ne devez pas avoir fait l'objet d'une condamnation pénale de plus de 3 mois de prison ferme (ou 6 mois avec sursis), ni être en état de faillite non réhabilitée.\n\nEn outre, concernant votre diplôme étranger, l'article 81 bis précise que les certificats étrangers d'enseignement de la conduite peuvent être transformés en certificats tunisiens. Toutefois, cette transformation est soumise à l'avis préalable d'une commission professionnelle consultative nationale. Cette réglementation a pour but de garantir le professionnalisme, la moralité et la compétence technique des instructeurs encadrant les futurs conducteurs tunisiens.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 81, 81 bis du Code de la Route"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_005",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [
+        "Décret 2000-147 art 82",
+        "Décret 2000-147 art 83"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Le port de la ceinture de sécurité est-il obligatoire en toutes circonstances ou existe-t-il des dérogations pour raisons de santé ?\n\nDocuments pertinents:\n[1] Source: article 82 du Décret n° 2000-147\nL'utilisation de la ceinture de sécurité est obligatoire sur les autoroutes et en dehors des communes pour les conducteurs et les passagers des sièges avant des véhicules... L'utilisation de la ceinture de sécurité pour les passagers des sièges arrières est recommandée.\n\n[2] Source: article 83 du Décret n° 2000-147\nSont dispensées de l'utilisation obligatoire de la ceinture de sécurité les personnes dont l'état de santé ne le leur permet pas. Dans ce cas, il doivent être munis d'un certificat médical conforme au modèle annexé au présent décret et portant le visa des services spécialisés du Ministère du Transport"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 82 du décret n° 2000-147, le principe est que l'utilisation de la ceinture de sécurité est obligatoire pour les conducteurs et les passagers des sièges avant sur les autoroutes et en dehors des zones urbaines (communes). Pour les passagers arrière, cela reste fortement recommandé.\n\nToutefois, l'article 83 prévoit une exception claire : les personnes dont l'état de santé justifie une dispense peuvent s'affranchir de cette obligation. Pour bénéficier de cette dérogation, il est impératif de détenir un certificat médical spécifique, visé par les services du Ministère du Transport. Ainsi, la loi concilie l'objectif principal de protection physique des passagers avec les contraintes médicales légitimes des citoyens.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 82, 83 du Décret n° 2000-147"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_006",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant que Tunisien de retour de l'étranger (FCR), quels sont les droits de douane exacts que je dois payer pour immatriculer ma voiture personnelle ?\n\nDocuments pertinents:\nLes documents fournis concernent le Code de la Route, l'immatriculation et l'équipement des véhicules (Loi n° 99-71 et décrets d'application)."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Les textes portent sur le Code de la route et les règles de circulation, mais ne détaillent pas les tarifs douaniers ni le régime fiscal FCR. Je vous recommande de consulter un avocat spécialisé ou de vous rapprocher des services de la Douane Tunisienne.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CR_007",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis gérant d'une société de taxis. Combien de jours de congés payés annuels suis-je obligé d'accorder à mes chauffeurs selon la convention collective du transport ?\n\nDocuments pertinents:\nLes documents fournis décrivent les conditions de conduite, d'immatriculation, et la délivrance des cartes professionnelles pour les taxis (Décret n° 2007-4101, Code de la route)."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Ils traitent de la carte professionnelle et du Code de la route, mais n'incluent ni le Code du Travail ni la convention collective régissant les congés payés des chauffeurs. Je vous recommande de consulter un avocat spécialisé en droit social.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CR_008",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [
+        "Décret 2000-148 art 1",
+        "Décret 2000-148 art 2",
+        "Décret 2000-148 art 3"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quand dois-je passer mon véhicule à la visite technique pour la première fois ?\n\nDocuments pertinents:\n[1] Source: article 1 du Décret n° 2000-148\nLes voitures particulières, les motocyclettes... doivent faire l’objet d’une visite technique trois ans après leur première mise en circulation et par la suite... tous les ans.\n\n[2] Source: article 2 du Décret n° 2000-148\nLes véhicules utilitaires et les tracteurs routiers doivent faire l’objet d’une visite technique deux ans après leur première mise en circulation...\n\n[3] Source: article 3 du Décret n° 2000-148\nLes voitures de taxi, de louage et les véhicules de transport public rural doivent faire l’objet d’une visite technique un an après leur première mise en circulation..."
+        },
+        {
+          "role": "assistant",
+          "content": "La date de la première visite technique dépend de la catégorie de votre véhicule. Pourriez-vous préciser de quel type de véhicule il s'agit ? \n\nÀ titre indicatif, l'article 1 du décret n° 2000-148 exige une visite au bout de 3 ans pour les voitures particulières. En revanche, l'article 2 l'exige après 2 ans pour les véhicules utilitaires, et l'article 3 l'impose après 1 an pour les taxis et véhicules de louage.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 1, 2, 3 du Décret n° 2000-148"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_009",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["60"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant qu'automobiliste impliqué dans un accident de la route avec seulement des dégâts matériels, quelle est la procédure exacte que je dois suivre ?\n\nDocuments pertinents:\n[1] Source: article 60 du Code de la Route\nSous réserve des dispositions relatives au secours des personnes en état de danger, tout conducteur impliqué dans un accident de circulation doit :\n- s'arrêter immédiatement en prenant les précautions nécessaires pour éviter tout danger supplémentaire...\n- informer immédiatement la Police ou la Garde Nationale lorsque l'accident a provoqué uniquement des dégâts matériels, aux véhicules stationnés en l'absence du conducteur, aux véhicules appartenant à l'Etat ou aux installations sur la route ;\n- prendre les mesures relatives à l’établissement et la signature du constat à l’amiable pour les accidents entre particuliers ;\n- informer la société d'assurance dans les délais réglementaires."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 60 du Code de la route, la procédure en cas d'accident purement matériel suit plusieurs étapes obligatoires. \n\nTout d'abord, vous devez vous arrêter immédiatement tout en sécurisant les lieux pour éviter un sur-accident. Ensuite, s'il s'agit d'un accident entre particuliers, vous devez établir et signer un constat à l'amiable. \n\nToutefois, vous devez informer immédiatement la Police ou la Garde Nationale si l'accident matériel implique un véhicule stationné sans son conducteur, un véhicule de l'État, ou s'il y a des dégâts sur les installations routières. Enfin, vous devez déclarer le sinistre à votre société d'assurance dans les délais légaux. Ce processus permet de faciliter l'indemnisation civile tout en maintenant la sécurité publique.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 60 du Code de la Route"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_010",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["Décret 2000-142 art 3", "Décret 2000-142 art 5"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je veux conduire un matériel de travaux publics qui pèse 4000 kg (PTAC). Le permis B est-il suffisant ?\n\nDocuments pertinents:\n[1] Source: article 5 du Décret n° 2000-142\nLes conducteurs de matériels de travaux publics... doivent être titulaires d’un permis de conduire de la catégorie B, C ou C+E selon le poids total autorisé en charge ou le poids total roulant autorisé de ces matériels et engins et ce, conformément aux dispositions de l'article trois (3) du présent décret.\n\n[2] Source: article 3 du Décret n° 2000-142\nCatégorie B : Automobiles... dont le poids total autorisé en charge (PTAC) n’excède pas trois mille cinq cent (3500) kilogrammes.\nCatégorie C : Automobiles destinées au transport de choses dont le poids total autorisé en charge (PTAC) excède trois mille cinq cent kilogrammes (3500 Kg)."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 3 et 5 du décret n° 2000-142, le permis de catégorie B n'est pas suffisant pour conduire un matériel de travaux publics dont le Poids Total Autorisé en Charge (PTAC) est de 4000 kg.\n\nEn effet, l'article 5 stipule que le permis requis dépend du PTAC de l'engin. L'article 3 précise que la catégorie B est strictement limitée aux véhicules n'excédant pas 3500 kg. Au-delà de ce poids, et puisque votre engin pèse 4000 kg, vous êtes dans l'obligation de détenir le permis de catégorie C. Cette législation vise à s'assurer que les conducteurs d'engins lourds disposent des compétences techniques nécessaires à leur maîtrise.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 3, 5 du Décret n° 2000-142"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_011",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["74"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هو السن الأدنى القانوني الذي يسمح بقيادة دراجة عادية (هوائية) في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 74 من مجلة الطرقات\nLa conduite des cycles est interdite pour quiconque n'a pas atteint l'âge de douze ans."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 74 من مجلة الطرقات، يُمنع منعاً باتاً قيادة الدراجات العادية (الهوائية) على أي شخص لم يبلغ سن الثانية عشرة (12 سنة). وبالتالي، يُعد هذا السن هو الحد الأدنى القانوني المسموح به لقيادة هذا النوع من الدراجات في الطريق العام. والغاية من هذا التشريع هي حماية الأطفال غير القادرين بعد على استيعاب مخاطر الطريق وضمان السلامة المرورية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 74 من مجلة الطرقات"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_012",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["Décret 2000-146 art 6"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي النسبة القصوى المسموح بها للكحول في الدم أثناء سياقة سيارة في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 6 من الأمر عدد 146 لسنة 2000\nUn conducteur est considéré sous l'empire d'un état alcoolique, lorsque les résultats des vérifications effectuées conformément aux dispositions de l'article trois (3) ci-dessus, font apparaître la présence dans le sang, d’un taux d’alcool pur égal ou supérieur à un demi gramme par litre (0,5 g/l)."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 6 من الأمر عدد 146 لسنة 2000، يُعتبر السائق تحت تأثير حالة كحولية إذا أثبتت الفحوصات أن نسبة الكحول الصافي في دمه تساوي أو تفوق نصف غرام في اللتر الواحد (0.5 غ/ل). وبالتالي، فإن تجاوز هذه النسبة يُعدّ مخالفة صريحة للقانون، والغاية من ذلك هي تجنب حوادث المرور الناجمة عن فقدان السائق لتركيزه وقدرته على التحكم في المركبة.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 6 من الأمر عدد 146 لسنة 2000"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_013",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["51"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يجوز قانونا لمجموعة من الدراجات النارية السير جنبا إلى جنب في الطريق المعبد؟\n\nDocuments pertinents:\n[1] Source: الفصل 51 من مجلة الطرقات\nLes conducteurs des cycles et des motocycles équipés ou non d’un side-car ou d'une remorque doivent circuler l'un derrière l'autre. Le remorquage des cycles et des motocycles à deux roues par un autre véhicule est interdit."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصل 51 من مجلة الطرقات، لا يجوز لسائقي الدراجات العادية والدراجات النارية السير جنباً إلى جنب. بل يفرض القانون عليهم السير الواحد تلو الآخر بصفة منتظمة (في شكل رتل)، سواء كانت هذه الدراجات مجهزة بعربة جانبية أم لا. تهدف هذه القاعدة إلى تفادي عرقلة حركة المرور ومنع الحوادث التي قد تنجم عن تضييق مسار السيارات الأخرى.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 51 من مجلة الطرقات"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_014",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": ["21"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي القاعدة العامة للمجاوزة في الطريق، وهل توجد حالات يُسمح فيها بالمجاوزة من اليمين؟\n\nDocuments pertinents:\n[1] Source: الفصل 16 من مجلة الطرقات\nLe croisement s'effectue à droite et le dépassement à gauche.\n\n[2] Source: الفصل 21 من مجلة الطرقات\nContrairement à la règle prévue à l'article 16 du présent Code, le dépassement à droite d'un véhicule est autorisé lorsque son conducteur a annoncé ou entamé un changement de direction vers la gauche..."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 16 من مجلة الطرقات، المبدأ العام هو أن المجاوزة تتم دائماً من الجهة اليسرى للمركبة.\n\nغير أنّ الفصل 21 من نفس المجلة أقر استثناءً واضحاً لهذه القاعدة، حيث يُسمح بالمجاوزة من اليمين في حالة واحدة محددة: عندما يكون سائق المركبة الأمامية قد أعلن عن نيته أو شرع فعلياً في تغيير اتجاهه نحو اليسار. والغاية من هذا الاستثناء هي الحفاظ على انسيابية حركة المرور وتجنب الازدحام غير المبرر عند التقاطعات أو عند انعطاف السيارات.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 16، 21 من مجلة الطرقات"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_015",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": ["33", "35", "36"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي القواعد المنظمة لاستعمال المنبه الصوتي (المنبه) داخل مواطن العمران وأثناء الليل؟\n\nDocuments pertinents:\n[1] Source: الفصل 33 من مجلة الطرقات\nL'usage des avertisseurs sonores n'est autorisé que pour donner les avertissements nécessaires... L'usage doit être bref et modéré.\n\n[2] Source: الفصل 35 من مجلة الطرقات\nA l’intérieur des agglomérations, les avertisseurs sonores, ne doivent être utilisés que pour éviter un accident.\n\n[3] Source: الفصل 36 من مجلة الطرقات\nEntre le coucher du soleil et la levée du jour, n’est autorisé que, l'usage des signaux lumineux ; les avertisseurs sonores ne sont utilisés qu'en cas de nécessité absolue."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 33 من مجلة الطرقات، يُمنع استعمال المنبه الصوتي إلا لتقديم التحذيرات الضرورية، ويجب أن يكون الاستعمال قصيراً ومعتدلاً. \n\nعلاوة على ذلك، يضبط القانون استثناءات صارمة: فوفقاً للفصل 35، يُمنع تماماً استعمال المنبه الصوتي داخل مواطن العمران إلا في حالة تفادي حادث وشيك. أما ليلاً (من غروب الشمس إلى شروقها)، فيشير الفصل 36 إلى أن التحذير يتم وجوباً بالإشارات الضوئية المتقطعة، ولا يُستعمل المنبه الصوتي إلا في حالات الضرورة القصوى. والغاية من هذه القواعد هي الحد من التلوث السمعي المزعج وحماية راحة المتساكنين.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 33، 35، 36 من مجلة الطرقات"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_016",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي أسعار تأمين السيارات في تونس وما هي التخفيضات الممنوحة للسائقين الذين لم يرتكبوا حوادث؟\n\nDocuments pertinents:\nLes documents concernent le Code de la Route (Règles de circulation, immatriculation, permis de conduire, infractions routières)."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تتضمن معلومات كافية للإجابة على هذا السؤال. المجلة تتعلق بقواعد الجولان، والمخالفات، ورخص السياقة، ولا تتطرق إلى التعريفات التجارية للتأمين أو التخفيضات الممنوحة. يُرجى الاتصال بشركات التأمين أو استشارة محامٍ مختص في قانون التأمين للحصول على التفاصيل الدقيقة.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CR_017",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": ["Décret 2000-142 art 10"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هو السن القانوني الذي يمكنني فيه الحصول على رخصة سياقة في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 10 من الأمر عدد 142 لسنة 2000\nL’âge minimum des candidats aux différentes catégories de permis de conduire... est fixé comme suit :\n- 16 ans pour la catégorie \"A1\" ;\n- 18 ans pour les catégories \"A\", \"B\" et \"H\" ;\n- 20 ans pour les catégories \"C\", \"D1\" et \"B+E\"\n- 21 ans pour les catégories \"D\", \"C+E\" et \"D+E\"."
+        },
+        {
+          "role": "assistant",
+          "content": "يختلف السن القانوني الأدنى للحصول على رخصة السياقة باختلاف صنف الرخصة المطلوبة. هل يمكنك توضيح صنف العربة التي ترغب في قيادتها (مثل سيارة خاصة، دراجة نارية، أو شاحنة ثقيلة)؟\n\nعلى سبيل المثال، يحدد الفصل 10 من الأمر عدد 142 لسنة 2000 السن بـ 18 سنة لرخصة الصنف \"ب\" (B) للسيارات الخاصة، بينما يُشترط بلوغ 20 أو 21 سنة لأصناف الشاحنات الثقيلة والحافلات، و16 سنة فقط للدراجات النارية الصغيرة (A1).\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 10 من الأمر عدد 142 لسنة 2000"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_018",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [
+        "Décret 2000-144 art 12",
+        "Décret 2000-144 art 18"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: لقد تم خصم نقاط من رصيد رخصة السياقة الخاصة بي بسبب مخالفات مرورية. كيف يتم استرجاع هذه النقاط قانونيا؟\n\nDocuments pertinents:\n[1] Source: الفصل 12 من الأمر عدد 144 لسنة 2000\nLe titulaire d'un permis de conduire peut obtenir la reconstitution de quatre (4) points s'il se soumet à une formation spécifique sur la circulation et la sécurité routières... Cette formation est organisée sous forme d'un stage d'une durée de trois(3) jours. La reconstitution partielle du capital de points n'est accordée qu'aux conducteurs qui ont perdu cinq (5) points au moins.\n\n[2] Source: الفصل 18 من الأمر عدد 144 لسنة 2000\nL'attestation de stage est transmise dans un délai de quinze (15) jours à compter de la date de fin de la formation à l'autorité chargée du fichier national des infractions... laquelle doit procéder, dans un délai d'un mois... à la reconstitution de quatre (4) points."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصلين 12 و18 من الأمر عدد 144 لسنة 2000، تتطلب إجراءات استرجاع النقاط المخصومة اتباع مسار تكويني محدد. \n\nأولاً، يُشترط أن تكون قد فقدت ما لا يقل عن خمس (5) نقاط من رصيدك. ثانياً، يتعين عليك الخضوع لدورة تكوينية متخصصة في مجال المرور والسلامة على الطرقات تدوم ثلاثة (3) أيام. بعد اجتياز هذه الدورة، يتم توجيه شهادة التربص، في أجل 15 يوماً، إلى السلطة المكلفة بالسجل الوطني للمخالفات. وأخيراً، تتولى هذه السلطة إرجاع أربع (4) نقاط إلى رصيدك في غضون شهر من تاريخ تلقيها الشهادة. يهدف هذا الإجراء التوجيهي إلى تحسيس السائقين بأهمية احترام قواعد الجولان.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 12، 18 من الأمر عدد 144 لسنة 2000"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_019",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": ["86", "Décret 2000-144 art 3"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الخطية المالية ومقدار النقاط التي يتم خصمها من رخصة السياقة إذا تجاوزت السرعة القصوى المسموح بها بأكثر من 50 كم/ساعة؟\n\nDocuments pertinents:\n[1] Source: article 86 du Code de la Route\nEst punie d’une amende allant de cent vingt (120) à deux cent quarante (240) dinars, toute personne qui dépasse la vitesse maximale autorisée de cinquante km/h ou plus.\n\n[2] Source: article 3 du Décret n° 2000-144\nChacune des infractions à la circulation ci-après, lorsqu’elle est commise, donne lieu à un retrait de points...\n3 - Retrait de quatre (4) points :\n- Dépassement de la vitesse maximale autorisée de 40 km/h ou plus selon les moyens techniques de preuve."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصل 86 من مجلة الطرقات والفصل 3 من الأمر عدد 144 لسنة 2000، فإن تجاوز السرعة القصوى المسموح بها ينجر عنه عقوبات مالية وإدارية مزدوجة.\n\nإذا كان التجاوز يفوق 50 كم/ساعة، فإن السائق يُعاقب بخطية مالية تتراوح بين 120 و240 ديناراً تونسياً (حسب الفصل 86). وعلاوة على ذلك، وبما أن هذا التجاوز يفوق عتبة 40 كم/ساعة المنصوص عليها في الفصل 3 من الأمر عدد 144، فإنه يتم آلياً خصم أربع (4) نقاط من الرصيد المخصص لرخصة السياقة الخاصة به. إن الهدف من هذه الصرامة المزدوجة هو ردع السلوكيات المتهورة التي تهدد حياة مستعملي الطريق.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 86 من مجلة الطرقات، الفصل 3 من الأمر عدد 144 لسنة 2000"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_020",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": ["82", "Décret 2000-151 art 12"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: لقد تحصلت حديثا على رخصة سياقة. كم تدوم فترة التربص (السائق المتربص) وما هي السرعة القصوى المسموح لي بها خارج مواطن العمران؟\n\nDocuments pertinents:\n[1] Source: article 82 du Code de la Route\nLes conducteurs ayant obtenu un permis de conduire sont soumis à une période de stage d’une durée de deux ans à compter de la date d'obtention du permis.\n\n[2] Source: article 12 du Décret n° 2000-151\nIndépendamment des autres limitations de vitesse prévues par le présent décret, tout conducteur est tenu pendant la période de stage de ne pas dépasser la vitesse de 80 km/h sur les autoroutes et en dehors des agglomérations."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 82 من مجلة الطرقات، يخضع السائقون الجدد لفترة تربص وجوبية تدوم سنتين (2) كاملتين، تبدأ من تاريخ الحصول على رخصة السياقة.\n\nوخلال هذه الفترة، ينص الفصل 12 من الأمر عدد 151 لسنة 2000 على تحديدات خاصة للسرعة؛ حيث يُمنع السائق المتربص من تجاوز سرعة 80 كم/ساعة، سواء كان ذلك على الطرقات السيارة أو على الطرقات العادية خارج مواطن العمران. والغاية من هذا التقييد الزمني وتقييد السرعة هي تمكين السائق الجديد من اكتساب الخبرة الكافية في ظروف آمنة، وتقليص مخاطر الحوادث المرتبطة بنقص الممارسة.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 82 من مجلة الطرقات، الفصل 12 من الأمر عدد 151 لسنة 2000"
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Loi n° 99-71 (Code de la route)",
+      "Décret n° 2000-142 (Permis de conduire)",
+      "Décret n° 2000-144 (Capital de points)",
+      "Décret n° 2000-146 (Alcool au volant)",
+      "Décret n° 2000-147 (Équipement des véhicules)",
+      "Décret n° 2000-148 (Visite technique)",
+      "Décret n° 2000-151 (Règles de circulation)"
+    ],
+    "sections_not_covered": [
+      "Décret n° 2004-2236",
+      "Décret n° 2000-141",
+      "Décret n° 2000-143",
+      "Décret n° 2000-145",
+      "Décret n° 2000-149",
+      "Décret n° 2000-150",
+      "Décret n° 2000-152",
+      "Décret n° 2010-262",
+      "Décret n° 2000-154",
+      "Décret n° 2000-155",
+      "Décret n° 2002-2016",
+      "Décret n° 2002-2017",
+      "Décret n° 2007-4101",
+      "Arrêté du 25 janvier 2000 (immatriculation)",
+      "Arrêté du 21 octobre 2009",
+      "Arrêtés et décrets mineurs résiduels"
+    ],
+    "notes": "Échantillon équilibré entre les questions en français (10) et en arabe (10 dont 2 croisées FR/AR). Utilisation du registre MSA formel pour l'arabe avec connecteurs juridiques. Toutes les questions sont directement justifiées par les articles des décrets et de la loi fournis."
+  }
+}

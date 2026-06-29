@@ -1,0 +1,484 @@
+{
+  "batch_id": "batch_CODE_OPC_001_20231026",
+  "source": "Code des Organismes de Placement Collectif (Loi n° 2001-83)",
+  "articles_covered": [
+    "3",
+    "4",
+    "10",
+    "16",
+    "19",
+    "22 ter",
+    "22 sexies",
+    "22 octies",
+    "22 undecies",
+    "22 duodecies",
+    "22 quaterdecies",
+    "28",
+    "29",
+    "31",
+    "33",
+    "35",
+    "36",
+    "39",
+    "40",
+    "48",
+    "56"
+  ],
+  "articles_to_avoid_next_batch": [
+    "3",
+    "4",
+    "10",
+    "16",
+    "19",
+    "22 ter",
+    "22 sexies",
+    "22 octies",
+    "22 undecies",
+    "22 duodecies",
+    "22 quaterdecies",
+    "28",
+    "29",
+    "31",
+    "33",
+    "35",
+    "36",
+    "39",
+    "40",
+    "48",
+    "56"
+  ],
+  "examples": [
+    {
+      "example_id": "OPC_001_FR_DIRECT",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["3"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je suis le directeur financier d'une Société d'Investissement à Capital Variable (SICAV) nouvellement créée en Tunisie. Suite à une crise sur le marché, plusieurs de nos gros investisseurs ont demandé le rachat massif de leurs actions. En conséquence, notre capital actuel a dangereusement chuté et se situe aujourd'hui autour de 800 000 dinars. Nous craignons des répercussions légales. Quels sont les seuils réglementaires du capital pour une SICAV et quelles sont les conséquences juridiques si notre capital reste à ce niveau pendant plusieurs mois ?\n\nDocuments pertinents:\n[1] Source: article 3 du Code des Organismes de Placement Collectif\nLe capital des sociétés d'investissement à capital variable ne peut, à la constitution, être inférieur à un million de dinars.\nLe montant minimum du capital au dessous duquel il ne peut être procédé au rachat d'actions autorisé par l'article 5 du présent code, ne peut être inférieur à cinq cent mille dinars. Le conseil d'administration ou le directoire de la société doit procéder à sa dissolution lorsque son capital demeure, pendant quatre vingt dix jours, inférieur à un million de dinars."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de la loi tunisienne, le capital de constitution d'une SICAV ne peut être inférieur à un million de dinars. Si votre capital a chuté à 800 000 dinars, vous êtes en situation d'irrégularité temporaire. Le principe est que le conseil d'administration ou le directoire est dans l'obligation de procéder à la dissolution de la société si ce capital demeure inférieur à un million de dinars pendant une période continue de quatre-vingt-dix (90) jours [1].\n\nToutefois, la loi tolère la poursuite des opérations de rachat d'actions par les investisseurs tant que le capital ne descend pas en dessous du seuil critique de cinq cent mille dinars [1]. \n\nAinsi, la finalité de cette réglementation est de protéger l'épargne publique en s'assurant que la SICAV conserve une assise financière suffisamment solide pour honorer ses engagements, tout en laissant un délai de grâce de 90 jours pour reconstituer les fonds.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 3 du Code des Organismes de Placement Collectif."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_002_FR_DIRECT",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["16", "31"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Notre cabinet de conseil en stratégie financière souhaite lancer un Fonds Commun de Placement en valeurs mobilières (FCP) destiné aux jeunes entrepreneurs tunisiens. Nous voudrions structurer ce fonds de manière à ce que notre cabinet (une SARL classique) agisse en tant que gestionnaire direct du fonds pour limiter les frais de sous-traitance. Est-ce que la législation tunisienne nous autorise à être le gestionnaire de ce FCP, ou existe-t-il des formes juridiques et des agréments spécifiques imposés par la loi pour exercer ce rôle ?\n\nDocuments pertinents:\n[1] Source: article 16 du Code des Organismes de Placement Collectif\nLe gestionnaire d'un fonds commun de placement en valeurs mobilières est soit une banque ou un intermédiaire en bourse ayant la forme de société anonyme ou la société de gestion visée à l'article 31 du présent code.\n\n[2] Source: article 31 du Code des Organismes de Placement Collectif\nLes sociétés de gestion sont des sociétés anonymes ayant pour objet unique la gestion des portefeuilles des organismes de placement collectif en valeurs mobilières. Le capital des sociétés de gestion ne peut, à la constitution, être inférieur à cent mille dinars."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu du Code des Organismes de Placement Collectif, votre cabinet sous forme de SARL ne peut pas agir en tant que gestionnaire d'un FCP. Le principe juridique impose que le gestionnaire d'un fonds commun de placement soit exclusivement une banque, un intermédiaire en bourse (constitué en société anonyme), ou une « société de gestion » spécifiquement dédiée [1].\n\nPar ailleurs, si vous souhaitez créer votre propre entité pour gérer ce fonds, vous devrez obligatoirement constituer une société de gestion. Cette dernière doit obligatoirement revêtir la forme d'une Société Anonyme (SA), avoir pour objet unique la gestion de portefeuilles d'OPCVM, et justifier d'un capital minimum de cent mille dinars à sa constitution [2].\n\nAinsi, le but de cette restriction est de garantir une forte structuration institutionnelle et financière des entités qui manipulent l'épargne publique.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 16, 31 du Code des Organismes de Placement Collectif."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_003_FR_DIRECT",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["56"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis expert-comptable désigné en tant que commissaire aux comptes pour un organisme de placement collectif (OPCVM) basé à Tunis. Lors de ma mission de contrôle annuel, les dirigeants de cet organisme m'ont fortement incité à omettre des pertes significatives dans mon rapport et à confirmer des états financiers que je sais être mensongers, sous peine de ne pas renouveler mon mandat. Si je cède à cette pression et que je certifie de fausses informations financières, à quelles sanctions pénales et pécuniaires suis-je exposé selon le code ?\n\nDocuments pertinents:\n[1] Source: article 56 du Code des Organismes de Placement Collectif\nEst puni d'un emprisonnement d'un an à cinq ans et d'une amende de mille deux cents à cinq milles dinars ou de l'une de ces deux peines seulement tout commissaire aux comptes qui a sciemment donné ou confirmé des informations mensongères sur la situation d'un organisme de placement collectif ou qui n'a pas révélé au procureur de la République les faits délictueux dont il aura eu connaissance. La peine est doublée en cas de récidive."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de la législation régissant les OPC, votre responsabilité pénale personnelle serait lourdement engagée. Le principe est que tout commissaire aux comptes qui donne ou confirme sciemment des informations mensongères concernant la situation financière de l'organisme commet un délit grave [1].\n\nDe plus, vous êtes également pénalement responsable si vous omettez de révéler au Procureur de la République les faits délictueux dont vous auriez eu connaissance durant votre mission [1]. Les sanctions prévues sont sévères : un emprisonnement allant de un à cinq ans et/ou une amende comprise entre 1 200 et 5 000 dinars. Par ailleurs, ces peines sont systématiquement doublées en cas de récidive [1].\n\nAinsi, la loi fait du commissaire aux comptes un garant inviolable de la transparence financière, et punit toute complaisance susceptible de tromper les investisseurs.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 56 du Code des Organismes de Placement Collectif."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_004_FR_MULTI",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["28", "31"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Notre holding financière s'apprête à créer un organisme de placement collectif en valeurs mobilières (OPCVM). Pour des raisons d'optimisation des coûts opérationnels, notre conseil d'administration a proposé que la même entité juridique, une banque de la place, assure à la fois le rôle de gestionnaire du portefeuille et le rôle de dépositaire des actifs du fonds. Est-il légalement possible de cumuler ces deux fonctions clés pour un même fonds ? Quelles sont les obligations liées au choix et au rôle du dépositaire des actifs ?\n\nDocuments pertinents:\n[1] Source: article 28 du Code des Organismes de Placement Collectif\nLes actifs d'un organisme de placement collectif en valeurs mobilières doivent être conservés par un dépositaire unique qui peut être une banque au sens de la loi relative aux établissements de crédit ou l'une des personnes morales ayant leur siège social en Tunisie et figurant sur une liste fixée par arrêté du ministre des finances.\nLes fonctions de gestionnaire et de dépositaire ne peuvent être cumulées au titre d'un même organisme de placement collectif en valeurs mobilières.\n\n[2] Source: article 31 du Code des Organismes de Placement Collectif\nLes sociétés de gestion sont des sociétés anonymes ayant pour objet unique la gestion des portefeuilles des organismes de placement collectif..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu du Code des Organismes de Placement Collectif, il est strictement interdit de cumuler les rôles de gestionnaire et de dépositaire pour un même OPCVM. Le principe posé par la loi est la séparation totale de ces deux fonctions afin de prévenir les conflits d'intérêts et de garantir un contrôle croisé [1].\n\nConcernant le dépositaire, vous avez l'obligation de confier la conservation de tous les actifs de l'organisme à un dépositaire unique. Celui-ci doit obligatoirement être soit une banque reconnue, soit une personne morale agréée figurant sur une liste arrêtée par le ministre des Finances [1]. D'autre part, la société de gestion doit se consacrer uniquement à son objet principal, qui est la gestion de portefeuilles [2].\n\nAinsi, la finalité de cette séparation étanche est de s'assurer que le dépositaire puisse contrôler l'orthodoxie des décisions du gestionnaire en toute indépendance et protéger les actifs des souscripteurs.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 28, 31 du Code des Organismes de Placement Collectif."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_005_FR_MULTI",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["36", "38"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Nous sommes une banque d'affaires et avons créé il y a un an un Fonds Commun de Créances (FCC). L'émission initiale des parts s'est très bien passée et le fonds dispose aujourd'hui d'une liquidité excédentaire suite à des remboursements anticipés de créances. La direction souhaite utiliser ces liquidités pour acquérir un nouveau portefeuille de créances saines auprès d'une institution de microfinance partenaire. Le FCC a-t-il le droit moral ou légal de faire cette nouvelle acquisition après l'émission des parts ? Comment les créances initiales ont-elles dû être formalisées lors de la cession ?\n\nDocuments pertinents:\n[1] Source: article 36 du Code des Organismes de Placement Collectif\nLe fonds commun de créances n'a pas la personnalité morale. Les dispositions du code du droit réel relatives à l'indivision ainsi que les dispositions régissant les sociétés en participation ne lui sont pas applicables.\nLe fonds ne peut acquérir des créances après l'émission des parts. II lui est permis de placer les sommes momentanément disponibles et en instance d'affectation dans des conditions définies par décret.\n\n[2] Source: article 38 du Code des Organismes de Placement Collectif\nLa cession des créances s'effectue par la remise d'un bordereau comportant les indications suivantes : la dénomination 'acte de cession de créances'... l'identification des créances cédées... La remise du bordereau entraîne de plein droit, le transfert des sûretés..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu du Code des Organismes de Placement Collectif, votre Fonds Commun de Créances (FCC) n'a pas le droit d'acquérir de nouvelles créances. Le principe formel est qu'un FCC ne peut en aucun cas acquérir des créances après l'émission initiale de ses parts [1]. De surcroît, le fonds n'a pas de personnalité morale propre [1].\n\nToutefois, la loi prévoit une alternative pour vos liquidités excédentaires : il vous est permis de placer ces sommes momentanément disponibles dans des conditions strictement définies par décret, mais pas de racheter de nouvelles dettes [1]. Par ailleurs, concernant les créances initiales, leur cession au fonds a dû être actée par la remise d'un bordereau spécifique d'« acte de cession de créances », dont la simple remise a transféré de plein droit les sûretés associées [2].\n\nAinsi, la nature d'un FCC est d'être un véhicule fermé (titrisation d'un portefeuille fixe) et non un fonds de roulement continu.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 36, 38 du Code des Organismes de Placement Collectif."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_006_FR_PRINC_EXC",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["29"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis gestionnaire d'un OPCVM en Tunisie. Actuellement, une opportunité exceptionnelle se présente sur le marché boursier avec une grande entreprise industrielle privée dont les rendements sont excellents. Je souhaite allouer 25% des actifs totaux de mon fonds dans les actions de cet unique émetteur pour maximiser le profit de nos souscripteurs. Est-ce que la réglementation tunisienne m'autorise à concentrer autant d'actifs sur une seule entreprise privée ? Existe-t-il des exceptions où je pourrais dépasser ces seuils d'investissement ?\n\nDocuments pertinents:\n[1] Source: article 29 du Code des Organismes de Placement Collectif\nLes organismes de placement collectif en valeurs mobilières ne peuvent détenir plus de 10% d'une même catégorie de valeurs mobilières d'un même émetteur sauf s'il s'agit de l'Etat, des collectivités locales ou de valeurs mobilières garanties par l'Etat.\nDe même, ils ne peuvent employer plus de 10 % de leurs actifs en titres émis ou garantis par un même émetteur sauf s'il s'agit de l'Etat, des collectivités locales ou de titres garantis par l'Etat."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu du Code des Organismes de Placement Collectif, il vous est strictement interdit d'investir 25% de votre fonds dans cette entreprise industrielle privée. Le principe directeur est la dispersion du risque : un OPCVM ne peut pas employer plus de 10% de ses actifs globaux en titres émis par un seul et même émetteur privé [1].\n\nToutefois, la législation prévoit des exceptions majeures à ce plafond de concentration. Vous pouvez parfaitement dépasser ce seuil de 10% si les titres en question sont émis directement par l'État tunisien, par des collectivités locales, ou s'il s'agit de valeurs mobilières bénéficiant formellement de la garantie de l'État [1]. \n\nAinsi, la réglementation cherche à protéger les épargnants contre le risque de faillite d'une entreprise privée en imposant la diversification du portefeuille, tout en favorisant le financement de la dette publique et souveraine réputée sans risque.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 29 du Code des Organismes de Placement Collectif."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_007_FR_PRINC_EXC",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["39"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Notre établissement de crédit agit comme gestionnaire d'un Fonds Commun de Créances (FCC). Nous avons besoin de rééquilibrer le bilan de ce fonds et nous avons trouvé un acheteur intéressé par certaines des créances que le FCC détient actuellement. Avons-nous le droit de céder ou de revendre librement une partie des créances acquises par le fonds à d'autres investisseurs en cours de route ? Comment se gère la cession si le fonds arrive en toute fin de vie ?\n\nDocuments pertinents:\n[1] Source: article 39 du Code des Organismes de Placement Collectif\nLe fonds commun de créances ne peut céder les créances qu'il a acquises sauf en cas de liquidation lorsque le montant de l'actif résiduel est inférieur à 10% du montant initial de l'émission. Dans ce cas, la cession s'effectue pour la totalité de l'actif résiduel en une seule fois, et selon les modalités prévues par l'article 38 du présent code.\nLe fonds ne peut nantir les créances qu'il détient."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu du Code des Organismes de Placement Collectif, la réponse est négative : vous ne pouvez pas revendre librement ces créances. Le principe fondamental est qu'un Fonds Commun de Créances (FCC) a l'interdiction formelle de céder ou de nantir les créances qu'il a acquises [1].\n\nToutefois, la loi prévoit une exception stricte, applicable uniquement lors de la fin de vie du fonds. La cession des créances devient légalement possible en cas de liquidation de l'organisme, à la condition expresse que le montant de l'actif résiduel soit tombé en dessous de 10% du montant initial de l'émission [1]. En outre, si cette condition est remplie, vous ne pouvez pas céder les créances au compte-gouttes : la cession doit s'effectuer pour la totalité de l'actif résiduel en une seule fois [1].\n\nAinsi, cette règle garantit la stabilité et la vocation de détention (buy-and-hold) du FCC, tout en facilitant sa clôture technique lorsque les encours deviennent résiduels.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 39 du Code des Organismes de Placement Collectif."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_008_FR_REFUSAL",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": ["23"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis un citoyen résidant en France et je souhaite rapatrier mes économies pour investir dans la pierre en Tunisie. J'ai entendu parler de l'Agence de Promotion de l'Investissement Extérieur (FIPA) et je veux créer une société immobilière. Est-ce que ce code de placement collectif prévoit des subventions directes de l'Etat pour l'achat de terrains à bâtir dans les zones de développement régional pour les Tunisiens résidant à l'étranger (TRE) ?\n\nDocuments pertinents:\n[1] Source: article 23 du Code des Organismes de Placement Collectif\nLes statuts ou le règlement intérieur d'un organisme de placement collectif en valeurs mobilières fixent la valeur d'origine de l'action ou de la part.\nLes actions ou les parts d'un organisme de placement collectif en valeurs mobilières ne peuvent être souscrites ou rachetées qu'en numéraire."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question concernant les subventions immobilières ou les avantages de la FIPA. Le code fourni traite exclusivement des Organismes de Placement Collectif (SICAV, FCP). Je vous recommande de consulter un avocat spécialisé en droit des investissements ou la législation relative à l'immobilier."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_009_FR_CLARIFICATION",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": ["19", "48"],
+      "confidence_flag": "medium",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je suis porteur de parts dans un fonds d'investissement tunisien et j'ai constaté des irrégularités graves dans la manière dont notre portefeuille est géré. Je souhaite entamer une procédure de révocation contre les dirigeants de la société de gestion. Comment puis-je déclencher cette révocation devant le tribunal et qui s'occupera de la gestion si le juge accepte de les écarter de leurs fonctions ?\n\nDocuments pertinents:\n[1] Source: article 19 du Code des Organismes de Placement Collectif\nLe tribunal saisi de l'action en responsabilité... peut prononcer, à la demande d'un porteur de parts, la révocation des dirigeants du gestionnaire du fonds ou de ceux du dépositaire... le tribunal nomme un administrateur provisoire jusqu'à la désignation de nouveaux dirigeants.\n\n[2] Source: article 48 du Code des Organismes de Placement Collectif\nLe dépositaire peut demander au tribunal la cessation des fonctions des dirigeants du gestionnaire du fonds commun de créances... le tribunal nomme un administrateur provisoire jusqu'à la désignation de nouveaux dirigeants..."
+        },
+        {
+          "role": "assistant",
+          "content": "Afin de vous orienter correctement, pourriez-vous préciser la nature juridique exacte de votre fonds : s'agit-il d'un Fonds Commun de Placement en valeurs mobilières (FCP) ou d'un Fonds Commun de Créances (FCC) ?\n\nEn effet, si dans un FCP, le porteur de parts peut demander directement au tribunal la révocation des dirigeants (article 19), pour un FCC, c'est généralement le dépositaire qui a la prérogative de demander la cessation des fonctions des dirigeants (article 48).\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 19, 48 du Code des Organismes de Placement Collectif."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_010_FR_PROCEDURAL",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["22 undecies", "22 duodecies"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Notre Fonds Commun de Placement à Risque (FCPR) est opérationnel depuis plusieurs années et nous approchons de la fin de notre période d'investissement actif. Nous devons initier la phase de clôture du fonds pour restituer l'argent aux investisseurs. Quelle est la procédure légale exacte pour faire entrer le fonds en « période de préliquidation » ? Quelles sont les interdictions strictes qui s'imposent à nous durant cette phase transitoire concernant la gestion de nos actifs et les nouvelles souscriptions ?\n\nDocuments pertinents:\n[1] Source: article 22 undecies du Code des Organismes de Placement Collectif\nUn fonds commun de placement à risque peut entrer en période de préliquidation après déclaration au conseil du marché financier et au centre de contrôle des impôts compétent...\n\n[2] Source: article 22 duodecies du Code des Organismes de Placement Collectif\nPendant la période de préliquidation, le fonds ne peut plus : permettre de nouvelles souscriptions de parts : détenir à son actif à compter de l’ouverture de l’exercice qui suit... que : des titres ou droits de sociétés non admises... des placements des produits de cession de ses actifs... et du placement de sa trésorerie à hauteur de 20 % de son actif."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu du Code des Organismes de Placement Collectif, l'entrée en phase de préliquidation obéit à un processus déclaratif et entraîne des restrictions opérationnelles sévères.\n\nLa première étape de la procédure exige que vous fassiez une déclaration formelle d'entrée en préliquidation conjointement auprès du Conseil du Marché Financier (CMF) et du centre de contrôle des impôts compétent [1]. \n\nUne fois cette déclaration effectuée et la période enclenchée, le fonds fait face à des interdictions strictes. En premier lieu, vous avez l'interdiction formelle d'accepter toute nouvelle souscription de parts [2]. En second lieu, la composition de votre actif est verrouillée : vous ne pouvez détenir que les titres de sociétés (cotées ou non) qui étaient déjà pris en compte dans votre quota d'investissement, ainsi que les produits issus de la cession de vos actifs en instance de distribution. Enfin, le placement de votre trésorerie liquide est plafonné à 20% de l'actif du fonds [2].\n\nAinsi, cette procédure prépare le désengagement organisé du fonds pour protéger les porteurs de parts jusqu'à la liquidation finale.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 22 undecies, 22 duodecies du Code des Organismes de Placement Collectif."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_011_AR_DIRECT",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["10"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: نحن مجموعة من المستثمرين في صندوق مشترك للتوظيف في الأوراق المالية (FCP)، ونرغب في رفع دعوى قضائية ضد الصندوق نفسه ككيان قانوني مستقل بسبب سوء الإدارة وتأخر توزيع الأرباح. هل يمتلك الصندوق المشترك للتوظيف شخصية معنوية أو اعتبارية تسمح لنا بمقاضاته مباشرة؟ وهل تنطبق عليه أحكام مجلة الحقوق العينية المتعلقة بالشيوع أو القوانين الخاصة بشركات المحاصة؟\n\nDocuments pertinents:\n[1] Source: الفصل 10 من مجلة مؤسسات التوظيف الجماعي\nLe fonds commun de placement en valeurs mobilières est une copropriété de valeurs mobilières.\nLe fonds commun de placement en valeurs mobilières n'a pas la personnalité morale. Les dispositions du code des droits réels relatives à l'indivision ainsi que les dispositions régissant les sociétés en participation ne lui sont pas applicables."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى مجلة مؤسسات التوظيف الجماعي، لا يمكنكم مقاضاة الصندوق المشترك ككيان مستقل، وذلك لأن هذا الصندوق لا يتمتع بالشخصية المعنوية (الاعتبارية) [1]. هو يُعتبر قانوناً مجرد ملكية مشتركة للأوراق المالية.\n\nعلاوة على ذلك، ينص القانون صراحة على أن أحكام مجلة الحقوق العينية المتعلقة بحالة الشيوع (indivision)، وكذلك الأحكام المنظمة لشركات المحاصة، لا تنطبق إطلاقاً على هذا الصندوق [1]. وبالتالي، فإن التنظيم القانوني للصندوق ذو طبيعة خاصة، وتتولى شركة التصرف تمثيل المشتركين والدفاع عن حقوقهم بدلاً من اعتبار الصندوق شركة مستقلة.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 10 من مجلة مؤسسات التوظيف الجماعي."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_012_AR_MULTI",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": ["35", "40"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: يدرس البنك الذي أعمل فيه إمكانية إنشاء صندوق مشترك للديون (FCC) لتحويل جزء من الديون السليمة التي يمتلكها إلى أوراق مالية (توريق الديون). لضمان نجاح العملية وطمأنة المكتتبين، ما هي الطرق القانونية المسموح بها لتغطية مخاطر عدم استخلاص هذه الديون؟ وهل نحن ملزمون بالتعاقد مع جهة خارجية لتقييم جودة الحصص التي سيصدرها الصندوق للمستثمرين؟\n\nDocuments pertinents:\n[1] Source: الفصل 35 من مجلة مؤسسات التوظيف الجماعي\nII est procédé à la couverture contre les risques de non recouvrement des créances acquises par le fonds commun de créances par un ou plusieurs des moyens ci-après : - la cession au fonds d'un montant de créances excédant le montant des parts émises ; - l'émission de parts spécifiques supportant le risque... - l'obtention d'une garantie accordée par une banque... - l'existence de garanties adéquates attachées aux créances acquises.\n\n[2] Source: الفصل 40 من مجلة مؤسسات التوظيف الجماعي\nUn organisme de notation spécialisé, inscrit sur une liste fixée par arrêté du ministre des finances après avis du conseil du marché financier, procède à l'appréciation des caractéristiques des parts à émettre par le fonds commun de créances et des créances qu'il se propose d'acquérir..."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى مجلة مؤسسات التوظيف الجماعي، يُلزم الصندوق بتوفير تغطية ضد مخاطر عدم الاستخلاص. ويمكن تحقيق ذلك عبر وسائل محددة، منها: إحالة ديون تفوق قيمتها حجم الحصص المصدرة، أو إصدار حصص خاصة تتحمل عبء المخاطر، أو الحصول على ضمانات مباشرة من بنك أو مؤسسة تأمين، أو عبر الضمانات المرتبطة بالديون ذاتها [1].\n\nعلاوة على ذلك، لا يُسمح للبنك بإصدار الحصص دون تقييم خارجي مستقل. يجب وجوباً التعاقد مع مؤسسة تقييم وترقيم مختصة (Organisme de notation)، ومسجلة ضمن قائمة يضبطها وزير المالية. تتولى هذه المؤسسة تقييم خصائص الحصص المصدرة ودرجة المخاطر المتعلقة بالديون [2].\n\nوبالتالي، يهدف المشرع من خلال هذه الآليات المركبة إلى حماية المستثمرين عبر التنويع في ضمانات الاستخلاص والتقييم المستقل والموضوعي للمخاطر.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 35، 40 من مجلة مؤسسات التوظيف الجماعي."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_013_AR_CLARIFICATION",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": ["3", "31"],
+      "confidence_flag": "medium",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: السلام عليكم، أنا مهتم بمجال الاستثمار المالي في تونس وأرغب في تأسيس شركة تعمل في هذا القطاع لجمع الأموال وتوظيفها في البورصة. أريد أن أبدأ بجمع رأس المال اللازم، ولكنني لست متأكداً من الحد الأدنى الذي يفرضه القانون. هل يمكنكم إخباري بدقة ما هو المبلغ الأدنى لرأس المال المطلوب عند التأسيس لتجنب أي مشاكل قانونية مع هيئة السوق المالية؟\n\nDocuments pertinents:\n[1] Source: الفصل 3 من مجلة مؤسسات التوظيف الجماعي\nLe capital des sociétés d'investissement à capital variable ne peut, à la constitution, être inférieur à un million de dinars.\n\n[2] Source: الفصل 31 من مجلة مؤسسات التوظيف الجماعي\nLes sociétés de gestion sont des sociétés anonymes ayant pour objet unique la gestion des portefeuilles des organismes de placement collectif en valeurs mobilières. Le capital des sociétés de gestion ne peut, à la constitution, être inférieur à cent mille dinars."
+        },
+        {
+          "role": "assistant",
+          "content": "لكي أتمكن من إجابتك بدقة، هل يمكنك توضيح نوع الشركة التي ترغب في تأسيسها بالتحديد؟ \n\nإذا كنت ترغب في تأسيس \"شركة استثمار ذات رأس مال متغير\" (SICAV)، فإن الحد الأدنى لرأس المال عند التأسيس يجب أن لا يقل عن مليون (1.000.000) دينار [1]. أما إذا كنت تقصد تأسيس \"شركة تصرف\" (Société de gestion) تتولى إدارة محافظ الصناديق، فإن الحد الأدنى لرأس المال المطلوب هو مائة ألف (100.000) دينار [2].\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 3، 31 من مجلة مؤسسات التوظيف الجماعي."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_014_AR_PROCEDURAL",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": ["33"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: قامت شركتنا بالحصول على اعتماد (Agrément) من هيئة السوق المالية لتأسيس مؤسسة توظيف جماعي منذ حوالي 14 شهراً. للأسف، بسبب ظروف اقتصادية طارئة، لم نتمكن من بدء النشاط الفعلي حتى الآن. علمنا أن هيئة السوق المالية تنوي سحب الاعتماد منا. ما هي الإجراءات المتسلسلة التي تتبعها الهيئة لسحب الاعتماد؟ وما هي النتيجة القانونية الحتمية التي ستقع على الشركة في حال تم السحب رسمياً؟\n\nDocuments pertinents:\n[1] Source: الفصل 33 من مجلة مؤسسات التوظيف الجماعي\nLe conseil du marché financier décide le retrait de l'agrément prévu par l'article 32 du présent code, soit à la demande du bénéficiaire de l'agrément, soit à son initiative après audition du bénéficiaire de l'agrément lorsque : - il n'a pas été fait usage de l'agrément dans un délai de douze mois à compter de la date de son octroi...\nEn cas de retrait de l'agrément, l'organisme ou la société, selon le cas, doit être liquidé, selon la législation en vigueur, dans le délai d'une année à compter de la date de la décision de retrait."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى مجلة مؤسسات التوظيف الجماعي، يحق لهيئة السوق المالية سحب الاعتماد في حال عدم استخدامه والشروع في النشاط خلال اثني عشر (12) شهراً من تاريخ منحه [1].\n\nأما بالنسبة للإجراءات المتسلسلة، فإن الهيئة لا تقوم بسحب الاعتماد بصفة تعسفية أو مفاجئة؛ بل تلتزم وجوباً باستدعاء ممثل الشركة المعنية والاستماع إليه (Audition) قبل اتخاذ قرار السحب [1]. \n\nوفي حال صدور القرار النهائي بسحب الاعتماد، فإن النتيجة القانونية الحتمية هي تصفية (Liquidation) المؤسسة أو الشركة. ويجب إتمام إجراءات هذه التصفية وفقاً للتشريع الجاري به العمل في أجل أقصاه سنة واحدة ابتداءً من تاريخ قرار السحب [1].\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 33 من مجلة مؤسسات التوظيف الجماعي."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_015_AR_REFUSAL",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": ["2"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أعمل كمستشار في مجال العملات الرقمية والتشفير. هناك مجموعة من المستثمرين التونسيين ينوون تأسيس صندوق استثماري محلي هدفه الوحيد تداول عملة البيتكوين (Bitcoin) والعملات المشفرة الأخرى. هل يوجد في هذا القانون ما ينظم تأسيس صناديق الاستثمار في العملات الرقمية؟ وما هي الرسوم التي تفرضها هيئة السوق المالية على هذا النوع المبتكر من الاستثمارات؟\n\nDocuments pertinents:\n[1] Source: الفصل 2 من مجلة مؤسسات التوظيف الجماعي\nLes sociétés d'investissement à capital variable sont des sociétés anonymes ayant pour objet unique la gestion d'un portefeuille de valeurs mobilières."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال. مجلة مؤسسات التوظيف الجماعي تنظم حصراً التعامل في \"الأوراق المالية\" (Valeurs mobilières) والديون، ولا تتطرق إطلاقاً لموضوع العملات الرقمية أو المشفرة مثل البيتكوين. أوصي باستشارة محامٍ متخصص في التكنولوجيا المالية وقوانين البنك المركزي.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_016_DERJA_LAT_DIRECT",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["4"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: 3aslema, ena w shabi nhebou n7ellou SICAV (Société d'Investissement à Capital Variable). Ena bech nsob l flous l akther w nheb nekhou \"actions de préférence\" wala parts mte3 fondateurs bech no93ed dima andi controle akber fil aswem w fil vote par rapport l nes lokhrin. Yeakhi l 9anoun l tounsi yasmahli bech nkharrej hal naw3 mta3 l actions fil SICAV mte3i?\n\nDocuments pertinents:\n[1] Source: article 4 du Code des Organismes de Placement Collectif\nLes actions des sociétés d'investissement à capital variable sont émises sans droit préférentiel de souscription. Il est interdit à ces sociétés de créer des parts de fondateurs ou d'émettre des actions de préférence."
+        },
+        {
+          "role": "assistant",
+          "content": "Aslema. Bekhtisar, l 9anoun tounsi ma yasma7lekch jemla bech ta3mel l 7aja hethi fil SICAV.\n\n3la 7seb l'article 4 mel Code des Organismes de Placement Collectif, mamnou3 9at3iyan (il est interdit) 3al SICAV bech ta5la9 \"parts de fondateurs\" wala t5arrej \"actions de préférence\" [1]. L'actions lkol lazm ykounou 3andhom nafs l 9ima w nafs l 7ou9ou9 bech ykoun fama moussawet bin l investisseurs lkol.\n\nZid 3aliha, l'émission mta3 l'actions tsir men ghir dima l 7a9 l aoualawi fil souscription (sans droit préférentiel de souscription) [1].\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 4 du Code des Organismes de Placement Collectif."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_017_DERJA_ARB_PRINC_EXC",
+      "language": "derja",
+      "category": "principle_exception",
+      "articles_referenced": ["22 sexies", "22 quaterdecies"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: سلام، حطيت فلوس باهية في صندوق مشترك للتوظيف في المخاطر (FCPR) عندو عامين. توا تزيّرت ماديا ونحب نجبد فلوسي (rachat) كاش. اتصلت بالشركة قالولي ما تنجمش تجبد فلوسك توا. شنية القاعدة القانونية في الحكاية هذي؟ و وقتاش نجم نطلب تصفية الصندوق؟ وهل الفلوس كي نجبدها يرجعوهالي فلوس كاش والا أوراق مالية وأسهم متع شركات؟\n\nDocuments pertinents:\n[1] Source: الفصل 22 سادسا من مجلة مؤسسات التوظيف الجماعي\nLes porteurs de parts de fonds ne peuvent pas demander le rachat de celles-ci avant l’expiration d’une période fixée dans son règlement intérieur qui ne peut excéder dix ans, et au terme de cette période, les porteurs de parts peuvent exiger la liquidation du fonds si les demandes de rachat n’ont pas été satisfaites dans un délai d’une année...\n\n[2] Source: الفصل 22 رابع عشر من مجلة مؤسسات التوظيف الجماعي\nle rachat s’effectue en numéraire lorsque c’est possible. Toutefois, à la dissolution du fonds, le rachat des parts peut s’effectuer en titres de sociétés dans lesquelles le fonds détient une participation si le règlement intérieur du fonds le prévoit..."
+        },
+        {
+          "role": "assistant",
+          "content": "وعليكم السلام. القاعدة العامة تقول إنك ما تنجمش تطلب ترجيع فلوسك من صندوق التوظيف في المخاطر (FCPR) قبل ما يوفى الأجل لي منصوص عليه في النظام الأساسي للصندوق، ولي ينجم يوصل لـ 10 سنين [1]. \n\nغير أنّه، كي توفى المدة هذي، وإذا طلبت فلوسك وما رجعوهالكش في ظرف عام كامل، وقتها القانون يعطيك الحق باش تطلب تصفية الصندوق (liquidation) [1].\n\nبالنسبة لكيفاش ترجعلك الفلوس: المبدأ إنهم يرجعوهالك فلوس كاش (en numéraire) كل ما كان هذا ممكن. أما الاستثناء، في حالة التصفية، ينجمو يرجعولك حقك في شكل أسهم متع شركات كان الصندوق شاري فيها، بشرط يكون هذا مذكور في النظام الداخلي للصندوق ومفيش موانع تمنع بيع الأسهم هذي [2].\n\nهذا موش نصيحة قانونية. حسب حالتك، احكي مع محامي.\nSources: الفصول 22 سادسا، 22 رابع عشر من مجلة مؤسسات التوظيف الجماعي."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_018_DERJA_LAT_MULTI",
+      "language": "derja",
+      "category": "multi_article",
+      "articles_referenced": ["22 octies", "31"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: 3aslema, fama des investisseurs men fransa yhebou yhelou \"société de gestion\" fi tounes bech yjiriw des fonds d'investissement spécialisés, ama yhebouha tkoun \"off-shore\" (mouch ma7aliya) w l flous lkolha bel devise. Najmou nhelouha off-shore légalement? W chnowa l capital minimum li lazmhom ysobbouh bech l CMF taatihom l'agrément, khater smaat fama far9 fil flous bin société 3adiya w société off-shore?\n\nDocuments pertinents:\n[1] Source: article 22 octies du Code des Organismes de Placement Collectif\nNonobstant tout texte juridique contraire, le gestionnaire des fonds d’investissement spécialisés et des fonds des fonds dont la totalité de ses actifs est souscrite en devise étrangère, peut être une société de gestion off shore agréée par le conseil du marché financier. La société de gestion off-shore agréée doit justifier, lors de sa création, d’un capital minimum de la contrevaleur en devise convertible d’un (1) million de dinars.\n\n[2] Source: article 31 du Code des Organismes de Placement Collectif\nLes sociétés de gestion sont des sociétés anonymes... Le capital des sociétés de gestion ne peut, à la constitution, être inférieur à cent mille dinars."
+        },
+        {
+          "role": "assistant",
+          "content": "Aslema. Bekhtisar, l 9anoun yasma7 lel investisseurs l'ajeneb bech yhelou société de gestion \"off-shore\", ama b chourout srama.\n\nAy société de gestion 3adiya fi tounes lazmha capital minimum mta3 100 malyoun (100 mille dinars) [2]. Ama fel 7ala mte3kom, bima anou l fonds d'investissement spécialisés bech tkoun l flous mte3ou lkolha bel devise (devise étrangère), l CMF tnejjem taatikom agrément l société off-shore [1]. \n\nM3a hetha, l far9 l kbir houwa fel flous: bech t7ell société off-shore kima heka, l 9anoun yoفرض 3likom tsobbou capital minimum mta3 contrevaleur b 1 Malyar (1 million de dinars) bel devise l convertible, mouch 100 malyoun kahaw [1].\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 22 octies, 31 du Code des Organismes de Placement Collectif."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_019_DERJA_ARB_CLARIFICATION",
+      "language": "derja",
+      "category": "clarification",
+      "articles_referenced": ["24", "25"],
+      "confidence_flag": "medium",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: بربي عندي مشكلة، مشيت للبنك باش نجبد فلوسي ونبيع الحصص لي شريتها في صندوق استثمار (OPCVM). مدير الفرع قلي راهي عملية البيع والشراء حابسة توا (suspendue) وما تنجمش تجبد فلوسك. هل عندهم الحق يوقفو العمليات هكا بقرار منهم؟ وشنوة السوم لي باش يحسبولي بيه كي تتسرح الأمور؟\n\nDocuments pertinents:\n[1] Source: الفصل 24 من مجلة مؤسسات التوظيف الجماعي\nLes statuts ou les règlements intérieurs... peuvent prévoir la possibilité pour le conseil d'administration ou le directoire ou pour le gestionnaire de suspendre, momentanément, et après avis du commissaire aux comptes les opérations de rachat ainsi que les opérations d'émission quand des circonstances exceptionnelles l'exigent ou si l'intérêt des actionnaires ou des porteurs de parts le commande...\n\n[2] Source: الفصل 25 من مجلة مؤسسات التوظيف الجماعي\nLes opérations d'émission et de rachat des actions ou des parts sont effectuées, à tout moment, à la valeur liquidative majorée ou diminuée des commissions d'émission ou de rachat..."
+        },
+        {
+          "role": "assistant",
+          "content": "باش نجاوبك بالصحيح، تنجمشي تزيد تثبتلي هل فما \"ظروف استثنائية\" صايرة في السوق المالي حاليا، وهل القرار هذا منصوص عليه في النظام الداخلي (règlement intérieur) متع الصندوق متاعك؟\n\nخاطر المبدأ، إنو عمليات السحب (rachat) تصير في أي وقت بقيمة الأصل الصافية (valeur liquidative) [2]. أما القانون يعطيهم الحق باش يوقفوها بصفة وقتية كان فما ظروف استثنائية أو لحماية مصلحة المساهمين، بشرط ياخذو رأي مراقب الحسابات ويعلمو هيئة السوق المالية (CMF) [1].\n\nهذا موش نصيحة قانونية. حسب حالتك، احكي مع محامي.\nSources: الفصل 24، 25 من مجلة مؤسسات التوظيف الجماعي."
+        }
+      ]
+    },
+    {
+      "example_id": "OPC_020_DERJA_LAT_REFUSAL",
+      "language": "derja",
+      "category": "refusal",
+      "articles_referenced": ["2"],
+      "confidence_flag": "high",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: 3aslema, ena chab tounsi nheb nhel machrou3 zira3i fel kairouan. Smaat li l'etat tnajjem taatini subvention agricole w taaweni f charyen l mekinet mta3 l fleha. Najem nsobb matleb bch nekho l min7a hethi taba3 l Code des organismes de placement collectif wala hetha khas ken b chariket l bourse? W chnowa chourout l min7a?\n\nDocuments pertinents:\n[1] Source: article 2 du Code des Organismes de Placement Collectif\nLes sociétés d'investissement à capital variable sont des sociétés anonymes ayant pour objet unique la gestion d'un portefeuille de valeurs mobilières."
+        },
+        {
+          "role": "assistant",
+          "content": "El wra9 elli 3andi ma fihomch réponse l sou2el hedha. L'Code hedha yahki ken 3al Organismes de Placement Collectif kima SICAV wel FCP (chariket l bourse wel istithmar fel awra9 l maliya). Ma fihouch 7ata ma3louma 3al min7a l fila7iya (subventions agricoles) wala machari3 l fle7a. Ahsen 7aja tchouf l'APIA (Agence de Promotion des Investissements Agricoles).\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Titre I, Chapitre I (SICAV)",
+      "Titre I, Chapitre II (FCP)",
+      "Titre I, Chapitre II bis (FCPR, Fonds des fonds, Off-shore)",
+      "Titre I, Chapitre III (Dispositions communes)",
+      "Titre II (FCC)",
+      "Titre III (Dispositions diverses, Sanctions)"
+    ],
+    "sections_not_covered": [],
+    "notes": "Batch carefully covers highly specific constraints of the Tunisian OPC framework, including off-shore management, the restrictions on FCC post-emission, SICAV minimum capital requirements, FCPR lock-up periods, and auditor liability. The Derja queries capture common entrepreneurial, retail investor, and financial industry tones."
+  }
+}

@@ -1,0 +1,493 @@
+{
+  "batch_id": "batch_CODE_DISCIPLINAIRE_MARITIME_01_20240520",
+  "provenance": {
+    "generated_by": "Gemini 3.1 Pro Preview",
+    "platform": "Google_ai_studio"
+  },
+  "time_of_generation": "3m",
+  "source": "Code Disciplinaire et Pénal Maritime (2016)",
+  "articles_covered": [
+    "1",
+    "3",
+    "4",
+    "6",
+    "7",
+    "9",
+    "12",
+    "22",
+    "28",
+    "41",
+    "46",
+    "47",
+    "48",
+    "53",
+    "60",
+    "68",
+    "71",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "91"
+  ],
+  "articles_to_avoid_next_batch": [
+    "1",
+    "3",
+    "4",
+    "6",
+    "7",
+    "9",
+    "12",
+    "22",
+    "28",
+    "41",
+    "46",
+    "47",
+    "48",
+    "53",
+    "60",
+    "68",
+    "71",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "91"
+  ],
+  "examples": [
+    {
+      "example_id": "ex_cdpm_01",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["3", "4"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis capitaine d'un navire de commerce battant pavillon tunisien. Lors d'une longue traversée en mer, deux marins ont commencé à se battre violemment dans la salle des machines, menaçant sérieusement la sécurité du navire et la bonne exécution de notre expédition. Ils refusent catégoriquement de se calmer malgré mes sommations. Ai-je légalement le droit d'utiliser la force pour les maîtriser et les enfermer ? Si je prends de telles mesures coercitives, quelles sont mes obligations administratives pour tracer cet incident à bord ?\n\nDocuments pertinents:\n[1] Source: art. 3 du Code disciplinaire et pénal maritime\nLe capitaine a, dans l'intérêt commun [...] sur toutes les personnes présentes à bord pour quelque cause que ce soit, et autant que la nécessité l'exige, l'autorité que comportent le maintien de l'ordre, la sécurité des personnes embarquées, du navire [...]. Il peut employer, à ces fins, tout moyen de coercition utile et requérir les personnes embarquées de lui prêter main-forte. Les mesures prises par le capitaine, et les circonstances qui les ont motivées, doivent être mentionnées au registre disciplinaire prévu à l'article 4 du présent code.\n\n[2] Source: art. 4 du Code disciplinaire et pénal maritime\nLe registre disciplinaire est un registre coté et paraphé par l'autorité maritime sur lequel sont portés la nature des fautes de discipline ou les circonstances des crimes ou délits commis à bord..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 3 du Code disciplinaire et pénal maritime, vous avez effectivement l'autorité nécessaire pour maintenir l'ordre et assurer la sécurité du navire. La loi vous autorise à employer tout moyen de coercition utile, y compris la force, et même à requérir l'aide des autres personnes embarquées pour maîtriser ces individus [1].\n\nToutefois, l'usage de cette force s'accompagne d'une obligation administrative stricte. Vous êtes tenu de consigner cet incident.\n\nAinsi, selon les articles 3 et 4, vous devez obligatoirement mentionner les mesures de coercition que vous avez prises, ainsi que les circonstances détaillées de la bagarre, dans le « registre disciplinaire » du bord, qui est coté et paraphé par l'autorité maritime [1, 2].\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 3, 4 du Code disciplinaire et pénal maritime."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_02",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["1"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Notre navire commercial tunisien transporte exceptionnellement un groupe de militaires de l'armée de terre tunisienne vers un port du sud pour une mission logistique. Pendant le voyage, l'un de ces militaires a commis un vol grave à bord. Le capitaine a rédigé un rapport d'incident. Ce militaire sera-t-il jugé et sanctionné selon les dispositions du Code disciplinaire et pénal maritime comme le reste des passagers ?\n\nDocuments pertinents:\n[1] Source: art. 1 du Code disciplinaire et pénal maritime\nSont soumises aux dispositions du présent code toutes personnes quelle qu'en soit la nationalité se trouvant à bord de tout navire tunisien [...], en qualité de passager [...]. Par dérogation aux dispositions qui précédent, les militaires des armées de terre, de mer ou de l'air embarqués à quelque titre que ce soit [...] demeurent justiciables des juridictions militaires pour tout délit ou crime prévu par le présent code."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 1 du Code disciplinaire et pénal maritime, le principe général veut que toute personne se trouvant à bord d'un navire tunisien (y compris en qualité de passager) soit soumise aux dispositions de ce code [1].\n\nToutefois, la loi prévoit une dérogation explicite concernant le personnel militaire. Les militaires de l'armée de terre, de mer ou de l'air embarqués à bord échappent à cette règle [1]. \n\nAinsi, malgré le fait que le vol ait été commis sur un navire commercial, ce militaire ne sera pas jugé selon le Code disciplinaire et pénal maritime, mais demeurera exclusivement justiciable des juridictions militaires. La procédure de recherche et de constatation suivra également les règles spécifiques à la loi militaire.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 1 du Code disciplinaire et pénal maritime."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_03",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["53"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les marins de mon navire ont déclenché une grève illégale pendant que nous sommes amarrés dans le port de Radès en Tunisie. Non seulement ils refusent de travailler, mais ils occupent physiquement la salle des machines pour empêcher toute opération. Quelles sont les sanctions pénales encourues par ces marins grévistes selon le code ?\n\nDocuments pertinents:\n[1] Source: art. 53 du Code disciplinaire et pénal maritime\nToute personne embarquée qui aura participé à une grève ou lock-out illégaux dans un port tunisien est passible d'un emprisonnement de 3 mois et d'une amende de 240 dinars ou de l'une de ces deux peines seulement. L'occupation des locaux ou postes de commande pendant la grève [...] est passible des peines prévues au paragraphe précédent lorsque cette utilisation a pour effet soit de perturber le fonctionnement et l'exploitation du navire soit de porter atteinte à l'ordre à bord."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 53 du Code disciplinaire et pénal maritime, la participation à une grève illégale dans un port tunisien constitue une infraction pénale [1].\n\nLes marins qui se rendent coupables de cette grève, et qui aggravent la situation en occupant les locaux (comme la salle des machines) pour perturber le fonctionnement du navire, s'exposent à des sanctions sévères. Ils sont passibles d'une peine d'emprisonnement de 3 mois et d'une amende de 240 dinars, le juge pouvant également opter pour l'une de ces deux peines seulement [1].\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 53 du Code disciplinaire et pénal maritime."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_04",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["12"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J'ai été sanctionné par l'autorité maritime pour une faute grave que j'aurais commise alors que notre navire était dans un port étranger. Je trouve cette décision injuste et je souhaite la contester. Quelle est la procédure exacte pour formuler mon recours, quel est le délai dont je dispose, et le fait de déposer ce recours va-t-il suspendre l'exécution de ma sanction ?\n\nDocuments pertinents:\n[1] Source: art. 12 du Code disciplinaire et pénal maritime\nLe recours formé en Tunisie ou à l'étranger, par la personne punie, contre une décision rendue en matière disciplinaire pour faute grave, est adressé à peine d'irrecevabilité dans un délai d'un mois à l'autorité maritime. Le point de départ de ce délai est fixé au jour de la notification de la sanction à l'intéressé. Le directeur de la marine marchande entend l'autorité qui a pris la décision ainsi que le prévenu [...]. Les recours formés par application des dispositions du présent article ne sont pas suspensifs."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 12 du Code disciplinaire et pénal maritime, vous avez le droit de contester cette décision, mais vous devez respecter une procédure stricte.\n\nVous devez adresser votre recours directement à l'autorité maritime dans un délai impératif d'un mois. Ce délai commence à courir dès le jour où la sanction vous a été officiellement notifiée. Si vous dépassez ce délai, votre recours sera déclaré irrecevable [1]. C'est ensuite le directeur de la marine marchande qui statuera sur votre dossier après avoir entendu les deux parties.\n\nAttention toutefois, la loi précise clairement que ce type de recours n'est pas suspensif. Cela signifie que la sanction disciplinaire s'applique et doit être exécutée même pendant l'examen de votre contestation [1].\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 12 du Code disciplinaire et pénal maritime."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_05",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": ["60"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis capitaine de navire. Lors de notre dernière escale, un de nos matelots a fait une chute grave et s'est fracturé la jambe. Le médecin local a exigé qu'il reste hospitalisé. Je l'ai donc laissé à terre pour qu'il soit soigné et j'ai repris la mer. À mon retour, l'armateur m'informe que je risque une amende de 300 dinars et de la prison pour l'avoir abandonné. Sont-ils dans leur droit de me poursuivre pour cela ?\n\nDocuments pertinents:\n[1] Source: art. 60 du Code disciplinaire et pénal maritime\nTout capitaine qui, ayant laissé à terre, dans un port où n'existe aucune autorité tunisienne, un officier, un maître ou un membre de l'équipage malade ou blessé, ne lui procure pas les moyens d'assurer son traitement et son rapatriement, est puni d'une amende de 300D et d'un emprisonnement de trois mois [...]. Est passible de la même peine tout capitaine qui [...] n'avise pas de cette mesure l'autorité consulaire du pays auquel appartient le passager débarqué ou, à défaut l'autorité locale."
+        },
+        {
+          "role": "assistant",
+          "content": "Pourriez-vous préciser si le port où vous avez laissé ce matelot disposait d'une autorité tunisienne (consulat) ? De plus, avez-vous avisé les autorités locales et lui avez-vous procuré les moyens financiers nécessaires pour son traitement médical et son rapatriement en Tunisie ?\n\nEn effet, l'article 60 du Code disciplinaire et pénal maritime n'interdit pas de laisser un malade à terre, mais il punit de 300 dinars d'amende et de trois mois de prison le capitaine qui le fait sans avertir les autorités locales/consulaires ou sans lui assurer les moyens matériels de se soigner et de rentrer. Votre réponse permettra de déterminer si vous êtes en infraction.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 60 du Code disciplinaire et pénal maritime."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_06",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Nous envisageons d'acheter un nouveau navire frigorifique en Europe et de le faire immatriculer en Tunisie. Avant de valider ce budget, je dois calculer les droits de douane. Quel est le pourcentage exact des taxes douanières applicables pour l'importation d'un navire de pêche ou de commerce selon ce code disciplinaire ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code disciplinaire et pénal maritime traite exclusivement des sanctions pénales, des règles de discipline à bord et de la police de la navigation. Il ne régit en aucun cas les taxes d'importation ni les droits de douane. Je vous recommande de consulter le Code des douanes ou un expert-comptable.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_07",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["91"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un capitaine, pressé par l'armateur, décide de quitter le port de Sfax et d'entamer son voyage commercial sans avoir pris le temps de récupérer le rôle d'équipage ni les autres documents officiels exigés par le code de commerce maritime. Il pense qu'il pourra régulariser la situation au prochain port. Quel risque pénal encourt-il pour cette négligence administrative grave ?\n\nDocuments pertinents:\n[1] Source: art. 91 du Code disciplinaire et pénal maritime\nEst puni des peines prévues à l'article 56 du code de commerce maritime tout capitaine d'un navire naviguant sans être ou avoir été muni pour le voyage des documents exigés par les articles 49 à 51, 53 et 55 du code de commerce maritime."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 91 du Code disciplinaire et pénal maritime, le fait de naviguer sans être muni des documents réglementaires exigés pour le voyage (tels que ceux mentionnés par le Code de commerce maritime) constitue une infraction sévère.\n\nLe capitaine qui prend la mer sans ces documents officiels s'expose directement aux peines pénales prévues par l'article 56 du Code de commerce maritime.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 91 du Code disciplinaire et pénal maritime."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_08",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["68", "71"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je suis armateur d'un navire tunisien. Au cours de notre dernier voyage vers l'Europe, le capitaine a découvert un jeune passager clandestin caché dans les cales. Nous nous dirigeons actuellement vers notre premier port d'escale en Italie. Mon capitaine me demande à qui il doit remettre ce clandestin, et surtout, si les autorités italiennes décident de le refouler et refusent de payer son rapatriement, qui devra légalement assumer les frais de retour et d'entretien de cet individu ? Est-ce l'État ou notre compagnie ?\n\nDocuments pertinents:\n[1] Source: art. 68 du Code disciplinaire et pénal maritime\nSi au cours d'un voyage un passager clandestin est découvert soit dans un port soit en mer, le capitaine peut remettre celui-ci à l'autorité compétente au premier port où le navire fait escale...\n\n[2] Source: art. 71 du Code disciplinaire et pénal maritime\nLorsqu'un passager clandestin débarqué en Tunisie, a pu être refoulé [...] et que cet Etat refuse de prendre en charge les frais occasionnés par le refoulement [...], ces frais sont imputés au navire à bord duquel le délit a été commis, sans préjudice du recours éventuel du propriétaire du navire contre l'Etat dont le passager clandestin est un national. Toutefois, le propriétaire du navire ou son représentant ne sera tenu des frais d'entretien que pendant trois mois..."
+        },
+        {
+          "role": "assistant",
+          "content": "Face à la découverte d'un passager clandestin en mer, vos obligations sont clairement définies par le Code disciplinaire et pénal maritime.\n\nDans un premier temps, l'article 68 stipule que le capitaine a le droit de remettre le passager clandestin à l'autorité compétente du premier port où le navire fait escale (dans votre cas, en Italie) [1].\n\nEnsuite, concernant l'aspect financier, l'article 71 établit que si l'État étranger refuse de prendre en charge les frais de refoulement et de retour, ces frais incombent légalement au navire à bord duquel le délit a été commis. C'est donc votre compagnie (le propriétaire/armateur) qui devra payer. Toutefois, la loi limite votre charge : vous n'êtes tenu de payer les frais d'entretien du clandestin que pour une durée maximale de trois mois, et vous conservez le droit de vous retourner ultérieurement contre l'État dont le passager est ressortissant pour réclamer un remboursement [2].\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 68, 71 du Code disciplinaire et pénal maritime."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_09",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["6", "48"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Hier soir, un officier de la machine s'est enivré dans sa cabine après la fin de son service. Il n'a causé aucun tapage ni bagarre. Cependant, l'armateur affirme que toute consommation d'alcool conduisant à l'ivresse à bord est un délit grave passible d'emprisonnement ferme. Cet officier risque-t-il vraiment la prison pour ce fait, ou existe-t-il une nuance dans la loi selon le moment de l'ivresse ?\n\nDocuments pertinents:\n[1] Source: art. 6 du Code disciplinaire et pénal maritime\nSont réputées fautes légères contre la discipline : [...] 2) L'ivresse à bord sans désordre et en dehors du service, sauf le cas prévu par l'article 48 du présent code;\n\n[2] Source: art. 48 du Code disciplinaire et pénal maritime\nEst puni d'un emprisonnement de six mois tout capitaine qui s'est trouvé en état d'ivresse à bord [...] ainsi que tout officier, maître ou membre de l'équipage qui s'enivre habituellement ou qui s'est trouvé en état d'ivresse pendant le quart."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 6 du Code disciplinaire et pénal maritime, le principe est que l'ivresse à bord, lorsqu'elle survient sans créer de désordre et strictement en dehors des heures de service, est considérée comme une simple « faute légère » contre la discipline. Elle ne constitue donc pas un délit passible de prison [1].\n\nToutefois, l'article 48 pose une exception rigoureuse pour les officiers et l'équipage : l'ivresse devient un délit puni de six mois d'emprisonnement si le marin s'enivre « pendant le quart » (en service) ou s'il s'enivre « habituellement » [2]. \n\nAinsi, puisque l'officier s'est enivré de manière isolée, sans désordre et après son service, il n'encourt que des sanctions disciplinaires légères (comme un blâme ou des arrêts de courte durée), et non la prison évoquée par l'armateur.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 6, 48 du Code disciplinaire et pénal maritime."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_10",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["84", "85"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Suite à une grave voie d'eau, notre navire menaçait de couler. Le capitaine, pris de panique, a sauté dans le premier canot de sauvetage sans prévenir les autres officiers ni organiser l'évacuation des passagers, nous laissant nous débrouiller. De plus, il a complètement oublié de sauver le livre de bord. Que prévoit la loi pénale maritime contre un capitaine qui abandonne son navire et ses passagers de cette manière ?\n\nDocuments pertinents:\n[1] Source: art. 84 du Code disciplinaire et pénal maritime\nEst puni d'un emprisonnement de six mois, tout capitaine, qui en cas de danger, abandonne son navire pendant le voyage sans l'avis des officiers de bord ou, à défaut, des principaux.\n\n[2] Source: art. 85 du Code disciplinaire et pénal maritime\nEst puni d'un emprisonnement de deux ans, tout capitaine qui en cas de danger et avant d'abandonner son navire, néglige d'organiser le sauvetage de l'équipage et des passagers. La peine est d'un emprisonnement de trois mois s'il néglige de sauver les papiers de bord [...]. Est puni d'un emprisonnement de deux ans, tout capitaine qui, forcé d'abandonner son navire, ne quitte pas le bord le dernier."
+        },
+        {
+          "role": "assistant",
+          "content": "Le comportement de ce capitaine constitue de multiples infractions pénales très graves selon le Code disciplinaire et pénal maritime.\n\nPremièrement, selon l'article 84, abandonner le navire en danger sans consulter les officiers est puni de six mois d'emprisonnement [1].\nDeuxièmement, en vertu de l'article 85, le fait de négliger d'organiser le sauvetage de l'équipage et des passagers est passible de deux ans de prison. De plus, le fait qu'il n'ait pas quitté le bord en dernier aggrave sa responsabilité et justifie également une peine de deux ans de prison. Enfin, sa négligence à sauver les papiers de bord (livre de bord) est punie de trois mois d'emprisonnement [2].\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 84, 85 du Code disciplinaire et pénal maritime."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_11",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": ["82", "83"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أنا ربان سفينة تجارية. للأسف اصطدمت سفينتي بقارب صيد صغير ليلا في عرض البحر. لم أتعمد ذلك، لكنني واصلت طريقي فورا دون التوقف لتقديم المساعدة لأنني كنت متأخرا جدا على موعد التسليم، ولم أعلمهم باسم سفينتي أو ميناء انطلاقي رغم قدرتي على ذلك دون خطر. لاحقا علمت أن القارب غرق وتوفي أحد الصيادين بسبب عدم إنقاذه. ما هي العقوبات السجنية التي أواجهها حسب المجلة التأديبية والجزائية البحرية جراء هذا التصرف؟\n\nDocuments pertinents:\n[1] Source: الفصل 82 من المجلة التأديبية والجزائية البحرية\nيُعاقب بنفس العقوبات [المنصوص عليها بمجلة التجارة البحرية] كل ربان، بعد حدوث تصادم وبقدر ما يمكنه ذلك دون خطر جدي على سفينته وطاقمه وركابه، يهمل استعمال كل الوسائل المتاحة له لإنقاذ السفينة الأخرى وطاقمها وركابها من الخطر الناتج عن التصادم. يُعاقب بنفس العقوبات الربان الذي يبتعد عن مكان الحادث قبل التأكد من عدم جدوى المساعدة... وإذا هلك شخص أو أكثر نتيجة عدم تنفيذ الالتزامات المذكورة في هذه الفقرة، يمكن مضاعفة العقوبة.\n\n[2] Source: الفصل 83 من المجلة التأديبية والجزائية البحرية\nبعد حدوث تصادم، يُعاقب بخطية قدرها 200 دينار وسجن لمدة ثلاثة أشهر، أو بإحدى هاتين العقوبتين، ربان كل سفينة متصادمة إذا كان قادرا دون خطر... ولم يُعلم ربان السفينة الأخرى باسم سفينته وموانئ الانتماء والمغادرة والوجهة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى المجلة التأديبية والجزائية البحرية، تواجه عقوبات جزائية مشددة لتخليك عن مسؤولياتك بعد حادث التصادم.\n\nأولاً، استناداً إلى الفصل 83، يعاقب القانون الربان الذي يمتنع عن إعلام السفينة الأخرى باسم سفينته وموانئ الانتماء والمغادرة (رغم قدرته على ذلك دون خطر) بالسجن لمدة 3 أشهر وبخطية قدرها 200 دينار [2].\n\nثانياً، وبشأن الامتناع عن المساعدة، ينص الفصل 82 على معاقبة الربان الذي يهمل إنقاذ الطاقم الآخر أو يبتعد عن مكان الحادث قبل التأكد من عدم جدوى مساعدته. وبما أن إهمالك أسفر عن هلاك أحد الصيادين (وفاة)، فإن الفصل 82 يتيح للقاضي مضاعفة العقوبات الأصلية المسلطة عليك لخطورة النتيجة [1].\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 82، 83 من المجلة التأديبية والجزائية البحرية."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_12",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": ["22"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ارتكب ربان سفينتنا جريمة خطيرة أثناء تواجد السفينة التونسية في ميناء أجنبي (خارج تونس). في هذه الحالة حيث يكون الربان هو المتهم الرئيسي، كيف يتم التعامل إجرائياً مع ملف البحث الابتدائي، ومن هي الجهة الإدارية المخولة قانونا بإحالة الملف إلى السلطات القضائية التونسية؟\n\nDocuments pertinents:\n[1] Source: الفصل 22 من المجلة التأديبية والجزائية البحرية\nعندما تُرتكب الجناية أو الجنحة من قبل الربان أو بمشاركته خارج تونس، يتم إحالة ملف البحث الابتدائي من قبل السلطة البحرية إلى الوزير المكلف بالبحرية التجارية الذي يتولى إحالة الملف إلى السلطة القضائية المختصة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 22 من المجلة التأديبية والجزائية البحرية، نظّم القانون الإجراءات بوضوح عندما يكون الربان هو المشتبه به في ارتكاب جريمة أو جنحة خارج التراب التونسي.\n\nفي هذه الحالة، تتولى السلطة البحرية المتواجدة في الخارج (مثل القنصلية) إعداد ملف البحث الابتدائي وإرساله مباشرة إلى الوزير المكلف بالبحرية التجارية في تونس. إثر ذلك، يكون الوزير هو الجهة الإدارية الوحيدة المخولة قانوناً بإحالة الملف رسمياً إلى السلطة القضائية التونسية المختصة لتتبع الربان.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 22 من المجلة التأديبية والجزائية البحرية."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_13",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": ["46"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أنا مجهز سفينة (armateur). أقوم بتشغيل البحارة بنظام المحاصة (أي أجرهم مرتبط بنسبة من أرباح الرحلة والشحن). نظرا لصعوبات مالية، قمت بتعديل بعض البيانات في التصريح المالي للرحلة لتقليل مبلغ العائدات المصرح به، وبالتالي تقليل حصة البحارة لتقليص خسائر الشركة. هل يجوز لي إجراء هذا التعديل أم أن القانون يعتبره جريمة يعاقب عليها؟\n\nDocuments pertinents:\n[1] Source: الفصل 46 من المجلة التأديبية والجزائية البحرية\nعندما يتم انتداب البحار على أساس الأرباح أو الشحن، يُعتبر تحيلاً (escroquerie) أو محاولة تحيل ويُعاقب على هذا النحو طبقاً لأحكام الفصل 291 من المجلة الجزائية، قيام أي مجهز أو أي شخص مفوض من قبله، بتعديل أو محاولة تعديل العناصر التي تسمح باحتساب مبلغ العائدات المقسمة مع البحارة لصالحه، سواء بتصريح كاذب أو بأي وسيلة أخرى."
+        },
+        {
+          "role": "assistant",
+          "content": "المبدأ في إدارة الشركات هو حرية التصرف المالي للمجهز لتنظيم مصاريف شركته.\n\nغير أنّ الفصل 46 من المجلة التأديبية والجزائية البحرية يضع حداً صارماً لهذا المبدأ لحماية حقوق الطاقم. ينص القانون صراحة على أنه عندما يكون أجر البحار مرتبطاً بنسبة من الأرباح (المحاصة)، يُمنع منعاً باتاً على المجهز تعديل العناصر والبيانات المالية لصالحه (كتقليل العائدات المصرح بها لخفض حصة البحارة).\n\nعلاوة على ذلك، يعتبر القانون هذا التعديل، سواء تم بتصريح كاذب أو بأي وسيلة أخرى، جريمة \"تحيّل\" (escroquerie) أو محاولة تحيّل، ويُعاقب عليها المجهز جزائياً طبقاً لمقتضيات الفصل 291 من المجلة الجزائية التونسية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 46 من المجلة التأديبية والجزائية البحرية."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_14",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: تعرضت لحادث شغل خطير أثناء قيامي بعملي على ظهر السفينة، مما تسبب لي في إعاقة جسدية دائمة منعتني من مواصلة العمل في البحر. هل تضمن لي المجلة التأديبية والجزائية البحرية الحصول على منحة تقاعد مبكر أو جراية عجز مدى الحياة لتعويضي عن هذا الضرر؟"
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال. المجلة التأديبية والجزائية البحرية تختص فقط بتحديد الجرائم والمخالفات التأديبية والعقوبات المسلطة على البحارة والربابنة، ولا تتطرق إطلاقاً لمسائل الضمان الاجتماعي، حوادث الشغل، أو جرايات التقاعد. أوصي باستشارة محامٍ مختص في قانون الشغل البحري أو الضمان الاجتماعي.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_15",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["47"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: قام أحد أفراد الطاقم بإدخال زجاجات من المشروبات الكحولية (الروحية) إلى السفينة خلسة لبيعها لزملائه أثناء الرحلة، دون علم أو ترخيص مسبق من الربان. ما هي العقوبة السجنية والمالية التي يسلطها القانون على هذا البحار؟\n\nDocuments pertinents:\n[1] Source: الفصل 47 من المجلة التأديبية والجزائية البحرية\nيُعاقب بخطية قدرها 50 ديناراً وسجن لمدة شهر، أو بإحدى هاتين العقوبتين فقط، كل عضو من الطاقم يثبت أنه أدخل الكحول أو المشروبات الروحية إلى السفينة أو سهّل إدخالها، دون ترخيص خاص من الربان."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 47 من المجلة التأديبية والجزائية البحرية، يُعتبر إدخال المشروبات الكحولية إلى السفينة دون ترخيص صريح من الربان جنحة يعاقب عليها القانون.\n\nالبحار الذي يُثبت عليه إدخال هذه المشروبات الروحية أو تسهيل إدخالها يواجه عقوبة السجن لمدة شهر واحد، بالإضافة إلى خطية مالية قدرها 50 ديناراً. وتجدر الإشارة إلى أن القاضي يمتلك السلطة التقديرية للحكم بإحدى هاتين العقوبتين فقط (السجن أو الخطية) حسب ملابسات القضية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 47 من المجلة التأديبية والجزائية البحرية."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_16",
+      "language": "derja",
+      "category": "multi_article",
+      "articles_referenced": ["9", "81"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ena marin, kount ne5dem f 3assa (vigie) fel lil w ghalbni l noum w r9adt. Mel zhar l a7raf l babor d5al f sakhra w saret avarie kbira fil sel3a ama l7amdouleh 7ata 7ad ma met. L capiten 9ali raki 3malt faute grave w bech tet7bes w tkhalas 5tiya. 7asb l 9anoun l ba7ri, chnowa l 3o9oubet l jaze2eya (prison w amende) elli nestana feha bedhabt 5aterni ghlot l ghalta hedhi w tsobbet f dharar lel babor?\n\nDocuments pertinents:\n[1] Source: art. 9 du Code disciplinaire et pénal maritime\nSont réputées fautes graves contre la discipline : [...] 6) La négligence dans un service de quart ou de garde, notamment le fait de s'être endormi étant à la barre, en vigie ou aux bossoirs...\n\n[2] Source: art. 81 du Code disciplinaire et pénal maritime\nTout membre de l'équipage [...] qui se rend coupable pendant son service d'un fait de négligence sans excuse, d'un défaut de vigilance [...] ayant occasionné pour un navire quelconque soit un abordage soit un échouement ou un choc contre un obstacle visible ou connu, soit une avarie grave d'un navire ou de sa cargaison est puni d'une amende de 200 dinars et d'un emprisonnement de trois mois ou d'une de ces deux peines seulement."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l Code disciplinaire et pénal maritime, l ghalta mte3ek tet3ad machkla kbira.\n\nL'article 9 y9oul watha7 elli noum wa9t l 3assa (en vigie) yete7seb \"faute grave\" (khata2 tha9il) thed l indhibat [1]. \n\nZid 3aliha, bima ennou hal négligence mte3ek (l ghafla) wasslet l choc m3a sakhra w saret avarie grave fil sel3a, l'article 81 ykaberlek l 3o9ouba. Ya3ni 9anounan rak testahel 5tiya mta3 200 dinars w 7abs yewsel l 3 ch-hour, wala wa7da menhom (l 9adhi yo7kom b 7abs wala 5tiya) [2]. L7amdouleh ma met 7ad, sinon rahou l 7abs yewsel l 6 ch-hour.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 9, 81 du Code disciplinaire et pénal maritime."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_17",
+      "language": "derja",
+      "category": "clarification",
+      "articles_referenced": ["6", "28"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mchit na9dhi fi 9ahwa f port, w rja3t l babor mwa5er b se3tin. L capiten ghchach w 9ali rak 3malt délit kbir w absence irrégulière w bech n3adik lel ma7kma tched l 7abs. S7i7 l klem hedha 7asb l code w est ce que b se3tin retard nwali criminel?\n\nDocuments pertinents:\n[1] Source: art. 6 du Code disciplinaire et pénal maritime\nSont réputées fautes légères contre la discipline : 3) L'absence irrégulière du bord n'excédant pas quatre heures dont se rend coupable un marin qui n'est pas de service ou s'il est de service, et n'est pas affecté à un poste de garde ou de sécurité, lorsque cette absence n'a pas eu pour conséquence de lui faire manquer le départ du navire...\n\n[2] Source: art. 28 du Code disciplinaire et pénal maritime\nEst puni d'un emprisonnement de six mois, tout officier [...] qui se rend coupable d'absence irrégulière du bord, lorsqu'il est affecté à un poste de grade ou de sécurité. Est punie d'une amende [...] toute personne qui se rend coupable d'absence irrégulière [...] lorsque son absence aura eu pour conséquence de lui faire manquer le départ du navire."
+        },
+        {
+          "role": "assistant",
+          "content": "Aman tnajem twadha7li ken l babor mcha w 5alek (manquer le départ) wala kenet 3andek 3assa (poste de garde / sécurité) wa9telli enti f l 9ahwa?\n\n5ater 3la 7seb l'article 6, l absence elli a9al men 4 sweya3 tetsamma juste \"faute légère\" (mouch délit yda5al lel 7abs), ama b charét enek mouch ma7tout f 3assa w mouch absence 5alletek tghib 3al départ mta3 l babor. \nKenek ghabt 3al départ wala 5alit blaset l 3assa fergha, wa9tha l'article 28 yrajja3ha délit w fih 5tiya wala 7abs.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 6, 28 du Code disciplinaire et pénal maritime."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_18",
+      "language": "derja",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: N7eb ne5ou 9ardh (crédit) men banka fi tounes bech nechri flouka mta3 sayd jdida (bateau de pêche). Chnowa l awra9 elli lezemni n7adherhom w 9adech l pourcentage mta3 l intérêt l 9anouni 7asb l code hedha?"
+        },
+        {
+          "role": "assistant",
+          "content": "El wra9 elli 3andi ma fihomch réponse l sou2el hedha. L Code disciplinaire et pénal maritime ye7ki ken 3la l 3o9oubet l jaze2eya wel inthibat mta3 l ba7ara fil babor. Ma fihouch 7ata 9anoun 3la l 9ouroudh l bankeya (crédits) wala l'investissement fel flayek. Ahsen 7aja temchi l banka wala tchouf avocat spécialisé.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_19",
+      "language": "derja",
+      "category": "principle_exception",
+      "articles_referenced": ["7", "8"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: L capiten 3ta l 5ouya (officier) 3o9ouba mta3 \"arrêts\" l modet 4 ayem 5ater 3mal faute légère (tna9er b l klem m3a wa7ed e5er). N7eb na3ref, est-ce que l ayamet hethom yetna7awlou men chahritou (salaire) w ma ye5demch fihom jemla, wala l 9anoun y9oul 7aja o5ra?\n\nDocuments pertinents:\n[1] Source: art. 7 du Code disciplinaire et pénal maritime\nL'autorité maritime [...] le capitaine dans tous les autres cas, peuvent infliger pour les fautes prévues à l'article 6 [...] : 3) Les arrêts pour quatre jours au plus. Lorsqu'il s'agit d'officiers, maîtres et membres de l'équipage, cette sanction est prise sans suspension de salaire et avec continuation de service.\n\n[2] Source: art. 8 du Code disciplinaire et pénal maritime\nOn entend par : b) arrêts: l'obligation pour les officiers [...] ayant une chambre personnelle, d'y demeurer, sans y être enfermés en dehors des heures de service et de repas..."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l'article 8 mel Code disciplinaire, l 3o9ouba mta3 l \"arrêts\" ta3ni elli 5ouk lezem yo93od fi bitou (chambretou) men ghir ma ysakrou 3lih bel mofte7, w yohbot ken wa9t l mekla wala wa9t l 5edma [2].\n\nAma bel nesba l chahritou, l'article 7 fih exception w charét watha7: l 3o9ouba hedhi (arrêts l 4 ayem) teta3ta \"sans suspension de salaire et avec continuation de service\" [1]. \n\nMa3neha 5ouk yo93od ye5dem 3adi fi wa9t l service mte3ou, w chahritou to93ed temchi kima heya ma yet9ass menha 7ata frank.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 7, 8 du Code disciplinaire et pénal maritime."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cdpm_20",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["41"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Famma we7ed men l'équipage tchedd ybi3 fil mekla w l vivres mta3 l babor (mo2net l sfina) l 3bed l barra fel port bech ydaber rasso w ylem l flous l rou7ou. Chnowa l 3o9ouba mte3o 7asb l 9anoun l ba7ri?\n\nDocuments pertinents:\n[1] Source: art. 41 du Code disciplinaire et pénal maritime\nToute personne embarquée qui, volontairement détourne, détériore ou vend un objet utile à la navigation, à la manœuvre ou à la sécurité du navire, ou qui vend les vivres embarqués pour le service du bord, est punie d'une amende de 100 dinars et d'un emprisonnement de deux ans ou de l'une de ces deux peines seulement."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l'article 41 mel Code disciplinaire et pénal maritime, l 3amal hedha mta3 bi3en mekelet w mo2net l babor (les vivres) yete7seb délit w fih 3o9ouba s3iba.\n\nL ba77ar elli ybi3 l mekla mta3 l service du bord ytih t7t taillet l 9anoun w yet3a9eb b 5tiya mta3 100 dinars w 7abs yewsel l 3amin (deux ans). L 9adhi tnejem yohkom 3lih bel 7abs w l 5tiya ezzouz, wala yohkom b wa7da menhom barka.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 41 du Code disciplinaire et pénal maritime."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Chapitre I - Dispositions préliminaires",
+      "Chapitre II - Fautes contre la discipline",
+      "Chapitre III - Crimes et délits (Sections I, II, III, IV, V, VI, VIII)"
+    ],
+    "sections_not_covered": [
+      "Chapitre IV - Délais",
+      "Chapitre V - Dispositions diverses"
+    ],
+    "notes": "Les exemples couvrent les problématiques quotidiennes de la marine marchande selon le code disciplinaire (grèves, passagers clandestins, autorité du capitaine, ivresse, abandons de poste et échouement) avec une proportion exacte de 10 FR, 5 AR, 5 DER, dont 4 raisonnements complexes (Multi-hop) et les autres catégories réparties selon la consigne."
+  }
+}

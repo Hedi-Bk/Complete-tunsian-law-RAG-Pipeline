@@ -1,0 +1,490 @@
+{
+  "batch_id": "batch_CODE_DECORATIONS_01_20240520",
+  "provenance": {
+    "generated_by": "Gemini 3.1 Pro Preview",
+    "platform": "Google_ai_studio"
+  },
+  "time_of_generation": "3m46s",
+  "source": "Code des décorations (Loi n° 97-80 du 1er décembre 1997)",
+  "articles_covered": [
+    "Loi Art 2",
+    "6",
+    "7",
+    "8",
+    "9",
+    "11",
+    "18",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "38",
+    "40",
+    "41",
+    "42",
+    "43",
+    "48",
+    "51",
+    "53",
+    "58",
+    "65",
+    "66"
+  ],
+  "articles_to_avoid_next_batch": [
+    "Loi Art 2",
+    "6",
+    "7",
+    "8",
+    "9",
+    "11",
+    "18",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "38",
+    "40",
+    "41",
+    "42",
+    "43",
+    "48",
+    "51",
+    "53",
+    "58",
+    "65",
+    "66"
+  ],
+  "examples": [
+    {
+      "example_id": "ex_dec_01",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["38"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je travaille en tant que technicien agricole dans une coopérative depuis plus de 20 ans. Un collègue m'a affirmé que la médaille du travail était strictement réservée aux ouvriers de l'industrie et du commerce, et que notre secteur n'était pas éligible. Selon le code des décorations, est-ce que les salariés agricoles et ceux des coopératives ont légalement le droit de recevoir la médaille du travail ?\n\nDocuments pertinents:\n[1] Source: article 38 du Code des décorations\nLa médaille du travail est attribuée aux salariés tunisiens travaillant dans les établissements de l'industrie, du commerce, des services de l'agriculture et de leurs dépendances de quelque nature qu'ils soient.\nElle est attribuée également aux salariés des professions libérales, des établissements industriels artisanaux, des coopératives, des sociétés civiles, syndicats, associations et groupements de quelque nature que ce soit."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 38 du Code des décorations, l'affirmation de votre collègue est incorrecte. Le principe est que la médaille du travail est bien attribuée aux salariés tunisiens travaillant dans les services de l'agriculture et leurs dépendances.\n\nEn outre, ce même article précise que cette décoration est également attribuée aux salariés des coopératives, des sociétés civiles, des syndicats et des associations. Ainsi, le fait de travailler dans une coopérative agricole vous rend tout à fait éligible à l'obtention de la médaille du travail, à condition de remplir les autres critères d'ancienneté et de mérite.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 38 du Code des décorations."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_02",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["18"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis un chercheur en histoire et j'étudie les différents ordres nationaux tunisiens. Je sais que l'Ordre de l'Indépendance récompense les services rendus pour l'indépendance de la patrie, mais je ne trouve pas la définition exacte pour l'Ordre de la République. Pourriez-vous me préciser, selon le code, quels sont les mérites spécifiques qui sont récompensés par l'attribution de l'Ordre de la République ?\n\nDocuments pertinents:\n[1] Source: article 18 du Code des décorations\nL'ordre de la République est attribué en récompense des mérites de ceux qui ont contribué à l'établissement de la République, à l'épanouissement de son régime et au renforcement de ses institutions."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 18 du Code des décorations, l'Ordre de la République a été institué pour honorer des contributions bien spécifiques liées à l'État républicain.\n\nCet ordre est attribué en récompense des mérites des personnes qui ont contribué à l'établissement de la République, à l'épanouissement de son régime ainsi qu'au renforcement de ses institutions. Ainsi, il vise à distinguer l'engagement civique et institutionnel au profit de la République tunisienne.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 18 du Code des décorations."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_03",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["8", "9"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je suis directeur d'une administration publique. J'ai un employé excellent qui a reçu le titre de Chevalier de l'Ordre du Mérite il y a 3 ans. Depuis, il a accompli des tâches exceptionnelles. Je souhaite le proposer pour la classe supérieure (Officier) cette année, sans attendre plus longtemps. A-t-il le droit d'être promu si rapidement, et dois-je obligatoirement fournir un extrait de son casier judiciaire dans le dossier de proposition que je prépare, sachant qu'il est fonctionnaire de l'Etat ?\n\nDocuments pertinents:\n[1] Source: article 8 du Code des décorations\nIl ne peut être prononcé de promotion à une classe supérieure que si, l'intéressé compte au moins cinq années dans la classe inférieure. Cette ancienneté n'est pas exigée dans les cas exceptionnels.\n\n[2] Source: article 9 du Code des décorations\nLes dossiers de propositions [...] sont accompagnés d'un extrait de naissance et d'un extrait du casier judiciaire. La production de ces pièces n'est toutefois pas exigée a) des candidats aux colliers réservés, b) des fonctionnaires..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 8 du Code des décorations, le principe est qu'une promotion à une classe supérieure exige que l'intéressé compte au moins cinq années d'ancienneté dans la classe inférieure. Toutefois, cette même disposition prévoit une exception : cette ancienneté n'est pas exigée dans les cas exceptionnels. Ainsi, si les tâches accomplies par votre employé constituent un cas exceptionnel, il peut être promu après seulement 3 ans [1].\n\nPar ailleurs, concernant le dossier de proposition, l'article 9 impose en principe de fournir un extrait du casier judiciaire. Cependant, une exception explicite exempte les fonctionnaires de cette obligation [2].\n\nPar conséquent, vous pouvez proposer sa promotion de manière anticipée en invoquant le caractère exceptionnel de ses mérites, et vous n'aurez pas besoin de joindre son casier judiciaire puisqu'il s'agit d'un fonctionnaire.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 8, 9 du Code des décorations."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_04",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["42", "43", "48"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, mon père travaillait comme ouvrier dans une grande entreprise industrielle. Il a malheureusement perdu la vie l'année dernière suite à un grave accident de travail mortel survenu dans l'exercice de sa profession. Il n'avait jamais reçu la médaille du travail de son vivant. Son ancien employeur refuse aujourd'hui de faire les démarches pour lui obtenir cette décoration à titre posthume. En tant que membre de sa famille, puis-je faire la demande moi-même ? Si oui, à qui dois-je l'adresser et l'employeur peut-il bloquer le processus ?\n\nDocuments pertinents:\n[1] Source: article 42 du Code des décorations\nLa médaille du travail peut être attribuée aux mutilés du travail [...]. Elle peut être attribuée à titre posthume : 1- Sans condition aux ouvriers et employés victimes d'un accident mortel survenu dans l'exercice de leur profession.\n\n[2] Source: article 43 du Code des décorations\nLorsqu'un salarié est décédé des suites d'un accident de travail, la médaille du travail pourra lui être attribuée à titre posthume sans qu'une proposition ait été introduite par l'employeur. Dans le cas prévu à l'alinéa 2 de l'article 42 du présent code, une demande faite sur papier libre pourra être adressée par un membre de la famille du salarié décédé à son ancien employeur qui, s'il le juge bon, se chargera de proposer, dans les formes prévues à l'article 48 du présent code, l'attribution de la médaille du travail à titre posthume à l'intéressé."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 42 du Code des décorations, la médaille du travail peut être attribuée à titre posthume, et sans aucune condition d'ancienneté, aux ouvriers victimes d'un accident mortel survenu dans l'exercice de leur profession [1].\n\nConcernant votre démarche, l'article 43 stipule que suite à un décès par accident de travail, l'attribution peut se faire sans proposition de l'employeur. Toutefois, la loi précise que vous (membre de la famille) pouvez adresser une demande sur papier libre à l'ancien employeur. Ce dernier, « s'il le juge bon », se chargera de proposer l'attribution au gouverneur selon les formes de l'article 48 [2].\n\nAinsi, bien que vous puissiez initier la demande auprès de l'employeur, le code donne à ce dernier un pouvoir d'appréciation pour la transmettre. Son refus actuel constitue donc un blocage procédural selon les termes stricts du code.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 42, 43, 48 du Code des décorations."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_05",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["6", "7"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon grand-père a été décoré de l'Ordre de l'Indépendance en 1960. Il vient d'être condamné par un tribunal à une peine impliquant la perte de ses droits civils et politiques. Est-ce que l'État va lui retirer sa médaille de son vivant, et est-ce que je pourrai en hériter légalement après son décès pour la garder dans la famille ?\n\nDocuments pertinents:\n[1] Source: article 6 du Code des décorations\nLes ordres nationaux sont attribués à vie aux Tunisiens et aux Étrangers. Ils peuvent être attribués à titre posthume.\nLes ordres nationaux appartiennent à leur titulaire en toute propriété et sa vie durant. Ils ne sont pas transmissibles par voie de succession.\nLe titulaire ne peut en être privé qu'en cas de perte de ses droits civils et politiques, conformément au code électoral, ou en vertu d'un jugement rendu à cet effet par les tribunaux compétents.\nLes tribunaux devront, à cet effet, transmettre à la Présidence de la République la liste des condamnés titulaires de l'un des ordres nationaux."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 6 du Code des décorations, le principe fondamental est que les ordres nationaux (comme l'Ordre de l'Indépendance) sont attribués à vie et appartiennent à leur titulaire en toute propriété sa vie durant.\n\nToutefois, la loi prévoit une exception sévère : le titulaire peut être privé de son ordre en cas de perte de ses droits civils et politiques, suite à une condamnation judiciaire. Le tribunal transmettra cette information à la Présidence de la République, et votre grand-père perdra sa décoration.\n\nPar ailleurs, concernant l'héritage, le même article 6 précise de manière explicite que les ordres nationaux ne sont pas transmissibles par voie de succession. Par conséquent, même s'il n'avait pas été privé de sa médaille, vous n'auriez pas pu en hériter légalement.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 6 du Code des décorations."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_06",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["41"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis le fondateur et le dirigeant de ma propre entreprise depuis plus de 30 ans. J'ai consacré toute ma vie à l'industrie et j'emploie plus de 100 personnes. Je souhaite m'attribuer la médaille du travail pour mon dévouement. Étant donné que je suis le Directeur Général et le gérant de la société, ai-je le droit de recevoir la médaille du travail ?\n\nDocuments pertinents:\n[1] Source: article 41 du Code des décorations\nLa médaille du travail ne peut être accordée aux directeurs généraux, directeurs et gérants de sociétés que s'ils sont salariés."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 41 du Code des décorations, le principe est que les directeurs généraux, les directeurs et les gérants de sociétés ne sont pas, par défaut, éligibles à la médaille du travail, car cette décoration vise prioritairement à récompenser les salariés pour leur rendement.\n\nToutefois, ce même article introduit une exception claire : vous pouvez vous voir accorder la médaille du travail si, et seulement si, vous avez le statut de « salarié » au sein de votre propre entreprise.\n\nAinsi, pour être éligible à cette distinction malgré votre titre de Directeur Général et gérant, vous devez justifier d'un contrat de travail et d'un statut salarié.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 41 du Code des décorations."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_07",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je viens d'être informé que je vais recevoir l'Ordre du Mérite au grade de Commandeur de la part du Ministère de la Culture. J'aimerais savoir, selon le code des décorations, quel est le montant de la prime financière annuelle qui accompagne cette médaille prestigieuse et si elle est imposable ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des décorations décrit les classes et les critères d'attribution des médailles, mais ne mentionne aucune prime financière ou avantage pécuniaire accompagnant l'Ordre du Mérite. Je vous recommande de consulter un avocat spécialisé ou les services du Ministère des Finances.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_08",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": ["Loi Art 2"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J'ai été invité à une cérémonie officielle à l'ambassade de France où l'on doit me remettre une décoration française pour mes travaux académiques conjoints. Est-ce que la loi tunisienne m'autorise à accepter cette médaille et à la porter librement en Tunisie lors de la fête de la République ?\n\nDocuments pertinents:\n[1] Source: article 2 de la loi n° 97-80\nSans préjudice des dispositions particulières aux agents publics, il est interdit à tout Tunisien d'accepter ou de porter une décoration étrangère ou son insigne sans autorisation du ministère des Affaires étrangères."
+        },
+        {
+          "role": "assistant",
+          "content": "Pourriez-vous préciser si vous avez préalablement obtenu une autorisation officielle du ministère des Affaires étrangères tunisien, et si vous avez le statut d'agent public ?\n\nEn effet, selon l'article 2 de la loi n° 97-80 (portant promulgation du Code des décorations), il est strictement interdit à tout Tunisien d'accepter ou de porter une décoration étrangère sans l'autorisation expresse du ministère des Affaires étrangères, et des dispositions encore plus spécifiques peuvent s'appliquer si vous êtes un agent public. Votre réponse me permettra de confirmer votre droit de porter cette médaille.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 2 de la loi n° 97-80."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_09",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["48"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant que chef du personnel d'une usine, je dois préparer le dossier de candidature pour la médaille du travail d'un de nos meilleurs ouvriers qui part à la retraite. Quelles sont les pièces obligatoires que je dois rassembler et inclure dans le dossier avant de l'envoyer au gouverneur ?\n\nDocuments pertinents:\n[1] Source: article 48 du Code des décorations\nNonobstant les cas prévus à l'article 43 du présent code, toute proposition à la médaille du travail doit être faite par l'employeur et adressée [...] au gouverneur de la circonscription dans laquelle est domicilié le candidat.\nElle doit comporter les pièces suivantes :\n1- Une demande rédigée sur papier libre par l'employeur et indiquant les prénoms, noms date et lieu de naissance, profession de l'intéressé, date de l'entrée chez l'employeur [...]. La demande devra contenir un rapport de l'employeur, relatif aux faits qui justifient l'attribution de la médaille [...]\n2- Un extrait du casier judiciaire du salarié ayant moins d'un an de date.\n3- La demande doit comporter, le cas échéant, toutes attestations nécessaires justifiant l'ancienneté du salarié."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 48 du Code des décorations, la procédure pour proposer un salarié à la médaille du travail exige que l'employeur soumette un dossier complet au gouverneur de la circonscription du candidat.\n\nCe dossier doit obligatoirement comporter les trois pièces suivantes :\n1. Une demande sur papier libre rédigée par vos soins. Elle doit inclure l'identité complète du salarié (noms, prénoms, date et lieu de naissance), sa profession, ses dates d'entrée et de sortie, ainsi qu'un rapport justifiant ses mérites pour l'attribution de la médaille.\n2. Un extrait du casier judiciaire du salarié, qui doit dater de moins d'un an.\n3. Toutes les attestations de travail nécessaires prouvant l'ancienneté du salarié.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 48 du Code des décorations."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_10",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["25", "27", "28"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: L'un de nos agents civils a été gravement blessé lors d'une attaque terroriste dans le sud du pays. Notre direction souhaite qu'il reçoive l'ordre pour la loyauté et le sacrifice en reconnaissance de son courage. Quelle est la procédure, qui décide de l'attribution de cet ordre, et comment ses caractéristiques sont-elles fixées ?\n\nDocuments pertinents:\n[1] Source: article 25 du Code des décorations\nL'ordre pour la loyauté et le sacrifice est attribué en reconnaissance pour les sacrifices et en récompense pour les services civils et les services des forces armées rendus pour la lutte ou la défense contre des actes terroristes.\n\n[2] Source: article 27 du Code des décorations\nL'ordre pour la loyauté et le sacrifice est attribué par le Président de la République, sur proposition du chef du gouvernement. La liste des récipiendaires de cet ordre est publiée au Journal officiel de la République tunisienne.\n\n[3] Source: article 28 du Code des décorations\nLa description de l'ordre pour la loyauté et le sacrifice, le mode de son port et les procédures de son attribution, sont fixés par décret gouvernemental."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 25 du Code des décorations, l'Ordre pour la loyauté et le sacrifice a été expressément créé pour récompenser les victimes et les personnes s'étant illustrées lors d'actes terroristes, ce qui correspond au cas de votre agent civil.\n\nLa procédure d'attribution suit des étapes spécifiques définies par l'article 27 : la décision finale appartient au Président de la République, mais elle se fait obligatoirement sur proposition du Chef du gouvernement. Une fois l'ordre attribué, le nom du récipiendaire est publié au Journal Officiel de la République Tunisienne.\n\nPar ailleurs, selon l'article 28, les détails procéduraux d'attribution, ainsi que la description et le mode de port de la médaille, sont régis par un décret gouvernemental d'application.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 25, 27, 28 du Code des décorations."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_11",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["58"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أنا جندي في الجيش الوطني، وقد أُصبت بجروح خطيرة أثناء قيامي بمهمة عسكرية مأمور بها على الحدود. هل يحق لي الحصول على الميدالية العسكرية نظير هذه التضحية، رغم أن أقدميتي في العمل لا تتجاوز 5 سنوات؟\n\nDocuments pertinents:\n[1] Source: الفصل 58 من مجلة الأوسمة\nتُسند الميدالية العسكرية للعسكريين الذين:\n- برزوا بعمل حربي أو بعمل شجاعة أو تفان أثناء المعارك.\n- أصيبوا بجرح أو عدة جروح أثناء القتال أمام العدو أو في خدمة مأمور بها.\n- لهم أقدمية 15 سنة في الخدمة على الأقل.\nويمكن أن تُسند للعسكريين الذين استشهدوا أثناء القيام بالواجب."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 58 من مجلة الأوسمة، نعم يحق لك الحصول على الميدالية العسكرية رغم أن أقدميتك لم تتجاوز 15 سنة.\n\nينص القانون بوضوح على أن الميدالية العسكرية تُسند للعسكريين الذين تتوفر فيهم إحدى الحالات المذكورة، ومن بينها أن يكونوا قد أُصيبوا بجرح أو عدة جروح أثناء القتال أمام العدو أو في خدمة مأمور بها. شرط الأقدمية (15 سنة) يمثل حالة مستقلة بذاتها للحصول على الميدالية، ولا يُشترط اقترانه بوجود إصابات.\n\nوبالتالي، إصابتك في مهمة عسكرية مأمور بها تجعلك مؤهلاً للحصول على هذا التكريم.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 58 من مجلة الأوسمة."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_12",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["29"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: بصفتي طبيبا في مستشفى عمومي، قدمت العديد من التضحيات والمجهودات طيلة مسيرتي المهنية لتطوير قطاع الصحة في بلادنا. ما هو الوسام الوطني الذي يكافئ هذا النوع من التفاني في الخدمة العامة، ومن هي الفئة المستهدفة به حسب القانون؟\n\nDocuments pertinents:\n[1] Source: الفصل 29 من مجلة الأوسمة\nيُسند الوسام الوطني للاستحقاق لمكافأة الأشخاص الذين تميزوا في إنجاز خدمة عامة أو ممارسة نشاط خاص، والذين ساهموا بكفاءتهم وتفانيهم في تنمية البلاد ودعم مؤسساتها.\nتُضبط القطاعات ومجالات الأنشطة التي يشملها وسام الاستحقاق بأمر."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 29 من مجلة الأوسمة، الوسام الوطني الذي يكافئ هذا النوع من التفاني هو \"الوسام الوطني للاستحقاق\".\n\nينص القانون على أن هذا الوسام يُسند لمكافأة الأشخاص الذين تميزوا في إنجاز خدمة عامة (مثل عملك في المستشفى العمومي) أو ممارسة نشاط خاص، والذين ساهموا من خلال كفاءتهم وتفانيهم في تنمية البلاد ودعم مؤسساتها. \n\nعلاوة على ذلك، تُحدد القطاعات ومجالات الأنشطة الدقيقة التي يشملها هذا الوسام (مثل قطاع الصحة) بموجب أمر ترتيبي يصدر في الغرض.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 29 من مجلة الأوسمة."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_13",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": ["65", "66"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: يعمل أخي كضابط في الديوانة التونسية منذ حوالي 6 سنوات ويتميز بسجل مهني ناصع. مؤخرا، وأثناء إحباط عملية تهريب خطيرة جدا على الحدود، قام بعمل بطولي شجاع أدى للأسف إلى إصابته بجروح بليغة أقعدته في المستشفى لأشهر. الإدارة أخبرتنا أن وسام الشرف للديوانة يتطلب أقدمية لا تقل عن 10 سنوات. هل يجب عليه فعلا الانتظار حتى يكمل هذه المدة للحصول على وسام الشرف، أم أن هناك استثناءات قانونية تسمح بتكريمه فورا نظرا لما تعرض له من مخاطر؟\n\nDocuments pertinents:\n[1] Source: الفصل 65 من مجلة الأوسمة\nيُسند ميدالية الشرف للديوانة لمكافأة أعوان الديوانة الذين تميزوا في ممارسة وظائفهم بشجاعتهم أو تفانيهم أو كفاءتهم، بالشروط التالية:\n- بالنسبة للصنف الثاني: الإطارات والأعوان مهما كانت رتبهم الذين لهم أقدمية 10 سنوات على الأقل من الخدمة الخالية من الشوائب في ممارسة وظائفهم.\n\n[2] Source: الفصل 66 من مجلة الأوسمة\nيمكن إسناد ميدالية الشرف للديوانة بصفة استثنائية، دون شرط الأقدمية المنصوص عليه بالفصل 65 من هذه المجلة، لأعوان الديوانة الذين تميزوا بصفة خاصة بأعمال كبرى أنجزوها معرضين حياتهم للخطر أو تسببت لهم في جروح خطيرة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 65 من مجلة الأوسمة، المبدأ العام هو أن الحصول على ميدالية الشرف للديوانة (الصنف الثاني) يتطلب أقدمية لا تقل عن 10 سنوات من الخدمة النقية من الشوائب [1].\n\nغير أن الفصل 66 ينص على استثناء واضح وصريح؛ إذ يجوز إسناد هذه الميدالية بصفة استثنائية ودون التقيّد بشرط الأقدمية المذكور، لأعوان الديوانة الذين تميزوا بأعمال كبرى أنجزوها معرضين حياتهم للخطر، أو تسببت لهم في جروح خطيرة [2].\n\nوبالتالي، وبما أن أخاك قد أصيب بجروح بليغة أثناء إحباط عملية تهريب بعمل بطولي، فلا يُشترط عليه الانتظار لإكمال 10 سنوات من العمل، ويحق للإدارة اقتراح إسناد الميدالية له استثنائياً.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 65، 66 من مجلة الأوسمة."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_14",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: بعد إصابتي بجروح في عمل إرهابي غادر وحصولي على وسام الوفاء والتضحية من قبل رئيس الجمهورية، هل ينص مجلة الأوسمة على حقي في الحصول على جراية تقاعد استثنائية أو تعويض مالي مباشر لعائلتي تقديرا لهذه التضحية؟"
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال. مجلة الأوسمة تكتفي بتوضيح شروط وإجراءات إسناد الأوسمة (مثل وسام الوفاء والتضحية)، لكنها لا تتطرق إلى التعويضات المالية أو جرايات التقاعد الاستثنائية لضحايا الإرهاب. أوصي باستشارة محامٍ مختص أو الرجوع للقوانين الخاصة بضحايا العمليات الإرهابية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_15",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": ["26"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: توفي قريبي في هجوم إرهابي غادر أثناء تواجده في رحلة عمل خارج تونس. هل يمكن أن يُسند إليه وسام الوفاء والتضحية بعد وفاته، وما هي الشروط المطبقة في حالته؟\n\nDocuments pertinents:\n[1] Source: الفصل 26 من مجلة الأوسمة\nيمكن إسناد وسام الوفاء والتضحية على سبيل المكافأة للضحايا الذين قتلوا أو أصيبوا بجروح خطيرة أو احتُجزوا أثناء عمليات إرهابية. يمكن تطبيق أحكام الفقرة الأولى من هذا الفصل على الضحايا الذين قتلوا أو أصيبوا أو احتُجزوا في أعمال إرهابية مرتكبة بالخارج بشرط أن يكونوا حاملين للجنسية التونسية وقت وقوع الاعتداء."
+        },
+        {
+          "role": "assistant",
+          "content": "هل كان قريبك يحمل الجنسية التونسية وقت وقوع الاعتداء الإرهابي بالخارج؟\n\nبمقتضى الفصل 26 من مجلة الأوسمة، يمكن إسناد وسام الوفاء والتضحية لضحايا الأعمال الإرهابية التي تقع خارج حدود الوطن، ولكن يُشترط وجوباً أن يكون الضحية حاملاً للجنسية التونسية أثناء حدوث الاعتداء. إجابتك ستسمح لي بتأكيد إمكانية إسناد الوسام لقريبك.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 26 من مجلة الأوسمة."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_16",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["51"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: 3andi 20 sne ne5dem fi usine mta3 sbat. Dima njaweb l wa9t w rba7t l charika barcha flous w 3omri ma 3malt mochkla. L moudir 9ali bech nsobblek wra9ek lel médaille du travail. N7eb na3ref 7asb l 9anoun, ena échelon mta3 médaille najem ne5ethou ba3d 20 sne 5edma?\n\nDocuments pertinents:\n[1] Source: article 51 du Code des décorations\nLa médaille du travail comprend 5 échelons :\n- Échelon exceptionnel « Médaille d'or » qui est accordée sans condition et à titre exceptionnel [...]\n- Échelon majeur « Médaille d'or » qui est accordée après 30 ans de services effectifs.\n- 1er échelon « Médaille de Vermeil » qui est accordée après 25 ans de services effectifs.\n- 2e échelon « Médaille d'argent » qui est accordée après 20 ans de services effectifs.\n- 3e échelon « Médaille de bronze » qui est accordée après 15 ans de services effectifs."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l'article 51 mel Code des décorations, l médaille du travail fiha 5 échelons (darajet) yeta3taw 7asb l'ancienneté mta3ek (9adech 3andek te5dem).\n\nBima ennou 3andek 20 sne 5edma فعليّة (services effectifs), l 9anoun y9oul elli enti testa7a9 l'échelon ethéni, elli hewa « Médaille d'argent » (midaliya fedheya). \n\nKen tzid te5dem 5 snin o5rin (twali 25 sne), twali testa7a9 l'échelon lowel « Médaille de Vermeil ».\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 51 du Code des décorations."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_17",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["53"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Slt, n7eb na3ref chnowa l anwe3 mta3 l médailles particulières (les médailles spécifiques) elli mawjoudin fil 9anoun tounsi w chkoun l aslek elli tekhouhom bedhabt? A3tini l asémi elli mathkourin fil code des décorations aman.\n\nDocuments pertinents:\n[1] Source: article 53 du Code des décorations\nLes médailles particulières sont :\n- La médaille militaire,\n- La médaille d'honneur des forces de sécurité intérieure\n- La médaille d'honneur des douanes."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l'article 53 mel Code des décorations, l médailles particulières (l awsema l 5assa) fi tounes ma9soumin l 3 anwe3 asaseya:\n\n1. La médaille militaire (l midaliya l 3askareya), w hedhi teta3ta l afrad l jeych.\n2. La médaille d'honneur des forces de sécurité intérieure (midaliyet charaf 9owet l amen l dekhili), makhsossa lel 7aras, chorta, 7imeya madaneya, w soujoun.\n3. La médaille d'honneur des douanes (midaliyet charaf l diwena), w hedhi l a3wen l diwena.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 53 du Code des décorations."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_18",
+      "language": "derja",
+      "category": "multi_article",
+      "articles_referenced": ["6"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Baba ken 3andou \"Grand officier\" (الصنف الأول) mil Ordre de la République. Ba3d ma twaffa rabi yar7mou, 5ouya l kbir 9al elli l wissam hedha yweli mte3ou bel wiratha 5ater howa l welid l kbir. Hal l 9anoun mta3 l awsema yasma7 bel wiratha mta3 l médailles nationaux? W chkoun yo93ed yemlek l médaille ba3d l mawt?\n\nDocuments pertinents:\n[1] Source: article 6 du Code des décorations\nLes ordres nationaux sont attribués à vie aux Tunisiens et aux Étrangers. Ils peuvent être attribués à titre posthume.\nLes ordres nationaux appartiennent à leur titulaire en toute propriété et sa vie durant. Ils ne sont pas transmissibles par voie de succession."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l'article 6 mel Code des décorations, klem 5ouk mouch s7i7.\n\nL 9anoun y9oul watha7 elli l awsema l wataneya (les ordres nationaux) yete3taw mada l 7ayet lel chakhs elli tkarrem bihom w ye7sebhom melkou l khass (en toute propriété) f 7yetou kahaw. \n\nZid 3aliha, l'article 6 y2aked elli l médailles hethom \"ne sont pas transmissibles par voie de succession\", ma3neha ma yetwarthouch jemla. Donc 5ouk ma 3andouch l 7a9 ywareth l médaille, l wissam yo93ed b ism bayek w ma yetna9alech 9anounan l 7ata we7ed mel waratha.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 6 du Code des décorations."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_19",
+      "language": "derja",
+      "category": "principle_exception",
+      "articles_referenced": ["38", "40"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ena men bolden l ch9i9a (étranger) w ne5dem fi charika fi Tounes 3andi 25 sne. Dima nkhales darayeb w ne5dem mli7 w 3maltha kima bledi. Nnajem ne5ou l médaille du travail kima wled labled wala l 9anoun yamna3 l ajeneb men l awsema hedhi fi Tounes?\n\nDocuments pertinents:\n[1] Source: article 38 du Code des décorations\nLa médaille du travail est attribuée aux salariés tunisiens travaillant dans les établissements de l'industrie, du commerce, des services de l'agriculture...\n\n[2] Source: article 40 du Code des décorations\nLa médaille du travail peut être attribuée à des salariés étrangers méritants et travaillant en Tunisie, ressortissants d'un État qui accorde la réciprocité aux travailleurs tunisiens."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, l principe fil Code des décorations (article 38) hewa elli l médaille du travail teta3ta b sifa asaseya lel 5addema w l salariés l twensa.\n\nAma l 9anoun fih exception sghira. L'article 40 y9oul elli l 5addema l ajeneb elli ye5dmou fi Tounes w ykounou méritants (kima 7altek 3andek 25 sne 5edma) ynajmou ye5dhou l médaille du travail. \n\nAma famma charet: lezem l dawla mte3ek (l bled elli jey menha) teta3mel bel methl m3a l 5addema l twensa elli ghadi (accorde la réciprocité). Ken bledek ta3ti awsema l twensa, enti zeda tnajem te5eth fi Tounes.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 38, 40 du Code des décorations."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_dec_20",
+      "language": "derja",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: 3andi chrika kbira w n7eb nechri l médaille du mérite l rouhi b l flous bech n7otha fil bureau. 9adech soum l médaille en or fi wizarat l meliya wala l blassa elli ybi3ou fiha 7asb l code des décorations?"
+        },
+        {
+          "role": "assistant",
+          "content": "El wra9 elli 3andi ma fihomch réponse l sou2el hedha. L Code des décorations ye7ki 3la chourout w 9awanin isned l awsema (bil khidma w l majhoudat), ama ma ye7kich jemla 3la chré l médailles b l flous wella aswemhom. Ahsen 7aja tchouf avocat.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Titre 1 (Dispositions générales)",
+      "Titre 2 (Ordres nationaux, Ordre de l'Indépendance, Ordre de la République, Ordre Loyauté, Ordre du mérite)",
+      "Titre 3 (Médaille du travail, Médailles militaires et douanes)"
+    ],
+    "sections_not_covered": [],
+    "notes": "The generated batch rigorously maps the Code des décorations into 20 distinct training scenarios according to requested counts, personas, style, reasoning requirements, and linguistic parameters (French, MSA, and authentic Tunisian Derja with explicit multi-hop challenges)."
+  }
+}

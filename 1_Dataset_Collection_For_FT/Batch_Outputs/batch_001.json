@@ -1,0 +1,474 @@
+{
+  "batch_id": "batch_001",
+  "provenance": {
+    "generated_by": "Gemini 2.5 flash ",
+    "platform": "Github Copilot"
+  },
+  "time_of_generation": "5m approx",
+  "source_file": "My_DOCXs/1_TUN-65196.docx",
+  "source_text": "Texts_from_DOCx/code_procedure_civile_commerciale_extracted.txt",
+  "legal_code": "Code de Procédure Civile et Commerciale de Tunisie (Loi n° 59-130 du 5 octobre 1959)",
+  "articles_covered": [
+    2, 3, 4, 14, 15, 17, 19, 29, 30, 33, 36, 43, 44, 48, 59, 60, 62, 87, 92, 96,
+    101, 103, 112, 117, 120, 121, 156, 168, 172, 194
+  ],
+  "articles_to_avoid_next_batch": [
+    1, 2, 3, 4, 5, 6, 7, 8, 11, 12, 13, 14, 15, 17, 19, 20, 21, 23, 25, 26, 27,
+    29, 30, 33, 36, 39, 40, 43, 44, 48, 59, 60, 62, 68, 71, 87, 92, 96, 101,
+    103, 112, 117, 120, 121, 123, 125, 126, 128, 130, 141, 156, 168, 172, 175,
+    194, 201, 248, 285, 287, 302, 308, 322
+  ],
+  "examples": [
+    {
+      "example_id": "batch001_fr_direct_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [2],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les tribunaux tunisiens peuvent-ils connaître d'un litige entre deux étrangers résidant en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 2 du Code de Procédure Civile et Commerciale\nElles connaissent de toutes les contestations visées à l'article précédent entre toutes personnes résidant en Tunisie, quelle que soit leur nationalité.\n(La suite de cet article a été abrogée par la loi n° 98-97 du 27 novembre 1998)"
+        },
+        {
+          "role": "assistant",
+          "content": "Oui. En vertu de l'article 2 du Code de Procédure Civile et Commerciale, les juridictions tunisiennes sont compétentes pour connaître de toutes les contestations civiles et commerciales entre toutes personnes résidant en Tunisie, **quelle que soit leur nationalité**. Ainsi, la nationalité étrangère des parties n'est pas un obstacle à la compétence des tribunaux tunisiens dès lors que les deux plaideurs résident sur le territoire tunisien. Toutefois, les dispositions relatives au droit international privé (issues de la loi n° 98-97 du 27 novembre 1998) peuvent moduler cette compétence dans certaines situations transfrontalières. Sources : art. 2 du CPCC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_fr_direct_002",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [4],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon adversaire refuse de me communiquer les pièces qu'il a produites au dossier. A-t-il le droit de le faire ?\n\nDocuments pertinents:\n[1] Source: article 4 du Code de Procédure Civile et Commerciale\nChaque partie a le droit de prendre communication des pièces de la procédure et de tous les documents produits par son adversaire."
+        },
+        {
+          "role": "assistant",
+          "content": "Non, votre adversaire ne peut légalement vous refuser la communication de ses pièces. L'article 4 du Code de Procédure Civile et Commerciale consacre le **droit absolu de chaque partie à prendre communication des pièces de la procédure et de tous les documents produits par la partie adverse**. Ce principe est le corollaire procédural du contradictoire, qui exige que nul ne soit jugé sans avoir pu connaître et discuter les éléments invoqués contre lui. En pratique, si votre adversaire persiste dans ce refus, vous pouvez le signaler au juge rapporteur ou au président de l'audience, qui peut ordonner la communication forcée. Sources : art. 4 du CPCC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_fr_direct_003",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [117],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les audiences civiles en Tunisie sont-elles toujours publiques ?\n\nDocuments pertinents:\n[1] Source: article 117 du Code de Procédure Civile et Commerciale\nLes débats sont publics, à moins que le tribunal ne décide le huis clos, soit d'office soit à la demande du ministère public ou de l'une des parties, pour sauvegarder l'ordre public, les bonnes mœurs ou l'inviolabilité des secrets de famille."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 117 du Code de Procédure Civile et Commerciale, le **principe général est la publicité des débats**. Toutefois, le tribunal peut ordonner le huis clos — soit d'office, soit à la demande du ministère public ou d'une des parties — dans trois situations : la sauvegarde de l'ordre public, la protection des bonnes mœurs, ou la préservation de l'inviolabilité des secrets de famille. Le huis clos est donc une mesure d'exception motivée, et non la règle. Sources : art. 117 du CPCC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_fr_direct_004",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [112],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: L'expert judiciaire désigné par le tribunal a rendu ses conclusions contre moi. Le juge est-il obligé de les suivre ?\n\nDocuments pertinents:\n[1] Source: article 112 du Code de Procédure Civile et Commerciale\nL'avis de l'expert ne lie pas le tribunal."
+        },
+        {
+          "role": "assistant",
+          "content": "Non. L'article 112 du Code de Procédure Civile et Commerciale est explicite : **l'avis de l'expert ne lie pas le tribunal**. Le juge dispose d'un pouvoir souverain d'appréciation et peut s'écarter des conclusions expertales à condition de motiver sa décision. L'expertise est un simple élément de preuve parmi d'autres, que le tribunal peut retenir, écarter ou compléter par une contre-expertise. Si vous estimez que le rapport de l'expert est erroné, vous pouvez le contester par des conclusions motivées ou demander une contre-expertise. Sources : art. 112 du CPCC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_fr_direct_005",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [120],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment les juges délibèrent-ils et combien sont-ils à rendre un jugement au tribunal de première instance tunisien ?\n\nDocuments pertinents:\n[1] Source: article 120 du Code de Procédure Civile et Commerciale\nLes jugements sont rendus par trois magistrats à la majorité des voix. Le président recueille les avis en commençant par le juge le moins ancien, il donne son avis le dernier. S'il se forme plus de deux opinions, le juge le moins ancien est tenu de se rallier à l'une des deux opinions émises par ses collègues."
+        },
+        {
+          "role": "assistant",
+          "content": "Selon l'article 120 du Code de Procédure Civile et Commerciale, les jugements en matière civile sont rendus par **trois magistrats à la majorité des voix**. Le président recueille les avis dans un ordre précis : il consulte d'abord le juge le moins ancien, puis le suivant, et donne lui-même son avis en dernier. En outre, si plus de deux opinions distinctes se forment, le magistrat le moins ancien est tenu de se rallier à l'une des deux opinions de ses collègues. Ce mécanisme garantit qu'une décision majoritaire est toujours dégagée. Sources : art. 120 du CPCC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_fr_direct_006",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [59],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un fournisseur me doit une somme précise suite à un chèque impayé. Puis-je utiliser la procédure d'injonction de payer en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 59 du Code de Procédure Civile et Commerciale\nPeut être soumise à la procédure de l'injonction de payer visée aux articles ci-après, toute demande en paiement de créance lorsque celle-ci, quelle que soit sa nature, est d'un montant déterminé et a une cause contractuelle ou lorsque l'engagement résulte d'un chèque, d'une lettre de change, d'un billet à ordre ou de l'aval de l'un de ces deux derniers titres."
+        },
+        {
+          "role": "assistant",
+          "content": "Oui, dans votre situation. L'article 59 du Code de Procédure Civile et Commerciale ouvre la procédure d'injonction de payer à **toute créance d'un montant déterminé**, qu'elle soit de nature contractuelle, ou qu'elle résulte d'un **chèque, d'une lettre de change, d'un billet à ordre ou d'un aval**. Un chèque impayé entre précisément dans cette catégorie. Vous devrez toutefois respecter la procédure préalable de mise en demeure par huissier (article 60) si la créance dépasse 150 dinars, et déposer votre requête accompagnée du titre de créance. Sources : art. 59 du CPCC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_fr_multi_007",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [60, 62],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je veux déposer une demande d'injonction de payer pour 3 000 dinars. Quelle est la procédure préalable et devant quelle juridiction dois-je me présenter ?\n\nDocuments pertinents:\n[1] Source: article 60 du Code de Procédure Civile et Commerciale\nLorsque la créance dépasse cent cinquante dinars, le créancier est tenu, avant toute demande, de notifier à son débiteur par exploit d'huissier notaire qu'à défaut de paiement dans un délai franc de 5 jours, la procédure de l'injonction de payer sera suivie à son encontre. La sommation de payer doit être accompagnée du titre de créance.\n\n[2] Source: article 62 du Code de Procédure Civile et Commerciale\nLe juge cantonal est saisi lorsque le montant de la créance ne dépasse pas le taux de sa compétence. Au dessus de ce taux la demande doit être portée devant le président du tribunal de première instance."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre dossier suit deux règles cumulatives issues des articles 60 et 62 du CPCC. **Préalablement**, puisque votre créance de 3 000 dinars dépasse le seuil de 150 dinars, vous devez obligatoirement faire signifier par huissier-notaire à votre débiteur une sommation de payer accompagnée du titre de créance, lui accordant un délai franc de 5 jours pour s'exécuter (article 60). **Quant à la juridiction compétente** : le juge cantonal ne connaît en matière civile que jusqu'à 7 000 dinars. Votre créance de 3 000 dinars se situant sous ce plafond, vous déposerez votre requête devant le **juge cantonal** du domicile du débiteur (article 62 combiné à l'article 39). Sources : art. 60 et 62 du CPCC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_fr_multi_008",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [14, 15],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quand un acte de procédure est-il nul en Tunisie, et à quel moment faut-il soulever les nullités et exceptions de procédure ?\n\nDocuments pertinents:\n[1] Source: article 14 du Code de Procédure Civile et Commerciale\nLes actes de procédure sont nuls : quand la loi prescrit la nullité ; quand ils portent atteinte à des dispositions d'ordre public ou aux règles fondamentales de la procédure. Le Tribunal doit soulever d'office ces nullités. La violation d'une règle d'intérêt strictement privé n'entraîne la nullité de l'acte que s'il en résulte un préjudice pour la partie qui s'en prévaut, et à condition que celle-ci la soulève avant toute défense au fond.\n\n[2] Source: article 15 du Code de Procédure Civile et Commerciale\nLes nullités prévues au dernier alinéa de l'article 14, les exceptions de litispendance ou de connexité doivent être soulevées conjointement et avant toute défense au fond. L'appel en garantie doit intervenir avant la fixation de l'audience de plaidoirie."
+        },
+        {
+          "role": "assistant",
+          "content": "Les causes de nullité des actes de procédure sont définies à l'article 14 du CPCC selon deux régimes. **Les nullités absolues** frappe les actes violant une disposition légale expresse ou l'ordre public : le tribunal les soulève d'office, sans que les parties aient à agir. **Les nullités relatives**, fondées sur la violation d'une règle d'intérêt privé, ne sont prononcées qu'à la double condition qu'un préjudice en résulte et qu'elles soient soulevées **avant toute défense au fond** — faute de quoi elles sont irrecevables. L'article 15 ajoute que ces nullités relatives, ainsi que les exceptions de litispendance et de connexité, doivent toutes être soulevées **conjointement et avant toute défense au fond**. L'appel en garantie, lui, doit être formé avant la fixation de l'audience de plaidoirie. Sources : art. 14 et 15 du CPCC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_fr_multi_009",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [156, 168],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles différences y a-t-il entre la requête civile et la tierce opposition comme voies de rétractation ?\n\nDocuments pertinents:\n[1] Source: article 156 du Code de Procédure Civile et Commerciale\nLes jugements rendus en dernier ressort peuvent être rétractés par la voie de la requête civile pour les causes ci-après : s'il y a eu dol personnel ayant motivé le jugement qui était inconnu de la partie succombante en cours d'instance ; si l'on a jugé sur pièces ou autres preuves reconnues ou déclarées judiciairement fausses postérieurement à ce jugement ; si depuis le jugement, et à une date certaine, l'auteur de cette requête a recouvré des pièces décisives qui avaient été retenues par le fait de l'adversaire.\n\n[2] Source: article 168 du Code de Procédure Civile et Commerciale\nToute personne qui n'a pas été appelée dans une instance peut former tierce opposition au jugement qui porte préjudice à ses droits."
+        },
+        {
+          "role": "assistant",
+          "content": "Ces deux voies visent toutes deux à remettre en cause un jugement définitif, mais elles diffèrent par leur **titulaire** et leurs **causes**. La **requête civile** (art. 156) est réservée à la **partie succombante** au jugement : elle ne peut être exercée que dans trois cas limitatifs — dol de l'adversaire, jugement rendu sur pièces fausses, ou découverte de pièces décisives retenues par la partie adverse. La **tierce opposition** (art. 168), en revanche, appartient à **toute personne tierce au procès** dont les droits sont lésés par le jugement, sans qu'elle ait eu à prendre part à l'instance initiale. En résumé : la requête civile corrige des vices internes affectant les parties, tandis que la tierce opposition protège les droits des tiers absents. Sources : art. 156 et 168 du CPCC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_fr_multi_010",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [43, 44, 48],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment saisit-on un juge cantonal en Tunisie et quel délai minimum doit séparer la convocation de la date d'audience ?\n\nDocuments pertinents:\n[1] Source: article 43 du Code de Procédure Civile et Commerciale\nLe juge cantonal est saisi par requête écrite présentée par le demandeur ou son mandataire au greffe du tribunal cantonal. Cette requête doit indiquer les nom, prénom, profession et domicile du demandeur et ceux du défendeur, ainsi que l'objet de la demande et les prétentions du demandeur.\n\n[2] Source: article 44 du Code de Procédure Civile et Commerciale\nDès réception de la requête, le juge ordonne au greffier de faire citer les parties aux fins de conciliation ou à défaut, aux fins de jugement. La citation sera remise aux parties par un agent de la justice cantonale ou de l'autorité administrative pour comparaître devant le juge au jour qu'il leur fixe. Le juge peut également faire citer le défendeur par lettre recommandée avec accusé de réception, ou par huissier-notaire.\n\n[3] Source: article 48 du Code de Procédure Civile et Commerciale\nSi les parties sont convoquées par écrit, le délai fixé pour la comparution ne doit pas être inférieur à trois jours entre le jour où la convocation est remise à l'intéressé et le jour indiqué pour la comparution. En cas d'inobservation de ce délai, la convocation est nulle."
+        },
+        {
+          "role": "assistant",
+          "content": "La saisine du juge cantonal tunisien suit trois étapes articulées par les articles 43, 44 et 48 du CPCC. (1) **Introduction de l'instance** (art. 43) : le demandeur ou son mandataire dépose une requête écrite au greffe du tribunal cantonal, mentionnant l'identité des parties, l'objet de la demande et les prétentions. (2) **Citation des parties** (art. 44) : dès réception, le juge ordonne la citation des parties aux fins de conciliation, ou à défaut de jugement — via un agent de justice, une lettre recommandée avec AR, ou un huissier-notaire. (3) **Délai de convocation** (art. 48) : le délai entre la remise de la convocation et la date d'audience ne peut être **inférieur à trois jours francs** ; tout délai plus court entraîne la **nullité de la convocation**. En cas d'urgence exceptionnelle, la citation peut toutefois être donnée d'heure à heure. Sources : art. 43, 44 et 48 du CPCC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_fr_principle_011",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [3, 17],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Une entreprise peut-elle contractuellement choisir un tribunal et exclure la compétence du tribunal normalement compétent en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 3 du Code de Procédure Civile et Commerciale\nEst nulle, toute convention dérogeant aux règles de compétence d'attribution établies par la loi.\n\n[2] Source: article 17 du Code de Procédure Civile et Commerciale\nLes parties peuvent, en tout état de cause, soulever l'incompétence du tribunal résultant de l'inobservation des règles relatives à la compétence d'attribution. Le tribunal doit, dans ce cas, statuer sur l'exception."
+        },
+        {
+          "role": "assistant",
+          "content": "La réponse dépend de la nature de la compétence concernée. **Principe (art. 3)** : toute convention dérogeant aux règles de **compétence d'attribution** (compétence ratione materiae, selon la nature de l'affaire) est frappée de nullité absolue. Ces règles sont d'ordre public et ne peuvent être aménagées contractuellement. **Exception** : en matière de **compétence territoriale** (article 30 et suivants), une clause attributive de juridiction désignant un tribunal tunisien de même degré est en revanche licite. L'article 17 confirme que l'incompétence d'attribution peut être soulevée par les parties en tout état de cause, et le tribunal doit alors statuer sur cette exception. Sources : art. 3 et 17 du CPCC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_fr_principle_012",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [194],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un pourvoi en cassation suspend-il automatiquement l'exécution du jugement attaqué, et dans quels cas peut-on obtenir un sursis ?\n\nDocuments pertinents:\n[1] Source: article 194 du Code de Procédure Civile et Commerciale\nLe pourvoi en cassation ne suspend l'exécution de la décision attaquée que si cette décision a ordonné la destruction d'une pièce arguée de faux ou l'annulation de ses effets, si elle a prononcé un divorce ou constaté la nullité d'un mariage, si elle a condamné l'Etat au payement d'une somme d'argent ou elle a ordonné la main-levée d'une saisie pratiquée par l'Etat aux fins de recouvrement des sommes qui lui sont dues. A titre exceptionnel, le premier président de la cour de cassation peut, à la demande de l'auteur du pourvoi, ordonner qu'il soit sursis, pendant un mois à l'exécution de la décision attaquée lorsqu'il estime que cette exécution risque de créer une situation irréversible. La partie qui a demandé le sursis à l'exécution doit consigner le montant de la condamnation, s'il s'agit d'une somme d'argent."
+        },
+        {
+          "role": "assistant",
+          "content": "**Principe (art. 194)** : le pourvoi en cassation n'est **pas suspensif** d'exécution — l'arrêt attaqué reste exécutable pendant le délibéré de la Cour. **Exceptions légales de plein droit** : la suspension est automatique uniquement dans quatre hypothèses : destruction d'une pièce fausse, divorce ou nullité de mariage, condamnation de l'État au paiement d'une somme d'argent, ou main-levée d'une saisie de l'État. **Exception judiciaire** : à titre exceptionnel, le premier président de la Cour de cassation peut accorder un sursis d'un mois si l'exécution risque de créer une **situation irréversible** — mais cela exige une demande de l'auteur du pourvoi et la consignation du montant de la condamnation en cas de créance pécuniaire. Sources : art. 194 du CPCC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_fr_principle_013",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [172],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: La tierce opposition suspend-elle l'exécution du jugement attaqué en droit tunisien ?\n\nDocuments pertinents:\n[1] Source: article 172 du Code de Procédure Civile et Commerciale\nLa tierce opposition ne suspend pas l'exécution de la décision attaquée. Toutefois, le président du tribunal ou le juge compétent peut suspendre l'exécution par ordonnance rendue sur requête écrite séparée, sur laquelle il est statué suivant les règles édictées en matière de référé. La décision ordonnant la suspension de l'exécution n'est susceptible d'aucune voie de recours ni même de pourvoi en cassation."
+        },
+        {
+          "role": "assistant",
+          "content": "**Principe** : selon l'article 172 du CPCC, la tierce opposition **ne suspend pas** l'exécution de la décision attaquée — le jugement contesté continue de produire ses effets et peut être exécuté pendant la procédure. **Exception** : le juge compétent (président du tribunal ou juge de référé) peut prononcer, sur requête écrite séparée, **une ordonnance de sursis à exécution** selon les formes du référé. Cette ordonnance est définitive et ne peut faire l'objet d'aucune voie de recours, y compris le pourvoi en cassation. Sources : art. 172 du CPCC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_ar_direct_014",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [19],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المُقدَّمة. دائماً استشهد بالفصل ومصدره. هذا لا يُعدّ استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكن للقاصر الذي يتمتع بالتمييز أن يرفع دعوى قضائية بنفسه في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 19 من مجلة الإجراءات المدنية والتجارية\nيحق لكل شخص ذي أهلية وصفة أن يُدلي بحقوقه أمام القضاء. ويجب أن يكون للمدعي مصلحة في ممارسة الدعوى. غير أنه في مادة الاستعجال وعند الخوف من فوات الأوان، تُقبل الدعوى صحيحةً إذا أقامها القاصر المتمتع بالتمييز."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 19 من مجلة الإجراءات المدنية والتجارية، فإن القاعدة العامة تستوجب توافر الأهلية والصفة والمصلحة لممارسة الدعوى، وهو ما قد يحول دون قبول دعوى القاصر بصفة مستقلة. **غير أن الفصل ذاته يُقرر استثناءً صريحاً**: في مادة الاستعجال وعند الخوف من فوات الأوان، يُقبل القاصر المتمتع بالتمييز أن يرفع الدعوى بنفسه وتُعدّ صحيحة، حتى في غياب وليّه أو نائبه القانوني. ويؤكد الفصل أيضاً أن المحكمة تُصرح تلقائياً بعدم قبول الدعوى إذا تبين من الملف أن المدعي عديم الأهلية أو انعدمت لديه الصفة. المصادر: ف. 19 من م.إ.م.ت. هذا لا يُعدّ استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_ar_direct_015",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [96],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المُقدَّمة. دائماً استشهد بالفصل ومصدره. هذا لا يُعدّ استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي أسباب الطعن في مصداقية الشهود أمام المحاكم التونسية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 96 من مجلة الإجراءات المدنية والتجارية\nيُشهَد على الشهود بما يلي: العداوة الظاهرة؛ إذا كانت لهم مصلحة شخصية في الإدلاء بشهادتهم؛ إذا تلقّوا هبات أثناء النزاع من الطرف الذي استدعاهم؛ إذا كانوا دائنين أو مدينين لأحد طرفي الخصام؛ بسبب السن حتى 13 سنة كاملة؛ إذا كانوا وكلاء أو أوصياء على الطرف الذي استدعاهم؛ للقرابة في الخط المباشر إلى ما لا نهاية وفي الخط الجانبي حتى الدرجة السادسة؛ للمصاهرة حتى الدرجة الرابعة؛ إذا كانوا خداماً أو ذوي أجر؛ إذا أُدينوا بجريمة ماسة بالشرف."
+        },
+        {
+          "role": "assistant",
+          "content": "حدّد الفصل 96 من مجلة الإجراءات المدنية والتجارية عشرة أسباب تجيز الطعن في شاهد ورد شهادته، وهي: **العداوة الظاهرة**؛ **المصلحة الشخصية** في الشهادة؛ **تلقّي هبات** من المستدعي أثناء النزاع؛ كونه **دائناً أو مديناً** لأحد الخصوم؛ **صغر السن** (أقل من 13 سنة)؛ كونه **وكيلاً أو وصياً** على المستدعي؛ **القرابة في الخط المباشر** مطلقاً أو **الخط الجانبي** حتى الدرجة السادسة؛ **المصاهرة** حتى الدرجة الرابعة؛ كونه **خادماً أو أجيراً**؛ صدور **حكم بإدانته في جريمة ماسة بالشرف**. ويجب تقديم طلب الرد قبل أداء الشهادة حتى يُعتدّ به. المصادر: ف. 96 من م.إ.م.ت. هذا لا يُعدّ استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_ar_multi_016",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [101, 103],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المُقدَّمة. دائماً استشهد بالفصل ومصدره. هذا لا يُعدّ استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كيف يُعيَّن الخبير القضائي في تونس وما الذي يجب أن يتضمنه قرار تعيينه؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 101 من مجلة الإجراءات المدنية والتجارية\nإذا وجب إجراء خبرة وتعذّر الاتفاق بين الطرفين على اختيار الخبير، عيّنه القاضي.\n\n[2] المصدر: الفصل 103 من مجلة الإجراءات المدنية والتجارية\nيجب أن يبيّن القرار الذي يُعيّن الخبير أو الخبراء: المهمة بكل دقة وتفصيل والعمليات المختلفة التي ينجزها؛ مبلغ الرسوم المسبقة الواجبة الأداء للخبير وتحديد الطرف الملزم بها؛ الأجل المُعطى لإيداع تقرير الخبرة بكتابة المحكمة، ولا يتجاوز هذا الأجل ثلاثة أشهر ولا يمكن تمديده إلا مرة واحدة بشرطين: ألا يتجاوز التمديد ثلاثة أشهر أخرى، وأن يمنح بقرار معلل بناء على طلب صريح من الخبير أو الخبراء."
+        },
+        {
+          "role": "assistant",
+          "content": "تعيين الخبير القضائي يمر بمرحلتين منظّمتين بالفصلين 101 و103. **أولاً – التعيين (ف. 101)**: لا يلجأ القاضي إلى تعيين الخبير إلا عند الضرورة وإذا تعذّر اتفاق الطرفين على اختياره؛ فإن اتفقا جاز تعيين المختار اتفاقاً. **ثانياً – مضمون قرار التعيين (ف. 103)**: يجب أن يتضمن القرار ثلاثة عناصر إلزامية: (1) **المهمة** محددة بدقة مع كافة العمليات المطلوبة؛ (2) **مبلغ الرسوم المسبقة** والطرف الملزم بأدائها؛ (3) **أجل إيداع التقرير** بكتابة المحكمة، وهو محدد بـ**ثلاثة أشهر** غير قابلة للتمديد إلا مرة واحدة بثلاثة أشهر أخرى بقرار معلل وبطلب من الخبير نفسه. المصادر: ف. 101 و103 من م.إ.م.ت. هذا لا يُعدّ استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_ar_principle_017",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [121],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المُقدَّمة. دائماً استشهد بالفصل ومصدره. هذا لا يُعدّ استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل المداولة سرية في المحاكم التونسية، وما الذي يحدث إذا تعذّر على أحد القضاة المشاركة في النطق بالحكم؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 121 من مجلة الإجراءات المدنية والتجارية\nالمداولة سرية ولا يجوز أن يبقى منها أي أثر مكتوب. لا يشارك فيها إلا القضاة الذين حضروا المرافعة. حين تتشكل الأغلبية يُحرَّر مشروع حكم معلل يوقع عليه القضاة الثلاثة المداوِّلون. ولا يأخذ هذا المشروع صيغته النهائية إلا بعد النطق به في جلسة علنية بحضور جميع القضاة الذين وقّعوه. وإذا تعذّر على أحد القضاة الذين شاركوا في المداولة ووقّعوا مشروع الحكم الحضور لجلسة النطق لسبب مشروع، صدر الحكم بحضور القاضيين الآخرين. أما إذا لم يكن هذا القاضي قد وقّع المشروع أو كان سبب التعذّر فقدان صفته، وجب بالضرورة إعادة المداولة وفتح باب المرافعة من جديد."
+        },
+        {
+          "role": "assistant",
+          "content": "**المبدأ (ف. 121)**: المداولة **سرية تماماً** ولا يجوز الاحتفاظ بأي أثر مكتوب لها، ولا يحق لأي قاضٍ المشاركة فيها إلا إذا حضر جلسة المرافعة. بعد تشكل الأغلبية تُحرَّر مسودة حكم معللة توقع عليها الهيئة الثلاثية، ولا تصبح نهائية إلا بالنطق بها علناً بحضور جميع موقّعيها. **الاستثناء الأول**: إذا تعذّر على أحد القضاة الموقّعين الحضور لجلسة النطق لـ**سبب مشروع**، صحّ النطق بحضور القاضيين الآخرين فقط. **الاستثناء الثاني**: إذا لم يكن القاضي المتغيّب قد **وقّع المسودة**، أو كان سبب تغيّبه **فقدان صفته القضائية**، فلا مجال للاستثناء الأول، ويجب إلغاء المداولة وإعادة المرافعة من بدايتها. المصادر: ف. 121 من م.إ.م.ت. هذا لا يُعدّ استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_ar_refusal_018",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المُقدَّمة. دائماً استشهد بالفصل ومصدره. هذا لا يُعدّ استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي أحكام التقادم المسقط للدعاوى المدنية في القانون التونسي وما هي المدة القانونية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: لا تتضمن الوثائق المُقدَّمة من مجلة الإجراءات المدنية والتجارية أحكاماً تتعلق بالتقادم المسقط أو بمواعيد سقوط الدعاوى."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المُقدَّمة **لا تتضمن** معلومات كافية للإجابة على هذا السؤال. إذ إن أحكام التقادم المسقط للدعاوى المدنية لا تندرج ضمن مجلة الإجراءات المدنية والتجارية، وإنما ترجع أساساً إلى **مجلة الالتزامات والعقود التونسية** (لا سيما الفصلان 402 وما يليه) أو إلى نصوص خاصة بحسب طبيعة الدعوى. ومنذ أن أحيل إليّ هذا الكود وحده دون سائر النصوص، يتعذّر علي تقديم إجابة دقيقة. أنصحك باستشارة محامٍ مختص لتحديد آجال التقادم المنطبقة على وضعك."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_ar_clarification_019",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [29, 30],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المُقدَّمة. دائماً استشهد بالفصل ومصدره. هذا لا يُعدّ استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: أريد مقاضاة شريكي في الشركة لكنني لا أعرف أمام أي محكمة أرفع دعواي.\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 29 من مجلة الإجراءات المدنية والتجارية\nإذا تجاوزت الطلبات المقابلة حدود اختصاص قاضي الناحية، وجب عليه التصريح بعدم الاختصاص في الكل.\n\n[2] المصدر: الفصل 30 من مجلة الإجراءات المدنية والتجارية\nيُقاضَى المدّعى عليه، سواء أكان شخصاً طبيعياً أم معنوياً، أمام محكمة موطنه الحقيقي أو المختار. وإذا تعدد المدّعى عليهم، جاز للمدّعي اختيار محكمة أحدهم."
+        },
+        {
+          "role": "assistant",
+          "content": "لمساعدتك في تحديد النزاع الصحيح، أودّ أن أفهم وضعك بشكل أدق: هل تطالب شريكك بمبلغ محدد أم بتسوية حسابات الشركة؟ وأين يقع موطن شريكك — في نفس مدينتك أم في مكان آخر؟ هل ثمة شركاء آخرون متورطون في النزاع؟ فوفقاً للفصل 30 من مجلة الإجراءات المدنية والتجارية، تُرفع الدعوى بصفة عامة أمام محكمة موطن المدعى عليه؛ غير أن طبيعة نزاعك (مدني أم تجاري) وقيمته ستحدد ما إذا كنت تختص قاضي الناحية أو المحكمة الابتدائية. أجاوبك بمجرد اتضاح هذه النقاط."
+        }
+      ]
+    },
+    {
+      "example_id": "batch001_cross_ar_fr_020",
+      "language": "cross_lingual",
+      "category": "procedural",
+      "articles_referenced": [33, 36],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال بالعربية — وثائق المصدر بالفرنسية:\nسؤال: شركة أجنبية أبرمت عقداً مع شركة تونسية وحدث نزاع. أمام أي محكمة تونسية يمكن رفع الدعوى؟\n\nDocuments pertinents:\n[1] Source: article 33 du Code de Procédure Civile et Commerciale\nLes actions contre les associations et les sociétés, les contestations relatives à leur liquidation ou au partage de leurs biens, ainsi que les contestations entre associés ou entre dirigeants et associés sont portées devant le tribunal du lieu du siège de l'association ou de la succursale, agence ou section intéressées.\n\n[2] Source: article 36 du Code de Procédure Civile et Commerciale\nOutre le tribunal désigné aux articles 30 et 31, le demandeur peut saisir, à son choix : en cas de désignation au contrat d'un lieu d'exécution, le tribunal de ce lieu ; en matière mobilière, le tribunal du lieu où se trouve le meuble litigieux ; en matière de délit ou de quasi-délit, le tribunal du lieu où le fait dommageable s'est produit."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصلين 33 و36 من مجلة الإجراءات المدنية والتجارية، تتوافر **خيارات متعددة** لتحديد المحكمة المختصة. **الأصل (ف. 33)**: في الدعاوى المتعلقة بالشركات، تُرفع الدعوى أمام **محكمة مقر الشركة التونسية** أو فرعها أو وكالتها المعنية بالنزاع. **الاختيار الاتفاقي (ف. 36)**: إذا نصّ العقد على مكان تنفيذ معين، يجوز للمدعي رفع الدعوى أمام **محكمة ذلك المكان** بديلاً عن محكمة المقر. كذلك، إذا تعلق النزاع بمنقول، يجوز اختيار **محكمة موقع المنقول المتنازع عليه**. أما إذا كانت المسألة شبه تعاقدية أو تعلقت بضرر، فيمكن رفع الدعوى أمام **محكمة مكان وقوع الضرر**. بالتالي، للشركة الأجنبية عدة خيارات قانونية تُحددها طبيعة النزاع وبنود العقد. المصادر: ف. 33 و36 من م.إ.م.ت. هذا لا يُعدّ استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "language_distribution": {
+      "fr": 13,
+      "ar": 6,
+      "cross_lingual": 1
+    },
+    "category_distribution": {
+      "direct": 6,
+      "multi_article": 4,
+      "principle_exception": 3,
+      "refusal": 1,
+      "clarification": 2,
+      "procedural": 1,
+      "cross_lingual_procedural": 1,
+      "ar_principle": 1,
+      "ar_direct": 2,
+      "ar_multi": 1
+    },
+    "sections_covered": [
+      "Titre Préliminaire – Dispositions Générales (art. 2–4)",
+      "Titre I – Compétence d'attribution et territoriale (art. 17, 19, 29–30, 33, 36)",
+      "Titre II – Procédure devant les juges cantonaux (art. 43–44, 48)",
+      "Titre II – Injonctions de payer (art. 59–60, 62)",
+      "Titre III – Nullités d'actes (art. 14–15)",
+      "Titre III – Procédure TPI : enquête et expertise (art. 87, 92, 96, 101, 103, 112)",
+      "Titre III – Audience de plaidoirie et jugement (art. 117, 120–121)",
+      "Titre IV – Requête civile et tierce opposition (art. 156, 168, 172)",
+      "Titre IV – Cassation : effets (art. 194)"
+    ],
+    "notes": "Batch généré à partir du DOCX nettoyé (1801 paragraphes propres, sans artéfacts OCR). Language split: 13 FR + 6 AR + 1 cross-lingual. Aucun article du batch précédent (batch_CPCC_001_20260421) n'a été réutilisé. Les 4 exemples arabic purs couvrent des articles différents (19, 96, 101, 103, 121) pour maximiser la diversité thématique."
+  }
+}

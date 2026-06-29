@@ -1,0 +1,515 @@
+{
+  "batch_id": "batch_DEONTOLOGIE_MED_01_20240520",
+  "provenance": {
+    "generated_by": "Gemini 3.1 Pro Preview",
+    "platform": "Google_ai_studio"
+  },
+  "time_of_generation": "4m23s",
+  "source": "Code de déontologie médicale tunisien (Décret n° 93-1155)",
+  "articles_covered": [
+    "2",
+    "5",
+    "6",
+    "8",
+    "10",
+    "13",
+    "16",
+    "17",
+    "24",
+    "30",
+    "31",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "44",
+    "46",
+    "47",
+    "51",
+    "58",
+    "68",
+    "71",
+    "75",
+    "80",
+    "81",
+    "87",
+    "88",
+    "99",
+    "109",
+    "110",
+    "114",
+    "117"
+  ],
+  "articles_to_avoid_next_batch": [
+    "2",
+    "5",
+    "6",
+    "8",
+    "10",
+    "13",
+    "16",
+    "17",
+    "24",
+    "30",
+    "31",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "44",
+    "46",
+    "47",
+    "51",
+    "58",
+    "68",
+    "71",
+    "75",
+    "80",
+    "81",
+    "87",
+    "88",
+    "99",
+    "109",
+    "110",
+    "114",
+    "117"
+  ],
+  "examples": [
+    {
+      "example_id": "ex_01",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["5", "13"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je suis pédiatre dans une clinique privée à Sfax. La semaine dernière, un homme adulte est arrivé aux urgences avec un arrêt cardiaque. J'étais le seul médecin sur place, mais la cardiologie n'est pas du tout ma spécialité et j'avais peur d'engager ma responsabilité en cas de décès sur la table. Est-ce que le code de déontologie m'autorise à refuser d'intervenir sur une urgence qui sort de ma compétence, et y a-t-il des risques de sanctions si j'interviens de manière inappropriée ?\n\nDocuments pertinents:\n[1] Source: art. 5 du Code de déontologie médicale tunisien\nQuelle que soit sa fonction ou sa spécialité, hors le cas de force majeure, tout médecin doit porter secours d'extrême urgence à un malade en danger immédiat, si des soins médicaux ne peuvent lui être autrement assurés.\n\n[2] Source: art. 13 du Code de déontologie médicale tunisien\nTout médecin est habilité à pratiquer tous les actes de diagnostic, de prévention et de traitement. Toutefois, un médecin ne doit jamais, sauf circonstances exceptionnelles, entreprendre ou poursuivre des soins, ni formuler des prescriptions dans les domaines qui ne lui sont pas familiers et qui dépassent sa compétence et la qualification qui lui est reconnue."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 13 du Code de déontologie médicale tunisien, un médecin ne doit généralement pas entreprendre des soins dans des domaines qui dépassent sa compétence ou sa spécialité [2].\n\nToutefois, l'article 5 pose une exception stricte : quelle que soit votre spécialité, vous avez l'obligation absolue de porter secours d'extrême urgence à un malade en danger immédiat (comme un arrêt cardiaque), si aucun autre soin ne peut lui être assuré [1].\n\nAinsi, dans ce scénario, la notion de circonstance exceptionnelle s'applique pleinement. Votre devoir d'assistance face à un danger vital prime sur la limitation liée à votre spécialité en pédiatrie. Le refus d'intervenir constituerait une violation de votre devoir de secours.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 5, 13 du Code de déontologie médicale tunisien."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_02",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["8", "36"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis oncologue exerçant dans le secteur privé à Tunis. L'un de mes patients est atteint d'un cancer en phase terminale, mais il est dans le déni total et très fragile psychologiquement. Sa famille me supplie de leur dire la vérité sur son espérance de vie pour pouvoir préparer la suite. D'un autre côté, le patient m'a expressément interdit de divulguer quoi que ce soit à ses enfants. Puis-je informer la famille de la gravité de son état malgré son refus, et quelles sont les limites du secret médical dans ce cas précis ?\n\nDocuments pertinents:\n[1] Source: art. 8 du Code de déontologie médicale tunisien\nLe secret professionnel s'impose à tout médecin, sauf dérogations établies par la loi.\n\n[2] Source: art. 36 du Code de déontologie médicale tunisien\nUn pronostic grave ou fatal peut être dissimulé au malade. Il ne peut lui être révélé qu'avec la plus grande circonspection, mais il peut l'être généralement à la proche famille, à moins que le malade ait préalablement interdit cette révélation ou désigné les tiers auxquels elle doit être faite."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 8 du Code de déontologie médicale tunisien, le respect du secret professionnel s'impose à vous de manière primordiale [1].\n\nToutefois, l'article 36 prévoit une exception concernant les pronostics graves ou fatals : ces informations peuvent généralement être révélées à la proche famille du malade [2].\n\nCependant, cette exception est elle-même limitée. L'article 36 précise qu'il est formellement interdit de faire cette révélation à la famille si le malade l'a préalablement interdit [2]. Ainsi, puisque votre patient vous a expressément défendu de divulguer son état à ses enfants, vous ne pouvez pas répondre aux sollicitations de sa famille. Votre devoir de préserver le secret professionnel l'emporte sur leur demande.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 8, 36 du Code de déontologie médicale tunisien."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_03",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["16", "24"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant que jeune médecin généraliste venant d'ouvrir mon cabinet à Sousse, je constate que la patientèle se fait très rare. Pour remédier à cela, j'ai l'intention de faire imprimer des flyers promotionnels et de sponsoriser des annonces sur les réseaux sociaux. En plus, j'aimerais mettre une grande plaque lumineuse de 1 mètre sur 1 mètre devant mon immeuble pour attirer l'attention des passants la nuit. C'est une question de survie financière. Est-ce que le code m'autorise à faire cette publicité et à installer cette grande plaque ?\n\nDocuments pertinents:\n[1] Source: art. 16 du Code de déontologie médicale tunisien\nLa médecine ne doit pas être pratiquée comme un commerce. Tous les procédés directs ou indirects de propagande et de publicité sont interdits aux médecins.\nSont également interdites les manifestations spectaculaires touchant à la médecine et n'ayant pas exclusivement un but scientifique ou éducatif.\n\n[2] Source: art. 24 du Code de déontologie médicale tunisien\nLes seules indications qu'un médecin est autorisé à faire figurer sur la plaque apposée à la porte de son cabinet ou à l'entrée de l'immeuble l'abritant sont le nom, le prénom, les titres, les qualifications, les jours et heures de consultation. Cette plaque ne doit pas dépasser 25 cm sur 30 cm."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 16 du Code de déontologie médicale tunisien, la médecine ne doit en aucun cas être pratiquée comme un commerce. Par conséquent, tous les procédés de propagande et de publicité, directs ou indirects, vous sont formellement interdits [1]. L'impression de flyers ou le sponsoring sur les réseaux sociaux ne sont donc pas autorisés.\n\nConcernant l'affichage, l'article 24 limite strictement ce que vous pouvez installer. Vous n'avez le droit d'afficher qu'une plaque mentionnant votre identité, vos titres et vos horaires de consultation. De plus, cette plaque ne doit absolument pas dépasser les dimensions de 25 cm sur 30 cm [2].\n\nAinsi, votre projet de plaque lumineuse d'un mètre carré et de campagne promotionnelle est contraire aux règles déontologiques de votre profession.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 16, 24 du Code de déontologie médicale tunisien."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_04",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis médecin radiologue et j'ai investi l'année dernière dans un équipement d'IRM très coûteux pour mon nouveau cabinet situé dans une zone de développement régional, à Kasserine. L'investissement m'a lourdement endetté. Mon comptable me conseille de demander une exonération totale de la TVA et une réduction de l'impôt sur les sociétés, en s'appuyant sur les textes de la profession. Pourriez-vous me préciser quels articles du code de déontologie médicale tunisien encadrent exactement ces avantages fiscaux, et quelles démarches je dois suivre auprès de la recette des finances ?\n\nDocuments pertinents:\n[Aucun document ne couvre les avantages fiscaux ou les exonérations de TVA dans le Code de déontologie médicale]"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question concernant les avantages fiscaux ou les exonérations de TVA. Je vous recommande de consulter un avocat spécialisé ou de vous référer au Code de l'incitation aux investissements.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_05",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["58"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J'ai terminé mes études de médecine l'année dernière et j'ai effectué un remplacement de six mois dans le cabinet d'un confrère à Bizerte pendant qu'il était en congé maladie. Aujourd'hui, je souhaite ouvrir mon propre cabinet dans la même rue, car je m'entends extrêmement bien avec les patients de ce quartier. Cependant, le confrère refuse catégoriquement que je m'installe à proximité. Quelle est la procédure ou la règle légale à suivre pour m'installer, et ai-je le droit d'ouvrir mon cabinet sans son accord ?\n\nDocuments pertinents:\n[1] Source: art. 58 du Code de déontologie médicale tunisien\nUn médecin qui, pendant ou après ses études, a remplacé un de ses confrères, ne doit pas s'installer pendant un délai d'un an après la fin du remplacement dans une circonscription définie par le conseil régional de l'ordre des médecins où il puisse entrer en concurrence directe avec le confrère qu'il a remplacé, sauf accord, lequel doit être notifié au conseil régional de l'ordre des médecins."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 58 du Code de déontologie médicale tunisien, un médecin ayant effectué un remplacement ne peut pas s'installer librement pour concurrencer le confrère remplacé [1].\n\nLa procédure prévoit une période de carence : vous ne devez pas vous installer dans un délai d'un an après la fin de votre remplacement au sein de la circonscription définie par le conseil régional de l'ordre des médecins. Vous ne pouvez déroger à cette interdiction que si vous obtenez l'accord explicite de votre confrère, accord qui devra être officiellement notifié au conseil régional de l'ordre [1].\n\nAinsi, puisque votre confrère s'oppose à votre installation dans la même rue, vous n'êtes pas autorisé à y ouvrir votre cabinet avant l'expiration de ce délai d'un an.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 58 du Code de déontologie médicale tunisien."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_06",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": ["5", "37"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour. Je suis le directeur administratif d'une clinique privée située dans la banlieue de Tunis. Hier soir, un de nos médecins de garde a refusé de consulter un homme qui s'est présenté à l'accueil, en lui disant de retourner voir son médecin traitant habituel. Le patient, très en colère, a menacé de faire un scandale dans les médias et de porter plainte à l'ordre des médecins en affirmant qu'un docteur n'a jamais le droit de refuser des soins à un citoyen. Le comportement de notre médecin est-il légalement justifié selon les règles de notre code de déontologie ?\n\nDocuments pertinents:\n[1] Source: art. 5 du Code de déontologie médicale tunisien\nQuelle que soit sa fonction ou sa spécialité, hors le cas de force majeure, tout médecin doit porter secours d'extrême urgence à un malade en danger immédiat, si des soins médicaux ne peuvent lui être autrement assurés.\n\n[2] Source: art. 37 du Code de déontologie médicale tunisien\nHors le cas d'urgence et celui où il manquerait à ses devoirs d'humanité, le médecin a toujours le droit de refuser ses soins pour des raisons professionnelles ou personnelles."
+        },
+        {
+          "role": "assistant",
+          "content": "Pourriez-vous préciser si le patient qui s'est présenté à la clinique se trouvait dans une situation d'extrême urgence ou de danger immédiat ? \n\nEn effet, selon l'article 37 du Code de déontologie médicale, le médecin a le droit de refuser des soins pour des raisons personnelles ou professionnelles, sauf en cas d'urgence. Cependant, s'il s'agissait d'un danger immédiat, l'article 5 l'obligeait à porter secours. \n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 5, 37 du Code de déontologie médicale tunisien."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_07",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["17", "46", "47"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis chirurgien dans une clinique à Monastir. Je travaille souvent avec un jeune confrère qui m'aide au bloc opératoire, ainsi qu'avec un médecin généraliste qui m'envoie régulièrement de nouveaux patients. Pour les remercier de leur fidélité, je compte reverser 10% de mes honoraires au généraliste, et donner la moitié de mes honoraires de chirurgie à mon aide opératoire de façon discrète, sans que cela n'apparaisse sur la note du patient. Est-ce que cette répartition financière est légale, et comment dois-je déclarer cela pour ne pas enfreindre le code de déontologie ?\n\nDocuments pertinents:\n[1] Source: art. 17 du Code de déontologie médicale tunisien\nSont interdits : 3) Toute dichotomie entre médecins notamment tout versement, acceptation ou partage clandestin d'honoraires entre praticiens.\n\n[2] Source: art. 46 du Code de déontologie médicale tunisien\nTout partage d'honoraires entre médecin traitant d'une part, consultant, ou spécialiste d'autre part, d'une consultation ou d'un acte est formellement interdit... L'acceptation, la sollicitation ou l'offre d'un partage d'honoraires même non suivie d'effet, constitue une faute professionnelle grave.\n\n[3] Source: art. 47 du Code de déontologie médicale tunisien\nLe chirurgien a le droit de choisir son ou ses aides opératoires. Les honoraires de ceux-ci peuvent, soit être réclamés par eux directement à l'opéré, soit figurer sur la note que le chirurgien remet à l'opéré."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 17 et 46 du Code de déontologie médicale tunisien, la pratique que vous décrivez est formellement interdite. Le reversement de 10% de vos honoraires au médecin généraliste constitue une dichotomie et un partage clandestin d'honoraires, ce qui est qualifié de faute professionnelle grave [1, 2].\n\nPar ailleurs, concernant votre aide opératoire, l'article 47 vous autorise à choisir vos assistants, mais interdit le partage occulte de votre propre rémunération. Les honoraires de votre aide doivent être transparents : ils doivent soit être réclamés directement au patient par l'aide lui-même, soit figurer explicitement et distinctement sur la note que vous remettez à l'opéré [3].\n\nAinsi, tout paiement discret ou partage caché de vos honoraires expose à des sanctions disciplinaires.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 17, 46, 47 du Code de déontologie médicale tunisien."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_08",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["68", "71"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis médecin pour une grande entreprise industrielle à Tunis. La direction m'a demandé de faire passer des visites médicales de contrôle aux employés en arrêt maladie pour vérifier s'ils sont vraiment inaptes au travail. En même temps, certains de ces employés sont aussi mes patients habituels dans mon cabinet privé en dehors de l'entreprise. Ai-je le droit de cumuler ce rôle de médecin contrôleur pour l'employeur tout en étant leur médecin traitant, et puis-je partager mon diagnostic médical complet avec la direction pour justifier l'absence ?\n\nDocuments pertinents:\n[1] Source: art. 68 du Code de déontologie médicale tunisien\nNul ne peut être à la fois sauf cas d'urgence, médecin contrôleur et médecin traitant d'un même malade. Cette interdiction s'étend aux membres de la famille du malade vivant avec lui...\n\n[2] Source: art. 71 du Code de déontologie médicale tunisien\nLe médecin chargé du contrôle est tenu au secret vis-à-vis de l'organisme qui l'a mandaté auquel il ne doit fournir que ses conclusions sur le plan administratif sans indiquer les raisons d'ordre médical qui les motivent. Les renseignements d'ordre médical contenus dans le dossier établi ne peuvent être communiqués ni aux personnes autres que le médecin responsable du service médical ni à une autre administration."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 68 du Code de déontologie médicale tunisien, nul ne peut agir à la fois comme médecin contrôleur et médecin traitant d'un même patient, sauf en cas d'urgence [1].\n\nPar ailleurs, l'article 71 encadre rigoureusement vos obligations de confidentialité vis-à-vis de l'employeur. En tant que médecin contrôleur, vous êtes tenu au secret professionnel envers l'organisme qui vous a mandaté. Vous ne pouvez leur fournir que des conclusions d'ordre administratif (ex. justification ou non de l'arrêt) sans jamais divulguer les raisons ou diagnostics médicaux sous-jacents [2].\n\nAinsi, vous devez refuser de contrôler les salariés dont vous êtes déjà le médecin traitant. De plus, pour les autres employés que vous contrôlez, vous n'avez formellement pas le droit de partager leur dossier médical ou diagnostic avec la direction de l'entreprise, afin de préserver leur intégrité et le secret professionnel.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 68, 71 du Code de déontologie médicale tunisien."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_09",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["5", "37"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis ophtalmologue dans mon propre cabinet. Il y a un patient très agressif qui vient souvent me consulter et je ne me sens plus du tout à l'aise de le prendre en charge car il insulte mon personnel d'accueil. Ce patient m'a tellement stressé que j'ai décidé de ne plus jamais le recevoir dans mon cabinet, même s'il me supplie. Je veux savoir si la loi protège mon droit de choisir mes patients. Le code de déontologie me donne-t-il le droit de refuser définitivement des soins à quelqu'un pour des raisons personnelles, et quelles sont les situations où je serais contraint de l'accepter ?\n\nDocuments pertinents:\n[1] Source: art. 37 du Code de déontologie médicale tunisien\nHors le cas d'urgence et celui où il manquerait à ses devoirs d'humanité, le médecin a toujours le droit de refuser ses soins pour des raisons professionnelles ou personnelles.\n\n[2] Source: art. 5 du Code de déontologie médicale tunisien\nQuelle que soit sa fonction ou sa spécialité, hors le cas de force majeure, tout médecin doit porter secours d'extrême urgence à un malade en danger immédiat, si des soins médicaux ne peuvent lui être autrement assurés."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 37 du Code de déontologie médicale tunisien, le principe est que vous avez tout à fait le droit de refuser de prodiguer des soins à un patient pour des raisons personnelles ou professionnelles [1]. L'attitude agressive du patient constitue une raison valable pour interrompre la prise en charge dans le cadre de consultations courantes.\n\nToutefois, la loi impose deux exceptions majeures. Vous êtes obligé de l'accepter s'il s'agit d'un cas d'extrême urgence ou d'un manquement aux devoirs d'humanité [1]. De plus, l'article 5 précise que si ce patient se trouve un jour en danger immédiat dans ou à proximité de votre cabinet, vous avez l'obligation de lui porter secours, indépendamment de vos antécédents conflictuels, si aucun autre soin ne peut lui être assuré [2].\n\nAinsi, hors situations d'urgence vitale, vous êtes libre de refuser l'accès de votre cabinet à cette personne.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 5, 37 du Code de déontologie médicale tunisien."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_10",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["35"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: La semaine dernière, pendant ma garde aux urgences d'un hôpital public, un adolescent de 14 ans a été admis suite à un grave accident de scooter. Il souffrait d'une hémorragie interne nécessitant une opération chirurgicale immédiate sous peine de décès dans l'heure. Malgré tous nos efforts, il était totalement impossible de contacter ses parents ou un tuteur pour obtenir leur consentement légal. Un collègue infirmier m'a dit qu'intervenir sur un mineur sans accord écrit de sa famille est une faute grave. Que dit le code sur le consentement dans ce cas précis, et devais-je le laisser sans soins ?\n\nDocuments pertinents:\n[1] Source: art. 35 du Code de déontologie médicale tunisien\nAppelé d'urgence auprès d'un mineur ou d'un incapable et lorsqu'il est impossible de recueillir en temps utile le consentement légal, le médecin doit donner les soins qui s'imposent."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 35 du Code de déontologie médicale tunisien, votre collègue se trompe concernant les situations d'urgence absolue impliquant des mineurs [1].\n\nLa règle stipule que lorsqu'un médecin est appelé en urgence pour un mineur (ou un incapable) et qu'il est impossible d'obtenir le consentement de ses représentants légaux en temps utile, le médecin a le devoir formel de dispenser les soins qui s'imposent [1].\n\nAinsi, face au danger vital (hémorragie interne) et à l'impossibilité de joindre les parents de l'adolescent, vous étiez légalement et déontologiquement tenu de procéder à l'intervention chirurgicale immédiate pour sauver sa vie, sans attendre un accord écrit.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 35 du Code de déontologie médicale tunisien."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_11",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": ["99", "109", "110"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أنا طبيب باحث في مستشفى جامعي بتونس العاصمة. أقوم حاليا بتطوير دواء جديد للأمراض المزمنة وأرغب في إجراء تجارب سريرية على مجموعة من المرضى المتطوعين. هؤلاء المرضى يعانون من حالات متقدمة وبعضهم في حالة ضعف وارتهان تجاهي كوني طبيبهم المباشر. ما هي الشروط القانونية الصارمة التي ينص عليها مجلة أخلاقيات الطب التونسية لإجراء هذه التجارب على البشر؟ وهل يكفي الحصول على موافقتهم الشفوية للبدء في الاختبارات العلمية أم أن هناك إجراءات أخرى تحمي سلامتهم؟\n\nDocuments pertinents:\n[1] Source: الفصل 99 من مجلة أخلاقيات الطب التونسية\nL'expérience sur un être humain doit respecter les principes moraux et scientifiques qui justifient la recherche en médecine humaine. L'expérience sur un être humain doit être menée par des personnes scientifiquement qualifiées et sous surveillance d'un médecin qualifié.\n\n[2] Source: الفصل 109 من مجلة أخلاقيات الطب التونسية\nLe consentement doit dans la règle, être donné par écrit...\n\n[3] Source: الفصل 110 من مجلة أخلاقيات الطب التونسية\nLe droit de chaque individu à sauvegarder l'intégrité de sa personne doit être respecté par l'expérimentateur, spécialement si le sujet se trouve dans un état de dépendance vis-à-vis de l'expérimentateur."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 99 من مجلة أخلاقيات الطب التونسية، يجب أن تحترم التجارب على البشر المبادئ الأخلاقية والعلمية المبررة للبحث، وأن تتم تحت إشراف طبيب مؤهل [1].\n\nغير أن الفصل 109 يفرض صراحة أن تكون موافقة الشخص الخاضع للتجربة موافقة كتابية، وبالتالي لا تكفي الموافقة الشفوية للبدء في الاختبارات [2]. علاوة على ذلك، ينص الفصل 110 على وجوب احترام الحق في السلامة الجسدية للمريض بشكل خاص إذا كان في حالة تبعية وارتهان تجاه الطبيب المختبر (كما هو الحال مع مرضاك المباشرين) [3].\n\nوبالتالي، يجب عليك الحصول على موافقتهم الكتابية المسبقة مع ضمان استقلالية قرارهم التامة وحمايتهم من أي استغلال لحالة ضعفهم.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 99, 109, 110 من مجلة أخلاقيات الطب التونسية."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_12",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": ["114", "117"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: تخرجت حديثا من كلية الطب بصفاقس وحصلت على شهادة الدكتوراه. أرغب الآن في فتح عيادتي الخاصة والبدء في ممارسة المهنة بصفة قانونية. لقد قيل لي أنه يجب علي التسجيل في عمادة الأطباء قبل أي شيء. ماهي الوثائق المطلوبة لتقديم مطلب الترسيم بجدول العمادة؟ وما هي الإجراءات التي يجب أن أتبعها عند فتح العيادة لأول مرة من حيث إعلام العمادة والإعلان للعموم عن طريق الصحافة؟ أرجو تفصيل المراحل القانونية.\n\nDocuments pertinents:\n[1] Source: الفصل 114 من مجلة أخلاقيات الطب التونسية\nToute demande d'inscription au tableau de l'ordre des médecins doit être accompagnée du diplôme de docteur en médecine ou d'un diplôme admis en équivalence, d'un extrait du bulletin n° 3 et d'un document justifiant de la nationalité de l'intéressé.\n\n[2] Source: الفصل 117 من مجلة أخلاقيات الطب التونسية\nTout médecin qui s'installe pour la première fois doit soumettre au conseil régional de l'ordre le texte de l'annonce par voie de presse et en caractères normaux portant à la connaissance du public l'ouverture de son cabinet. Ces informations peuvent être faites dans des journaux différents le même jour pendant trois jours consécutifs uniquement."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً لمجلة أخلاقيات الطب التونسية، يتعين عليك اتباع إجراءات دقيقة للتسجيل وفتح عيادتك.\n\nبمقتضى الفصل 114، يجب أن تُرفق مطلب الترسيم بجدول العمادة بالوثائق التالية: شهادة الدكتوراه في الطب (أو شهادة معادلة)، نسخة من بطاقة السوابق العدلية (البطاقة عدد 3)، ووثيقة تثبت جنسيتك [1].\n\nعلاوة على ذلك، عند فتح عيادتك لأول مرة، يُلزمك الفصل 117 بعرض نص الإعلان الصحفي الخاص بافتتاح العيادة على المجلس الجهوي لعمادة الأطباء قبل نشره. بعد الموافقة عليه، يمكن نشر هذا الإعلان بأحرف عادية لإعلام العموم، ويُسمح بنشره في صحف مختلفة في نفس اليوم ولمدة لا تتجاوز ثلاثة أيام متتالية فقط [2].\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 114, 117 من مجلة أخلاقيات الطب التونسية."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_13",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["6", "30"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أنا طبيب أعمل في مستوصف حكومي في منطقة ريفية نائية. مؤخراً، اجتاحت المنطقة فيضانات مدمرة أدت إلى عزل العديد من القرى وانقطاع الكهرباء، وأصبح الوضع يمثل خطراً عاماً حقيقياً. لقد طلب مني المعتمد البقاء وتقديم الإسعافات الأولية للمتضررين، لكنني قررت المغادرة والعودة للمدينة حفاظاً على سلامتي الشخصية. هل يحق لي قانونياً التخلي عن المرضى في حالة الخطر العام هذه؟ وما هي حقوقي كطبيب في الحصول على الحماية أثناء أداء مهامي في هذه الظروف الاستثنائية؟\n\nDocuments pertinents:\n[1] Source: الفصل 6 من مجلة أخلاقيات الطب التونسية\nLe médecin ne peut pas abandonner ses malades en cas de danger public sauf sur ordre des autorités qualifiées.\n\n[2] Source: الفصل 30 من مجلة أخلاقيات الطب التونسية\nLes membres de profession médicale doivent recevoir la protection nécessaire pour exercer librement leurs activités professionnelles. Toute assistance leur sera donnée pour l'accomplissement de leur mission, en particulier ils auront le droit de circuler librement à toute heure, et de se rendre dans tous les lieux où leur présence est requise."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 6 من مجلة أخلاقيات الطب التونسية، يُمنع منعاً باتاً على الطبيب التخلي عن مرضاه في حالات الخطر العام (مثل الفيضانات التي ذكرتها)، إلا في حالة تلقيه أمراً صريحاً من السلطات المختصة بمغادرة المكان [1]. وبما أن السلطات المحلية (المعتمد) طلبت منك البقاء، فلا يحق لك المغادرة.\n\nغير أن القانون يضمن لك حقوقاً في المقابل. وفقاً للفصل 30، يحق لك كطبيب الحصول على الحماية اللازمة لأداء مهامك، ويجب أن تُقدم لك كل المساعدة الممكنة، بما في ذلك حق التنقل بحرية وفي أي وقت للوصول إلى الأماكن التي يتطلبها عملك الإنساني [2].\n\nوبالتالي، يجب عليك البقاء لتقديم العناية الطبية المطلوبة مع مطالبة الجهات المسؤولة بتوفير الحماية الأمنية واللوجستية لك.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 6, 30 من مجلة أخلاقيات الطب التونسية."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_14",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أنا صيدلي أملك صيدلية في ولاية نابل، وأواجه منذ أشهر مشكلة خطيرة مع أحد الأطباء العامين في نفس الشارع. هذا الطبيب يرفض توجيه المرضى إلي ويقوم بتوجيههم حصرياً نحو صيدلية أخرى مقابل الحصول على نسبة من الأرباح سرا، وهو ما تسبب في خسائر مالية فادحة لي ولعائلتي. أريد أن أرفع ضده دعوى قضائية. بناءً على مجلة أخلاقيات الطب التونسية، ما هي العقوبات السجنية المحددة بالسنوات والخطايا المالية بالدينار التونسي التي سيحكم بها القاضي ضده؟ وهل يمكنني المطالبة بتعويض مدني لجبر الضرر المادي المباشر؟\n\nDocuments pertinents:\n[مجلة أخلاقيات الطب تتحدث عن تحريم هذه الأفعال كفعل مخل بالشرف (Compérage - الفصل 19)، لكنها لا تحدد العقوبات السجنية أو الغرامات المالية المدنية والجزائية، بل تحيل لمجالس التأديب]"
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال بخصوص العقوبات السجنية والخطايا المالية والتعويضات المدنية. مجلة أخلاقيات الطب تحدد فقط المخالفات التأديبية (مثل التواطؤ)، لكنها لا تذكر الأحكام الجزائية أو المدنية. أوصي باستشارة محامٍ مختص.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_15",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": ["44"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: بصفتي طبيب جراح في عيادة خاصة، لاحظت أن بعض المرضى لا يملكون تغطية اجتماعية ويجدون صعوبة كبيرة في دفع كامل أتعابي الجراحية. أحيانا أرغب في التخفيض من قيمة الفحص والعملية الجراحية لمساعدتهم، أو حتى التنازل عن أتعابي تماما، ولكن زملائي يحذرونني من أن هذا يعتبر منافسة غير مشروعة وقد يعرضني لمشاكل مع عمادة الأطباء. بمقتضى القانون، هل يمنع علي تخفيض أتعابي أو تقديم العلاج مجانا؟ وما هي الاستثناءات التي تتيح لي ذلك دون ارتكاب خطأ مهني؟\n\nDocuments pertinents:\n[1] Source: الفصل 44 من مجلة أخلاقيات الطب التونسية\nSous réserve de l'application des lois, il est interdit à tout médecin d'abaisser ses honoraires dans un intérêt de concurrence.\nIl reste libre de donner gratuitement ses soins quand sa conscience le lui demande.\nIl est d'usage qu'un médecin soigne gratuitement ses parents proches, ses confrères et les personnes à leur charge, les étudiants en médecine, le personnel à son service, ses collaborateurs et auxiliaires directs et ses amis intimes."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 44 من مجلة أخلاقيات الطب التونسية، يُمنع على الطبيب تخفيض أتعابه بهدف المنافسة غير المشروعة مع زملائه، حيث يُعد ذلك تجاوزاً لأخلاقيات المهنة [1].\n\nغير أن القانون يقدم استثناءً واضحاً للجانب الإنساني؛ إذ يظل الطبيب حراً في تقديم الرعاية الصحية مجاناً بالكامل إذا أمْلت عليه ضميره ذلك لمساعدة المرضى المحتاجين [1]. كما يُعد من العرف الطبي المسموح به معالجة فئات معينة مجاناً، مثل الأقارب، الزملاء وأفراد عائلاتهم، طلبة الطب، طاقم العمل، والأصدقاء المقربين.\n\nوبالتالي، لا يمكنك تخفيض الأتعاب كاستراتيجية لجذب المرضى، لكن يُسمح لك تماماً بالتنازل عن أتعابك وتقديم العلاج المجاني استجابة لنداء الضمير الإنساني.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 44 من مجلة أخلاقيات الطب التونسية."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_16",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["2", "39", "40"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ena tbib mta3 nsé (gynécologue) w jetni mra sghira l cabinet mte3i, tebki w 7ebbet ta3mel ijhadh (interruption de grossesse). Rajelha w 3ayletha ma fbelhomch, w hiya 9aletli elli ken ya3rfou bch ysirou machakel kbar w ytal9ou. B9it 7ayer bin inni n3awenha w bin el 9anoun. 7abit nes2el, 3la 7seb l code de la déontologie, chniya l conditions bech na3mel l'intervention hedhi? w est ce que yelzemni netda5el f omour 3ayletha w nansba7a t9oul l rajelha wala nemchi ken b rayha hiya w na3ml l 3amaleya?\n\nDocuments pertinents:\n[1] Source: art. 40 du Code de déontologie médicale tunisien\nIl ne peut être procédé à une interruption de grossesse que dans les cas et conditions prévus par la législation en vigueur.\n\n[2] Source: art. 39 du Code de déontologie médicale tunisien\nLe médecin ne doit pas s'immiscer dans les affaires de famille.\n\n[3] Source: art. 2 du Code de déontologie médicale tunisien\nLe respect de la vie et de la personne humaine constitue en toute circonstance le devoir primordial du médecin."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l Code de déontologie médicale tunisien, l'interruption de grossesse (ijhadh) mawjouda f l'article 40. L'article hedha y9oul elli ma tnajjem ta3mel l'opération hedhi ken f l 7alet w chourout elli yasma7 bihom l 9anoun (la législation en vigueur) [1].\n\nZid 3aliha, bel nesba l mochklet rajelha w 3ayletha, l'article 39 watha7: l tbib ma 3andouch l 7a9 yetda5el f oumour l 3ayla (s'immiscer dans les affaires de famille) [2]. Donc ma yelzmekch tod5el binek w bin rajelha.\n\nAma tethaker dima elli l'article 2 y2aked elli ahem 7aja 3and l tbib heya i7tiram 7yet l'insen w karamtou [3]. A3mel l'intervention ken l 9anoun mta3 l ijhadh f Tounes yasma7lek beha f 7aletha, men ghir ma ta3mel machakel m3a 3ayletha.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 2, 39, 40 du Code de déontologie médicale tunisien."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_17",
+      "language": "derja",
+      "category": "multi_article",
+      "articles_referenced": ["10", "38", "51"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ta3mel mzeya jawbni 3al 7ala hedhi: ena tbib w 3andi mridh ntabba3 fih 3ando snin. Lyoum 9ali raw y7eb ybaddel tbib w yemchi l wa7ed e5er 5ater l9a chkoun ar5es. El mochkla eli ena t3ebt m3ah barcha w 3malli barcha machakel. Najem nched dossier médical mte3o 3andi w ma na3tihouch l tbib jdid? W chnowa l code de déontologie ya5la9li kima devoirs ki mridh y7eb ybaddelni w yemchi l tbib e5er? Fasrali bel tafsil aman w a3tini l'articles.\n\nDocuments pertinents:\n[1] Source: art. 10 du Code de déontologie médicale tunisien\nLes principes ci-après énoncés s'imposent à tout médecin... le libre choix du médecin par le malade.\n\n[2] Source: art. 38 du Code de déontologie médicale tunisien\nLe médecin peut se dégager de sa mission, à condition : 1. de ne jamais nuire de ce fait à son malade 2. de fournir, à cet effet renseignements utiles à la continuité des soins.\n\n[3] Source: art. 51 du Code de déontologie médicale tunisien\nSi le malade entend renoncer aux services de son premier médecin, il [le deuxième médecin] donne les soins."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l Code de déontologie médicale tunisien, l mridh 3andou l 7a9 ykhtar tbibou kima y7eb (libre choix), w hetha 7a9 mathmoun f l'article 10 [1]. \n\nZid 3aliha, l'article 51 y9oul elli ken l mridh 9arar bech ybattel men 3and l tbib loul w ybaddel (renoncer aux services), l tbib jdid howa elli ywalli yetlha bih [3].\n\nAma rad balek, l'article 38 y2aked elli 7ata ken l mridh baddel l tbib, enti yelzemek dima t7afedh 3la sa7tou w ma tathrouch, w men wejbék bech ta3ti l ma3loumet w l renseignements lkol elli yest7a9hom l tbib jdid bech ykammel ydawih (continuité des soins) [2].\n\nW hedha bech te7mi sa7et l mridh. Donc ma tnajamch tched l dossier mte3ou w teta3net, yelzem t3awen fel continuité mta3 l 3ilej.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 10, 38, 51 du Code de déontologie médicale tunisien."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_18",
+      "language": "derja",
+      "category": "clarification",
+      "articles_referenced": ["87", "88"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Slt, 3andi cabinet mta3 médecine générale f sousse w n3ani chwaya mil masarif. Fama we7ed s7aybi, tbib spécialiste, 7al cabinet ba7dheya w 9ali ija nlemou b3adhna w ne5dmou m3a b3adhna f nafs l blassa bech nna9sou l kré w l charge mta3 l secrétariat, w ntal3ou f rba7. 7abit na3ref est-ce que l code de déontologie médicale yasma7elna na3mlou hedha? W chnowa l'étapes li yelzemna ntab3ouha m3a 3imadet l atibba bech nkounou mriglin w ma ya3mloulnach ma7dher? Fasrali aman 9bal ma nsahhi m3ah ay war9a.\n\nDocuments pertinents:\n[1] Source: art. 87 du Code de déontologie médicale tunisien\nLe regroupement de médecins de même discipline ou de disciplines différentes peut se faire : a. soit dans le cadre d'un cabinet de groupe b. soit dans le cadre d'une société civile professionnelle."
+        },
+        {
+          "role": "assistant",
+          "content": "Aman tnajem twadha7li ken t7ebou ta3mlou juste \"Cabinet de groupe\" wala t7ebou t2assou \"Société civile professionnelle\" (charika) ? \n\nL'article 87 mel Code de déontologie yasma7 bel regroupement mta3 atibba, ama l chourout w l 9awanin tefra9 barcha bin l cabinet de groupe w l société civile, surtout fel masarif w 9asmen l honoraires. A3tini l détail bech nans7ek mli7.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 87 du Code de déontologie médicale tunisien."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_19",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["75", "80", "81"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ya ahl l 5ibra, ena na5dem tbib mta3 choghl (médecine du travail) fi charika kbira w ma3roufa f tounes l 3asma. L moudir mta3 l ressources humaines jani l bureau w tlaab menni bech nwarih l dossier médical mta3 wahed men l 5addema, 5ater chakk fih ytmaredh bel3ani. F nafs l wa9t, ena f l 5edma d5alt lel usine w choft asrar mta3 fabrication mta3 produit jdid. L moudir 9ali ken ma t3atinich l dossier ntardek. Chnowa dawi ana f l charika, w chnowa l 9anoun y9oul 3al asrar hedhi lkol?\n\nDocuments pertinents:\n[1] Source: art. 80 du Code de déontologie médicale tunisien\nLe médecin du travail a une mission essentiellement préventive, il doit veiller au respect des règles relatives à l'hygiène, à la sécurité du travail et à la protection de la santé des travailleurs.\n\n[2] Source: art. 81 du Code de déontologie médicale tunisien\nOutre le respect du secret professionnel, le médecin du travail est tenu dans l'exercice de ses fonctions de respecter scrupuleusement le secret de fabrication et en général les procédés d'exploitation dont il pourrait prendre connaissance à cette occasion.\n\n[3] Source: art. 75 du Code de déontologie médicale tunisien\nEn aucune circonstance le médecin ne peut accepter de limitation à son indépendance professionnelle de la part de l'entreprise ou de l'organisme qui l'emploie."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, dawrek f charika 7asb l'article 80 men Code de déontologie hewa we9a2i (préventive) bech ta7mi sa7et l 5addema w tsahher 3la hygiène mte3hom [1].\n\nBel nesba l talab l moudir, l'article 81 y2aked elli rak marbout bel secret professionnel, w ma 3andekch l 7a9 jemla twari l dossier médical mta3 l 5addem lel moudir. F nafs l wa9t, el 9anoun yelzmek bech tasta7fedh 3ala asrar l fabrication elli choftha f l'usine [2]. \n\nZid 3aliha, l'article 75 y9oul watha7 elli charika ma tnajamch tdakhal f 5edmtek wala threatinek, w lezmek t7afedh 3la listi9laliya mte3ek (indépendance professionnelle) [3]. \n\nDonc enty ma ta3tih chay, w dima mridhek howa l awla.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 75, 80, 81 du Code de déontologie médicale tunisien."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_20",
+      "language": "derja",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Brabbi 3andi mochkla kbira. Ena tbib psychiatre w 3andi mridh dima yjik yotlob f ordonnance mta3 dwa a3sab (psychotrope) 9wi barcha. Ena chakit fih elli howa ma yochrobhouch, ama ybi3 fih f chera3 lel sghar. L mochkla elli el chorta l9at l'ordonnance b ismy 3andou. 7abit nes2el, idha ken ena naktablou l ordonnance w tethbet 3liya l tohma fel ma7kma, chniya l 5tiya (amende) l maliya elli bch nedfa3ha, w 9adech men 3am 7abs najem ne5edh 7asb l code de déontologie médicale? A3tini l 3o9oubet bedhabt aman rani 5ayef.\n\nDocuments pertinents:\n[Le document ne contient pas de sanctions pénales ou d'amendes financières pour ce type de délit]"
+        },
+        {
+          "role": "assistant",
+          "content": "El wra9 elli 3andi ma fihomch réponse l sou2el hedha. L Code de déontologie ma fihouch a7kem 3la l 7abs wala l khtaya l maliya (amendes) f 7alet kima hedhi, yé7ki ken 3la majles l ta2dib. Ahsen 7aja tchouf avocat spécialisé fel droit pénal taw yans7ek.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Titre 1",
+      "Titre 2",
+      "Titre 3",
+      "Titre 5",
+      "Titre 6",
+      "Titre 7"
+    ],
+    "sections_not_covered": ["Titre 4"],
+    "notes": "Le batch couvre une grande variété de situations (urgence, secret, honoraires, essais cliniques, publicités, installation). Les exceptions et raisonnements multi-articles ont été favorisés sur des cas concrets complexes."
+  }
+}

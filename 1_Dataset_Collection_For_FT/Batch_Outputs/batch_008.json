@@ -1,0 +1,479 @@
+{
+  "batch_id": "batch_CODETRAVAIL_002_20231026",
+  "provenance": {
+    "generated_by": "Gemini 3.1 Pro Preview",
+    "platform": "Google_ai_studio"
+  },
+  "time_of_generation": "3m14s",
+  "source": "Code du Travail de Tunisie (2020) - Livre IV à VII",
+  "articles_covered": [
+    "149",
+    "174",
+    "183",
+    "214",
+    "221",
+    "250",
+    "251",
+    "258-2",
+    "279",
+    "312",
+    "333",
+    "349",
+    "351",
+    "371",
+    "376 bis",
+    "376 ter",
+    "385 bis",
+    "387",
+    "388",
+    "389",
+    "390",
+    "445"
+  ],
+  "articles_to_avoid_next_batch": [
+    "149",
+    "174",
+    "183",
+    "214",
+    "221",
+    "250",
+    "251",
+    "258-2",
+    "279",
+    "333",
+    "349",
+    "351",
+    "371",
+    "376 bis",
+    "376 ter",
+    "385 bis",
+    "387",
+    "388",
+    "389",
+    "390",
+    "445"
+  ],
+  "examples": [
+    {
+      "example_id": "CT_021",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["333"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon employeur me demande de payer la totalité de ma tenue de travail. Est-ce légal et que doit-il me fournir exactement chaque année ?\n\nDocuments pertinents:\n[1] Source: article 333 du Code du Travail\nDans toutes les activités où les salariés sont soumis à la législation du travail, les employeurs doivent fournir à chaque membre de leur personnel permanent, le 1er mai de chaque année, deux complets de travail, deux chemises, une paire de chaussures et un couvre-chef du modèle couramment admis dans la profession. Les frais occasionnés par ces fournitures sont supportés moitié par l'employeur, moitié par le salarié, au moyen de retenues sur son salaire, échelonnées sur quatre mois au moins."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 333 du Code du Travail, il est illégal pour votre employeur de vous faire payer la totalité de votre tenue de travail. La loi stipule que les frais doivent être supportés à parts égales (moitié par l'employeur, moitié par le salarié), avec une retenue sur salaire échelonnée sur au moins quatre mois. \n\nPar ailleurs, l'employeur est tenu de vous fournir chaque année, le 1er mai, un équipement précis : deux complets de travail, deux chemises, une paire de chaussures et un couvre-chef. \n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 333 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_022",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["174"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: L'inspecteur du travail a-t-il le droit de pénétrer dans mon usine à minuit sans m'avertir au préalable ?\n\nDocuments pertinents:\n[1] Source: article 174 du Code du Travail\nLes agents chargés de l'Inspection du Travail, munis d'une pièce justificative de leurs fonctions, sont autorisés : 1) à pénétrer librement sans avertissement préalable, à toute heure du jour et de la nuit, dans tout établissement assujetti au contrôle de l'inspection..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 174 du Code du Travail, l'inspecteur du travail a parfaitement le droit de pénétrer dans votre usine à minuit sans vous avertir au préalable. La loi autorise les agents de l'Inspection du Travail, munis de leur pièce justificative, à accéder librement aux établissements assujettis à leur contrôle à toute heure du jour ou de la nuit. L'objectif est de pouvoir constater les conditions réelles de travail (comme le travail de nuit clandestin ou les infractions aux règles de sécurité) sans que l'employeur n'ait le temps de dissimuler des irrégularités.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 174 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_023",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["385 bis"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Notre syndicat et la direction ont soumis notre conflit collectif à l'arbitrage. Quel est le délai accordé au Conseil d'Arbitrage pour rendre sa décision finale ?\n\nDocuments pertinents:\n[1] Source: article 385 bis du Code du Travail\nLes sentences arbitrales sont rendues dans un délai ne dépassant pas 10 jours à partir de la date de soumission du dossier du conflit au Conseil d'Arbitrage. La sentence arbitrale est rendue à la majorité des voix... Des copies de la sentence arbitrale sont notifiées aux parties au conflit dans un délai de 24 heures après son prononcé."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 385 bis du Code du Travail, le Conseil d'Arbitrage dispose d'un délai strict ne dépassant pas 10 jours pour rendre sa sentence arbitrale, à compter de la date à laquelle le dossier du conflit lui a été soumis. Une fois la décision prononcée à la majorité des voix, des copies vous seront notifiées dans un délai de 24 heures. Ce délai court vise à résoudre rapidement les crises sociales pour éviter la paralysie économique de l'entreprise.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 385 bis du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_024",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["258-2"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je souhaite embaucher un ingénieur étranger dans mon entreprise en Tunisie. Quelle est la durée maximale de son contrat de travail et puis-je le renouveler indéfiniment ?\n\nDocuments pertinents:\n[1] Source: article 258-2 du Code du Travail\nTout étranger, qui veut exercer en Tunisie un travail salarié... doit être muni d'un contrat de travail et d'une carte de séjour... Le contrat de travail est conclu pour une durée n'excédant pas une année renouvelable une seule fois. Toutefois, le contrat de travail peut être renouvelé plus d'une fois lorsqu'il s'agit d'emploi d'étrangers dans leurs entreprises exerçant en Tunisie dans le cadre de la réalisation de projets de développement agréés par les autorités compétentes."
+        },
+        {
+          "role": "assistant",
+          "content": "La réglementation sur l'embauche des travailleurs étrangers nécessite une analyse en plusieurs étapes conformément à l'article 258-2 du Code du Travail :\n\n- Étape 1 : Le contrat de travail initial d'un étranger ne peut excéder une durée maximale d'un (1) an.\n- Étape 2 : En principe, ce contrat n'est renouvelable qu'une seule et unique fois.\n- Étape 3 : Toutefois, une exception existe. Le contrat peut être renouvelé plusieurs fois de manière illimitée s'il s'agit d'étrangers travaillant pour des entreprises engagées dans la réalisation de projets de développement spécifiquement agréés par les autorités compétentes.\n\nAinsi, à moins que votre entreprise ne s'inscrive dans un projet de développement officiellement agréé, vous ne pourrez renouveler le contrat de cet ingénieur qu'une seule fois.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 258-2 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_025",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["389", "390"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les employés d'un service public hospitalier sont en grève et paralysent les urgences. L'État peut-il les forcer à reprendre le travail, et que risquent-ils s'ils refusent ?\n\nDocuments pertinents:\n[1] Source: article 389 du Code du Travail\nLa réquisition de l'entreprise ou de son personnel peut être décidée par décret lorsqu'une grève ou un lock-out décidé ou déclenché est de nature à porter atteinte au fonctionnement normal d'un service essentiel. La réquisition est notifiée individuellement aux intéressés...\n\n[2] Source: article 390 du Code du Travail\nQuiconque n'aura pas déféré aux mesures de réquisition sera passible d'un emprisonnement d'un mois à un an et d'une amende de cent à cinq cents dinars ou de l'une de ces deux peines seulement. En cas de récidive, ces peines sont portées au double."
+        },
+        {
+          "role": "assistant",
+          "content": "Face à une paralysie d'un service essentiel, la loi tunisienne prévoit un mécanisme de contrainte en deux étapes :\n\n- Étape 1 : Le pouvoir de réquisition. Selon l'article 389 du Code du Travail, si la grève porte atteinte au fonctionnement normal d'un service essentiel (comme un hôpital), l'État peut décider par décret de réquisitionner le personnel. Cette réquisition doit être notifiée aux intéressés.\n- Étape 2 : Les sanctions pénales. En vertu de l'article 390, si les employés refusent de déférer à cette mesure de réquisition (c'est-à-dire s'ils refusent de reprendre le travail), ils s'exposent à de lourdes sanctions : une peine d'emprisonnement allant de un mois à un an et/ou une amende de 100 à 500 dinars. En cas de récidive, ces peines sont doublées.\n\nCe raisonnement montre que le droit de grève cède face à l'intérêt vital de la nation lorsqu'un service essentiel est en jeu.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 389, 390 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_026",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["251"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un travailleur de nationalité étrangère peut-il faire partie de la direction d'un syndicat professionnel en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 251 du Code du Travail\nLes membres de tout syndicat professionnel, chargés de l'administration ou de la direction de ce syndicat, doivent être de nationalité tunisienne, originaire ou acquise depuis au moins cinq ans... Toutefois, des étrangers peuvent être désignés ou élus à un poste d'administration ou de direction d'un syndicat à condition d'avoir obtenu l'agrément du Secrétaire d'Etat à la Jeunesse, aux Sports et aux Affaires Sociales, 15 jours au moins avant la constitution du syndicat ou le renouvellement du conseil d'administration..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 251 du Code du Travail, le principe général est que les dirigeants et administrateurs d'un syndicat professionnel doivent obligatoirement posséder la nationalité tunisienne (originaire ou acquise depuis au moins 5 ans).\n\nToutefois, la loi prévoit une exception : un étranger peut accéder à un poste de direction syndicale s'il obtient un agrément officiel du ministère chargé des Affaires Sociales (actuellement, le ministère des Affaires Sociales). Cet agrément doit être obtenu au moins 15 jours avant la constitution du syndicat ou l'élection du conseil d'administration. L'objectif est de maintenir le contrôle sur la souveraineté des instances syndicales nationales tout en autorisant des dérogations validées par l'État.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 251 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_027",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ma société est considérée comme un établissement dangereux de deuxième catégorie. Quel est le montant exact en dinars de la taxe de contrôle et de surveillance que je dois payer annuellement ?\n\nDocuments pertinents:\n[1] Source: article 313 du Code du Travail\nTout établissement actif ou en service, classé dans l'une des catégories, est assujetti au paiement d'une taxe annuelle de contrôle et de surveillance dont le taux et les modalités de perception sont fixés par une loi."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Bien que l'article 313 du Code du Travail précise qu'une taxe annuelle de contrôle est obligatoire pour les établissements classés, le montant exact et les taux sont fixés par une loi distincte (généralement la Loi de Finances) qui n'est pas incluse dans ce code. Je vous recommande de consulter un conseiller fiscal ou les services du ministère des Finances.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CT_028",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J'ai été décoré de la Médaille du Travail au 1er échelon (médaille de vermeil) après 25 ans de service. Quel est le montant de la prime financière qui accompagne cette médaille selon le Code du Travail ?\n\nDocuments pertinents:\nLe document fourni est le Code du Travail (Livre VII, Chapitre XIX - Médaille du Travail)."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Chapitre XIX du Code du Travail détaille les conditions d'octroi et les échelons de la Médaille du Travail, mais ne mentionne aucune prime financière ou gratification pécuniaire associée à cette distinction honorifique. Je vous recommande de vérifier les conventions collectives de votre secteur d'activité, qui peuvent parfois prévoir des primes spécifiques.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CT_029",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": ["214"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je veux attaquer mon employeur aux Prud'hommes suite à un conflit. Le siège de l'entreprise est à Tunis, mais je travaille de chez moi (télétravail à Bizerte). Devant quel Conseil de Prud'hommes dois-je déposer ma plainte ?\n\nDocuments pertinents:\n[1] Source: article 214 du Code du Travail\nLes conflits sont portés devant le conseil de prud'hommes dans le ressort duquel est située l'entreprise où le travail est effectué. En cas d'exécution du travail en dehors de l'entreprise, le conflit est porté devant le conseil de prud'hommes dans le ressort duquel se situe le lieu du domicile du travailleur. Le travailleur peut dans tous les cas introduire l'action devant le conseil de prud'hommes du lieu où le contrat de travail a été conclu."
+        },
+        {
+          "role": "assistant",
+          "content": "Selon l'article 214 du Code du Travail, la détermination du Conseil de Prud'hommes compétent dépend du lieu physique où vous effectuez votre travail. \n\nS'agit-il d'un travail que vous exécutez exclusivement en dehors des locaux de l'entreprise (par exemple depuis votre domicile à Bizerte) ? Si c'est le cas, vous devez saisir le Conseil de Prud'hommes de Bizerte (le lieu de votre domicile). Toutefois, la loi vous offre une autre option : vous pouvez également choisir de saisir le conseil du lieu où votre contrat de travail a été signé. \n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 214 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_030",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["250"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mes collègues et moi souhaitons fonder un syndicat professionnel pour défendre notre métier. Quelle est la procédure légale de dépôt du dossier de constitution ?\n\nDocuments pertinents:\n[1] Source: article 250 du Code du Travail\nLes fondateurs de tout syndicat professionnel doivent, dès sa constitution, déposer ou adresser, par pli recommandé avec accusé de réception, en cinq exemplaires, au siège du Gouvernorat ou de la Délégation dans laquelle se trouve son siège :\n1) ses statuts;\n2) la liste complète des personnes chargées à un titre quelconque de son administration ou de sa direction. Cette liste indique les nom, prénom, nationalité, filiation, date et lieu de naissance, profession et domicile des intéressés.\nUn exemplaire de tous ces documents est conservé au siège du Gouvernorat..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 250 du Code du Travail, la procédure de constitution d'un syndicat professionnel nécessite un dépôt administratif formel. \n\nDès la création du syndicat, les fondateurs doivent déposer (ou envoyer par courrier recommandé avec accusé de réception) un dossier complet en cinq (5) exemplaires au siège du Gouvernorat ou de la Délégation où le syndicat est domicilié. Ce dossier doit impérativement contenir :\n1. Les statuts du syndicat.\n2. La liste exhaustive des membres de l'administration et de la direction, avec leurs informations personnelles détaillées (nom, nationalité, filiation, date de naissance, profession, domicile).\nL'administration se chargera ensuite de distribuer les autres exemplaires aux ministères concernés (Intérieur, Affaires Sociales) et au Procureur de la République.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 250 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_031",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["445"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي أيام الأعياد التي تعتبر قانونا أيام عطلة خالصة الأجر حسب مجلة الشغل التونسية؟\n\nDocuments pertinents:\n[1] Source: الفصل 445 من مجلة الشغل\nSont jours fériés payés, le 14 janvier, le 20 mars, le 1er mai, le 25 juillet, le jour de l'aïd El Fitr et le jour de l'aïd El Idha."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 445 من مجلة الشغل، حدد المشرع التونسي حصرياً أيام الأعياد التي تُعتبر أيام عطلة مدفوعة الأجر (خالصة الأجر) للعمال. وتشمل هذه الأيام:\n- 14 جانفي (عيد الثورة والشباب)\n- 20 مارس (عيد الاستقلال)\n- 1 ماي (عيد الشغل)\n- 25 جويلية (عيد الجمهورية)\n- يوم عيد الفطر\n- يوم عيد الإضحى\nالغاية من هذا التحديد هي ضمان حق الأجير في الاحتفال بالمناسبات الوطنية والدينية الكبرى دون المساس بمقدرته الشرائية أو إنقاص أجره.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 445 من مجلة الشغل"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_032",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": ["183"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يحق لمجلس عرفاء الشغل (Prud'hommes) النظر في جميع القضايا العمالية بما فيها حوادث الشغل والضمان الاجتماعي؟\n\nDocuments pertinents:\n[1] Source: الفصل 183 من مجلة الشغل\nLes conseils de prud'hommes ont pour attributions de résoudre les conflits individuels qui peuvent surgir entre les parties contractantes à l'occasion de l'exécution des contrats de travail... Cependant, ils ne peuvent connaître des actions fondées sur des accidents du travail et des maladies professionnelles ainsi que des litiges relatifs aux régimes de sécurité sociale."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 183 من مجلة الشغل، يتمثل المبدأ العام في اختصاص مجالس عرفاء الشغل بالنظر في النزاعات الفردية الناشئة عن تنفيذ عقود الشغل أو التدريب المهني، وكذلك الخلافات التي تقع بين العمال أنفسهم بمناسبة العمل.\n\nغير أنّ هذا الفصل وضع استثناءً صريحاً يحد من صلاحيات هذه المجالس؛ إذ لا يحق لها مطلقاً النظر في الدعاوى المتعلقة بحوادث الشغل والأمراض المهنية، ولا في النزاعات الخاصة بأنظمة الضمان الاجتماعي. والغاية من هذا الاستثناء هي إحالة هذه القضايا ذات الصبغة التعويضية والاجتماعية الدقيقة إلى محاكم الحق العام (المحاكم الابتدائية) والدوائر المختصة في الضمان الاجتماعي.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 183 من مجلة الشغل"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_033",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": ["349", "351"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: لقد أبرمت عقد تدريب مهني (apprentissage) مع شاب منذ شهر ونصف، هل يمكنني فسخ العقد الآن دون دفع تعويض؟ وماذا لو استمر العقد وأراد المتدرب الزواج لاحقاً؟\n\nDocuments pertinents:\n[1] Source: الفصل 349 من مجلة الشغل\nLes deux premiers mois de l'apprentissage sont considérés comme un temps d'essai, pendant lequel le contrat peut être annulé par la volonté de l'une des parties. Dans ce cas, aucune indemnité n'est due à l'une ou l'autre partie, à moins de convention écrite expresse.\n\n[2] Source: الفصل 351 من مجلة الشغل\nLe contrat peut être résilié sur accord des parties ou à la demande de l'une d'elles : ... 8) dans le cas ou l'apprenti viendrait à contracter mariage et sur sa demande."
+        },
+        {
+          "role": "assistant",
+          "content": "يتطلب الرد على هذه المسألة الرجوع إلى الأحكام المنظمة لفترة التجربة وأسباب الفسخ في عقد التدريب المهني، وذلك على النحو التالي:\n\n- الخطوة 1: بالنسبة للوضع الحالي (شهر ونصف من بداية العقد)، ينص الفصل 349 على أن الشهرين الأولين يعتبران فترة تجربة. خلال هذه الفترة، يحق لأي من الطرفين إلغاء العقد بإرادته المنفردة، ولا يستوجب ذلك دفع أي تعويض، ما لم ينص العقد الكتابي على خلاف ذلك.\n- الخطوة 2: في صورة استمرار العقد بعد فترة التجربة، وتعبير المتدرب لاحقاً عن رغبته في الزواج، فإن الفصل 351 (الفقرة 8) يمنح المتدرب الحق في المطالبة بفسخ العقد بناءً على زواجه.\n\nبناءً عليه، التزامك الحالي يسمح بالفسخ دون تعويض لكونك ما زلت في فترة التجربة.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 349، 351 من مجلة الشغل"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_034",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": ["376 bis", "376 ter"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: صفتي كاتب عام نقابة أساسية، ونرغب في تنفيذ إضراب داخل الشركة بسبب عدم الاستجابة لمطالبنا. ما هي الإجراءات القانونية الصارمة الواجب اتباعها قبل الدخول في الإضراب؟\n\nDocuments pertinents:\n[1] Source: الفصل 376 مكرر من مجلة الشغل\nToute décision de grève ou de lock-out doit être précédée d'un préavis de 10 jours, adressé par la partie intéressée à l'autre partie et au bureau régional de conciliation... En outre, la grève... doit être approuvé par la centrale syndicale ouvrière...\n\n[2] Source: الفصل 376 ثالثا من مجلة الشغل\nLe préavis est adressé en même temps aux parties concernées par lettre recommandée avec accusé de réception. Le préavis doit contenir les indications suivantes : le lieu de la grève... la date d'entrée... la durée... le motif de la grève..."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصلين 376 مكرر و376 ثالثاً من مجلة الشغل، تخضع ممارسة حق الإضراب لإجراءات قانونية شكلية صارمة يجب اتباعها لتفادي اعتباره إضراباً غير قانوني:\n\n1. يجب أولاً الحصول على الموافقة المسبقة من المركزية النقابية العمالية على قرار الإضراب.\n2. يجب توجيه إشعار مسبق (تنبيه) مدته عشرة (10) أيام على الأقل قبل تاريخ الإضراب.\n3. يُوجه هذا الإشعار في نفس الوقت إلى المشغل وإلى المكتب الجهوي للمصالحة، ويجب أن يكون ذلك بواسطة مكتوب مضمون الوصول مع الإعلام بالبلوغ.\n4. يجب أن يتضمن الإشعار وجوباً البيانات التالية: مكان الإضراب، تاريخ بدايته، مدته، والأسباب أو الدوافع التي أدت إليه.\n\nإن الغاية من هذه الإجراءات هي منح فرصة للحوار والمصالحة قبل تعطيل الإنتاج.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 376 مكرر، 376 ثالثاً من مجلة الشغل"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_035",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": ["371"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: قمت مؤخرا بتسريح عامل فلاحي قار يعمل لدي لأسباب لا تتعلق بخطأ فادح منه. كم تبلغ مكافأة نهاية الخدمة (indemnité de licenciement) التي يلزمني القانون بدفعها له؟\n\nDocuments pertinents:\n[1] Source: الفصل 371 من مجلة الشغل\nAu cas de licenciement d'un ouvrier permanent... sauf celui de faute grave... il est dû à celui-ci une indemnité de licenciement calculée comme suit : - de un à trois mois d'ancienneté : trois jours de salaire; - de trois à six mois d'ancienneté : sept jours de salaire; - de six mois à un an d'ancienneté : quinze jours de salaire; - au delà d'un an d'ancienneté : quinze jours de salaire par année. Le montant total de l'indemnité de licenciement ne peut dépasser quatre vingt dix jours de salaire."
+        },
+        {
+          "role": "assistant",
+          "content": "لتحديد مبلغ مكافأة نهاية الخدمة للعامل الفلاحي القار، يرجى توضيح مدة أقدميته (فترة عمله) لديك في الضيعة؟\n\nحسب الفصل 371 من مجلة الشغل، فإن التعويض يرتبط مباشرة بالأقدمية. على سبيل المثال:\n- إذا كانت أقدميته من شهر إلى 3 أشهر: يستحق أجر 3 أيام.\n- من 3 إلى 6 أشهر: يستحق أجر 7 أيام.\n- من 6 أشهر إلى سنة: يستحق أجر 15 يوماً.\n- أكثر من سنة: يستحق أجر 15 يوماً عن كل سنة عمل (شريطة ألا يتجاوز المجموع الجملي أجر 90 يوماً).\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 371 من مجلة الشغل"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_036",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["221"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Khasert l'9adhya mte3i fel Prud'hommes (majles 3orafa choghl) dhod 3arfi, najem na3mel appel w win bedhabt mchit chofet?\n\nDocuments pertinents:\n[1] Source: article 221 du Code du Travail\nL'appel des jugements des conseils de prud'hommes rendus en premier ressort est porté devant les cours d’appel."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l'article 221 mel Code du Travail, ken 5sert el 9adhya mte3ek fel Conseil de Prud'hommes (majles 3orafa choghl) fi daraja oula (premier ressort), 3andek l7a9 ta3mel appel. L'appel hedha yelzem yet9adam l'ma7kamet el isti2nef (Cour d'appel) elli tab3a l'blasa mta3 l'ma7kama loula. L'objectif men hedha houwa bech tadhmen 7a9ek fi ta9adhou 3la marteen (double degré de juridiction) w y3awdou ychoufou l'dossier mte3ek.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 221 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_037",
+      "language": "derja",
+      "category": "multi_article",
+      "articles_referenced": ["387", "388"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: 3malna grève men ghir ma na3lmou charika b 10 ayem kima y9oul l9anoun, w dkhanna l'usine sakarna l'biben w ma khalinech la3bed tekhdem. Chnowa l'3o9oubat elli najmou net3ardhoulha?\n\nDocuments pertinents:\n[1] Source: article 387 du Code du Travail\nEn cas d'inobservation des dispositions du présent chapitre et notamment celles des articles 376, 376 bis et 376 ter... la grève ou le lock-out est illégal.\n\n[2] Source: article 388 du Code du Travail\nI - Lorsque la grève... sont illégaux, quiconque aura incité à la poursuite de la grève... ou y aura participé, sera passible d'un emprisonnement de trois à huit mois et d'une amende de cent à cinq cent dinars... II. - Quiconque aura occupé les lieux de travail, pendant la grève ou le lock-out illégaux, sera passible des peines prévues au paragraphe précédent."
+        },
+        {
+          "role": "assistant",
+          "content": "3la 7seb e-tasaol mte3ek, l'wadh3iya fiha zouz maratib (étapes) 7asb el Code du Travail:\n\n- Étape 1: Bima enkom ma 3maltouch préavis mta3 10 ayem (kima mafroudh), el grève mte3kom tet3tabar \"illégale\" (ghir 9anouniya) 7asb l'article 387.\n- Étape 2: Bima enha illégale, ay wahed charek fiha wala 7aredh 3liha y3a9bou l'9anoun (Article 388, I) b 7abs men 3 l 8 ch'hour w khtiya men 100 l 500 dinars. Zid 3aliha, mademek dkhaltou l'usine w sakartou l'biben (occupation des lieux), l'article 388 (II) y3a9eb 3la hedha b nafs l'3o9ouba mta3 l'habs wel khtiya. \n\nL'objectif mta3 l'état houni houwa bech yohkmon l'i7tijajat w yamn3ou l'fawdha elli tnajem thabbet l'économie.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 387, 388 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_038",
+      "language": "derja",
+      "category": "principle_exception",
+      "articles_referenced": ["149"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: 3arfi yheb ykossli men chahriti flous mta3 makla w hweyej chrethom men 3andou men magazin mte3ou. 3andou lhaq ya3mel hal 9assan (compensation)?\n\nDocuments pertinents:\n[1] Source: article 149 du Code du Travail\nLa compensation ne joue pas au profit des employeurs entre le montant des salaires dus par eux à leurs ouvriers et employés et les sommes qui leur seraient dues à eux-mêmes pour fournitures diverses, quelle qu'en soit la nature à l'exception toutefois : 1) des outils et instruments nécessaires au travail; 2) des matières ou matériaux dont l'ouvrier a la charge et l'usage; 3) des sommes avancées pour l'acquisition de ces mêmes objets."
+        },
+        {
+          "role": "assistant",
+          "content": "3la 7seb l'article 149 mel Code du Travail, el principe houwa elli mamnou3 3la l'employeur (3arfek) bech ya3mel \"compensation\" (ma3netha y9oslek men chahritek) bech ykhales les crédits wala l'slè3 elli chrethom men 3andou (kima l'makla wala l'hweyej).\n\nAma l'9anoun 7at exceptions sghar win ynajem y9oslk: ken chrit men 3andou matériel wala dwezan mta3 khedma (outils et instruments nécessaires au travail), wela des matières tekhdem bihom, wala saba9lek flous (avance) bech techri l'dwezan hethouma kahaw. \n\nDonc, pour la nourriture wel hweyej personnels, ma 3andouch l7a9 y9oslek men chahritek. L'objectif men hedha houwa bech ya7miou chahreyet l'khaddem men kol isti3'lel.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 149 du Code du Travail"
+        }
+      ]
+    },
+    {
+      "example_id": "CT_039",
+      "language": "derja",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Nheb na3ref chnouwa l'awra9 lmatlouba bech na3mel visa mta3 khedma w nsafer l'europe (Fransa walla Italie) w 9adech tetkalef?\n\nDocuments pertinents:\nLes documents fournis concernent le Code du Travail tunisien, l'emploi de la main-d'œuvre étrangère en Tunisie, l'inspection du travail, etc."
+        },
+        {
+          "role": "assistant",
+          "content": "El wra9 elli 3andi ma fihomch réponse l sou2el hedha. El Code du Travail tunisien ya7ki 3la 9awanin l'khedma houni fi Tounes (kima el 5addema el ajeneb fi tounes), ama les papiers mta3 visa w les frais l'europa teb3in l'ambassades w les consulats. Ahsen 7aja tchouf site mta3 TLScontact wela VFS.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CT_040",
+      "language": "derja",
+      "category": "direct",
+      "articles_referenced": ["279"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Halit hanout jdid w bech nkhadem m3aya 2 rjel. Wa9tech lezem na3lem (ndéclarer) l'inspection du travail bel machrou3 jdid?\n\nDocuments pertinents:\n[1] Source: article 279 du Code du Travail\nLa déclaration doit être faite dans un délai d'un mois : a) à compter du démarrage effectif de l'activité pour les établissements nouvellement créés..."
+        },
+        {
+          "role": "assistant",
+          "content": "Bé, 3la 7seb l'article 279 mel Code du Travail, 3andek délai mta3 chhar (1 mois) bedhabt melli bdit tekhdem f3liyan (démarrage effectif de l'activité) bech temchi ta3mel déclaration lel inspection du travail. La déclaration hedhi lezemha tkoun bel bosta (lettre recommandée) w fi 3 nosakh, w fiha les données mta3ek w mta3 l'khaddema. L'objectif men hedha houwa bech l'état taba3 les entreprises w tadhmen 7ou9ou9 l'khaddema.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 279 du Code du Travail"
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Chapitre VIII: Vêtements de travail (Art. 333)",
+      "Livre IV: L'inspection du travail (Art. 174)",
+      "Livre V: Conflits individuels et Prud'hommes (Arts. 183, 214, 221)",
+      "Livre VII: Syndicats professionnels (Arts. 250, 251)",
+      "Livre VII: Emploi main-d'œuvre étrangère (Art. 258-2)",
+      "Livre VII: Déclaration des établissements (Art. 279)",
+      "Livre VII: Apprentissage (Arts. 349, 351)",
+      "Livre VII: Salariés agricoles (Art. 371)",
+      "Livre VII: Conflits collectifs et grève (Arts. 376 bis, 376 ter, 385 bis, 387, 388, 389, 390)",
+      "Livre VII: Jours fériés (Art. 445)"
+    ],
+    "sections_not_covered": [
+      "Chapitre V: La médecine du travail (Arts. 289-292)",
+      "Chapitre VI: Établissements dangereux, insalubres ou incommodes (Arts. 293-324)",
+      "Chapitre XVI: Statut des voyageurs et représentants de commerce (Arts. 409-419)",
+      "Chapitre XIX: Médaille du travail (Arts. 429-444)"
+    ],
+    "notes": "Échantillon couvrant la seconde moitié du Code du Travail. Validation de l'équilibre linguistique, des personas et des raisonnements multi-hops explicites. Inclusion réussie des métadonnées requises au format JSON."
+  }
+}

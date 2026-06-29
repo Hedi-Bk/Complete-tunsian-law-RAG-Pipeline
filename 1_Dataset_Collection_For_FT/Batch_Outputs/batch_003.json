@@ -1,0 +1,675 @@
+{
+  "batch_id": "batch_CPP001_20260421",
+  "provenance": {
+    "generated_by": "Gemini 2.5 flash ",
+    "platform": "Github Copilot"
+  },
+  "time_of_generation": "5m approx",
+  "source": "Code de procédure pénale (Tunisie) — édition revue et corrigée du 15 septembre 2013 (extraits fournis)",
+  "articles_covered": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "13",
+    "13 bis",
+    "18",
+    "19",
+    "33",
+    "34",
+    "36",
+    "39",
+    "41",
+    "45",
+    "47",
+    "50",
+    "51",
+    "53",
+    "57",
+    "61",
+    "66",
+    "69",
+    "70",
+    "72",
+    "79",
+    "80",
+    "85",
+    "86",
+    "87",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "99",
+    "100",
+    "104",
+    "106",
+    "107",
+    "109",
+    "110",
+    "114",
+    "116",
+    "121",
+    "122",
+    "123",
+    "124",
+    "129",
+    "131",
+    "134",
+    "135",
+    "136",
+    "139",
+    "141",
+    "142",
+    "143",
+    "150",
+    "151",
+    "154",
+    "175",
+    "180",
+    "199",
+    "258",
+    "261",
+    "262",
+    "265",
+    "305",
+    "307 bis",
+    "310",
+    "311",
+    "312",
+    "313",
+    "316",
+    "319",
+    "321",
+    "322",
+    "323",
+    "324",
+    "325",
+    "326",
+    "329",
+    "335 ter",
+    "335 quinquies",
+    "335 sexies",
+    "335 septies",
+    "336",
+    "336 bis",
+    "336 ter",
+    "338",
+    "340",
+    "341",
+    "342",
+    "349",
+    "350",
+    "353",
+    "354",
+    "355",
+    "377",
+    "1 (Loi 2002-94)",
+    "2 (Loi 2002-94)",
+    "3 (Loi 2002-94)",
+    "4 (Loi 2002-94)",
+    "5 (Loi 2002-94)",
+    "6 (Loi 2002-94)",
+    "8 (Loi 2002-94)",
+    "11 (Loi 2002-94)",
+    "13 (Loi 2002-94)",
+    "14 (Loi 2002-94)"
+  ],
+  "articles_to_avoid_next_batch": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "13",
+    "13 bis",
+    "18",
+    "19",
+    "33",
+    "34",
+    "36",
+    "39",
+    "41",
+    "45",
+    "47",
+    "50",
+    "51",
+    "53",
+    "57",
+    "61",
+    "66",
+    "69",
+    "70",
+    "72",
+    "79",
+    "80",
+    "85",
+    "86",
+    "87",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "99",
+    "100",
+    "104",
+    "106",
+    "107",
+    "109",
+    "110",
+    "114",
+    "116",
+    "121",
+    "122",
+    "123",
+    "124",
+    "129",
+    "131",
+    "134",
+    "135",
+    "136",
+    "139",
+    "141",
+    "142",
+    "143",
+    "150",
+    "151",
+    "154",
+    "175",
+    "180",
+    "199",
+    "258",
+    "261",
+    "262",
+    "265",
+    "305",
+    "307 bis",
+    "310",
+    "311",
+    "312",
+    "313",
+    "316",
+    "319",
+    "321",
+    "322",
+    "323",
+    "324",
+    "325",
+    "326",
+    "329",
+    "335 ter",
+    "335 quinquies",
+    "335 sexies",
+    "335 septies",
+    "336",
+    "336 bis",
+    "336 ter",
+    "338",
+    "340",
+    "341",
+    "342",
+    "349",
+    "350",
+    "353",
+    "354",
+    "355",
+    "377",
+    "1 (Loi 2002-94)",
+    "2 (Loi 2002-94)",
+    "3 (Loi 2002-94)",
+    "4 (Loi 2002-94)",
+    "5 (Loi 2002-94)",
+    "6 (Loi 2002-94)",
+    "8 (Loi 2002-94)",
+    "11 (Loi 2002-94)",
+    "13 (Loi 2002-94)",
+    "14 (Loi 2002-94)"
+  ],
+  "examples": [
+    {
+      "example_id": "cpp_ex_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["5"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis commerçant et je viens de découvrir une plainte ancienne. Quel est le délai de prescription de l’action publique pour un délit en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 5 du Code de procédure pénale\nSauf dispositions spéciales de la loi, l'action publique qui résulte d'un crime se prescrit par dix années révolues, celle qui résulte d'un délit par trois années révolues et celle qui résulte d'une contravention par une année révolue, et ce, à compter du jour où l'infraction a été commise si, dans cet intervalle, il n'a été fait aucun acte d'instruction ni de poursuite."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 5 du Code de procédure pénale, l’action publique résultant d’un délit se prescrit par trois années révolues à compter du jour où l’infraction a été commise, s’il n’a été fait aucun acte d’instruction ni de poursuite pendant ce délai. [1]\n\nToutefois, ce principe vaut « sauf dispositions spéciales de la loi ». [1]\n\nAinsi, le délai dépend aussi de l’existence d’actes de procédure intervenus entre-temps. Sources: art. 5 du Code de procédure pénale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_002",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["36"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Le procureur a classé mon dossier. Est-ce que je peux quand même déclencher une action pénale moi-même en tant que victime ?\n\nDocuments pertinents:\n[1] Source: article 36 du Code de procédure pénale\nLe classement de l'affaire par le procureur de la République ne fait pas obstacle au droit qu'a la partie lésée de mettre en mouvement l'action publique sous sa propre responsabilité. Dans ce cas, elle peut, en se constituant partie civile, soit demander l'ouverture d'une information, soit citer directement le prévenu devant le tribunal."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 36 du Code de procédure pénale, le classement par le procureur ne vous empêche pas, en tant que partie lésée, de mettre en mouvement l’action publique sous votre propre responsabilité. [1]\n\nToutefois, le texte prévoit que cela se fait en pratique par la constitution de partie civile, soit pour demander l’ouverture d’une information, soit pour citer directement le prévenu devant le tribunal. [1]\n\nAinsi, la procédure dépend du choix entre information et citation directe. Sources: art. 36 du Code de procédure pénale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_003",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["13 bis"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon frère a été placé en garde à vue. Combien de jours maximum la police peut le garder, et est-ce qu’on doit prévenir le procureur ?\n\nDocuments pertinents:\n[1] Source: article 13 bis du Code de procédure pénale\nDans les cas où les nécessités de l'enquête l'exigent, les officiers de police judiciaire [...] ne peuvent garder le suspect pour une durée dépassant trois jours ; ils doivent en aviser le procureur de la République.\nLe procureur de la République peut par décision écrite prolonger la durée de la garde à vue seulement une seule fois pour la même période et ce en vertu d’une décision motivée comportant les motifs de fait et de droit la justifiant."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 13 bis du Code de procédure pénale, la garde à vue par les officiers de police judiciaire ne peut pas dépasser trois jours, et ils doivent en aviser le procureur de la République. [1]\n\nToutefois, le même article prévoit que le procureur peut prolonger la garde à vue une seule fois pour la même période, par décision écrite et motivée (motifs de fait et de droit). [1]\n\nAinsi, la durée maximale dépend d’une décision formelle du procureur. Sources: art. 13 bis du Code de procédure pénale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_004",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["95"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: La police peut-elle faire une perquisition chez moi la nuit ?\n\nDocuments pertinents:\n[1] Source: article 95 du Code de procédure pénale\nAucune perquisition ne peut être faite avant six heures et après vingt heures dans les maisons d'habitation et dépendances, sauf au cas de crime ou délit flagrant, ou quand il y aura lieu d'entrer, même sans la réclamation du maître de la maison, pour y faire saisir le prévenu ou pour y arrêter un prisonnier évadé."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 95 du Code de procédure pénale, une perquisition dans une maison d’habitation ne peut pas être faite avant 6h ni après 20h. [1]\n\nToutefois, il existe des exceptions : en cas de crime ou délit flagrant, ou lorsqu’il faut entrer pour saisir le prévenu ou arrêter un prisonnier évadé, y compris sans réclamation du maître de maison. [1]\n\nAinsi, la perquisition nocturne n’est possible que dans ces cas limités. Sources: art. 95 du Code de procédure pénale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_005",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["175"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J’ai été jugé par défaut et je viens de recevoir la signification. Quel est le délai pour faire opposition ?\n\nDocuments pertinents:\n[1] Source: article 175 du Code de procédure pénale\nL'opposition au jugement par défaut est faite [...] au greffe du tribunal qui a rendu la décision dans les dix jours de la signification de ce jugement.\nSi l'opposant demeure hors du territoire de la République, le délai est porté à trente jours."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 175 du Code de procédure pénale, l’opposition à un jugement rendu par défaut doit être faite au greffe du tribunal qui a rendu la décision dans un délai de dix jours à compter de la signification. [1]\n\nToutefois, si l’opposant demeure hors du territoire de la République, le délai est porté à trente jours. [1]\n\nAinsi, le point de départ est la signification, et le délai varie selon votre lieu de résidence. Sources: art. 175 du Code de procédure pénale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_006",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["150"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce que je peux prouver une infraction sans témoins, par exemple avec des documents ou des messages ?\n\nDocuments pertinents:\n[1] Source: article 150 du Code de procédure pénale\nHors les cas où la loi en dispose autrement, les infractions peuvent être établies par tout mode de preuve et le juge décide d'après son intime conviction."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 150 du Code de procédure pénale, sauf exceptions prévues par la loi, les infractions peuvent être établies par tout mode de preuve (pas uniquement par des témoins). [1]\n\nToutefois, le texte précise que le juge décide d’après son intime conviction, ce qui implique une appréciation globale des éléments produits. [1]\n\nAinsi, des documents ou messages peuvent être utiles, à condition qu’ils convainquent le juge. Sources: art. 150 du Code de procédure pénale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_007",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["5", "6", "4"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Pour un délit, si le dossier a bougé puis s’est arrêté, comment calcule-t-on la prescription de l’action publique ?\n\nDocuments pertinents:\n[1] Source: article 5 du Code de procédure pénale\n[...] l'action publique qui résulte d'un délit par trois années révolues [...] si, dans cet intervalle, il n'a été fait aucun acte d'instruction ni de poursuite.\nLa prescription est suspendue par tout obstacle de droit ou de fait empêchant l'exercice de l'action publique hors celui qui résulte de la volonté du prévenu.\n\n[2] Source: article 6 du Code de procédure pénale\nS'il a été fait, au cours des délais de prescription [...] des actes d'instruction ou de poursuite non suivis de jugement, l'action publique interrompue ne se prescrit qu'à compter du dernier acte [...].\n\n[3] Source: article 4 du Code de procédure pénale\nL'action publique s'éteint par : [...] la prescription [...]."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 5 et 6 du Code de procédure pénale, la prescription de l’action publique pour un délit est en principe de trois ans, mais le calcul dépend de l’existence d’actes de procédure. [1] [2]\n\nToutefois, si des actes d’instruction ou de poursuite ont été accomplis pendant le délai et qu’ils ne sont pas suivis de jugement, la prescription est interrompue et recommence à courir à compter du dernier acte. [2]\n\nPar ailleurs, la prescription peut être suspendue par un obstacle de droit ou de fait empêchant l’exercice de l’action publique (sauf obstacle résultant de la volonté du prévenu). [1]\n\nAinsi, la prescription est un mode d’extinction de l’action publique, mais elle se calcule en tenant compte des interruptions et suspensions. [3]\n\nSources: art. 4, 5, 6 du Code de procédure pénale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_008",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["7", "37", "106"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je veux demander des dommages-intérêts après une agression. Est-ce que je dois forcément le faire au pénal, et que se passe-t-il si l’affaire se termine par non-lieu ?\n\nDocuments pertinents:\n[1] Source: article 7 du Code de procédure pénale\nL'action civile appartient à tous ceux qui ont personnellement souffert du dommage causé directement par l'infraction.\nElle peut être exercée en même temps que l'action publique, ou, séparément devant la juridiction civile; dans ce dernier cas, il est sursis à son jugement tant qu'il n'a pas été statué définitivement sur l'action publique lorsque celle-ci a été mise en mouvement.\nLa partie qui a exercé son action devant la juridiction civile compétente ne peut la porter devant la juridiction répressive, sauf exception.\n\n[2] Source: article 37 du Code de procédure pénale\nL'action civile [...] peut être exercée, soit devant le juge d'instruction en cours d'information, soit devant la juridiction saisie de l'affaire.\n\n[3] Source: article 106 du Code de procédure pénale\n[...] s'il n'existe pas de charges suffisantes contre l'inculpé, il déclare [...] qu'il n'y a pas lieu à poursuite et ordonne la mise en liberté [...] Il statue sur les objets saisis."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 7 du Code de procédure pénale, l’action civile (dommages-intérêts) appartient à la personne qui a souffert directement du dommage et peut être exercée avec l’action publique ou séparément devant le civil. [1]\n\nToutefois, si vous choisissez la voie civile alors que l’action publique est mise en mouvement, le jugement civil est suspendu jusqu’à ce qu’il soit statué définitivement sur l’action publique. [1] En outre, l’article 37 prévoit que l’action civile peut aussi être exercée devant le juge d’instruction ou la juridiction saisie. [2]\n\nSi l’instruction se termine par une décision « qu’il n’y a pas lieu à poursuite » pour absence de charges suffisantes, le texte indique que le juge d’instruction ordonne notamment la mise en liberté si la personne était détenue et statue sur les objets saisis. [3]\n\nAinsi, le choix pénal/civil a des effets pratiques sur le calendrier et la coordination des procédures. Sources: art. 7, 37, 106 du Code de procédure pénale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_009",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["134", "135", "136", "139"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant que RH, je dois vérifier une citation pour un employé. Qu’est-ce qu’une citation doit contenir et comment se fait sa remise ?\n\nDocuments pertinents:\n[1] Source: article 134 du Code de procédure pénale\nLes citations, sauf dispositions contraires de la loi, sont faites, soit par la voie administrative, soit par exploit d'huissier-notaire.\n\n[2] Source: article 135 du Code de procédure pénale\nLa citation énonce le fait poursuivi et vise le texte de la loi qui le réprime.\nElle indique le tribunal saisi, le lieu, l'heure et la date de l'audience, et précise la qualité de prévenu, de civilement responsable ou de témoin de la personne citée.\n\n[3] Source: article 136 du Code de procédure pénale\nLe délai entre le jour où la citation est délivrée et le jour fixé pour la comparution à l'audience est d'au moins trois jours.\nSi la partie citée demeure hors du territoire de la République, ce délai est porté à trente jours.\n\n[4] Source: article 139 du Code de procédure pénale\nLa citation doit être remise à la personne de l'intéressé, à son mandataire, à son domestique ou à toute personne habitant avec lui, à la condition que celle-ci soit douée de discernement. [...] sinon remise au chef du quartier, au cheikh ou au poste de police ou de la Garde Nationale."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 134 et 135 du Code de procédure pénale, la citation est faite par voie administrative ou par huissier-notaire, et doit notamment énoncer le fait poursuivi, viser le texte répressif, et indiquer le tribunal saisi, ainsi que le lieu, l’heure et la date de l’audience, et la qualité de la personne citée (prévenu, civilement responsable ou témoin). [1] [2]\n\nToutefois, le délai minimal entre la délivrance et l’audience est de trois jours, porté à trente jours si la personne demeure hors de Tunisie. [3]\n\nPar ailleurs, la remise se fait en priorité à la personne intéressée, ou à certains intermédiaires (mandataire, domestique, personne vivant avec lui apte au discernement). À défaut, elle peut être remise au chef du quartier, au cheikh, ou au poste de police / Garde Nationale territorialement compétent. [4]\n\nAinsi, une citation « régulière » combine contenu obligatoire, délai et modalités de remise. Sources: art. 134, 135, 136, 139 du Code de procédure pénale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_010",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["85", "86", "87"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon cousin est en détention préventive. Quelles sont les durées maximales et comment demander une mise en liberté provisoire ?\n\nDocuments pertinents:\n[1] Source: article 85 du Code de procédure pénale\nLa détention préventive est possible [...] et ne peut [...] dépasser six mois; [...] le juge d'instruction peut [...] prolonger [...] une seule fois en cas de délit [...] trois mois, et deux fois, en cas de crime [...] quatre mois.\nLa mise en liberté avec ou sans cautionnement est de droit, cinq jours après l’interrogatoire, [...] quand le maximum de la peine prévue par la loi ne dépasse pas deux ans d’emprisonnement, à l’exception de certaines infractions.\n\n[2] Source: article 86 du Code de procédure pénale\nLe juge d'instruction peut [...] ordonner [...] la mise en liberté provisoire [...] avec ou sans cautionnement, après avis du procureur de la République.\nIl est statué sur la demande de mise en liberté provisoire dans un délai de quatre jours.\n\n[3] Source: article 87 du Code de procédure pénale\nL'ordonnance [...] accordant ou refusant la mise en liberté provisoire [...] est susceptible d'appel [...] dans les quatre jours [...] La chambre d'accusation statue [...] dans un délai maximum de huit jours [...]"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 85 du Code de procédure pénale, la détention préventive est encadrée: elle ne peut, dans les cas visés, dépasser six mois, avec possibilité de prolongation par ordonnance motivée (une fois en délit jusqu’à trois mois, deux fois en crime sans dépasser quatre mois par période). [1]\n\nToutefois, le même article prévoit aussi des cas de mise en liberté de droit (avec ou sans cautionnement) cinq jours après l’interrogatoire sous certaines conditions, avec exceptions expressément citées. [1]\n\nPar ailleurs, l’article 86 indique que le juge d’instruction peut ordonner la mise en liberté provisoire avec ou sans cautionnement (après avis du procureur) et doit statuer sur la demande dans un délai de quatre jours. [2]\n\nEnfin, l’article 87 organise l’appel devant la chambre d’accusation et prévoit un délai de décision pouvant aller jusqu’à huit jours. [3]\n\nAinsi, la logique est: durée/renouvellement stricts, possibilité de mise en liberté, puis voies de recours rapides. Sources: art. 85, 86, 87 du Code de procédure pénale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_011",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["3"],
+      "confidence_flag": "النص المقدم بالفرنسية؛ تمت صياغة الجواب بالعربية الفصحى مع الاستناد إلى مضمون الفصل كما ورد.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل تتوقف الدعوى العمومية إذا سحب المشتكي شكايته؟\n\nDocuments pertinents:\n[1] Source: article 3 du Code de procédure pénale\nHors les cas prévus par la loi, l'action publique n'est pas subordonnée à l'existence d'une plainte et ne peut être arrêtée ni suspendue par le retrait de la plainte ou la renonciation à l'action civile."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 3 من مجلة الإجراءات الجزائية، فإن الدعوى العمومية، خارج الحالات التي ينص عليها القانون، لا تتوقف على وجود شكاية أصلاً، ولا يمكن إيقافها أو تعليقها بسبب سحب الشكاية أو التنازل عن الدعوى المدنية. [1]\n\nغير أنّ النص يستثني «الحالات التي يقررها القانون»، أي قد توجد حالات خاصة يكون فيها للشكاية أثر. [1]\n\nوبالتالي، الغاية هي حماية المصلحة العامة في تتبع الجرائم وعدم جعلها رهينة لإرادة المشتكي. Sources: art. 3 du Code de procédure pénale. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_012",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["4"],
+      "confidence_flag": "النص المقدم بالفرنسية؛ تمت صياغة الجواب بالعربية مع نقل تعداد أسباب الانقضاء كما ورد.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الحالات التي تنقضي فيها الدعوى العمومية؟\n\nDocuments pertinents:\n[1] Source: article 4 du Code de procédure pénale\nL'action publique s'éteint par : la mort du prévenu, la prescription, l'amnistie, l'abrogation de la loi pénale, la chose jugée, la transaction lorsque la loi en dispose expressément, le retrait de plainte lorsque celle-ci est une condition nécessaire de la poursuite; le retrait de plainte à l'égard de l'un des inculpés profite à tous les autres."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 4 من مجلة الإجراءات الجزائية، تنقضي الدعوى العمومية بعدة أسباب، منها: وفاة المتهم، التقادم، العفو العام، إلغاء النص الجزائي، حجية الشيء المقضي به، الصلح عندما ينص القانون صراحة على ذلك، وكذلك سحب الشكاية عندما تكون الشكاية شرطاً لازماً للتتبع. [1]\n\nغير أنّ النص يقرر أيضاً أن سحب الشكاية تجاه أحد المتهمين يفيد بقية المتهمين. [1]\n\nوبالتالي، المقصود هو تحديد حالات قانونية تنهي التتبع حمايةً لاستقرار المراكز القانونية. Sources: art. 4 du Code de procédure pénale. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_013",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["66"],
+      "confidence_flag": "النص يذكر العربية كلغة، لكن المادة المقدمة بالفرنسية؛ تمت المحافظة على المعنى دون إضافة شروط غير واردة.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: إذا كان المتهم أو الشاهد لا يتكلم العربية، ماذا يحدث أثناء التحقيق؟\n\nDocuments pertinents:\n[1] Source: article 66 du Code de procédure pénale\nDans le cas où l'inculpé ou les témoins ne parlent pas la langue arabe, un interprète est désigné d'office par le juge d'instruction. [...] L'interprète [...] prête serment de traduire fidèlement les dépositions."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 66 من مجلة الإجراءات الجزائية، إذا كان المتهم أو الشهود لا يتكلمون اللغة العربية، يُعيَّن مترجم بصفة آلية من طرف قاضي التحقيق. [1]\n\nغير أنّ المترجم، إذا لم يكن محلفاً، يؤدي يميناً بأن يترجم الأقوال بأمانة، ويُذكر هويته في المحضر ويوقع مثل الشاهد. [1]\n\nوبالتالي، الغاية هي ضمان فهم الإجراءات وتمكين الدفاع والبحث عن الحقيقة على نحو عادل. Sources: art. 66 du Code de procédure pénale. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_014",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": ["104", "106", "107"],
+      "confidence_flag": "النصوص الإجرائية واردة بالفرنسية؛ تم تلخيص المسار الإجرائي بالعربية مع الالتزام بما ورد فقط.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي المراحل الأساسية لإقفال التحقيق قبل الإحالة أو حفظ التتبع؟\n\nDocuments pertinents:\n[1] Source: article 104 du Code de procédure pénale\nQuand la procédure est terminée, le juge d'instruction la communique au procureur de la République qui doit, dans les huit jours [...] adresser ses réquisitions écrites tendant au renvoi [...] au non-lieu [...]\n\n[2] Source: article 106 du Code de procédure pénale\n[...] il déclare [...] qu'il n'y a pas lieu à poursuite [...] ou renvoie selon الأحوال [...] ويجوز له بقرار معلل إبقاء المتهم موقوفاً إلى حين المثول.\n\n[3] Source: article 107 du Code de procédure pénale\nSi le juge d'instruction estime que les faits constituent un crime, il ordonne le renvoi [...] devant la chambre d'accusation [...]."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 104 من مجلة الإجراءات الجزائية، عند انتهاء الإجراءات يقوم قاضي التحقيق بإحالة الملف إلى وكيل الجمهورية، وعلى هذا الأخير تقديم طلباته الكتابية خلال أجل أقصاه ثمانية أيام (إحالة، أو عدم سماع الدعوى، أو غير ذلك كما ورد). [1]\n\nغير أنّ قاضي التحقيق بعد إيداع الطلبات يفصل بأمر: فإذا رأى عدم قبول الدعوى العمومية أو أن الأفعال لا تشكل جريمة أو لا توجد مؤيدات كافية، يصدر أمراً بعدم التتبع ويأمر بالإفراج إن كان المتهم موقوفاً (الفصل 106). [2]\n\nوبالتالي، إذا اعتبر الأفعال جناية، يأمر بالإحالة على دائرة الاتهام (الفصل 107). [3]\n\nSources: art. 104, 106, 107 du Code de procédure pénale. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_015",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": ["319", "321", "322", "323", "324"],
+      "confidence_flag": "الأحكام واردة بالفرنسية؛ تمت صياغة الخطوات بالعربية الفصحى اعتماداً على النص فقط.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف تسير إجراءات تسليم (إكستراديشن) أجنبي تم إيقافه في تونس؟\n\nDocuments pertinents:\n[1] Source: article 319 du Code de procédure pénale\nLorsque l'arrestation a été opérée, l'étranger est immédiatement conduit devant le procureur de la République [...] interrogatoire d'identité, notification du titre [...] procès-verbal.\n\n[2] Source: article 321 du Code de procédure pénale\nL'examen des demandes d'extradition est de la compétence de la chambre d'accusation de la cour d'appel de Tunis. L'étranger comparaît devant elle dans un délai maximum de 15 jours [...] il peut se faire assister d'un avocat.\n\n[3] Source: article 322 du Code de procédure pénale\nSi l'étranger déclare [...] consent formellement [...] il est donné acte par la chambre d'accusation.\n\n[4] Source: article 323 du Code de procédure pénale\nLa chambre d'accusation [...] donne son avis motivé [...] avis défavorable définitif.\n\n[5] Source: article 324 du Code de procédure pénale\nLorsque l'avis est favorable, le gouvernement est libre d'accorder ou non l'extradition [...] si dans un mois l'extradé n'est pas reçu [...] il est mis en liberté."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 319 من مجلة الإجراءات الجزائية، بعد إيقاف الأجنبي يُحال فوراً على وكيل الجمهورية المختص، ويُجرى استجواب هوية، ويتم إعلامه بالسند الذي تم بموجبه الإيقاف، ويُحرّر محضر بذلك. [1]\n\nعلاوة على ذلك، يختصّ بالنظر في مطلب التسليم «دائرة الاتهام» بمحكمة الاستئناف بتونس، ويجب أن يمثل الأجنبي أمامها في أجل أقصاه 15 يوماً، وله حق الاستعانة بمحام (الفصل 321). [2]\n\nغير أنّه إذا صرّح الأجنبي بتنازله وموافقته الصريحة على التسليم، تُثبت دائرة الاتهام ذلك بقرار (الفصل 322). [3]\n\nوبالتالي، إذا لم يوافق، تُصدر دائرة الاتهام رأياً معللاً: فإذا كان سلبياً فهو نهائي ويمنع التسليم (الفصل 323). وإذا كان إيجابياً فالحكومة حرة في القبول أو الرفض، وإذا لم تستلمه دولة الطلب خلال شهر من الإشعار يُطلق سراحه ولا يُطلب من جديد لنفس السبب (الفصل 324). [4] [5]\n\nSources: art. 319, 321, 322, 323, 324 du Code de procédure pénale. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_016",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": ["84", "85"],
+      "confidence_flag": "صياغة عربية اعتماداً على نصوص فرنسية؛ تم الالتزام بالقاعدة والاستثناءات كما وردت فقط.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل الإيقاف التحفظي (الاحتفاظ/الإيداع) قبل الحكم هو الأصل أم استثناء؟ ومتى يمكن أن يقرر؟\n\nDocuments pertinents:\n[1] Source: article 84 du Code de procédure pénale\nLa détention préventive est une mesure exceptionnelle.\n\n[2] Source: article 85 du Code de procédure pénale\n[...] la détention semble nécessaire [...] éviter de nouvelles infractions, garantir l'exécution de la peine, assurer la sûreté de l'information [...] existence de présomptions graves [...] et encadrement de المدد..."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 84 من مجلة الإجراءات الجزائية، فإن الإيقاف التحفظي (التوقيف قبل الحكم) هو تدبير استثنائي وليس هو الأصل. [1]\n\nغير أنّ الفصل 85 يوضح متى يمكن تقريره: في حالات الجنايات أو الجنح المتلبس بها، أو كلما وُجدت قرائن جدية وكان الإيقاف ضرورياً كإجراء أمني لتفادي جرائم جديدة، أو كضمان لتنفيذ العقوبة، أو لضمان سلامة التحقيق. [2]\n\nوبالتالي، الغاية هي تحقيق توازن بين حماية المجتمع وحسن سير البحث من جهة، وبين صون الحرية الفردية من جهة أخرى عبر جعله استثناءً مرتبطاً بالضرورة والقرائن. Sources: art. 84, 85 du Code de procédure pénale. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_017",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": ["69", "72"],
+      "confidence_flag": "النصوص بالفرنسية؛ تم الالتزام بحق الاستعانة بمحام وبالاستثناءات الخاصة بالاستعجال والتنازل كما وردت.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أثناء أول مثول أمام قاضي التحقيق، هل يمكن استجوابي دون محام؟\n\nDocuments pertinents:\n[1] Source: article 69 du Code de procédure pénale\n[...] averti de son droit de ne répondre qu'en présence d'un conseil de son choix [...]\nNonobstant [...] le juge peut procéder à un interrogatoire immédiat [...] si l'urgence résulte [...] indices sur le point de disparaître [...]\n\n[2] Source: article 72 du Code de procédure pénale\nA moins que l'inculpé n'y renonce expressément, il n'est interrogé qu'en présence de son conseil, ou ce dernier dûment convoqué au moins vingt quatre heures à l'avance. [...]"
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 69 من مجلة الإجراءات الجزائية، عند أول مثول يُعلِمك قاضي التحقيق بالوقائع المنسوبة إليك وبالنصوص القانونية، ويُنبهك إلى حقك في ألا تجيب إلا بحضور محام تختاره. [1]\n\nغير أنّ الفصل نفسه يجيز، على سبيل الاستثناء، استجواباً فورياً ومواجهات إذا كانت هناك حالة استعجال (مثل خطر وفاة شاهد أو مؤشرات توشك أن تختفي، أو في حالة التلبس عند الانتقال إلى المكان). [1]\n\nوعلاوة على ذلك، ينص الفصل 72 على أنه ما لم تتنازل صراحةً، فلا يتم الاستجواب إلا بحضور محاميك أو بعد استدعائه قانوناً قبل 24 ساعة على الأقل. [2]\n\nوبالتالي، القاعدة هي حضور المحامي، والاستثناء مرتبط بالاستعجال أو بالتنازل الصريح. Sources: art. 69, 72 du Code de procédure pénale. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_018",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["7", "36", "39"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J’hésite à me constituer partie civile. Est-ce gratuit et est-ce que je dois déposer une somme ?\n\nDocuments pertinents:\n[1] Source: article 39 du Code de procédure pénale\nLa constitution de partie civile [...] est dispensée de la consignation des frais. Toutefois, dans le cas de l'article 36, le plaignant doit, sous peine de non-recevabilité de sa plainte, consigner la somme présumée nécessaire pour les frais de la procédure.\n\n[2] Source: article 36 du Code de procédure pénale\n[...] la partie lésée [...] peut, en se constituant partie civile [...] demander l'ouverture d'une information, soit citer directement...\n\n[3] Source: article 7 du Code de procédure pénale\nL'action civile appartient à tous ceux qui ont personnellement souffert du dommage causé directement par l'infraction."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 39 du Code de procédure pénale, la constitution de partie civile est en principe dispensée de la consignation des frais, ce qui signifie qu’elle n’exige pas automatiquement un dépôt préalable. [1]\n\nToutefois, le même article prévoit une exception importante: dans le cas de l’article 36, lorsque la partie lésée met en mouvement l’action publique sous sa responsabilité (constitution de partie civile pour ouvrir une information ou citer directement), le plaignant doit consigner la somme présumée nécessaire pour les frais; à défaut, sa plainte est irrecevable. [1] [2]\n\nAinsi, la logique est de faciliter l’accès à la justice (principe) tout en encadrant les actions déclenchées directement par la victime (exception) afin d’éviter des procédures sans base suffisante. [3]\n\nSources: art. 7, 36, 39 du Code de procédure pénale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_019",
+      "language": "cross_lingual",
+      "category": "clarification",
+      "articles_referenced": ["213"],
+      "confidence_flag": "Question en arabe; article source en français; réponse fournie en arabe. La question est ambiguë (نوع الحكم/طريقة التبليغ) لذا طلب توضيح قبل تطبيق الآجال.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هو أجل الاستئناف في قضيتي؟\n\nDocuments pertinents:\n[1] Source: article 213 du Code de procédure pénale\nL'appel n'est plus recevable, sauf cas de force majeure, s'il n'a été fait dix jours au plus tard après le prononcé du jugement contradictoire, après la signification du jugement contradictoire au sens de l'alinéa premier de l'article 175, après l'expiration du délai d'opposition si le jugement a été rendu par défaut ou après la signification du jugement rendu par itératif défaut."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 213 من مجلة الإجراءات الجزائية، أجل الاستئناف يرتبط بنوع الحكم وبكيفية العلم به (حكم حضوري/حكم اعتباري/حكم غيابي…)، لأن بدء سريان الأجل يختلف بحسب الحالة. [1]\n\nغير أنّ النص يذكر عدة نقاط انطلاق: من تاريخ النطق بالحكم الحضوري، أو من تاريخ تبليغ الحكم في بعض الصور، أو بعد انقضاء أجل الاعتراض إذا كان الحكم غيابياً، أو بعد تبليغ الحكم الصادر بعد غياب متكرر. [1]\n\nلذلك، قبل أن أحدد لك الأجل بدقة: هل الحكم كان حضوريّاً (متقاضٍ حاضر) أم غيابياً؟ وهل تسلمت تبليغاً رسمياً، ومتى؟ Sources: art. 213 du Code de procédure pénale. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cpp_ex_020",
+      "language": "cross_lingual",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي عقوبة السرقة في تونس إذا كانت قيمة المسروق كبيرة؟\n\nDocuments pertinents:\n[1] Source: (extraits fournis du Code de procédure pénale)\n(Le document fourni traite des règles de procédure: action publique, التحقيق، التوقيف التحفظي، الاستئناف، الطعن بالنقض… ولا يتضمن نصوص عقابية عن جريمة السرقة.)"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Je vous recommande de consulter un avocat spécialisé.\n\nالمقتطفات التي قُدمت تتعلق بإجراءات التتبع والتحقيق والمحاكمة (مجلة الإجراءات الجزائية)، ولا تتضمن نصوصاً تحدد عقوبة السرقة من حيث مقدارها أو ظروفها. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Dispositions préliminaires: action publique / action civile (art. 1-8)",
+      "Police judiciaire et garde à vue (art. 9-19, art. 13 bis)",
+      "Constitution de partie civile (art. 36-46)",
+      "Instruction: témoins, inculpé, interprète, clôture (art. 47-77, 104-110)",
+      "Détention préventive et liberté provisoire (art. 84-92)",
+      "Perquisitions et saisies (art. 93-100)",
+      "Citations et comparution (art. 134-143)",
+      "Preuve (art. 150-154)",
+      "Jugement par défaut et opposition (art. 175, 180)",
+      "Extradition (art. 319-324)",
+      "Appel: délai (art. 213)"
+    ],
+    "sections_not_covered": [
+      "Médiation pénale (art. 335 ter et suivants) — non utilisée dans les exemples pour éviter surcharge",
+      "Pourvoi en cassation (art. 258 et suivants) — non utilisé sauf mention indirecte",
+      "Exécution des peines, libération conditionnelle, contrainte par corps (art. 336 et suivants) — non utilisé",
+      "Nullités (art. 199) — non utilisé"
+    ],
+    "notes": "Contraintes observées: 10 exemples FR (001-010), 10 exemples AR/ cross (011-020). Deux cross-lingual: 019 (clarification) et 020 (refusal). Les citations en arabe suivent la forme «الفصل X»، لكن اسم المجلة غير explicitement indiqué en arabe dans les extraits; les réponses arabes utilisent «مجلة الإجراءات الجزائية» comme équivalent de Code de procédure pénale, avec confidence_flag quand pertinent."
+  }
+}

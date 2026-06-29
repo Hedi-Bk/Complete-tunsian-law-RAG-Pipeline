@@ -1,0 +1,489 @@
+{
+  "batch_id": "batch_CODEROUTE_002_20231024",
+  "provenance": {
+    "generated_by": "Gemini 3.1 Pro Preview",
+    "platform": "Google_ai_studio"
+  },
+  "time_of_generation": "2m47s",
+  "source": "Textes d'application du Code de la Route (GPL, GNC, Immatriculation, Auto-écoles, Permis étrangers)",
+  "articles_covered": [
+    "Décret 2002-2016 art 35",
+    "Décret 2002-2016 art 67",
+    "Décret 2002-2016 art 71",
+    "Décret 2002-2016 art 72",
+    "Décret 2007-4101 art 2",
+    "Décret 2007-4101 art 3",
+    "Décret 2007-4101 art 8",
+    "Arrêté 25 janv 2000 (Immatriculation) art 4",
+    "Arrêté 25 janv 2000 (Immatriculation) art 15",
+    "Arrêté 25 janv 2000 (Immatriculation) art 17",
+    "Arrêté 25 janv 2000 (Immatriculation) art 25",
+    "Arrêté 25 janv 2000 (Immatriculation) art 27",
+    "Arrêté 25 janv 2000 (Cycles) art 4",
+    "Arrêté 25 janv 2000 (Cycles) art 8",
+    "Arrêté 25 janv 2000 (Réception) art 10",
+    "Arrêté 25 janv 2000 (Réception) art 12",
+    "Arrêté 25 janv 2000 (Réception) art 16",
+    "Arrêté 25 janv 2000 (Distance) art 2",
+    "Arrêté 21 oct 2009 art 4",
+    "Arrêté 21 oct 2009 art 21",
+    "Arrêté 27 fév 2002 art 1",
+    "Arrêté 27 fév 2002 art 5",
+    "Arrêté 27 fév 2002 art 12"
+  ],
+  "articles_to_avoid_next_batch": [
+    "Décret 2002-2016 art 35",
+    "Décret 2002-2016 art 67",
+    "Décret 2002-2016 art 71",
+    "Décret 2002-2016 art 72",
+    "Décret 2007-4101 art 2",
+    "Décret 2007-4101 art 3",
+    "Décret 2007-4101 art 8",
+    "Arrêté 27 fév 2002 art 5",
+    "Arrêté 27 fév 2002 art 12"
+  ],
+  "examples": [
+    {
+      "example_id": "CR_APP_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["Décret 2002-2016 art 72"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je viens d'équiper ma voiture d'une installation au Gaz de Pétrole Liquéfié (GPL). Dois-je mettre un autocollant spécifique sur la voiture ?\n\nDocuments pertinents:\n[1] Source: article 72 du Décret n° 2002-2016\nLes véhicules utilisant le G.P.L comme carburant doivent porter à l'arrière et à droite une marque qui doit être en matériau résistant aux intempéries et conforme au modèle figurant à l'annexe 1 du présent décret."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 72 du décret n° 2002-2016, il est obligatoire d'apposer une marque spécifique sur votre véhicule s'il utilise le GPL comme carburant. Cette marque doit être placée à l'arrière et du côté droit du véhicule. En outre, elle doit être fabriquée dans un matériau résistant aux intempéries. L'objectif de cette signalisation est de permettre aux services de secours et aux autres usagers d'identifier rapidement la présence de gaz en cas d'incident.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 72 du Décret n° 2002-2016"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_002",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["Arrêté 27 fév 2002 art 1"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أنا سائح أجنبي وأقود سيارتي في تونس. ما هي المدة التي يُسمح لي فيها باستعمال رخصة السياقة الأجنبية الخاصة بي؟\n\nDocuments pertinents:\n[1] Source: الفصل 1 من قرار وزير النقل المؤرخ في 27 فيفري 2002\n...toute personne titulaire d'un permis de conduire étranger peut l'utiliser en Tunisie, pendant un an au maximum à compter de la date de sa dernière entrée sur le territoire tunisien, sous réserve de satisfaire aux conditions suivantes..."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 1 من قرار وزير النقل المؤرخ في 27 فيفري 2002، يُسمح لأي شخص يحمل رخصة سياقة أجنبية باستعمالها في تونس لمدة أقصاها سنة واحدة. ويبدأ احتساب هذه المدة ابتداءً من تاريخ آخر دخول له إلى التراب التونسي. وبالتالي، تهدف هذه المدة إلى تسهيل إقامة السياح والزوار المؤقتين مع ضمان التزام المقيمين الدائمين بتسوية وضعيتهم القانونية لاحقاً.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 1 من قرار وزير النقل المؤرخ في 27 فيفري 2002"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_003",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["Arrêté 25 janv 2000 (Cycles) art 8"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Puis-je transporter mon fils de 4 ans sur ma moto à deux roues pour l'emmener à l'école ?\n\nDocuments pertinents:\n[1] Source: article 8 de l'Arrêté du 25 janvier 2000 relatif aux cycles et motocycles\nLe passager accompagnant le conducteur d’un motocycle à deux roues doit être âgé de plus de six ans."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 8 de l'arrêté du 25 janvier 2000 relatif aux cycles et motocycles, il est interdit de transporter votre enfant de 4 ans sur votre moto. La législation exige que tout passager accompagnant le conducteur d'un motocycle à deux roues soit âgé de plus de six ans. Cette règle stricte a pour but de garantir la sécurité des jeunes enfants, qui n'ont ni la force physique ni la capacité de se maintenir fermement sur un véhicule à deux roues en mouvement.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 8 de l'Arrêté du 25 janvier 2000 (Cycles et motocycles)"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_004",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["Décret 2007-4101 art 2"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الشروط القانونية للحصول على بطاقة مهنية لقيادة سيارة أجرة (تاكسي فردي) في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 2 من الأمر عدد 4101 لسنة 2007\nLa carte professionnelle pour la conduite d’une voiture « taxi », de « louage » ou de transport rural est accordée à la personne remplissant les conditions suivantes :\n- être de nationalité tunisienne,\n- Etre titulaire du permis de conduire de la catégorie « D » ou « D1 ».\n- être titulaire du certificat d’aptitude professionnelle... s’il s’agit de conduite de taxis individuel...\n- avoir suivi des cours en matière de secourisme routier,\n- ne pas appartenir au personnel de l’Etat ou des collectivités locales ou des établissements et entreprises publics."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 2 من الأمر عدد 4101 لسنة 2007، يشترط للحصول على البطاقة المهنية لقيادة سيارة التاكسي الفردي توفر عدة شروط قانونية، وهي: التمتع بالجنسية التونسية، والحصول على رخصة سياقة من الصنف \"د\" (D) أو \"د1\" (D1)، وامتلاك شهادة الكفاءة المهنية، ومتابعة دروس في الإسعافات الأولية. علاوة على ذلك، يُمنع أن يكون المترشح من أعوان الدولة أو الجماعات المحلية أو المؤسسات العمومية. الغاية من هذه الشروط هي ضمان كفاءة السائق وتفرغه التام لتقديم خدمة نقل آمنة ومحترفة للمواطنين.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 2 من الأمر عدد 4101 لسنة 2007"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_005",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["Arrêté 25 janv 2000 (Immatriculation) art 4"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Que signifie une plaque d'immatriculation avec les lettres \"RS\" en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 4 de l'Arrêté du 25 janvier 2000 relatif à l'immatriculation\n6. La série symbolisée par les initiales des termes \"Régime Suspensif \" inscrits en langue arabe. Sont immatriculés dans cette série, les véhicules dont les propriétaires bénéficient d'un régime d'importation suspensif. Le numéro d'immatriculation est composé des lettre \" ن.ت \" et d'un numéro d'ordre."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 4 de l'arrêté du 25 janvier 2000 relatif à l'immatriculation, les lettres \"RS\" (ou \"ن.ت\" en arabe) signifient \"Régime Suspensif\". Cette série normale d'immatriculation est strictement réservée aux véhicules dont les propriétaires bénéficient d'un régime douanier d'importation suspensif (souvent appelé privilège FCR). Ainsi, cette plaque permet aux autorités de distinguer facilement les véhicules importés sous ce régime fiscal particulier.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 4 de l'Arrêté du 25 janvier 2000 (Immatriculation)"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_006",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["Arrêté 25 janv 2000 (Distance) art 2"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يحدد القانون مسافة الأمان التي يجب تركها بين السيارات في الطريق؟\n\nDocuments pertinents:\n[1] Source: الفصل 2 من قرار وزير النقل المؤرخ في 25 جانفي 2000 المتعلق بمسافة الأمان\nLa distance de sécurité est la distance parcourue par le véhicule pendant une seconde pour un conducteur possédant les capacités physiques et mentales prévues par l’article sept du Code de la Route."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصل 2 من قرار وزير النقل المؤرخ في 25 جانفي 2000 المتعلق بمسافة الأمان، تُعرّف مسافة الأمان قانونياً بأنها المسافة التي تقطعها العربة خلال ثانية واحدة، وذلك بالنسبة لسائق يتمتع بالقدرات البدنية والذهنية السليمة. وبالتالي، تتغير هذه المسافة طردياً مع سرعة العربة، والغاية من فرضها هي منح السائق الوقت الكافي للفرملة وتجنب الاصطدام بالعربة التي تسبقه في حال التوقف المفاجئ.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 2 من قرار 25 جانفي 2000 (مسافة الأمان)"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_007",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [
+        "Arrêté 25 janv 2000 (Réception) art 10",
+        "Arrêté 25 janv 2000 (Réception) art 16"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon frère a un handicap physique et nous devons aménager sa voiture pour qu'il puisse la conduire. Quelles sont les démarches administratives pour régulariser cette modification ?\n\nDocuments pertinents:\n[1] Source: article 10 de l'Arrêté du 25 janvier 2000 (Réception)\nLes véhicules suivants sont soumis à l'opération de réception à titre isolé : [...] les véhicules spécialement aménagés pour être conduits par une personne atteinte d'un handicap physique ou d'une maladie;\n\n[2] Source: article 16 de l'Arrêté du 25 janvier 2000 (Réception)\nLa réception à titre isolé des véhicules spécialement aménagés [...] s'effectue au vu d'une demande établie selon un modèle fourni par les services spécialisés du Ministère du Transport. Cette demande doit être accompagnée de :\n- une copie du procès-verbal de prescription de l'aménagement nécessaire ;\n- un reçu de paiement des droits exigés..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 10 de l'arrêté du 25 janvier 2000, tout véhicule spécialement aménagé pour être conduit par une personne atteinte d'un handicap physique doit obligatoirement faire l'objet d'une \"réception à titre isolé\". \n\nPar ailleurs, l'article 16 précise la démarche à suivre : vous devez soumettre une demande officielle auprès des services du Ministère du Transport. Ce dossier doit impérativement inclure une copie du procès-verbal de prescription médicale qui détaille l'aménagement nécessaire, ainsi que le reçu de paiement des droits administratifs. Cette procédure permet à l'État de s'assurer que les modifications mécaniques garantissent la sécurité du conducteur handicapé et des autres usagers de la route.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 10, 16 de l'Arrêté du 25 janvier 2000 (Réception)"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_008",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [
+        "Arrêté 25 janv 2000 (Immatriculation) art 25",
+        "Arrêté 25 janv 2000 (Immatriculation) art 27"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: قمت للتو بشراء سيارة مستعملة. ما هي الإجراءات والآجال القانونية لتسجيلها باسمي ونقل الملكية؟\n\nDocuments pertinents:\n[1] Source: الفصل 25 من قرار وزير النقل المؤرخ في 25 جانفي 2000 (التسجيل)\nEn cas de cession de l'un des véhicules visés par le présent arrêté, l'ancien propriétaire doit écrire sur le certificat d'immatriculation du véhicule d'une manière claire et inaltérable la mention \"cédé le...../..../.... en indiquant le nom du nouveau propriétaire\".\n\n[2] Source: الفصل 27 من قرار وزير النقل المؤرخ في 25 جانفي 2000 (التسجيل)\nLe bénéficiaire de la cession doit présenter , dans un délai ne dépassant pas quinze (15) jours à compter de la date de la signature du contrat par le cessionnaire, une demande, pour l'obtention d'un certificat d'immatriculation en son nom..."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 25 من قرار وزير النقل المؤرخ في 25 جانفي 2000، يتعين أولاً على المالك القديم للسيارة (البائع) أن يكتب بوضوح وبصفة غير قابلة للمحو على شهادة التسجيل (البطاقة الرمادية) عبارة \"فُوّتت في...\" مع التنصيص على تاريخ التفويت واسم المالك الجديد.\n\nعلاوة على ذلك، يضبط الفصل 27 أجلاً قانونياً صارماً؛ إذ يجب عليك (بصفتك المشتري) تقديم مطلب للحصول على شهادة تسجيل جديدة باسمك في أجل لا يتجاوز خمسة عشر (15) يوماً من تاريخ إمضاء عقد البيع. وبالتالي، تضمن هذه الإجراءات التحيين السريع للسجل الوطني للعربات وتحديد المسؤوليات القانونية بدقة بعد إتمام عملية البيع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 25، 27 من قرار 25 جانفي 2000 المتعلق بتسجيل العربات"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_009",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [
+        "Décret 2002-2016 art 67",
+        "Décret 2002-2016 art 71"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce que n'importe quel mécanicien peut installer un système de gaz (GPL) sur ma voiture, et y a-t-il des équipements de sécurité obligatoires à rajouter à l'intérieur ?\n\nDocuments pertinents:\n[1] Source: الفصل 67 من الأمر عدد 2016 لسنة 2002\nL'équipement G.P.L ne peut être réalisé ou modifié que par un installateur répondant à des conditions de qualification professionnelle fixées par arrêté... Toute personne désirant exploiter un atelier d'installation... doit, au préalable, obtenir une autorisation d'ouverture et d'exploitation d'un établissement classé...\n\n[2] Source: الفصل 71 من الأمر عدد 2016 لسنة 2002\nLes véhicules utilisant le G.P.L comme carburant doivent être munis d'un extincteur d'incendie adéquat."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 67 du décret n° 2002-2016, il est formellement interdit à un mécanicien ordinaire d'installer un système GPL. L'installation ne peut être réalisée que par un professionnel justifiant de qualifications spécifiques et détenant une autorisation officielle d'exploitation d'un établissement classé délivrée par le Ministère de l'Industrie.\n\nPar ailleurs, l'article 71 impose l'ajout d'un équipement de sécurité interne obligatoire : tout véhicule fonctionnant au GPL doit être muni d'un extincteur d'incendie adéquat. Ces règles strictes ont pour but de prévenir les risques d'explosion et de garantir la sécurité absolue des occupants du véhicule.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 67, 71 du Décret n° 2002-2016"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_010",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [
+        "Arrêté 21 oct 2009 art 4",
+        "Arrêté 21 oct 2009 art 21"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الشروط الأساسية التي يجب أن تتوفر فيّ لأصبح معلما لقواعد الجولان (مدرب سياقة) في مدرسة لتعليم السياقة؟\n\nDocuments pertinents:\n[1] Source: الفصل 4 من قرار وزير النقل المؤرخ في 21 أكتوبر 2009\nTout candidat doit : - avoir un niveau d’instruction d’au moins la troisième année de l’enseignement secondaire accomplie... - être titulaire d’un permis de conduire tunisien de la catégorie « B », - avoir suivi une formation dans un centre spécialisé...\n\n[2] Source: الفصل 21 من قرار وزير النقل المؤرخ في 21 أكتوبر 2009\nLa licence d’exercice de la profession de moniteur d’enseignement des règles de circulation et de la sécurité routière n’est délivrée qu’aux personnes titulaires du certificat d’aptitude professionnelle d’enseignement des règles de circulation..."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 4 من قرار وزير النقل المؤرخ في 21 أكتوبر 2009، يُشترط على المترشح لمهنة تعليم قواعد الجولان أن يمتلك مستوى تعليمياً لا يقل عن السنة الثالثة من التعليم الثانوي منهاة، وأن يكون حاصلاً على رخصة سياقة تونسية من الصنف \"ب\" (B). كما يجب عليه متابعة تكوين في مركز مختص لاجتياز الامتحان.\n\nعلاوة على ذلك، واستناداً إلى الفصل 21 من نفس القرار، فإن اجتياز الامتحان يخولك الحصول على \"شهادة الكفاءة المهنية\"، والتي تُعد شرطاً أساسياً للحصول على \"الرخصة\" النهائية لمزاولة المهنة. وبالتالي، تضمن هذه المسارات التكوينية توفير مدربين ذوي كفاءة بيداغوجية عالية لتأطير السائقين الجدد وضمان السلامة المرورية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 4، 21 من قرار 21 أكتوبر 2009"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_011",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["Décret 2002-2016 art 35"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Pour équiper ma voiture au GPL, le mécanicien peut-il installer le réservoir de gaz dans le compartiment du moteur pour me laisser de la place dans le coffre ?\n\nDocuments pertinents:\n[1] Source: article 35 du Décret n° 2002-2016\nIl est interdit d'installer le réservoir dans le compartiment moteur."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 35 du décret n° 2002-2016, le principe est clair et sans appel : il est strictement interdit d'installer le réservoir de Gaz de Pétrole Liquéfié (GPL) dans le compartiment moteur du véhicule. \n\nIl n'existe aucune exception à cette règle, même pour des raisons d'optimisation de l'espace dans le coffre. La finalité de cette interdiction est d'éviter tout risque d'échauffement extrême, d'incendie ou d'explosion, le compartiment moteur étant une zone abritant de fortes sources de chaleur et des étincelles électriques.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 35 du Décret n° 2002-2016"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_012",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [
+        "Arrêté 27 fév 2002 art 5",
+        "Arrêté 27 fév 2002 art 12"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يحق لأي أجنبي مقيم في تونس استبدال رخصة سياقته الأجنبية برخصة تونسية بصفة آلية ودون اجتياز امتحان؟\n\nDocuments pertinents:\n[1] Source: الفصل 5 من قرار 27 فيفري 2002\nIl sera procédé à la transformation du permis étranger en permis tunisien sans faire subir à son titulaire les examens d'obtention de permis de conduire, et ce, après vérification de son authenticité...\n\n[2] Source: الفصل 12 من قرار 27 فيفري 2002\nContrairement à l'article cinq du présent arrêté, il n'est, également, pas permis de transformer en permis de conduire tunisiens, les permis de conduire étrangers délivrés à des non tunisiens par des pays qui ne permettent pas, dans des conditions similaires, la transformation des permis de conduire tunisiens par des permis de conduire délivrés par eux."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 5 من قرار وزير النقل المؤرخ في 27 فيفري 2002، يتمثل المبدأ العام في إمكانية تعويض رخصة السياقة الأجنبية برخصة تونسية دون إجبار الأجنبي المقيم على اجتياز امتحانات السياقة، وذلك بعد التثبت من صحة الرخصة.\n\nغير أنّ الفصل 12 يضع استثناءً جوهرياً لهذا المبدأ وهو مبدأ المعاملة بالمثل. إذ يمنع القانون التونسي تعويض الرخص الأجنبية الممنوحة لغير التونسيين إذا كانت الدولة المُصدرة للرخصة لا تسمح في قوانينها بتعويض رخص السياقة التونسية برخصها. والغاية من هذا الاستثناء هي حماية حقوق المواطنين التونسيين بالخارج وتكريس المعاملة الدبلوماسية العادلة.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 5، 12 من قرار 27 فيفري 2002"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_013",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": ["Arrêté 25 janv 2000 (Cycles) art 4"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يجوز قانونا نقل أكثر من راكب واحد معي على دراجتي النارية؟\n\nDocuments pertinents:\n[1] Source: الفصل 4 من قرار 25 جانفي 2000 (الدراجات)\nIl est interdit de transporter plus d'une personne, en sus du conducteur, sur les véhicules à deux roues, à l'exception :\n- des cycles de plusieurs tandems ;\n- des véhicules munis d'un side-car, à condition de ne pas dépasser deux passagers;\n- des véhicules spécialement aménagés."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 4 من قرار وزير النقل المؤرخ في 25 جانفي 2000، يتمثل المبدأ العام في المنع المطلق لنقل أكثر من شخص واحد (راكب واحد) بالإضافة إلى السائق على متن العربات ذات العجلتين.\n\nغير أن هذا الفصل يقر بعض الاستثناءات المحددة، حيث يُسمح بنقل أكثر من راكب إذا كانت الدراجة مجهزة بعربة جانبية (side-car) شريطة ألا يتجاوز عدد الركاب الإضافيين اثنين، أو في حالة الدراجات المزدوجة (tandems) أو العربات المهيأة خصيصاً لذلك. وبالتالي، تهدف هذه القاعدة إلى ضمان توازن الدراجة النارية وعدم تعريض حياة الركاب للخطر بسبب الحمولة الزائدة.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 4 من قرار 25 جانفي 2000 (الدراجات والدراجات النارية)"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_014",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le tarif exact du timbre fiscal exigé pour obtenir la carte professionnelle de chauffeur de louage en Tunisie ?\n\nDocuments pertinents:\nLes documents fournis listent les conditions administratives d'obtention de la carte (Décret n° 2007-4101) et divers arrêtés liés à l'immatriculation et aux auto-écoles."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Décret n° 2007-4101 indique bien qu'un emplacement est prévu pour le timbre fiscal sur la carte professionnelle, mais il ne précise pas le tarif financier exact de ce timbre. Je vous recommande de vous renseigner auprès d'une recette des finances ou de consulter la Loi de Finances en vigueur.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_015",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كم تبلغ نسبة الأداءات والمعاليم الديوانية التي يجب دفعها عن سيارة مسجلة تحت نظام التوقيف (ن ت - RS) عند الرغبة في تسوية وضعيتها؟\n\nDocuments pertinents:\nLes documents fournis (Arrêté de l'immatriculation) définissent la série RS (Régime Suspensif) mais ne contiennent pas le Code des Douanes ni les taux tarifaires."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تتضمن معلومات كافية للإجابة على هذا السؤال. فهي تُعرف فقط سلسلة التسجيل (ن.ت) المخصصة لنظام التوقيف الجمركي، ولكنها لا تحتوي على جدول التعريفات أو نسب الأداءات الديوانية المطلوبة لتسوية الوضعية. يُرجى الاتصال بمصالح الإدارة العامة للديوانة التونسية للحصول على التقييم المالي الدقيق.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_016",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Combien coûte la prime d'assurance annuelle obligatoire pour un véhicule utilisé par une auto-école pour donner des leçons de conduite ?\n\nDocuments pertinents:\nLes textes fournis portent sur l'enseignement de la conduite (Arrêté du 21 oct 2009) et stipulent que le droit des assurances figure au programme d'examen des moniteurs, mais ne donnent aucun tarif."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Bien que la législation exige que les moniteurs connaissent le droit de l'assurance automobile, les textes ne fournissent aucune grille tarifaire concernant les primes d'assurance. Je vous recommande de consulter une compagnie d'assurance agréée pour obtenir un devis.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_017",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [
+        "Arrêté 25 janv 2000 (Immatriculation) art 15",
+        "Arrêté 25 janv 2000 (Immatriculation) art 17"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي مدة صلوحية شهادة التسجيل (البطاقة الرمادية) للسيارة في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 15 من قرار 25 جانفي 2000 (التسجيل)\nLa série symbolisée par les lettres \" ع ع \"... La carte de circulation n'est valable que durant l'année de sa délivrance...\n\n[2] Source: الفصل 17 من قرار 25 جانفي 2000 (التسجيل)\nLa durée de validité du certificat d'immatriculation dans la série temporaire \" م ت \" est fixée à deux mois."
+        },
+        {
+          "role": "assistant",
+          "content": "تختلف مدة صلوحية شهادة التسجيل (البطاقة الرمادية) حسب السلسلة التي تنتمي إليها السيارة. هل تقصد سيارة مسجلة في سلسلة عادية أم في سلسلة وقتية (مثل \"م ت\" أو \"ع ع\")؟\n\nعلى سبيل المثال، يحدد الفصل 17 من قرار 25 جانفي 2000 المتعلق بالتسجيل مدة صلوحية السلسلة الوقتية \"م ت\" بشهرين (2) فقط. أما بطاقة الجولان للسلسلة \"ع ع\" فهي صالحة لسنة التسليم فقط حسب الفصل 15. في حين أن السلاسل العادية (التونسية) تعتبر دائمة ما لم يطرأ تغيير على الملكية أو الخصائص الفنية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 15، 17 من قرار 25 جانفي 2000 (التسجيل)"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_018",
+      "language": "cross_lingual",
+      "category": "clarification",
+      "articles_referenced": ["Décret 2007-4101 art 3"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: من هي السلطة الإدارية المختصة بإسناد البطاقة المهنية للسائقين؟\n\nDocuments pertinents:\n[1] Source: article 3 du Décret n° 2007-4101\nL’autorité habilitée à délivrer la carte professionnelle est :\n- pour les conducteurs des véhicules de transport public collectif ou de transport touristique: le gouverneur de la région où réside le transporteur,\n- pour les conducteurs de voitures « taxis », de « louage » ou de transport rural : le gouverneur de la région où réside le conducteur."
+        },
+        {
+          "role": "assistant",
+          "content": "تختلف السلطة المختصة بإسناد البطاقة المهنية باختلاف نوعية النقل الممارس. هل تسأل عن سائقي التاكسي وسيارات اللواج، أم عن سائقي حافلات النقل الجماعي والسياحي؟\n\nبصفة عامة، يوضح الفصل 3 من الأمر عدد 4101 لسنة 2007 أن الوالي هو السلطة المختصة. ولكن بالنسبة لسائقي التاكسي واللواج، يتم استخراج البطاقة من والي الجهة التي يقيم فيها السائق. أما بالنسبة لقطاع النقل الجماعي والسياحي، فيتم إصدارها من والي الجهة التي يقيم فيها الناقل (الشركة أو المؤسسة المُشغّلة).\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 3 من الأمر عدد 4101 لسنة 2007"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_019",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["Décret 2007-4101 art 8"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J'ai perdu ma carte professionnelle de chauffeur de taxi. Quelle est la démarche exacte pour en obtenir une nouvelle ?\n\nDocuments pertinents:\n[1] Source: article 8 du Décret n° 2007-4101\nEn cas de perte ou de détérioration de la carte professionnelle, il est possible d’obtenir un duplicata de cette carte après présentation d’une demande à cet effet adressée au nom du gouverneur et accompagnée de ce qui reste de la carte détériorée ou d’une attestation de perte délivrée par les autorités compétentes. Une nouvelle carte est délivrée à l’intéressé portant le même numéro d’ordre et la mention « duplicata » et elle est valable pour le reste de la période de validité de la carte originale..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 8 du décret n° 2007-4101, la procédure pour remplacer une carte professionnelle perdue requiert plusieurs étapes. \n\nVous devez tout d'abord obtenir une attestation de perte auprès des autorités compétentes (police ou garde nationale). Ensuite, il vous faut adresser une demande officielle au nom du gouverneur, accompagnée de cette attestation. Après vérification que votre carte n'a pas été retirée suite à une infraction, l'administration vous délivrera un duplicata. Ainsi, ce duplicata conservera le même numéro d'ordre et restera valable uniquement pour la durée restante de la carte initiale.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 8 du Décret n° 2007-4101"
+        }
+      ]
+    },
+    {
+      "example_id": "CR_APP_020",
+      "language": "cross_lingual",
+      "category": "procedural",
+      "articles_referenced": [
+        "Arrêté 25 janv 2000 (Réception) art 10",
+        "Arrêté 25 janv 2000 (Réception) art 12"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: استوردت سيارة جديدة من الخارج والشركة المصنعة ليس لها ممثل معتمد في تونس. ما هي الإجراءات لاستخراج البطاقة الرمادية وتسجيلها؟\n\nDocuments pertinents:\n[1] Source: article 10 de l'Arrêté du 25 janvier 2000 (Réception)\nLes véhicules suivants sont soumis à l'opération de réception à titre isolé : - les véhicules neufs importés dont le constructeur n'a pas de représentant accrédité en Tunisie ;\n\n[2] Source: article 12 de l'Arrêté du 25 janvier 2000 (Réception)\nLa réception à titre isolé des véhicules neufs importés [...] s'effectue au vu d'une demande établie sur imprimé fourni par les services spécialisés du Ministère du Transport. Cette demande doit être accompagnée de : - tous les documents justifiant la conformité [...] à la réglementation en vigueur ; - un reçu de paiement des droits exigés..."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصلين 10 و12 من قرار وزير النقل المؤرخ في 25 جانفي 2000 (المتعلق بالقبول والمصادقة)، تمر إجراءات تسجيل هذه السيارة بمسار يسمى \"القبول بصفة منفردة\" (Réception à titre isolé).\n\nبما أن المُصنع ليس له ممثل معتمد في تونس، يتعين عليك تقديم مطلب على مطبوعة تسلمها المصالح المختصة لوزارة النقل. ويجب أن يُرفق هذا المطلب بجميع الوثائق التقنية التي تثبت مطابقة الخصائص الفنية للسيارة للتراتيب الجاري بها العمل في تونس، إضافة إلى وصل خلاص المعاليم المستوجبة. والغاية من هذا الإجراء الفردي هي ضمان توفر شروط السلامة في السيارات المستوردة خارج المسالك التجارية الرسمية المعتمدة.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 10، 12 من قرار 25 جانفي 2000 (القبول والمصادقة على العربات)"
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Décret n° 2002-2016 (GPL)",
+      "Décret n° 2007-4101 (Carte professionnelle Taxi)",
+      "Arrêté du 25 janvier 2000 (Immatriculation des véhicules)",
+      "Arrêté du 25 janvier 2000 (Cycles et motocycles)",
+      "Arrêté du 25 janvier 2000 (Réception et homologation)",
+      "Arrêté du 25 janvier 2000 (Distance de sécurité)",
+      "Arrêté du 21 octobre 2009 (Enseignement de la conduite)",
+      "Arrêté du 27 février 2002 (Permis étrangers)"
+    ],
+    "sections_not_covered": [
+      "Décret n° 2002-2017 (GNC)",
+      "Arrêté du 5 juin 2002 (Matériels de travaux publics)",
+      "Arrêté du 16 août 2002 (Handicaps physiques, annexes médicales détaillées)",
+      "Arrêté du 7 août 2003 (Qualification installateur GPL/GNC)",
+      "Arrêté du 5 février 2002 (Commissions consultatives auto-écoles)",
+      "Programmes d'examen et annexes (Auto-écoles)"
+    ],
+    "notes": "Intégration réussie des métadonnées 'provenance' et 'time_of_generation'. Maintien de l'équilibre linguistique (fr/ar/cross_lingual) et de la variété des catégories. Le registre arabe est strictement MSA."
+  }
+}

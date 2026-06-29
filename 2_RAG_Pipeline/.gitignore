@@ -1,0 +1,24 @@
+#virtual environment
+.venv
+venv
+__pycache__/
+get-pip.py
+
+
+#env files
+.env
+credentials.json
+
+#IDE files
+.vscode/    
+
+#folders
+checkpoints
+pdfs
+txt
+json
+embeddings
+outputs
+
+#claude md files
+CLAUDE.md
